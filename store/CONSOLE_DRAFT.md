@@ -1,40 +1,69 @@
-# Amazon console draft preparation
+# Amazon console draft status
 
-The new-app form is open in the signed-in Amazon Developer console. Entered:
+**Saved and configured; not submitted or published.**
 
-- App title: WordBloom – Word Connect & Puzzle Games
+App ID: `amzn1.devportal.mobileapp.91b139e68f6746fab1bdea19472cd193`
+
+Release ID: `amzn1.devportal.apprelease.2ad95ad758e740b7bf34a38964ee6a3b`
+
+- Title: WordBloom: Word Connect and Puzzle Games
 - SKU: `wordbloom.android`
-- Category: Games → Words
-- Refinements: Casual, Indie
+- Category: Games → Words; Casual and Indie refinements
+- Free app, with optional one-time premium purchase
+- Support contact reused from the publisher's existing RoutineNest submission;
+  public repository support and privacy pages linked
+- Production APK uploaded and accepted by Amazon validation, version 1; the
+  app-specific public verification key is included; DRM is not applied
+- Twelve compatible Fire tablet entries selected; zero Fire TV/automotive
+  entries. This is console filtering, not runtime certification.
+- Factual content-rating questionnaire complete; privacy questionnaire saved for
+  review; privacy URL entered; no WordBloom account-creation flow
 
-**Not saved or submitted.** Amazon requires a public customer-support email before
-creating the app record. The account has no default support contact. No personal
-email address has been inferred from Git configuration or published as support.
-The public support email and any support/privacy URLs must come from the owner.
+## Localization
 
-`amazon-metadata.json` contains ten localized listing drafts (en-GB, en-US, es,
-fr, de, it, pt-BR, pt-PT, nl, pl). `tools/prepare_store_metadata.py` regenerates
-them and checks current documented description and feature limits. Enter only
-languages offered by the Amazon console. Store-text localization is separate
-from app-interface localization and gameplay dictionaries. All these descriptions
-explicitly identify English puzzles. Native linguistic review is pending.
+Ten app descriptions are complete: English US/UK, German, Spanish, French,
+Italian, Dutch, Polish, Portuguese Brazil/Portugal. Every saved short and long
+text was checked after reopening against `amazon-metadata.json`. Titles, five
+feature bullets and keywords are filled. Amazon tokenizes/deduplicates keywords.
 
-Copy uses direct product identification, natural word-connect/crossword/offline
-search terms, concrete counts and clear free/premium boundaries. These choices
-help readers and search systems understand the app; ranking or inclusion in AI
-answers cannot be guaranteed. No medical, learning-outcome or unsupported game
-mode claims are included.
+Store localization is implemented. **Gameplay remains English UK/US only.**
+Descriptions explicitly state this. Non-English interface and gameplay packs
+still require implementation and linguistic review. Native editorial review of
+listing translations is pending.
 
-`upload-assets.json` records the selected 114px and 512px icons and 1024×500px
-promotional image, with dimensions and hashes. Artwork was visually inspected.
-No asset has been uploaded yet because the app record does not exist. Watermarked
-concept screenshots are excluded. The required real-device screenshots remain
-missing. No test/development APK is selected for upload.
+## Premium item
 
-The app remains free to start with an optional one-time premium purchase. No
-price, distribution-country choice, rating/legal attestation, privacy URL, or
-production signing identity has been invented. Do not submit the app for review
-or publish it without the owner's explicit instruction.
+`wordbloom.premium` is an Entitlement, ready to submit but unsubmitted. The
+proposed base price from the build prompt, £3.99, is saved with Amazon-calculated
+marketplace conversions. Seven IAP text localizations are filled: English US/UK,
+German, Spanish, French, Italian and Portuguese Brazil. The IAP console did not
+offer Dutch, Polish or European Portuguese. Two branded icons are attached to
+the default IAP locale. Exact copy is in `amazon-iap-metadata.json`.
 
-Source for field/asset rules, checked 16 October 2026:
-https://developer.amazon.com/docs/app-submission/appstore-details.html
+## Artwork and remaining fields
+
+The 512px and 114px icons and 1024×500px promotional artwork are uploaded and
+visible after reopening. Dimensions, hashes and status are in
+`upload-assets.json`. Watermarked render concepts were excluded. No debug or
+development APK was uploaded.
+
+Amazon's final review screen identifies three outstanding form gaps:
+
+1. Target audience: select at least one age group. The publisher has been asked
+   to choose; inclusion of children invokes Amazon's certification.
+2. At least three tablet screenshots. No connected device is available, and the
+   emulator cannot boot here. Compose renders remain clearly marked concepts.
+3. Export-compliance certification requires publisher review and remains unchecked.
+
+Real-device testing, live purchase checks, name clearance, native editorial
+review and publisher review of privacy disclosures remain release gates.
+Reviewer testing instructions are filled. The actual Amazon-generated sandbox product
+file is saved as `content/amazon.sdktester.json`, and all seven exported purchase
+descriptions were checked against the source copy. Amazon DevTest registration
+requires a test certificate and a local device; it was not registered here.
+Final app/IAP submission and publication have not been performed.
+
+`reports/amazon-console-verification.json` records the verified draft state.
+Local Amazon-form screenshots are in ignored `dist/`, outside source control.
+
+Official rules: https://developer.amazon.com/docs/app-submission/appstore-details.html

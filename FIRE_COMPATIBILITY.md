@@ -1,5 +1,7 @@
 # Fire tablet compatibility
 
+Amazon console update: the production APK with this app's public SDK key was uploaded and passed file validation. Amazon selected twelve compatible Fire tablet entries (2018–2024 models), zero Fire TV and zero automotive entries. This establishes manifest compatibility only; the physical-device checks below remain pending.
+
 Compile/target SDK 36, minSdk 26, JDK 17 and core-library desugaring. No mandatory Google Play Services, Firebase, Google billing or account backend. Inspect the final APK's ABI coverage and console device targeting before publication.
 
 | Environment | Result |

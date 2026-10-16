@@ -1,6 +1,6 @@
 # nl listing draft
 
-Display title: WordBloom – Letters verbinden & puzzels
+Display title: WordBloom: Letters verbinden en puzzels
 
 Short description: Verbind letters, los Engelse woordpuzzels op en laat een tuin groeien. Offline puzzelen, dagelijkse uitdaging en geen advertenties.
 

@@ -818,6 +818,26 @@
   },
   "source_count": 62,
   "dynamic_strings": "Some interpolated Kotlin messages remain; review extraction audit before activating new UI locales.",
+  "store_metadata_localization": {
+    "locales": [
+      "en-GB",
+      "en-US",
+      "es",
+      "fr",
+      "de",
+      "it",
+      "pt-BR",
+      "pt-PT",
+      "nl",
+      "pl"
+    ],
+    "status": "ten listing drafts filled in Amazon console; native editorial review pending",
+    "gameplay_locales": [
+      "en-GB",
+      "en-US"
+    ],
+    "boundary": "Store descriptions are localized independently; Android interface/puzzle activation is unchanged."
+  },
   "extraction_audit": [
     {
       "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",

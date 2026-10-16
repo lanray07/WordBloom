@@ -1,6 +1,6 @@
 # fr listing draft
 
-Display title: WordBloom – Jeux de lettres et de mots
+Display title: WordBloom: Jeux de lettres et de mots
 
 Short description: Reliez les lettres, résolvez des mots croisés en anglais et faites fleurir un jardin. Puzzles hors ligne, défi quotidien et sans publicité.
 

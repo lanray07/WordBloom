@@ -1,0 +1,9 @@
+WordBloom 0.1.0 candidate. No WordBloom login or developer credentials are required. Touchscreen Fire tablet app; not intended for Fire TV/automotive.
+
+Start with Begin your journey. First puzzle uses C, A, T, S: find CAT, ACT and SAT by swiping, tapping tiles then Submit word, or typed entry. Hints and shuffle are available. The first four journey puzzles and the calendar-based daily puzzle are free. Progress/settings save locally; uninstalling or clearing storage resets them. Included puzzles work offline.
+
+Settings include large text, high contrast, reduced motion, dark theme and separate sound/music/narration controls. Optional voice requires an installed compatible recognition/TTS service and microphone permission; speech may require internet. Touch/text play remains available without voice. English UK/US share 24 curated English puzzles. Other gameplay languages are not included.
+
+Premium entitlement SKU: wordbloom.premium. One-time unlock of the full included collection/six environments and expanded statistics; no subscription or ads. Restore uses the purchasing Amazon account. The IAP draft is currently unsubmitted, so a production price/purchase may be unavailable. For pre-release billing tests, use Amazon App Tester and the exported amazon.sdktester.json; do not make a real-money purchase to test this candidate.
+
+Physical Fire-device, offline/audio/accessibility and live purchase/restore/refund verification remain pending. Contact banksmi@mail.com for candidate testing questions.

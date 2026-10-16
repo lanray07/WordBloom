@@ -1,6 +1,6 @@
 # pl listing draft
 
-Display title: WordBloom – Łącz litery i rozwiązuj słowa
+Display title: WordBloom: Łącz litery i rozwiązuj słowa
 
 Short description: Łącz litery, rozwiązuj angielskie krzyżówki i rozwijaj ogród. Zagadki offline, codzienne wyzwanie i brak reklam.
 

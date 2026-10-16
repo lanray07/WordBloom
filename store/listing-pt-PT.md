@@ -1,6 +1,6 @@
 # pt-PT listing draft
 
-Display title: WordBloom – Liga letras e palavras
+Display title: WordBloom: Liga letras e palavras
 
 Short description: Liga letras, resolve palavras cruzadas em inglês e cultiva um jardim. Puzzles offline, desafio diário e sem anúncios.
 

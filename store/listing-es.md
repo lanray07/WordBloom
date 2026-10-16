@@ -1,6 +1,6 @@
 # es listing draft
 
-Display title: WordBloom – Conecta letras y palabras
+Display title: WordBloom: Conecta letras y palabras
 
 Short description: Conecta letras, resuelve crucigramas en inglés y cultiva un jardín. Puzles sin conexión, reto diario y sin anuncios.
 

@@ -1,6 +1,6 @@
 # it listing draft
 
-Display title: WordBloom – Collega lettere e parole
+Display title: WordBloom: Collega lettere e parole
 
 Short description: Collega lettere, risolvi cruciverba in inglese e fai crescere un giardino. Rompicapi offline, sfida quotidiana e nessuna pubblicità.
 

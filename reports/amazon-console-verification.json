@@ -1,0 +1,74 @@
+{
+  "status": "Amazon draft configured; not submitted or published",
+  "app_id": "amzn1.devportal.mobileapp.91b139e68f6746fab1bdea19472cd193",
+  "release_id": "amzn1.devportal.apprelease.2ad95ad758e740b7bf34a38964ee6a3b",
+  "app_title": "WordBloom: Word Connect and Puzzle Games",
+  "category": "Games > Words",
+  "refinements": [
+    "Casual",
+    "Indie"
+  ],
+  "app_price": "Free",
+  "supported_gameplay_languages": [
+    "English"
+  ],
+  "description_locales_verified_after_reopening": [
+    "en-US",
+    "en-GB",
+    "de-DE",
+    "es-ES",
+    "fr-FR",
+    "it-IT",
+    "nl-NL",
+    "pl-PL",
+    "pt-BR",
+    "pt-PT"
+  ],
+  "iap": {
+    "sku": "wordbloom.premium",
+    "type": "ENTITLED",
+    "status": "Ready to Submit; not submitted",
+    "text_locales": [
+      "en-US",
+      "en-GB",
+      "de-DE",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "pt-BR"
+    ],
+    "base_price_gbp": "3.99",
+    "other_marketplaces": "calculated by Amazon",
+    "exported_sandbox_file": "content/amazon.sdktester.json",
+    "seven_saved_descriptions_verified_against_amazon_export": true
+  },
+  "assets": {
+    "app_icons": 2,
+    "app_promotional_images": 1,
+    "iap_icons": 2,
+    "device_screenshots": 0,
+    "watermarked_concepts_uploaded": false
+  },
+  "privacy_questionnaire": "Saved for review; user IDs, purchase history and optional voice for app functionality",
+  "privacy_url": "https://github.com/lanray07/WordBloom/blob/main/PRIVACY.md",
+  "support_url": "https://github.com/lanray07/WordBloom/blob/main/SUPPORT.md",
+  "supported_device_entries": {
+    "Fire tablet": 12,
+    "Fire TV": 0,
+    "Automotive": 0
+  },
+  "sdk_public_key": "Included and parsed as RSA 2048; present in uploaded APK",
+  "amazon_review_gaps": [
+    "Target audience: select at least one age group",
+    "Tablet screenshots: minimum 3 missing",
+    "Publisher export-compliance certification remains unchecked"
+  ],
+  "additional_release_gates": [
+    "physical-device UI/offline/audio/accessibility checks",
+    "Amazon App Tester/live purchase/restore/refund verification",
+    "native language/content review and any additional gameplay dictionaries",
+    "working-name clearance",
+    "publisher privacy/SDK disclosure review and explicit final submission authorization"
+  ],
+  "testing_instructions": "Filled: 1514 characters; source store/amazon-testing-instructions.txt"
+}

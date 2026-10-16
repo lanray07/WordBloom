@@ -50,6 +50,14 @@ def main():
  cache_path=ROOT/'localization/cache.json';cache=json.loads(cache_path.read_text()) if cache_path.exists() else {}
  glossary=json.loads((ROOT/'localization/glossary.json').read_text())
  report={'provider':'DeepL','credential_present':bool(os.getenv('DEEPL_API_KEY')),'languages':{},'rtl_prepared':['ar','hi'],'glossary':glossary,'source_count':len(source),'dynamic_strings':'Some interpolated Kotlin messages remain; review extraction audit before activating new UI locales.'}
+ metadata_path=ROOT/'store/amazon-metadata.json'
+ if metadata_path.exists():
+  metadata=json.loads(metadata_path.read_text(encoding='utf-8'))
+  report['store_metadata_localization']={
+   'locales':list(metadata['listings']),
+   'status':'ten listing drafts filled in Amazon console; native editorial review pending',
+   'gameplay_locales':['en-GB','en-US'],
+   'boundary':'Store descriptions are localized independently; Android interface/puzzle activation is unchanged.'}
  for language in TARGETS:
   output={};missing=[];checks={}
   for name,text in source.items():

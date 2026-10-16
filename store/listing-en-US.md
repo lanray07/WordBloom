@@ -1,6 +1,6 @@
 # en-US listing draft
 
-Display title: WordBloom – Word Connect & Puzzle Games
+Display title: WordBloom: Word Connect and Puzzle Games
 
 Short description: Connect letters, solve English crossword puzzles and grow a garden. Offline word games with daily play, no ads and an optional one-time premium unlock.
 

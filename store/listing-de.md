@@ -1,6 +1,6 @@
 # de listing draft
 
-Display title: WordBloom – Wörter verbinden & Rätsel
+Display title: WordBloom: Wörter verbinden und Rätsel
 
 Short description: Verbinde Buchstaben, löse englische Worträtsel und lass einen Garten wachsen. Offline spielen, tägliches Rätsel und keine Werbung.
 
