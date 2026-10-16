@@ -4,6 +4,6 @@ test_mismatch_rejected (test_localize.LocalisationTests) ... ok
 test_roundtrip (test_localize.LocalisationTests) ... ok
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.002s
+Ran 4 tests in 0.001s
 
 OK

@@ -1,31 +1,41 @@
-# English US listing draft â€” pending name clearance
+# en-US listing draft
 
-Display title: WordBloom â€“ Word Connect & Puzzle Games
+Display title: WordBloom – Word Connect & Puzzle Games
 
-Short description, where supported: Connect letters, solve relaxing word puzzles and watch your garden bloom. Play offline.
+Short description: Connect letters, solve English crossword puzzles and grow a garden. Offline word games with daily play, no ads and an optional one-time premium unlock.
 
 ## Full description
 
-Connect letters. Discover words. Grow your vocabulary.
+WordBloom is a relaxing English word-connect game. Swipe between letter tiles to discover words, complete connected crossword grids and grow an illustrated garden. Play the included puzzles offline, without ads or a WordBloom account.
 
-Make a little room for a quiet word puzzle. Swipe between letter tiles to find words and complete connected crossword grids. Each discovery brings you closer to a garden in bloom.
+WORD PUZZLES AT YOUR PACE
+Explore 24 curated English puzzles across four difficulty bands, from beginner to expert. Swipe to connect letters, tap individual tiles or type an answer. Use hints, reveal a letter or shuffle the wheel when you need a fresh perspective. English UK and English US editions share the same common-spelling collection.
 
-Start with friendly short words and progress towards advanced combinations. The included collection contains 24 curated English puzzles across six illustrated environments, from Sunrise Garden to Moonlight Garden. English UK and US editions share the same common-spelling collection.
+SIX GARDEN ENVIRONMENTS
+Progress from Sunrise Garden through Enchanted Forest, Blossom Valley, Crystal Lake and Golden Meadow to Moonlight Garden. First completions add blooms and earn hints. Progress and settings save on your device.
 
-Your first garden chapter and calendar-based daily puzzles are free. A one-time premium purchase unlocks all six environments and the full included collection. Daily challenges select from the included library by local date and work offline. There are no streak penalties.
+DAILY WORD PUZZLES, AVAILABLE OFFLINE
+Return for a calendar-based puzzle selected from the included collection by local date. Daily play is free, with no streak penalties.
 
-Take your time with hints, shuffle the wheel, tap individual letters or type an answer. Optional spoken guidance can read discovered words. Push-to-talk commands require a compatible installed speech service; that service may need internet and send speech to its provider. Touch/text gameplay remains available without it.
+FREE TO START, ONE-TIME PREMIUM
+The introductory four-puzzle chapter and daily play are free. An optional one-time Amazon purchase unlocks the remaining 20 puzzles and all six environments, plus an extra hint earned on each first completion. No subscription is required.
 
-Included puzzles work offline. No WordBloom account, ads or subscription is required. Save progress on your device and return when you like.
+OPTIONAL VOICE AND ACCESSIBILITY
+Choose larger text, high contrast, dark theme or reduced motion. Optional narration and push-to-talk commands depend on compatible installed device services. Speech recognition may need internet and send speech to its provider; WordBloom stores no microphone recordings. Touch and text gameplay remain available offline.
+
+LANGUAGE AND CONTENT
+Puzzles are in English. The curated collection accepts its listed target and bonus words rather than every dictionary word. Additional gameplay languages are not currently included. Uninstalling clears local progress; eligible premium purchases can be restored through Amazon.
 
 ## Feature highlights
 
-- Swipe, tap or type to solve 24 curated English word puzzles, from beginner to expert.
-- Six original garden environments, milestones and saved local progress.
-- Offline calendar-based daily puzzles with no streak penalties.
-- Optional narration and device-dependent voice commands; accessible text, contrast and motion settings.
-- No ads or subscription: free introductory chapter and a one-time Amazon premium unlock.
+- Connect letters by swiping, tapping or typing to solve 24 curated English crossword puzzles.
+- Explore six illustrated gardens and four difficulty bands, with progress saved on your device.
+- Play included puzzles offline, including a free calendar-based daily challenge.
+- Choose optional voice features, larger text, high contrast, dark theme and reduced motion.
+- Start with four free puzzles; unlock the full collection with one purchase. No ads or subscription.
 
-## Release notes â€” 0.1.0 candidate
+## Keywords
 
-First test build: English puzzle collection, six scenes, daily play, saved progress, accessibility controls and Amazon billing integration. Device QA and live purchase verification remain pending. This is not a published release.
+word connect,word puzzle games,English crossword,letter connect,offline word games,daily word puzzle,relaxing word games,garden puzzle
+
+Store text locale: en-US. Gameplay: English UK/US. Native-language review pending.

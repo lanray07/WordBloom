@@ -1,0 +1,44 @@
+{
+  "status": "prepared; Amazon new-app save requires public support email",
+  "assets": [
+    {
+      "role": "small_icon",
+      "path": "store/artwork/wordbloom-icon-114.png",
+      "width": 114,
+      "height": 114,
+      "sha256": "e4d607ecb90dd5ca73ed089c49781c39385914d8a5414c6e95a6db6ac98e309d",
+      "review": "dimensions and visual inspection passed",
+      "upload_status": "not_uploaded"
+    },
+    {
+      "role": "large_icon",
+      "path": "store/artwork/wordbloom-icon-512.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "ae71a4be028c8a99a6a9d4a72799a4e6bd3c2941364d42367155490f58216b45",
+      "review": "dimensions and visual inspection passed",
+      "upload_status": "not_uploaded"
+    },
+    {
+      "role": "promotional_image",
+      "path": "store/artwork/wordbloom-promo-1024x500.png",
+      "width": 1024,
+      "height": 500,
+      "sha256": "f9cd19ad19a2d4919b77dc19c73883d970851a2b25f51bec9dbd4ee7d2c4e499",
+      "review": "dimensions and visual inspection passed",
+      "upload_status": "not_uploaded"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "store/concepts/",
+      "reason": "Watermarked Compose renders; real device captures and final approval pending"
+    },
+    {
+      "path": "dist/",
+      "reason": "Test/unsigned APKs; no production binary selected for this form-fill task"
+    }
+  ],
+  "screenshots_status": "missing real-device captures; minimum three required",
+  "specification_source": "https://developer.amazon.com/docs/app-submission/appstore-details.html"
+}
