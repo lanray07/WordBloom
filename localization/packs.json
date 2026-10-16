@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "normalization": "NFC; locale-aware uppercase; accents preserved as distinct tiles",
+  "languages": [
+    {
+      "locale": "en-GB",
+      "status": "structurally_validated",
+      "ui_status": "English",
+      "script": "Latin",
+      "enabled": true
+    },
+    {
+      "locale": "en-US",
+      "status": "structurally_validated",
+      "ui_status": "English",
+      "script": "Latin",
+      "enabled": true
+    },
+    {
+      "locale": "es",
+      "status": "pending_dictionary_and_linguistic_review",
+      "ui_status": "pending_translation",
+      "script": "Latin",
+      "enabled": false
+    },
+    {
+      "locale": "fr",
+      "status": "pending_dictionary_and_linguistic_review",
+      "ui_status": "pending_translation",
+      "script": "Latin",
+      "enabled": false
+    },
+    {
+      "locale": "de",
+      "status": "pending_dictionary_and_linguistic_review",
+      "ui_status": "pending_translation",
+      "script": "Latin",
+      "enabled": false
+    },
+    {
+      "locale": "it",
+      "status": "pending_dictionary_and_linguistic_review",
+      "ui_status": "pending_translation",
+      "script": "Latin",
+      "enabled": false
+    },
+    {
+      "locale": "pt-BR",
+      "status": "pending_dictionary_and_linguistic_review",
+      "ui_status": "pending_translation",
+      "script": "Latin",
+      "enabled": false
+    },
+    {
+      "locale": "pt-PT",
+      "status": "pending_dictionary_and_linguistic_review",
+      "ui_status": "pending_translation",
+      "script": "Latin",
+      "enabled": false
+    },
+    {
+      "locale": "nl",
+      "status": "pending_dictionary_and_linguistic_review",
+      "ui_status": "pending_translation",
+      "script": "Latin",
+      "enabled": false
+    },
+    {
+      "locale": "pl",
+      "status": "pending_dictionary_and_linguistic_review",
+      "ui_status": "pending_translation",
+      "script": "Latin",
+      "enabled": false
+    },
+    {
+      "locale": "ar",
+      "status": "pending_dictionary_and_linguistic_review",
+      "ui_status": "pending_translation",
+      "script": "Arabic",
+      "enabled": false
+    },
+    {
+      "locale": "hi",
+      "status": "pending_dictionary_and_linguistic_review",
+      "ui_status": "pending_translation",
+      "script": "Devanagari",
+      "enabled": false
+    }
+  ]
+}

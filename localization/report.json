@@ -1,0 +1,1051 @@
+{
+  "provider": "DeepL",
+  "credential_present": false,
+  "languages": {
+    "en-US": {
+      "status": "pending_linguistic_review",
+      "missing": [],
+      "checks": {
+        "app_name": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "play": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "daily": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "garden": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "settings": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_006": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_007": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_008": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_009": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_010": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_011": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_012": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_013": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_014": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_015": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_016": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_017": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_018": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_019": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_020": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_021": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_022": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_023": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_024": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_025": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_026": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_027": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_028": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_029": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_030": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_031": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_032": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_033": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_034": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_035": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_036": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_037": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_038": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_039": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_040": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_041": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_042": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_043": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_044": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "ui_045": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "store_listing": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_01-gameplay_headline": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_01-gameplay_supporting": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_02-crossword_headline": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_02-crossword_supporting": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_03-daily_headline": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_03-daily_supporting": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_04-garden_headline": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_04-garden_supporting": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_05-difficulty_headline": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_05-difficulty_supporting": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_06-voice_headline": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_06-voice_supporting": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_07-offline_headline": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_07-offline_supporting": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_08-english_headline": {
+          "length_ratio": 1.0,
+          "review_required": true
+        },
+        "shot_08-english_supporting": {
+          "length_ratio": 1.0,
+          "review_required": true
+        }
+      }
+    },
+    "es": {
+      "status": "pending_translation",
+      "missing": [
+        "app_name",
+        "play",
+        "daily",
+        "garden",
+        "settings",
+        "ui_006",
+        "ui_007",
+        "ui_008",
+        "ui_009",
+        "ui_010",
+        "ui_011",
+        "ui_012",
+        "ui_013",
+        "ui_014",
+        "ui_015",
+        "ui_016",
+        "ui_017",
+        "ui_018",
+        "ui_019",
+        "ui_020",
+        "ui_021",
+        "ui_022",
+        "ui_023",
+        "ui_024",
+        "ui_025",
+        "ui_026",
+        "ui_027",
+        "ui_028",
+        "ui_029",
+        "ui_030",
+        "ui_031",
+        "ui_032",
+        "ui_033",
+        "ui_034",
+        "ui_035",
+        "ui_036",
+        "ui_037",
+        "ui_038",
+        "ui_039",
+        "ui_040",
+        "ui_041",
+        "ui_042",
+        "ui_043",
+        "ui_044",
+        "ui_045",
+        "store_listing",
+        "shot_01-gameplay_headline",
+        "shot_01-gameplay_supporting",
+        "shot_02-crossword_headline",
+        "shot_02-crossword_supporting",
+        "shot_03-daily_headline",
+        "shot_03-daily_supporting",
+        "shot_04-garden_headline",
+        "shot_04-garden_supporting",
+        "shot_05-difficulty_headline",
+        "shot_05-difficulty_supporting",
+        "shot_06-voice_headline",
+        "shot_06-voice_supporting",
+        "shot_07-offline_headline",
+        "shot_07-offline_supporting",
+        "shot_08-english_headline",
+        "shot_08-english_supporting"
+      ],
+      "checks": {}
+    },
+    "fr": {
+      "status": "pending_translation",
+      "missing": [
+        "app_name",
+        "play",
+        "daily",
+        "garden",
+        "settings",
+        "ui_006",
+        "ui_007",
+        "ui_008",
+        "ui_009",
+        "ui_010",
+        "ui_011",
+        "ui_012",
+        "ui_013",
+        "ui_014",
+        "ui_015",
+        "ui_016",
+        "ui_017",
+        "ui_018",
+        "ui_019",
+        "ui_020",
+        "ui_021",
+        "ui_022",
+        "ui_023",
+        "ui_024",
+        "ui_025",
+        "ui_026",
+        "ui_027",
+        "ui_028",
+        "ui_029",
+        "ui_030",
+        "ui_031",
+        "ui_032",
+        "ui_033",
+        "ui_034",
+        "ui_035",
+        "ui_036",
+        "ui_037",
+        "ui_038",
+        "ui_039",
+        "ui_040",
+        "ui_041",
+        "ui_042",
+        "ui_043",
+        "ui_044",
+        "ui_045",
+        "store_listing",
+        "shot_01-gameplay_headline",
+        "shot_01-gameplay_supporting",
+        "shot_02-crossword_headline",
+        "shot_02-crossword_supporting",
+        "shot_03-daily_headline",
+        "shot_03-daily_supporting",
+        "shot_04-garden_headline",
+        "shot_04-garden_supporting",
+        "shot_05-difficulty_headline",
+        "shot_05-difficulty_supporting",
+        "shot_06-voice_headline",
+        "shot_06-voice_supporting",
+        "shot_07-offline_headline",
+        "shot_07-offline_supporting",
+        "shot_08-english_headline",
+        "shot_08-english_supporting"
+      ],
+      "checks": {}
+    },
+    "de": {
+      "status": "pending_translation",
+      "missing": [
+        "app_name",
+        "play",
+        "daily",
+        "garden",
+        "settings",
+        "ui_006",
+        "ui_007",
+        "ui_008",
+        "ui_009",
+        "ui_010",
+        "ui_011",
+        "ui_012",
+        "ui_013",
+        "ui_014",
+        "ui_015",
+        "ui_016",
+        "ui_017",
+        "ui_018",
+        "ui_019",
+        "ui_020",
+        "ui_021",
+        "ui_022",
+        "ui_023",
+        "ui_024",
+        "ui_025",
+        "ui_026",
+        "ui_027",
+        "ui_028",
+        "ui_029",
+        "ui_030",
+        "ui_031",
+        "ui_032",
+        "ui_033",
+        "ui_034",
+        "ui_035",
+        "ui_036",
+        "ui_037",
+        "ui_038",
+        "ui_039",
+        "ui_040",
+        "ui_041",
+        "ui_042",
+        "ui_043",
+        "ui_044",
+        "ui_045",
+        "store_listing",
+        "shot_01-gameplay_headline",
+        "shot_01-gameplay_supporting",
+        "shot_02-crossword_headline",
+        "shot_02-crossword_supporting",
+        "shot_03-daily_headline",
+        "shot_03-daily_supporting",
+        "shot_04-garden_headline",
+        "shot_04-garden_supporting",
+        "shot_05-difficulty_headline",
+        "shot_05-difficulty_supporting",
+        "shot_06-voice_headline",
+        "shot_06-voice_supporting",
+        "shot_07-offline_headline",
+        "shot_07-offline_supporting",
+        "shot_08-english_headline",
+        "shot_08-english_supporting"
+      ],
+      "checks": {}
+    },
+    "it": {
+      "status": "pending_translation",
+      "missing": [
+        "app_name",
+        "play",
+        "daily",
+        "garden",
+        "settings",
+        "ui_006",
+        "ui_007",
+        "ui_008",
+        "ui_009",
+        "ui_010",
+        "ui_011",
+        "ui_012",
+        "ui_013",
+        "ui_014",
+        "ui_015",
+        "ui_016",
+        "ui_017",
+        "ui_018",
+        "ui_019",
+        "ui_020",
+        "ui_021",
+        "ui_022",
+        "ui_023",
+        "ui_024",
+        "ui_025",
+        "ui_026",
+        "ui_027",
+        "ui_028",
+        "ui_029",
+        "ui_030",
+        "ui_031",
+        "ui_032",
+        "ui_033",
+        "ui_034",
+        "ui_035",
+        "ui_036",
+        "ui_037",
+        "ui_038",
+        "ui_039",
+        "ui_040",
+        "ui_041",
+        "ui_042",
+        "ui_043",
+        "ui_044",
+        "ui_045",
+        "store_listing",
+        "shot_01-gameplay_headline",
+        "shot_01-gameplay_supporting",
+        "shot_02-crossword_headline",
+        "shot_02-crossword_supporting",
+        "shot_03-daily_headline",
+        "shot_03-daily_supporting",
+        "shot_04-garden_headline",
+        "shot_04-garden_supporting",
+        "shot_05-difficulty_headline",
+        "shot_05-difficulty_supporting",
+        "shot_06-voice_headline",
+        "shot_06-voice_supporting",
+        "shot_07-offline_headline",
+        "shot_07-offline_supporting",
+        "shot_08-english_headline",
+        "shot_08-english_supporting"
+      ],
+      "checks": {}
+    },
+    "pt-BR": {
+      "status": "pending_translation",
+      "missing": [
+        "app_name",
+        "play",
+        "daily",
+        "garden",
+        "settings",
+        "ui_006",
+        "ui_007",
+        "ui_008",
+        "ui_009",
+        "ui_010",
+        "ui_011",
+        "ui_012",
+        "ui_013",
+        "ui_014",
+        "ui_015",
+        "ui_016",
+        "ui_017",
+        "ui_018",
+        "ui_019",
+        "ui_020",
+        "ui_021",
+        "ui_022",
+        "ui_023",
+        "ui_024",
+        "ui_025",
+        "ui_026",
+        "ui_027",
+        "ui_028",
+        "ui_029",
+        "ui_030",
+        "ui_031",
+        "ui_032",
+        "ui_033",
+        "ui_034",
+        "ui_035",
+        "ui_036",
+        "ui_037",
+        "ui_038",
+        "ui_039",
+        "ui_040",
+        "ui_041",
+        "ui_042",
+        "ui_043",
+        "ui_044",
+        "ui_045",
+        "store_listing",
+        "shot_01-gameplay_headline",
+        "shot_01-gameplay_supporting",
+        "shot_02-crossword_headline",
+        "shot_02-crossword_supporting",
+        "shot_03-daily_headline",
+        "shot_03-daily_supporting",
+        "shot_04-garden_headline",
+        "shot_04-garden_supporting",
+        "shot_05-difficulty_headline",
+        "shot_05-difficulty_supporting",
+        "shot_06-voice_headline",
+        "shot_06-voice_supporting",
+        "shot_07-offline_headline",
+        "shot_07-offline_supporting",
+        "shot_08-english_headline",
+        "shot_08-english_supporting"
+      ],
+      "checks": {}
+    },
+    "pt-PT": {
+      "status": "pending_translation",
+      "missing": [
+        "app_name",
+        "play",
+        "daily",
+        "garden",
+        "settings",
+        "ui_006",
+        "ui_007",
+        "ui_008",
+        "ui_009",
+        "ui_010",
+        "ui_011",
+        "ui_012",
+        "ui_013",
+        "ui_014",
+        "ui_015",
+        "ui_016",
+        "ui_017",
+        "ui_018",
+        "ui_019",
+        "ui_020",
+        "ui_021",
+        "ui_022",
+        "ui_023",
+        "ui_024",
+        "ui_025",
+        "ui_026",
+        "ui_027",
+        "ui_028",
+        "ui_029",
+        "ui_030",
+        "ui_031",
+        "ui_032",
+        "ui_033",
+        "ui_034",
+        "ui_035",
+        "ui_036",
+        "ui_037",
+        "ui_038",
+        "ui_039",
+        "ui_040",
+        "ui_041",
+        "ui_042",
+        "ui_043",
+        "ui_044",
+        "ui_045",
+        "store_listing",
+        "shot_01-gameplay_headline",
+        "shot_01-gameplay_supporting",
+        "shot_02-crossword_headline",
+        "shot_02-crossword_supporting",
+        "shot_03-daily_headline",
+        "shot_03-daily_supporting",
+        "shot_04-garden_headline",
+        "shot_04-garden_supporting",
+        "shot_05-difficulty_headline",
+        "shot_05-difficulty_supporting",
+        "shot_06-voice_headline",
+        "shot_06-voice_supporting",
+        "shot_07-offline_headline",
+        "shot_07-offline_supporting",
+        "shot_08-english_headline",
+        "shot_08-english_supporting"
+      ],
+      "checks": {}
+    },
+    "nl": {
+      "status": "pending_translation",
+      "missing": [
+        "app_name",
+        "play",
+        "daily",
+        "garden",
+        "settings",
+        "ui_006",
+        "ui_007",
+        "ui_008",
+        "ui_009",
+        "ui_010",
+        "ui_011",
+        "ui_012",
+        "ui_013",
+        "ui_014",
+        "ui_015",
+        "ui_016",
+        "ui_017",
+        "ui_018",
+        "ui_019",
+        "ui_020",
+        "ui_021",
+        "ui_022",
+        "ui_023",
+        "ui_024",
+        "ui_025",
+        "ui_026",
+        "ui_027",
+        "ui_028",
+        "ui_029",
+        "ui_030",
+        "ui_031",
+        "ui_032",
+        "ui_033",
+        "ui_034",
+        "ui_035",
+        "ui_036",
+        "ui_037",
+        "ui_038",
+        "ui_039",
+        "ui_040",
+        "ui_041",
+        "ui_042",
+        "ui_043",
+        "ui_044",
+        "ui_045",
+        "store_listing",
+        "shot_01-gameplay_headline",
+        "shot_01-gameplay_supporting",
+        "shot_02-crossword_headline",
+        "shot_02-crossword_supporting",
+        "shot_03-daily_headline",
+        "shot_03-daily_supporting",
+        "shot_04-garden_headline",
+        "shot_04-garden_supporting",
+        "shot_05-difficulty_headline",
+        "shot_05-difficulty_supporting",
+        "shot_06-voice_headline",
+        "shot_06-voice_supporting",
+        "shot_07-offline_headline",
+        "shot_07-offline_supporting",
+        "shot_08-english_headline",
+        "shot_08-english_supporting"
+      ],
+      "checks": {}
+    },
+    "pl": {
+      "status": "pending_translation",
+      "missing": [
+        "app_name",
+        "play",
+        "daily",
+        "garden",
+        "settings",
+        "ui_006",
+        "ui_007",
+        "ui_008",
+        "ui_009",
+        "ui_010",
+        "ui_011",
+        "ui_012",
+        "ui_013",
+        "ui_014",
+        "ui_015",
+        "ui_016",
+        "ui_017",
+        "ui_018",
+        "ui_019",
+        "ui_020",
+        "ui_021",
+        "ui_022",
+        "ui_023",
+        "ui_024",
+        "ui_025",
+        "ui_026",
+        "ui_027",
+        "ui_028",
+        "ui_029",
+        "ui_030",
+        "ui_031",
+        "ui_032",
+        "ui_033",
+        "ui_034",
+        "ui_035",
+        "ui_036",
+        "ui_037",
+        "ui_038",
+        "ui_039",
+        "ui_040",
+        "ui_041",
+        "ui_042",
+        "ui_043",
+        "ui_044",
+        "ui_045",
+        "store_listing",
+        "shot_01-gameplay_headline",
+        "shot_01-gameplay_supporting",
+        "shot_02-crossword_headline",
+        "shot_02-crossword_supporting",
+        "shot_03-daily_headline",
+        "shot_03-daily_supporting",
+        "shot_04-garden_headline",
+        "shot_04-garden_supporting",
+        "shot_05-difficulty_headline",
+        "shot_05-difficulty_supporting",
+        "shot_06-voice_headline",
+        "shot_06-voice_supporting",
+        "shot_07-offline_headline",
+        "shot_07-offline_supporting",
+        "shot_08-english_headline",
+        "shot_08-english_supporting"
+      ],
+      "checks": {}
+    }
+  },
+  "rtl_prepared": [
+    "ar",
+    "hi"
+  ],
+  "glossary": {
+    "preserve": [
+      "WordBloom"
+    ],
+    "terms": {
+      "bloom": "A flower earned by completing a puzzle",
+      "hint": "A player-controlled reveal",
+      "daily escape": "One puzzle per local calendar date"
+    },
+    "review": "Do not machine-translate dictionaries or puzzle answers."
+  },
+  "source_count": 62,
+  "dynamic_strings": "Some interpolated Kotlin messages remain; review extraction audit before activating new UI locales.",
+  "extraction_audit": [
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 42
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 44
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 46
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 47
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 52
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 53
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 54
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 55
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 63
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 64
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 69
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 70
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 81
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\GameViewModel.kt",
+      "line": 85
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 25
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 26
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 29
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 30
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 39
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 46
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 50
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 53
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 59
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 62
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 66
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Billing.kt",
+      "line": 75
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Voice.kt",
+      "line": 37
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Voice.kt",
+      "line": 40
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Voice.kt",
+      "line": 41
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Voice.kt",
+      "line": 45
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Voice.kt",
+      "line": 47
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Voice.kt",
+      "line": 49
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Voice.kt",
+      "line": 53
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Voice.kt",
+      "line": 57
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Voice.kt",
+      "line": 58
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\Voice.kt",
+      "line": 59
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 59
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 88
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 112
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 119
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 120
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 132
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 134
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 135
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 136
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 152
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 159
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 190
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 198
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 199
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 223
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 254
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 327
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 345
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 358
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 371
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 458
+    }
+  ]
+}

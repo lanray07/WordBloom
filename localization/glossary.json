@@ -1,0 +1,11 @@
+{
+  "preserve": [
+    "WordBloom"
+  ],
+  "terms": {
+    "bloom": "A flower earned by completing a puzzle",
+    "hint": "A player-controlled reveal",
+    "daily escape": "One puzzle per local calendar date"
+  },
+  "review": "Do not machine-translate dictionaries or puzzle answers."
+}

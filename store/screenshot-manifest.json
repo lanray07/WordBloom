@@ -1,0 +1,418 @@
+{
+  "status": "pending_device_capture",
+  "specification_status": "Verified against official Appstore Details documentation on 2026-10-16; recheck console before upload.",
+  "variants": {
+    "phone": [
+      800,
+      1280
+    ],
+    "tablet": [
+      1280,
+      800
+    ]
+  },
+  "locales": [
+    "en-GB",
+    "en-US"
+  ],
+  "captures": [
+    {
+      "id": "01-gameplay",
+      "headline": "Word Connect Puzzle Game",
+      "supporting": "Swipe letters, discover words and enjoy relaxing puzzles.",
+      "source": "real Android instrumentation capture required",
+      "status": "missing"
+    },
+    {
+      "id": "02-crossword",
+      "headline": "Letter Connect & Crossword Fun",
+      "supporting": "Connect letters to complete clever word grids.",
+      "source": "real Android instrumentation capture required",
+      "status": "missing"
+    },
+    {
+      "id": "03-daily",
+      "headline": "Daily Word Puzzle Challenge",
+      "supporting": "Enjoy a calendar-based puzzle, available offline.",
+      "source": "real Android instrumentation capture required",
+      "status": "missing"
+    },
+    {
+      "id": "04-garden",
+      "headline": "Relaxing Word Games",
+      "supporting": "Grow a beautiful garden as you solve puzzles.",
+      "source": "real Android instrumentation capture required",
+      "status": "missing"
+    },
+    {
+      "id": "05-difficulty",
+      "headline": "Easy to Challenging Word Puzzles",
+      "supporting": "Start simple and unlock new challenges.",
+      "source": "real Android instrumentation capture required",
+      "status": "missing"
+    },
+    {
+      "id": "06-voice",
+      "headline": "Voice-Guided Word Games",
+      "supporting": "Optional narration and device-dependent voice commands.",
+      "source": "real Android instrumentation capture required",
+      "status": "missing"
+    },
+    {
+      "id": "07-offline",
+      "headline": "Offline Word Puzzle Games",
+      "supporting": "Enjoy included puzzles without an internet connection.",
+      "source": "real Android instrumentation capture required",
+      "status": "missing"
+    },
+    {
+      "id": "08-english",
+      "headline": "English Word Puzzle Collection",
+      "supporting": "24 curated puzzles for English UK and English US.",
+      "source": "real Android instrumentation capture required",
+      "status": "missing"
+    }
+  ],
+  "specification_source": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "specifications": {
+    "screenshot_min": 3,
+    "screenshot_max": 10,
+    "formats": [
+      "PNG",
+      "JPEG"
+    ],
+    "allowed_landscape_sizes": [
+      [
+        800,
+        480
+      ],
+      [
+        1024,
+        600
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        1280,
+        800
+      ],
+      [
+        1920,
+        1080
+      ],
+      [
+        1920,
+        1200
+      ],
+      [
+        2560,
+        1600
+      ]
+    ],
+    "portrait_allowed": true,
+    "icons": [
+      114,
+      512
+    ],
+    "promo": [
+      1024,
+      500
+    ]
+  },
+  "render_concepts": {
+    "status": "production Compose screen renders; real device captures still required",
+    "renderer": "Paparazzi API-34 layoutlib; production application targets API 36",
+    "exports": [
+      {
+        "path": "store\\concepts\\en-GB\\phone\\01-gameplay.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-game.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\phone\\01-gameplay.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-game.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\phone\\02-crossword.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-crossword.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\phone\\02-crossword.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-crossword.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\phone\\03-daily.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-daily.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\phone\\03-daily.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-daily.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\phone\\04-garden.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-garden.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\phone\\04-garden.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-garden.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\phone\\05-difficulty.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-worlds.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\phone\\05-difficulty.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-worlds.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\phone\\06-voice.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-voice.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\phone\\06-voice.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-voice.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\phone\\07-offline.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-home.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\phone\\07-offline.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-home.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\phone\\08-english.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-english.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\phone\\08-english.jpg",
+        "dimensions": [
+          800,
+          1280
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[phone]_phone-english.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\tablet\\01-gameplay.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-game.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\tablet\\01-gameplay.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-game.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\tablet\\02-crossword.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-crossword.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\tablet\\02-crossword.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-crossword.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\tablet\\03-daily.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-daily.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\tablet\\03-daily.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-daily.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\tablet\\04-garden.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-garden.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\tablet\\04-garden.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-garden.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\tablet\\05-difficulty.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-worlds.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\tablet\\05-difficulty.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-worlds.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\tablet\\06-voice.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-voice.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\tablet\\06-voice.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-voice.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\tablet\\07-offline.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-home.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\tablet\\07-offline.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-home.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-GB\\tablet\\08-english.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-english.png",
+        "not_for_submission": true
+      },
+      {
+        "path": "store\\concepts\\en-US\\tablet\\08-english.jpg",
+        "dimensions": [
+          1280,
+          800
+        ],
+        "source": "app\\src\\test\\snapshots\\images\\com.wordbloom.garden_ScreenRenderTest_screens[tablet]_tablet-english.png",
+        "not_for_submission": true
+      }
+    ]
+  }
+}

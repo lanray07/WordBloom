@@ -1,0 +1,95 @@
+{
+  "assets": [
+    {
+      "path": "assets/world-1.png",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "mode": "RGBA",
+      "origin": "original vector source rasterised with Sharp"
+    },
+    {
+      "path": "assets/world-2.png",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "mode": "RGBA",
+      "origin": "original vector source rasterised with Sharp"
+    },
+    {
+      "path": "assets/world-3.png",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "mode": "RGBA",
+      "origin": "original vector source rasterised with Sharp"
+    },
+    {
+      "path": "assets/world-4.png",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "mode": "RGBA",
+      "origin": "original vector source rasterised with Sharp"
+    },
+    {
+      "path": "assets/world-5.png",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "mode": "RGBA",
+      "origin": "original vector source rasterised with Sharp"
+    },
+    {
+      "path": "assets/world-6.png",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "mode": "RGBA",
+      "origin": "original vector source rasterised with Sharp"
+    },
+    {
+      "path": "store/artwork/wordbloom-icon-114.png",
+      "dimensions": [
+        114,
+        114
+      ],
+      "mode": "RGBA",
+      "origin": "original vector source rasterised with Sharp"
+    },
+    {
+      "path": "store/artwork/wordbloom-icon-512.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "origin": "original vector source rasterised with Sharp"
+    },
+    {
+      "path": "store/artwork/wordbloom-icon-1024.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "origin": "original vector source rasterised with Sharp"
+    },
+    {
+      "path": "store/artwork/wordbloom-promo-1024x500.png",
+      "dimensions": [
+        1024,
+        500
+      ],
+      "mode": "RGBA",
+      "origin": "original vector source rasterised with Sharp"
+    }
+  ],
+  "screenshots": "See store/screenshot-manifest.json; artwork is not a gameplay capture."
+}

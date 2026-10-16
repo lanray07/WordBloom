@@ -1,0 +1,10 @@
+{
+  "package": "com.wordbloom.garden.dev",
+  "version": "0.1.0-dev",
+  "signature_verified": true,
+  "development_billing_flag": true,
+  "visible_test_only_labels_present": true,
+  "device_execution_performed": false,
+  "sha256": "100f653ce09d321696a9d7a52d1034463b7f5f905709e68ffe85eb6f5c99b093",
+  "purpose": "Developer QA only; simulated entitlement, no real payment. Separate data from normal app."
+}

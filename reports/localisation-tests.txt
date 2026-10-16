@@ -1,0 +1,9 @@
+test_duplicate_rejected (test_localize.LocalisationTests) ... ok
+test_empty_rejected (test_localize.LocalisationTests) ... ok
+test_mismatch_rejected (test_localize.LocalisationTests) ... ok
+test_roundtrip (test_localize.LocalisationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK

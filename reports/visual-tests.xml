@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="com.wordbloom.garden.ScreenRenderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-16T20:17:23.266Z" time="16.364">
+  <properties />
+  <testcase name="screens[tablet]" classname="com.wordbloom.garden.ScreenRenderTest" time="12.806" />
+  <testcase name="screens[phone]" classname="com.wordbloom.garden.ScreenRenderTest" time="3.558" />
+  <system-out />
+  <system-err>Oct 16, 2026 9:17:30 PM app.cash.paparazzi.internal.PaparazziLogger logAndroidFramework
+INFO: Settings [3]: Can't get key animator_duration_scale from content://settings/global
+Oct 16, 2026 9:17:36 PM app.cash.paparazzi.internal.PaparazziLogger logAndroidFramework
+INFO: Settings [3]: Can't get key animator_duration_scale from content://settings/global
+</system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="com.wordbloom.garden.BillingContractTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-16T20:20:02.166Z" time="0.042">
+  <properties />
+  <testcase name="purchasePersistsBeforeGrantingAccess" classname="com.wordbloom.garden.BillingContractTest" time="0.025" />
+  <testcase name="revocationSurvivesAdapterRecreation" classname="com.wordbloom.garden.BillingContractTest" time="0.0" />
+  <testcase name="restoreReflectsPersistedEntitlement" classname="com.wordbloom.garden.BillingContractTest" time="0.0" />
+  <testcase name="testModeIsAlwaysClearlyLabelled" classname="com.wordbloom.garden.BillingContractTest" time="0.014" />
+  <testcase name="failedPurchaseDoesNotGrantAccess" classname="com.wordbloom.garden.BillingContractTest" time="0.001" />
+  <system-out />
+  <system-err />
+</testsuite>
