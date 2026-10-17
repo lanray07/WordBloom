@@ -47,13 +47,11 @@ visible after reopening. Dimensions, hashes and status are in
 `upload-assets.json`. Watermarked render concepts were excluded. No debug or
 development APK was uploaded.
 
-Amazon's final review screen identifies three outstanding form gaps:
+Amazon's final review screen identifies two outstanding form gaps:
 
-1. Target audience: select at least one age group. The publisher has been asked
-   to choose; inclusion of children invokes Amazon's certification.
-2. At least three tablet screenshots. No connected device is available, and the
+1. At least three tablet screenshots. No connected device is available, and the
    emulator cannot boot here. Compose renders remain clearly marked concepts.
-3. Export-compliance certification requires publisher review and remains unchecked.
+2. Export-compliance certification requires publisher review and remains unchecked.
 
 Real-device testing, live purchase checks, name clearance, native editorial
 review and publisher review of privacy disclosures remain release gates.
@@ -67,3 +65,7 @@ Final app/IAP submission and publication have not been performed.
 Local Amazon-form screenshots are in ignored `dist/`, outside source control.
 
 Official rules: https://developer.amazon.com/docs/app-submission/appstore-details.html
+
+Audience update, 17 October 2026: the publisher selected all ages. All four
+age bands are selected in the console, including children. The audience gap is
+resolved; screenshots and export-compliance confirmation remain outstanding.
