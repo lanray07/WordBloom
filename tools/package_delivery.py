@@ -83,6 +83,21 @@ def main():
                     'real device screenshots', 'linguistic review and non-English packs', 'owner signing/identity',
                     'working-name clearance', 'secondary Android distribution/billing decision'],
     }
+    listing_path = ROOT / 'store/premium-screenshots.json'
+    if listing_path.exists():
+        listing = json.loads(listing_path.read_text(encoding='utf-8'))
+        _, store_render = junit(reports / 'store-render-tests.xml')
+        assert store_render['tests'] == 3
+        assert len(listing['exports']) == 3 and not listing['device_capture']
+        for item in listing['exports']:
+            path = ROOT / item['path']
+            with Image.open(path) as image:
+                assert image.size == (1280, 800) and image.format == 'PNG'
+            assert hashlib.sha256(path.read_bytes()).hexdigest() == item['sha256']
+            assert hashlib.sha256((ROOT / item['source']).read_bytes()).hexdigest() == item['source_sha256']
+        summary['store_image_render_tests'] = store_render
+        summary['store_listing_images'] = 3
+        summary['store_listing_image_source'] = 'Production Compose renders; not physical-device captures'
     dev_apk = ROOT / 'dist/WordBloom-development.apk'
     dev_proof = reports / 'development-build.json'
     if dev_apk.exists() and dev_proof.exists():
@@ -94,6 +109,8 @@ def main():
     text = report.read_text(encoding='utf-8').split('\n## Final package verification\n')[0]
     text = re.sub(r'Engine JUnit: \d+ tests passed', f"Engine JUnit: {engine['tests']} tests passed", text)
     text += f"\n## Final package verification\n\nProduction API 36 debug, release and instrumentation APK builds and lint passed. Lint: 0 errors, {warnings} warnings (including dependency-version suggestions and intentionally unused preparation assets). Engine: {engine['tests']} passed; billing contract: {billing['tests']} passed; localisation: {python_count} passed; visual: {visual['tests']} passed with 20 renders. Debug signing verified. Release is {'signed' if summary['release_signed'] else 'unsigned; owner signing required'}. The development purchase adapter and Google Play Billing are absent from release DEX. A separate signed .dev APK with explicit simulated-purchase labels is provided for developer QA; its manifest, build flag and signature were verified without device execution.\n\nFast-swipe tracing now preserves the original down and interpolates crossed tiles; regression tests cover a fast segment, backtracking and a near miss. An interrupted R8 build held a generated output open; its stale daemon was terminated and the clean final build passed. The Amazon SDK emits stack-map warnings under R8, so the final store-delivered purchase flow still needs App Tester/live verification.\n"
+    if 'store_image_render_tests' in summary:
+        text += '\nThree additional independent native Compose screen renders passed for the listing images. Their source pixels, export dimensions and hashes were checked. They are layoutlib renders, not physical-device captures or evidence of device runtime behavior.\n'
     report.write_text(text, encoding='utf-8')
     dist = ROOT / 'dist'
     dist.mkdir(exist_ok=True)

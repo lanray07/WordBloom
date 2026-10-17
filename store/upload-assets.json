@@ -39,11 +39,16 @@
       "reason": "Debug/development APKs excluded. Only the rebuilt production unsigned APK with Amazon public key was uploaded."
     }
   ],
-  "screenshots_status": "missing real-device captures; minimum three required",
+  "screenshots_status": "Three 1280x800 native Compose render compositions uploaded and accepted; not physical-device captures",
   "specification_source": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
   "production_apk": {
     "path": "dist/WordBloom-release-unsigned.apk",
     "sha256": "72c0db2c9e537285c400b3ba8e0b40da540bd764e94f0201aaf7eddacd5d568a",
     "amazon_status": "1 file uploaded; version code 1; validation accepted; DRM not applied"
+  },
+  "listing_screenshots": {
+    "manifest": "store/premium-screenshots.json",
+    "count": 3,
+    "status": "uploaded"
   }
 }

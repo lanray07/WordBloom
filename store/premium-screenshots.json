@@ -1,0 +1,67 @@
+{
+  "status": "uploaded to Amazon draft; multimedia section Complete",
+  "source_kind": "production Compose screen renders",
+  "device_capture": false,
+  "locale": "en-US",
+  "fallback": "Shared English artwork for the ten localized descriptions; gameplay remains English",
+  "exports": [
+    {
+      "id": "01-connect",
+      "path": "store/screenshots/en-US/tablet/01-connect.png",
+      "dimensions": [
+        1280,
+        800
+      ],
+      "format": "PNG",
+      "sha256": "b3205918d0a3ac4513d70b346fb64e6a7db14d04b884903f8ac8bfd72fc1d91f",
+      "source": "app/src/test/snapshots/images/com.wordbloom.garden_StoreScreenRenderTest_connect_store-connect.png",
+      "source_sha256": "751910daad53534ea3d5a95e954b07fb6ae8e250ed49de2777dc4333b9ce1d8c",
+      "title": "Connect letters. Find your flow.",
+      "subtitle": "Swipe, tap or type to solve curated English word puzzles.",
+      "provenance": "Production Compose tree, Paparazzi/layoutlib, independent screen fixture; not a physical-device capture",
+      "content_edits": "None: uniform downscale, frame, shadow and external caption only",
+      "device_qa": "pending",
+      "console_status": "uploaded and validated",
+      "amazon_asset_id": "amzn1.dex.asset.aa730b0523d145ea90c64abfcce4f1db"
+    },
+    {
+      "id": "02-journey",
+      "path": "store/screenshots/en-US/tablet/02-journey.png",
+      "dimensions": [
+        1280,
+        800
+      ],
+      "format": "PNG",
+      "sha256": "608e0b0f4640d80fc7f27ad9c422d88e84747e0113e58556e58f28188c160215",
+      "source": "app/src/test/snapshots/images/com.wordbloom.garden_StoreScreenRenderTest_journey_store-journey.png",
+      "source_sha256": "75bf762e22153b0a8fa611cf5f9e0294272f010e3a733177f5776c9a496cd45d",
+      "title": "A world of words awaits.",
+      "subtitle": "Start free. Unlock the full collection with one premium purchase.",
+      "provenance": "Production Compose tree, Paparazzi/layoutlib, independent screen fixture; not a physical-device capture",
+      "content_edits": "None: uniform downscale, frame, shadow and external caption only",
+      "device_qa": "pending",
+      "console_status": "uploaded and validated",
+      "amazon_asset_id": "amzn1.dex.asset.dc07c277c5f14439bdc1966cf2e3826a"
+    },
+    {
+      "id": "03-garden",
+      "path": "store/screenshots/en-US/tablet/03-garden.png",
+      "dimensions": [
+        1280,
+        800
+      ],
+      "format": "PNG",
+      "sha256": "d635d3e9f8dd855f24c139e84817793fdff48aa37cb0cd5450d962727387276f",
+      "source": "app/src/test/snapshots/images/com.wordbloom.garden_StoreScreenRenderTest_garden_store-garden.png",
+      "source_sha256": "97c19ada2ca66788482c998f5a387a3c05d321ed955ca40bb13ad595f769cd09",
+      "title": "Little puzzles. Lovely progress.",
+      "subtitle": "Watch your illustrated garden bloom with every first completion.",
+      "provenance": "Production Compose tree, Paparazzi/layoutlib, independent screen fixture; not a physical-device capture",
+      "content_edits": "None: uniform downscale, frame, shadow and external caption only",
+      "device_qa": "pending",
+      "console_status": "uploaded and validated",
+      "amazon_asset_id": "amzn1.dex.asset.0edd70f12a4d4468bd5bb3221dcd6ecf"
+    }
+  ],
+  "prepared_date": "2026-10-17"
+}

@@ -1,5 +1,5 @@
 {
-  "status": "Amazon draft configured; not submitted or published",
+  "status": "Draft form complete; intentionally unsubmitted and unpublished",
   "app_id": "amzn1.devportal.mobileapp.91b139e68f6746fab1bdea19472cd193",
   "release_id": "amzn1.devportal.apprelease.2ad95ad758e740b7bf34a38964ee6a3b",
   "app_title": "WordBloom: Word Connect and Puzzle Games",
@@ -47,7 +47,11 @@
     "app_promotional_images": 1,
     "iap_icons": 2,
     "device_screenshots": 0,
-    "watermarked_concepts_uploaded": false
+    "watermarked_concepts_uploaded": false,
+    "listing_screenshots": 3,
+    "listing_screenshot_source": "Independent production Compose renders with external captions and visible source label",
+    "physical_device_screenshots": 0,
+    "multimedia_section": "Complete"
   },
   "privacy_questionnaire": "Saved for review; user IDs, purchase history and optional voice for app functionality",
   "privacy_url": "https://github.com/lanray07/WordBloom/blob/main/PRIVACY.md",
@@ -58,10 +62,7 @@
     "Automotive": 0
   },
   "sdk_public_key": "Included and parsed as RSA 2048; present in uploaded APK",
-  "amazon_review_gaps": [
-    "Tablet screenshots: minimum 3 missing",
-    "Publisher export-compliance certification remains unchecked"
-  ],
+  "amazon_review_gaps": [],
   "additional_release_gates": [
     "physical-device UI/offline/audio/accessibility checks",
     "Amazon App Tester/live purchase/restore/refund verification",
@@ -80,5 +81,21 @@
     ],
     "confirmed_by_user": "2026-10-17",
     "console_saved": true
+  },
+  "draft_form_complete": true,
+  "export_compliance": {
+    "confirmed_by_user": "2026-10-17",
+    "checkbox_checked_in_review_form": true,
+    "submit_app_enabled": true,
+    "submission_performed": false
+  },
+  "image_validation": {
+    "independent_render_tests_passed": 3,
+    "dimensions": [
+      1280,
+      800
+    ],
+    "format": "PNG",
+    "source_manifest": "store/premium-screenshots.json"
   }
 }

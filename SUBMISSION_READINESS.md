@@ -14,7 +14,7 @@
 | Localisation | English editions, NFC, locale registry, development translation/cache/glossary/placeholder tooling | Complete dynamic string extraction; non-English dictionaries, translation and native review |
 | Accessibility | Larger text, contrast, reduced motion, dark theme, tile semantics, text fallback | Screen reader and large-font runtime inspection |
 | Original art/audio | Canvas garden scenes, SVG masters/icons, adaptive/splash/notification assets, ambient loop | Store icon/promo PNGs exported and visually inspected; device visual review pending |
-| Screenshots | Eight honest concepts, capture/composition scripts and missing-source manifest | Real phone/tablet captures; device visual approval; published image specifications verified |
+| Screenshots | Three production Compose render compositions uploaded; 32 older concepts retained separately | Physical device captures and runtime visual approval remain pending |
 | Listing/privacy/support | Ten localized console descriptions, public privacy/support pages, keywords and checklists | Publisher review, audience/export certifications and approved final name |
 | Packaging/tests | See TEST_REPORT.md for executed results | Owner signing and final store-delivered verification |
 
@@ -28,8 +28,10 @@ The engine uses an intentionally limited curated vocabulary. It may reject real 
 
 Environment blocker: no connected device, absent Android Emulator hypervisor driver, and software emulator access violation before Android boot. Do not count prepared instrumentation or screen renders as physical-device certification. See FIRE_COMPATIBILITY.md.
 
-Next owner-dependent steps: review export compliance and privacy disclosures, provide a working test device/emulator for capture and App Tester/live checks, approve a cleared name and obtain language/content review. Amazon accepted the unsigned production APK and applies its own signing; a separate owner signing identity is needed for non-Amazon release distribution. All reversible local implementation and packaging work should remain available for review.
+Next owner-dependent steps: review privacy/SDK disclosures, provide a working test device/emulator for capture and App Tester/live checks, approve a cleared name and obtain language/content review. Amazon accepted the unsigned production APK and applies its own signing; a separate owner signing identity is needed for non-Amazon release distribution. All reversible local implementation and packaging work should remain available for review.
 
-Amazon draft progress: production APK accepted; ten localized descriptions and three artwork files saved; premium entitlement has seven text locales and a £3.99 base price. Final review still requires three screenshots and export-compliance confirmation. Nothing was submitted. See store/CONSOLE_DRAFT.md.
+Amazon draft progress: production APK accepted; ten localized descriptions and three artwork files saved; premium entitlement has seven text locales and a £3.99 base price. Required draft fields are complete: three production Compose render images were accepted, all ages is selected, and export compliance was explicitly confirmed and checked. Submit App is enabled but was not clicked. Nothing was submitted. See store/CONSOLE_DRAFT.md.
 
 17 October 2026: all-ages target audience was explicitly confirmed by the publisher and saved in Amazon.
+
+17 October 2026: three fresh independent store-render cases passed. These provide real production UI render sources for the listing images, not physical-device certification. The publisher explicitly authorized the export-compliance checkbox; it is checked without submitting or publishing the app.

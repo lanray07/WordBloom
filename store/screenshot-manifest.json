@@ -1,5 +1,5 @@
 {
-  "status": "pending_device_capture",
+  "status": "three production-screen listing images uploaded; physical device capture and QA remain pending",
   "specification_status": "Verified against official Appstore Details documentation on 2026-10-16; recheck console before upload.",
   "variants": {
     "phone": [
@@ -414,5 +414,13 @@
         "not_for_submission": true
       }
     ]
+  },
+  "listing_images": {
+    "manifest": "store/premium-screenshots.json",
+    "count": 3,
+    "source": "independent production Compose screen renders",
+    "device_capture": false,
+    "console_status": "Complete",
+    "explicitly_requested_by_user": "2026-10-17"
   }
 }

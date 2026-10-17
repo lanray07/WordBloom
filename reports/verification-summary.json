@@ -48,6 +48,14 @@
     "working-name clearance",
     "secondary Android distribution/billing decision"
   ],
+  "store_image_render_tests": {
+    "tests": 3,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "store_listing_images": 3,
+  "store_listing_image_source": "Production Compose renders; not physical-device captures",
   "development_apk": {
     "package": "com.wordbloom.garden.dev",
     "version": "0.1.0-dev",

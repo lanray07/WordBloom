@@ -40,21 +40,31 @@ German, Spanish, French, Italian and Portuguese Brazil. The IAP console did not
 offer Dutch, Polish or European Portuguese. Two branded icons are attached to
 the default IAP locale. Exact copy is in `amazon-iap-metadata.json`.
 
-## Artwork and remaining fields
+## Artwork and review status
 
 The 512px and 114px icons and 1024×500px promotional artwork are uploaded and
 visible after reopening. Dimensions, hashes and status are in
 `upload-assets.json`. Watermarked render concepts were excluded. No debug or
 development APK was uploaded.
 
-Amazon's final review screen identifies two outstanding form gaps:
+The required draft form is complete as of 17 October 2026:
 
-1. At least three tablet screenshots. No connected device is available, and the
-   emulator cannot boot here. Compose renders remain clearly marked concepts.
-2. Export-compliance certification requires publisher review and remains unchecked.
+- All ages was explicitly selected by the publisher and saved.
+- Three 1280×800 PNG listing images were uploaded and accepted. They use fresh,
+  independent production Compose renders, not device captures. Each preserves
+  the actual UI and puzzle content and has a small source label. Source pixels,
+  export dimensions and hashes are recorded in `premium-screenshots.json`.
+- The publisher explicitly confirmed Amazon's export-compliance declaration.
+  Its checkbox is checked in the open review form. The Submit App button became
+  enabled. No submission action was performed.
+
+The earlier watermarked concepts remain excluded. The new listing images are
+separate exports requested by the publisher; their use closes the image-count
+form gap and does not establish physical-device runtime behavior.
 
 Real-device testing, live purchase checks, name clearance, native editorial
-review and publisher review of privacy disclosures remain release gates.
+review and publisher review of privacy/SDK disclosures remain release gates.
+
 Reviewer testing instructions are filled. The actual Amazon-generated sandbox product
 file is saved as `content/amazon.sdktester.json`, and all seven exported purchase
 descriptions were checked against the source copy. Amazon DevTest registration
@@ -65,7 +75,3 @@ Final app/IAP submission and publication have not been performed.
 Local Amazon-form screenshots are in ignored `dist/`, outside source control.
 
 Official rules: https://developer.amazon.com/docs/app-submission/appstore-details.html
-
-Audience update, 17 October 2026: the publisher selected all ages. All four
-age bands are selected in the console, including children. The audience gap is
-resolved; screenshots and export-compliance confirmation remain outstanding.
