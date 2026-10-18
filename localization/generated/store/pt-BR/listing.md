@@ -4,7 +4,7 @@ Título exibido: WordBloom: Jogos de conexão de palavras e quebra-cabeças
 
 Descrição resumida: Conecte letras, resolva palavras cruzadas em inglês e cultive um jardim. Jogos de palavras offline com jogadas diárias, sem anúncios e um desbloqueio premium opcional único.
 
-## Descrição completa O
+## Descrição completa
 
 WordBloom é um jogo relaxante de conexão de palavras em inglês. Deslize entre os blocos de letras para descobrir palavras, completar grades de palavras cruzadas conectadas e cultivar um jardim ilustrado. Jogue os quebra-cabeças incluídos offline, sem anúncios e sem precisar de uma conta no WordBloom.
 
@@ -17,7 +17,7 @@ Avance do Jardim do Nascer do Sol, passando pela Floresta Encantada, Vale das Fl
 QUEBRA-CABEÇAS DIÁRIOS DE PALAVRAS, DISPONÍVEIS OFFLINE
 Volte para um quebra-cabeça baseado no calendário, selecionado da coleção incluída de acordo com a data local. O jogo diário é gratuito, sem penalidades por sequência.
 
-GRÁTIS PARA COMEÇAR, COMPRAS PREMIUM ÚNICAS
+COMECE GRÁTIS, DESBLOQUEIO PREMIUM COM COMPRA ÚNICA
 O capítulo introdutório com quatro quebra-cabeças e o jogo diário são gratuitos. Uma compra opcional única na Amazon desbloqueia os 20 quebra-cabeças restantes e todos os seis ambientes, além de uma dica extra ganha a cada primeira conclusão. Não é necessária assinatura.
 
 OPÇÕES DE VOZ E ACESSIBILIDADE

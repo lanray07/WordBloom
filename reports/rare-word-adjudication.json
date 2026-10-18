@@ -1,0 +1,81 @@
+{
+  "reviewed_on": "2026-10-18",
+  "reviewer": "Codex",
+  "type": "Separate AI-assisted lexical review with primary dictionary cross-checks, not human native certification",
+  "decisions": [
+    {
+      "locale": "de",
+      "word": "ERLEN",
+      "reason": "plural of Erle; alder trees",
+      "reference": "https://www.duden.de/rechtschreibung/Erle",
+      "decision": "retain; frequency alone is not invalidity"
+    },
+    {
+      "locale": "de",
+      "word": "REGENTAG",
+      "reason": "rainy day; compound noun",
+      "reference": "https://www.duden.de/rechtschreibung/Regentag",
+      "decision": "retain; frequency alone is not invalidity"
+    },
+    {
+      "locale": "de",
+      "word": "WELK",
+      "reason": "wilted; adjective",
+      "reference": "https://www.duden.de/rechtschreibung/welk",
+      "decision": "retain; frequency alone is not invalidity"
+    },
+    {
+      "locale": "es",
+      "word": "BRÍO",
+      "reason": "vigour; accent retained",
+      "reference": "https://dle.rae.es/br%C3%ADo",
+      "decision": "retain; frequency alone is not invalidity"
+    },
+    {
+      "locale": "it",
+      "word": "REMA",
+      "reason": "regular present/imperative form of remare, to row",
+      "reference": "https://www.treccani.it/vocabolario/remare/",
+      "decision": "retain; frequency alone is not invalidity"
+    },
+    {
+      "locale": "en",
+      "word": "CATIONS",
+      "reason": "plural of cation; chemistry term retained as optional expert bonus",
+      "reference": "https://www.merriam-webster.com/dictionary/cation",
+      "decision": "retain; frequency alone is not invalidity"
+    },
+    {
+      "locale": "en",
+      "word": "TINSEL",
+      "reason": "decorative glittering strips; optional advanced/expert bonus",
+      "reference": "https://www.merriam-webster.com/dictionary/tinsel",
+      "decision": "retain; frequency alone is not invalidity"
+    },
+    {
+      "locale": "en",
+      "word": "TAMER",
+      "reason": "one who tames; optional expert bonus",
+      "reference": "https://www.merriam-webster.com/dictionary/tamer",
+      "decision": "retain; frequency alone is not invalidity"
+    },
+    {
+      "locale": "en",
+      "word": "TAMERS",
+      "reason": "plural of tamer; optional advanced bonus",
+      "reference": "https://www.merriam-webster.com/dictionary/tamer",
+      "decision": "retain; frequency alone is not invalidity"
+    },
+    {
+      "locale": "en",
+      "word": "ALERTING",
+      "reason": "regular participle of alert; optional expert bonus",
+      "reference": "https://www.merriam-webster.com/dictionary/alert",
+      "decision": "retain; frequency alone is not invalidity"
+    }
+  ],
+  "notes": [
+    "Five non-English and five English low-frequency entries were checked; rarity alone does not establish invalidity.",
+    "No dictionary definitions copied into the app. Difficulty remains an editorial length-band estimate, not a calibrated educational assessment."
+  ]
+}

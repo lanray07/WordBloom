@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<testsuite name="com.wordbloom.engine.MessageTranslatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-18T09:16:23.995Z" time="0.046">
+<testsuite name="com.wordbloom.engine.MessageTranslatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-18T10:30:37.051Z" time="0.041">
   <properties />
-  <testcase name="accentsPricesAndUnknownAnswersArePreserved" classname="com.wordbloom.engine.MessageTranslatorTest" time="0.042" />
-  <testcase name="reorderedParametersAndNestedLabels" classname="com.wordbloom.engine.MessageTranslatorTest" time="0.001" />
-  <testcase name="emptyCaptureAndLiteralSpecialCharacters" classname="com.wordbloom.engine.MessageTranslatorTest" time="0.001" />
+  <testcase name="accentsPricesAndUnknownAnswersArePreserved" classname="com.wordbloom.engine.MessageTranslatorTest" time="0.038" />
+  <testcase name="reorderedParametersAndNestedLabels" classname="com.wordbloom.engine.MessageTranslatorTest" time="0.002" />
+  <testcase name="emptyCaptureAndLiteralSpecialCharacters" classname="com.wordbloom.engine.MessageTranslatorTest" time="0.0" />
   <system-out />
   <system-err />
 </testsuite>

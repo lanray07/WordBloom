@@ -266,7 +266,45 @@
         "phrase": "wróć do startu"
       }
     ],
-    "pt": [
+    "pt-BR": [
+      {
+        "command": "START",
+        "phrase": "iniciar o quebra-cabeça"
+      },
+      {
+        "command": "NEXT",
+        "phrase": "próximo nível"
+      },
+      {
+        "command": "SHUFFLE",
+        "phrase": "embaralhar letras"
+      },
+      {
+        "command": "HINT",
+        "phrase": "me dê uma dica"
+      },
+      {
+        "command": "REPEAT",
+        "phrase": "repita a palavra"
+      },
+      {
+        "command": "PROGRESS",
+        "phrase": "mostre meu progresso"
+      },
+      {
+        "command": "DAILY",
+        "phrase": "abra o desafio diário"
+      },
+      {
+        "command": "PAUSE",
+        "phrase": "pause o jogo"
+      },
+      {
+        "command": "HOME",
+        "phrase": "volte ao início"
+      }
+    ],
+    "pt-PT": [
       {
         "command": "START",
         "phrase": "iniciar o puzzle"
@@ -277,7 +315,7 @@
       },
       {
         "command": "SHUFFLE",
-        "phrase": "misturar letras"
+        "phrase": "baralhar letras"
       },
       {
         "command": "HINT",
@@ -285,23 +323,23 @@
       },
       {
         "command": "REPEAT",
-        "phrase": "repetir a palavra"
+        "phrase": "repete a palavra"
       },
       {
         "command": "PROGRESS",
-        "phrase": "mostrar o meu progresso"
+        "phrase": "mostra o meu progresso"
       },
       {
         "command": "DAILY",
-        "phrase": "abrir o desafio diário"
+        "phrase": "abre o desafio diário"
       },
       {
         "command": "PAUSE",
-        "phrase": "pausar o jogo"
+        "phrase": "pausa o jogo"
       },
       {
         "command": "HOME",
-        "phrase": "voltar ao início"
+        "phrase": "volta ao início"
       }
     ]
   }

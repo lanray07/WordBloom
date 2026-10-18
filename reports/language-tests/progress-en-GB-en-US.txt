@@ -1,0 +1,5 @@
+com.wordbloom.garden.LocaleProgressDeviceTest:.
+
+Time: 12.092
+
+OK (1 test)

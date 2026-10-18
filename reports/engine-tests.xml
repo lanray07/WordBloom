@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<testsuite name="com.wordbloom.engine.EngineTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-18T09:16:23.403Z" time="0.434">
+<testsuite name="com.wordbloom.engine.EngineTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-18T10:30:36.508Z" time="0.409">
   <properties />
   <testcase name="fastPointerSamplesPreserveCrossedTilesAndUndo" classname="com.wordbloom.engine.EngineTest" time="0.053" />
-  <testcase name="invalidBonusAndDuplicate" classname="com.wordbloom.engine.EngineTest" time="0.091" />
-  <testcase name="entitlementCancellationAndWrongSku" classname="com.wordbloom.engine.EngineTest" time="0.002" />
-  <testcase name="reproducibleLayoutsAcrossSeeds" classname="com.wordbloom.engine.EngineTest" time="0.195" />
+  <testcase name="invalidBonusAndDuplicate" classname="com.wordbloom.engine.EngineTest" time="0.092" />
+  <testcase name="entitlementCancellationAndWrongSku" classname="com.wordbloom.engine.EngineTest" time="0.003" />
+  <testcase name="reproducibleLayoutsAcrossSeeds" classname="com.wordbloom.engine.EngineTest" time="0.223" />
   <testcase name="impossibleRejected" classname="com.wordbloom.engine.EngineTest" time="0.001" />
-  <testcase name="unicodeAndSafety" classname="com.wordbloom.engine.EngineTest" time="0.001" />
-  <testcase name="repeatedLettersAndTileUndo" classname="com.wordbloom.engine.EngineTest" time="0.0" />
-  <testcase name="pointerNearMissDoesNotSelectTile" classname="com.wordbloom.engine.EngineTest" time="0.048" />
-  <testcase name="dailyIdentityUsesDateAndLocale" classname="com.wordbloom.engine.EngineTest" time="0.013" />
-  <testcase name="commandsAndAmbiguity" classname="com.wordbloom.engine.EngineTest" time="0.006" />
-  <testcase name="allPuzzlesSolvableAndConnected" classname="com.wordbloom.engine.EngineTest" time="0.02" />
+  <testcase name="unicodeAndSafety" classname="com.wordbloom.engine.EngineTest" time="0.004" />
+  <testcase name="repeatedLettersAndTileUndo" classname="com.wordbloom.engine.EngineTest" time="0.001" />
+  <testcase name="pointerNearMissDoesNotSelectTile" classname="com.wordbloom.engine.EngineTest" time="0.002" />
+  <testcase name="dailyIdentityUsesDateAndLocale" classname="com.wordbloom.engine.EngineTest" time="0.012" />
+  <testcase name="commandsAndAmbiguity" classname="com.wordbloom.engine.EngineTest" time="0.005" />
+  <testcase name="allPuzzlesSolvableAndConnected" classname="com.wordbloom.engine.EngineTest" time="0.012" />
   <system-out />
   <system-err />
 </testsuite>

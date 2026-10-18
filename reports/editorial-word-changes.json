@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-18",
+  "reviewer": "Codex editorial review; not independent native certification",
+  "changes": [
+    {
+      "language": "de",
+      "puzzle": 17,
+      "old_targets": [
+        "BLUMEN",
+        "BLUME",
+        "LEBEN"
+      ],
+      "new_targets": [
+        "WUNDER",
+        "RUNDE",
+        "WUND"
+      ],
+      "reason": "Remove an exact duplicate puzzle"
+    },
+    {
+      "language": "es",
+      "puzzle": 5,
+      "old_targets": [
+        "LAGO",
+        "GOLA",
+        "ALGO"
+      ],
+      "new_targets": [
+        "LAGO",
+        "OLA",
+        "ALGO"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "es",
+      "puzzle": 17,
+      "old_targets": [
+        "MOLINO",
+        "LINO",
+        "LIMO"
+      ],
+      "new_targets": [
+        "MOLINO",
+        "LINO",
+        "MONO"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "fr",
+      "puzzle": 4,
+      "old_targets": [
+        "TARTE",
+        "TARE",
+        "ART"
+      ],
+      "new_targets": [
+        "TARTE",
+        "RATE",
+        "ART"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "fr",
+      "puzzle": 8,
+      "old_targets": [
+        "JARDIN",
+        "RADIN",
+        "DRAIN"
+      ],
+      "new_targets": [
+        "JARDIN",
+        "AIR",
+        "DIRA"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "fr",
+      "puzzle": 19,
+      "old_targets": [
+        "JARDINS",
+        "JARDIN",
+        "RADINS"
+      ],
+      "new_targets": [
+        "JARDINS",
+        "JARDIN",
+        "DANS"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "it",
+      "puzzle": 3,
+      "old_targets": [
+        "SOLE",
+        "SOLO",
+        "LESO"
+      ],
+      "new_targets": [
+        "SOLE",
+        "SOLO",
+        "SALE"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "it",
+      "puzzle": 15,
+      "old_targets": [
+        "LIMONE",
+        "LIMO",
+        "MENO"
+      ],
+      "new_targets": [
+        "LIMONE",
+        "NOME",
+        "MENO"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "nl",
+      "puzzle": 16,
+      "old_targets": [
+        "TUINEN",
+        "TUIN",
+        "TUNEN"
+      ],
+      "new_targets": [
+        "TUINEN",
+        "TUIN",
+        "NIET"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "pl",
+      "puzzle": 6,
+      "old_targets": [
+        "ROK",
+        "KROK",
+        "KOK"
+      ],
+      "new_targets": [
+        "ROK",
+        "KROK",
+        "OKO"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "pl",
+      "puzzle": 9,
+      "old_targets": [
+        "POLE",
+        "POLA",
+        "LEPI"
+      ],
+      "new_targets": [
+        "POLE",
+        "POLA",
+        "LIPA"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "pl",
+      "puzzle": 18,
+      "old_targets": [
+        "OGRODY",
+        "OGRÓD",
+        "RODY"
+      ],
+      "new_targets": [
+        "OGRODY",
+        "OGRÓD",
+        "GÓRY"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "pt",
+      "puzzle": 4,
+      "old_targets": [
+        "ROSA",
+        "AROS",
+        "RASO"
+      ],
+      "new_targets": [
+        "ROSA",
+        "SOAR",
+        "RASO"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "pt",
+      "puzzle": 8,
+      "old_targets": [
+        "AREIA",
+        "AREAR",
+        "RAIA"
+      ],
+      "new_targets": [
+        "AREIA",
+        "IRA",
+        "RAIA"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "pt",
+      "puzzle": 10,
+      "old_targets": [
+        "PLANTA",
+        "PLANO",
+        "TALA"
+      ],
+      "new_targets": [
+        "PLANTA",
+        "PLANO",
+        "LATA"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "pt",
+      "puzzle": 21,
+      "old_targets": [
+        "PALAVRA",
+        "PALAVRAS",
+        "LAVRA"
+      ],
+      "new_targets": [
+        "PALAVRA",
+        "PALAVRAS",
+        "SALA"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    },
+    {
+      "language": "pt",
+      "puzzle": 23,
+      "old_targets": [
+        "BORBOLETA",
+        "BOLA",
+        "BOLETO"
+      ],
+      "new_targets": [
+        "BORBOLETA",
+        "BOLA",
+        "BOTA"
+      ],
+      "reason": "Prefer familiar general vocabulary to rare, technical, informal or region-sensitive draft targets; replaced forms are not asserted invalid."
+    }
+  ],
+  "references": [
+    "https://dle.rae.es/ola",
+    "https://dle.rae.es/mono",
+    "https://www.duden.de/rechtschreibung/Wunder",
+    "https://www.treccani.it/vocabolario/sale/",
+    "https://www.treccani.it/vocabolario/nome/",
+    "https://dicionario.priberam.org/soar",
+    "https://dicionario.priberam.org/sala",
+    "https://wsjp.pl/haslo/podglad/8070/gora/5018575/wzniesienie",
+    "https://www.lasy.gov.pl/pl/edukacja/lesnoteka-1/najgrubsze-drzewa/lipa",
+    "https://zpe.gov.pl/a/oko---narzad-wzroku/D3Cgpb1N8",
+    "https://e-ans.ivdnt.org/topics/pid/topic-16249591180070110"
+  ]
+}

@@ -64,11 +64,9 @@
   "sdk_public_key": "Included and parsed as RSA 2048; present in uploaded APK",
   "amazon_review_gaps": [],
   "additional_release_gates": [
-    "native approval of generated translations and gameplay for all eight additional locale editions",
-    "multilingual device/layout/accented-input and language-switching checks",
-    "final matching store descriptions/screenshots and candidate upload",
+    "Matching multilingual store descriptions/screenshots and final candidate upload",
     "Amazon store-delivered release and purchase verification",
-    "hands-on audio/accessibility review"
+    "Hands-on VoiceView and regional spoken audio review not yet performed"
   ],
   "testing_instructions": "Filled: 1514 characters; source store/amazon-testing-instructions.txt",
   "audience": {
@@ -104,5 +102,7 @@
     "api": 28,
     "amazon_sandbox_cases": "reports/amazon-sandbox-qa.json",
     "note": "Local test progress, not a new Amazon console verification. Current console APK remains the earlier English-only candidate."
-  }
+  },
+  "metadata_matches_final_language_support": false,
+  "local_linguistic_review": "Completed AI editorial/lexical review, without native human certification; all ten locales active in local candidate"
 }

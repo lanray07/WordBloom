@@ -1,5 +1,159 @@
 {
-  "required_for_release": ["de", "es", "fr", "it", "nl", "pl", "pt-BR", "pt-PT"],
-  "locales": {},
-  "instructions": "For each locale supply reviewer, reviewed_on, ui_source_sha256, messages_sha256, gameplay_sha256, voice_commands_sha256, and ui_approved/gameplay_approved=true after actual native review. No approval is inferred from a successful structural test."
+  "required_for_release": [
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl",
+    "pl",
+    "pt-BR",
+    "pt-PT"
+  ],
+  "locales": {
+    "de": {
+      "reviewer": "Codex",
+      "review_kind": "ai_editorial_lexical",
+      "reviewed_on": "2026-10-18",
+      "native_human_certification": false,
+      "ui_source_sha256": "2003d8735aa47892f46afca254b65191e09508e724eba0102a677c0e7dcad2a9",
+      "messages_sha256": "9ee928fe5da2f145a5637a8e8ab00a2c3a95a46d40045ec08d13a2ebaed2407b",
+      "gameplay_sha256": "83cf83ed570ee5cc3b9830f20f57ea2780ed6aae5c65c75c3a0e18faae7e8abc",
+      "voice_commands_sha256": "cedf8d2b2ff724c644cd3d7bdf71715f119f96f01aef3528c9317ee45a24e815",
+      "ui_approved": true,
+      "gameplay_approved": true,
+      "evidence": [
+        "reports/editorial-review.json",
+        "reports/editorial-word-changes.json",
+        "reports/rare-word-adjudication.json"
+      ],
+      "limits": "AI-assisted review, not human native certification; difficulty is editorial, and Portuguese vocabulary is shared across regional editions. Device and Amazon-delivered release checks remain separate gates."
+    },
+    "es": {
+      "reviewer": "Codex",
+      "review_kind": "ai_editorial_lexical",
+      "reviewed_on": "2026-10-18",
+      "native_human_certification": false,
+      "ui_source_sha256": "2003d8735aa47892f46afca254b65191e09508e724eba0102a677c0e7dcad2a9",
+      "messages_sha256": "9b28275dc5fb72251c16d2c0959a33b43c437fae2de1883396457a5ddc2a29fd",
+      "gameplay_sha256": "83cf83ed570ee5cc3b9830f20f57ea2780ed6aae5c65c75c3a0e18faae7e8abc",
+      "voice_commands_sha256": "cedf8d2b2ff724c644cd3d7bdf71715f119f96f01aef3528c9317ee45a24e815",
+      "ui_approved": true,
+      "gameplay_approved": true,
+      "evidence": [
+        "reports/editorial-review.json",
+        "reports/editorial-word-changes.json",
+        "reports/rare-word-adjudication.json"
+      ],
+      "limits": "AI-assisted review, not human native certification; difficulty is editorial, and Portuguese vocabulary is shared across regional editions. Device and Amazon-delivered release checks remain separate gates."
+    },
+    "fr": {
+      "reviewer": "Codex",
+      "review_kind": "ai_editorial_lexical",
+      "reviewed_on": "2026-10-18",
+      "native_human_certification": false,
+      "ui_source_sha256": "2003d8735aa47892f46afca254b65191e09508e724eba0102a677c0e7dcad2a9",
+      "messages_sha256": "25644d04b453f8ae70ef1c4daffd3d618d39faab21ae77a2ee0e3437cd2ead37",
+      "gameplay_sha256": "83cf83ed570ee5cc3b9830f20f57ea2780ed6aae5c65c75c3a0e18faae7e8abc",
+      "voice_commands_sha256": "cedf8d2b2ff724c644cd3d7bdf71715f119f96f01aef3528c9317ee45a24e815",
+      "ui_approved": true,
+      "gameplay_approved": true,
+      "evidence": [
+        "reports/editorial-review.json",
+        "reports/editorial-word-changes.json",
+        "reports/rare-word-adjudication.json"
+      ],
+      "limits": "AI-assisted review, not human native certification; difficulty is editorial, and Portuguese vocabulary is shared across regional editions. Device and Amazon-delivered release checks remain separate gates."
+    },
+    "it": {
+      "reviewer": "Codex",
+      "review_kind": "ai_editorial_lexical",
+      "reviewed_on": "2026-10-18",
+      "native_human_certification": false,
+      "ui_source_sha256": "2003d8735aa47892f46afca254b65191e09508e724eba0102a677c0e7dcad2a9",
+      "messages_sha256": "49114824cdbec9ae54363276305da2988e94a9732c3770673caf980e99f985cc",
+      "gameplay_sha256": "83cf83ed570ee5cc3b9830f20f57ea2780ed6aae5c65c75c3a0e18faae7e8abc",
+      "voice_commands_sha256": "cedf8d2b2ff724c644cd3d7bdf71715f119f96f01aef3528c9317ee45a24e815",
+      "ui_approved": true,
+      "gameplay_approved": true,
+      "evidence": [
+        "reports/editorial-review.json",
+        "reports/editorial-word-changes.json",
+        "reports/rare-word-adjudication.json"
+      ],
+      "limits": "AI-assisted review, not human native certification; difficulty is editorial, and Portuguese vocabulary is shared across regional editions. Device and Amazon-delivered release checks remain separate gates."
+    },
+    "nl": {
+      "reviewer": "Codex",
+      "review_kind": "ai_editorial_lexical",
+      "reviewed_on": "2026-10-18",
+      "native_human_certification": false,
+      "ui_source_sha256": "2003d8735aa47892f46afca254b65191e09508e724eba0102a677c0e7dcad2a9",
+      "messages_sha256": "da1254d3266ef52dd9bc25b8589f1c960c9d9c413dd36580c5684d8c6fcd8dd3",
+      "gameplay_sha256": "83cf83ed570ee5cc3b9830f20f57ea2780ed6aae5c65c75c3a0e18faae7e8abc",
+      "voice_commands_sha256": "cedf8d2b2ff724c644cd3d7bdf71715f119f96f01aef3528c9317ee45a24e815",
+      "ui_approved": true,
+      "gameplay_approved": true,
+      "evidence": [
+        "reports/editorial-review.json",
+        "reports/editorial-word-changes.json",
+        "reports/rare-word-adjudication.json"
+      ],
+      "limits": "AI-assisted review, not human native certification; difficulty is editorial, and Portuguese vocabulary is shared across regional editions. Device and Amazon-delivered release checks remain separate gates."
+    },
+    "pl": {
+      "reviewer": "Codex",
+      "review_kind": "ai_editorial_lexical",
+      "reviewed_on": "2026-10-18",
+      "native_human_certification": false,
+      "ui_source_sha256": "2003d8735aa47892f46afca254b65191e09508e724eba0102a677c0e7dcad2a9",
+      "messages_sha256": "d4d5155d9de73b8c6f119c418dc172485b5503659825fd24053e468da16e6e14",
+      "gameplay_sha256": "83cf83ed570ee5cc3b9830f20f57ea2780ed6aae5c65c75c3a0e18faae7e8abc",
+      "voice_commands_sha256": "cedf8d2b2ff724c644cd3d7bdf71715f119f96f01aef3528c9317ee45a24e815",
+      "ui_approved": true,
+      "gameplay_approved": true,
+      "evidence": [
+        "reports/editorial-review.json",
+        "reports/editorial-word-changes.json",
+        "reports/rare-word-adjudication.json"
+      ],
+      "limits": "AI-assisted review, not human native certification; difficulty is editorial, and Portuguese vocabulary is shared across regional editions. Device and Amazon-delivered release checks remain separate gates."
+    },
+    "pt-BR": {
+      "reviewer": "Codex",
+      "review_kind": "ai_editorial_lexical",
+      "reviewed_on": "2026-10-18",
+      "native_human_certification": false,
+      "ui_source_sha256": "2003d8735aa47892f46afca254b65191e09508e724eba0102a677c0e7dcad2a9",
+      "messages_sha256": "1fe8e4f71537500a102bd46980741a68f15dbcfa28f045260913cabc3716c12d",
+      "gameplay_sha256": "83cf83ed570ee5cc3b9830f20f57ea2780ed6aae5c65c75c3a0e18faae7e8abc",
+      "voice_commands_sha256": "cedf8d2b2ff724c644cd3d7bdf71715f119f96f01aef3528c9317ee45a24e815",
+      "ui_approved": true,
+      "gameplay_approved": true,
+      "evidence": [
+        "reports/editorial-review.json",
+        "reports/editorial-word-changes.json",
+        "reports/rare-word-adjudication.json"
+      ],
+      "limits": "AI-assisted review, not human native certification; difficulty is editorial, and Portuguese vocabulary is shared across regional editions. Device and Amazon-delivered release checks remain separate gates."
+    },
+    "pt-PT": {
+      "reviewer": "Codex",
+      "review_kind": "ai_editorial_lexical",
+      "reviewed_on": "2026-10-18",
+      "native_human_certification": false,
+      "ui_source_sha256": "2003d8735aa47892f46afca254b65191e09508e724eba0102a677c0e7dcad2a9",
+      "messages_sha256": "b57a006e9de42f1ef384d73dab3cbb500daf467c9cec8ebeae6e65f28bac03bf",
+      "gameplay_sha256": "83cf83ed570ee5cc3b9830f20f57ea2780ed6aae5c65c75c3a0e18faae7e8abc",
+      "voice_commands_sha256": "cedf8d2b2ff724c644cd3d7bdf71715f119f96f01aef3528c9317ee45a24e815",
+      "ui_approved": true,
+      "gameplay_approved": true,
+      "evidence": [
+        "reports/editorial-review.json",
+        "reports/editorial-word-changes.json",
+        "reports/rare-word-adjudication.json"
+      ],
+      "limits": "AI-assisted review, not human native certification; difficulty is editorial, and Portuguese vocabulary is shared across regional editions. Device and Amazon-delivered release checks remain separate gates."
+    }
+  },
+  "instructions": "Named and dated linguistic reviews are bound to source, translation, vocabulary and command hashes. Record the actual method; AI review must not be described as human native certification. A separate lexical review was completed after provider generation in response to the publisher request. Re-review modified content before refreshing hashes."
 }

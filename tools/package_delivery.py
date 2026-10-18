@@ -65,6 +65,12 @@ def main():
     assert signed_debug.returncode == 0, 'Debug APK signature did not verify'
     (reports / 'debug-signature.txt').write_text(signed_debug.stdout + signed_debug.stderr, encoding='utf-8')
     signed_release = subprocess.run(signer + [str(release)], capture_output=True, text=True)
+    approvals=json.loads((ROOT/'localization/approvals.json').read_text(encoding='utf-8'))
+    for artifact in [debug,release]:
+        with zipfile.ZipFile(artifact) as archive:
+            for locale in approvals['required_for_release']:
+                contents=archive.read(f'assets/localization/{locale}.json')
+                assert hashlib.sha256(contents).hexdigest()==approvals['locales'][locale]['messages_sha256'],f'{artifact.name}: stale {locale} asset'
     with zipfile.ZipFile(release) as archive:
         dex = b''.join(archive.read(name) for name in archive.namelist() if name.endswith('.dex'))
         assert b'DevelopmentBilling' not in dex, 'Development purchase adapter leaked into release'
@@ -81,13 +87,13 @@ def main():
         'date': '2026-10-18', 'status': 'packaged candidate; multilingual release gates remain open',
         'production_source_sha256': production_source_hash(),
         'engine_junit': engine, 'billing_contract_junit': billing, 'localisation_tests_passed': python_count, 'visual_junit': visual,
-        'production_compose_renders': 20, 'watermarked_marketing_concepts': len(exports),
+        'historical_compose_renders': 20, 'watermarked_marketing_concepts': len(exports),
+        'visual_scope': 'Earlier off-device renders retained as historical evidence; current runtime layout evidence is in hash-bound tablet reports.',
         'lint': {'errors': 0, 'warnings': warnings}, 'compile_sdk': 36, 'target_sdk': 36, 'min_sdk': 26,
         'release_abis': abis, 'debug_signature_verified': True,
         'release_signed': signed_release.returncode == 0, 'development_billing_absent_from_release': True,
         'google_play_billing_absent_from_release': True,
-        'pending': ['native approval of generated interface translations and eight gameplay locale editions',
-                    'multilingual device/layout/input checks and matching listing assets',
+        'pending': ['matching multilingual console copy, listing assets and final candidate upload',
                     'final Amazon store-delivered release/purchase verification'],
     }
     for filename,key in [('LanguagePackTest','language_pack_junit'),('MessageTranslatorTest','message_translation_junit')]:
@@ -102,6 +108,19 @@ def main():
         device = json.loads(device_path.read_text(encoding='utf-8'))
         assert device['all_cases_passed'] and device['apk_sha256']==hashlib.sha256(debug.read_bytes()).hexdigest(), 'Current debug device matrix must pass'
         summary['physical_device_qa']=device
+    multilingual_path = reports/'localized-device-qa.json'
+    if multilingual_path.exists():
+        multilingual = json.loads(multilingual_path.read_text(encoding='utf-8'))
+        required = json.loads((ROOT/'store/publisher-decisions.json').read_text())['required_gameplay_locales']
+        assert multilingual['passed'] and set(required)<=set(multilingual['locales_passed'])
+        assert multilingual['apk_sha256']==hashlib.sha256(debug.read_bytes()).hexdigest()
+        summary['multilingual_device_qa']=multilingual
+    progress_path=reports/'locale-progress-qa.json'
+    if progress_path.exists():
+        progress=json.loads(progress_path.read_text(encoding='utf-8'))
+        assert progress['passed'] and len(progress['cases'])==3
+        assert progress['apk_sha256']==hashlib.sha256(debug.read_bytes()).hexdigest()
+        summary['locale_progress_qa']=progress
     listing_path = ROOT / 'store/premium-screenshots.json'
     if listing_path.exists():
         listing = json.loads(listing_path.read_text(encoding='utf-8'))
@@ -127,13 +146,17 @@ def main():
     report = ROOT / 'TEST_REPORT.md'
     text = report.read_text(encoding='utf-8').split('\n## Final package verification\n')[0]
     text = re.sub(r'Engine JUnit: \d+ tests passed', f"Engine JUnit: {engine['tests']} tests passed", text)
-    text += f"\n## Final package verification\n\nProduction API 36 debug, release and instrumentation APK builds and lint passed. Lint: 0 errors, {warnings} warnings (including dependency-version suggestions and intentionally unused preparation assets). Engine: {engine['tests']} passed; billing contract: {billing['tests']} passed; localisation: {python_count} passed; visual: {visual['tests']} passed with 20 renders. Debug signing verified. Release is {'signed' if summary['release_signed'] else 'unsigned; owner signing required'}. The development purchase adapter and Google Play Billing are absent from release DEX. A separate signed .dev APK with explicit simulated-purchase labels is provided for developer QA; its manifest, build flag and signature were verified without device execution.\n\nFast-swipe tracing now preserves the original down and interpolates crossed tiles; regression tests cover a fast segment, backtracking and a near miss. The Amazon SDK emits stack-map warnings under R8, so the final store-delivered purchase flow still needs App Tester/live verification.\n"
+    text += f"\n## Final package verification\n\nProduction API 36 debug, release and instrumentation APK builds and lint passed. Lint: 0 errors, {warnings} warnings (including dependency-version suggestions and intentionally unused preparation assets). Engine: {engine['tests']} passed; billing contract: {billing['tests']} passed; localisation: {python_count} passed; historical visual evidence: {visual['tests']} suites with 20 earlier renders (not rerun for this candidate). Debug signing verified. Release is {'signed' if summary['release_signed'] else 'unsigned; owner signing required'}. The development purchase adapter and Google Play Billing are absent from release DEX. A separate signed .dev APK with explicit simulated-purchase labels is provided for developer QA; its manifest, build flag and signature were verified without device execution.\n\nFast-swipe tracing now preserves the original down and interpolates crossed tiles; regression tests cover a fast segment, backtracking and a near miss. The Amazon SDK emits stack-map warnings under R8, so the final store-delivered purchase flow still needs Amazon-delivered live verification.\n"
     if 'store_image_render_tests' in summary:
-        text += '\nThree additional independent native Compose screen renders passed for the listing images. Their source pixels, export dimensions and hashes were checked. They are layoutlib renders, not physical-device captures or evidence of device runtime behavior.\n'
+        text += '\nThree earlier independent Compose screen renders passed for the listing images. Their export dimensions and hashes were checked. These historical layoutlib renders predate the final multilingual UI fixes and do not certify the current runtime layout.\n'
     if 'language_pack_junit' in summary:
-        text += f"\nAdditional engine checks: language packs {summary['language_pack_junit']['tests']} passed; message translation {summary['message_translation_junit']['tests']} passed. Draft language editions remain disabled pending native approval.\n"
+        text += f"\nAdditional engine checks: language packs {summary['language_pack_junit']['tests']} passed; message translation {summary['message_translation_junit']['tests']} passed. All ten locale editions are active after separate hash-bound AI editorial/lexical review, without claiming native human certification.\n"
     if 'physical_device_qa' in summary:
-        text += '\nSeven physical Fire device scenarios passed on the packaged normal debug APK: baseline gameplay/storage, recreation/hints/voice fallback, continuous touch swipes/backtracking, settings persistence, portrait, Wi-Fi disabled and large font. This is one Fire model and an unminified debug build; store-delivered release and multilingual runtime QA remain pending.\n'
+        text += '\nSeven physical Fire device scenarios passed on the packaged normal debug APK: baseline gameplay/storage, recreation/hints/voice fallback, continuous touch swipes/backtracking, settings persistence, portrait, Wi-Fi disabled and large font. This is one Fire model and an unminified debug build; Amazon-delivered release testing remains pending. Multilingual cases are recorded separately.\n'
+    if 'multilingual_device_qa' in summary:
+        text += '\nAll ten locale editions passed the normal-app portrait matrix at 150% system text plus in-app larger text. Locale selection, invalid/valid words, recreation, completion, garden, premium copy and advanced long/accented input were checked. Real screenshots were inspected separately; advanced puzzles use a test VM call and do not certify purchases.\n'
+    if 'locale_progress_qa' in summary:
+        text += '\nThree real-UI switching checks passed: English/German progress isolation, Brazil/Portugal progress isolation, and intentionally shared UK/US English progress.\n'
     text = text.replace('unsigned; owner signing required','unsigned; Amazon applies store signing')
     report.write_text(text, encoding='utf-8')
     dist = ROOT / 'dist'
@@ -141,12 +164,17 @@ def main():
     shutil.copy2(debug, dist / 'WordBloom-debug.apk')
     release_name = 'WordBloom-release.apk' if summary['release_signed'] else 'WordBloom-release-unsigned.apk'
     shutil.copy2(release, dist / release_name)
+    gate=subprocess.run([shutil.which('python'),str(ROOT/'tools/release_gate.py')],cwd=ROOT,text=True,capture_output=True)
+    assert gate.returncode in [0,1], 'Release gate could not execute'
+    gate_result=json.loads(gate.stdout)
+    assert json.loads((reports/'release-gate.json').read_text())==gate_result, 'Release gate evidence is stale'
+    assert gate_result['ready_to_submit']==(gate.returncode==0), 'Release gate result is inconsistent'
     source = dist / 'WordBloom-source.zip'
     roots = [ROOT / name for name in ['app/src', 'engine/src', 'assets', 'content', 'localization', 'store', 'tools', 'gradle', 'reports']]
     files = [file for folder in roots for file in folder.rglob('*') if file.is_file()
              and '__pycache__' not in file.parts and file.suffix != '.log']
     files += [file for file in ROOT.iterdir() if file.is_file() and
-              (file.suffix in ['.md', '.kts'] or file.name in ['.gitignore', 'gradle.properties', 'gradlew', 'gradlew.bat'])]
+              (file.suffix in ['.md', '.kts'] or file.name in ['.gitignore', '.gitattributes', 'gradle.properties', 'gradlew', 'gradlew.bat'])]
     files += [ROOT / 'app/build.gradle.kts', ROOT / 'app/proguard-rules.pro', ROOT / 'engine/build.gradle.kts']
     with zipfile.ZipFile(source, 'w', zipfile.ZIP_DEFLATED) as archive:
         for file in sorted(set(files)):

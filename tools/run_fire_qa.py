@@ -25,7 +25,7 @@ def main():
  original={name:adb('shell','settings','get',section,name).strip() for section,name in [('system','font_scale'),('system','accelerometer_rotation'),('system','user_rotation'),('global','wifi_on'),('global','stay_on_while_plugged_in')]}
  apk=ROOT/'app/build/outputs/apk/debug/app-debug.apk';test=ROOT/'app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk'
  for path in [apk,test]:assert 'Success' in adb('install','-r',str(path))
- summary=dict(date=args.date,device_model=adb('shell','getprop','ro.product.model').strip(),android_api=int(adb('shell','getprop','ro.build.version.sdk')),apk_sha256=hashlib.sha256(apk.read_bytes()).hexdigest(),build_type='normal Amazon debug adapter; no development billing',cases=[],scope='English device QA; translated language activation/review and store-delivered release testing remain pending')
+ summary=dict(date=args.date,device_model=adb('shell','getprop','ro.product.model').strip(),android_api=int(adb('shell','getprop','ro.build.version.sdk')),apk_sha256=hashlib.sha256(apk.read_bytes()).hexdigest(),build_type='normal Amazon debug adapter; no development billing',cases=[],scope='English device regression QA. Multilingual cases are recorded separately; Amazon-delivered release testing remains pending.')
  def run(name,method,flag=None):
   orientation='landscape' if 'landscape' in name else 'portrait'
   adb('shell','settings','put','system','accelerometer_rotation','0')

@@ -1,6 +1,6 @@
 {
   "provider": "DeepL",
-  "credential_present": true,
+  "credential_present": false,
   "languages": {
     "en-US": {
       "status": "pending_linguistic_review",
@@ -414,15 +414,7 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_34659fd61a72": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_541ce7fbc0c0": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_cef6600c14db": {
+        "msg_d7e8f5ebcdd1": {
           "length_ratio": 1.0,
           "review_required": true
         },
@@ -490,11 +482,11 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_0a29d0b91627": {
+        "msg_d4713d8915b8": {
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_f2a0e0bc4654": {
+        "msg_ca25e64817c4": {
           "length_ratio": 1.0,
           "review_required": true
         },
@@ -554,19 +546,11 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_4a70d8f4b647": {
+        "msg_a2ca7e03290f": {
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_b3140286ac71": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_5e7d9a0cc8b6": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_450f661967d8": {
+        "msg_e4fe7f7bd1f6": {
           "length_ratio": 1.0,
           "review_required": true
         },
@@ -586,11 +570,7 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_7066a711b3aa": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_5d4059022064": {
+        "msg_987e21cd5d8a": {
           "length_ratio": 1.0,
           "review_required": true
         },
@@ -598,7 +578,7 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_54a8c698907c": {
+        "msg_c4fc8fd71468": {
           "length_ratio": 1.0,
           "review_required": true
         },
@@ -662,7 +642,7 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_fa8fd1f427ce": {
+        "msg_fa51b9c92f37": {
           "length_ratio": 1.0,
           "review_required": true
         },
@@ -730,7 +710,7 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_aa7aa69fdfd9": {
+        "msg_1184863228f5": {
           "length_ratio": 1.0,
           "review_required": true
         },
@@ -1037,7 +1017,7 @@
           "review_required": true
         },
         "ui_011": {
-          "length_ratio": 1.09,
+          "length_ratio": 1.16,
           "review_required": true
         },
         "ui_012": {
@@ -1129,7 +1109,7 @@
           "review_required": true
         },
         "ui_034": {
-          "length_ratio": 1.67,
+          "length_ratio": 1.73,
           "review_required": true
         },
         "ui_035": {
@@ -1141,7 +1121,7 @@
           "review_required": true
         },
         "ui_037": {
-          "length_ratio": 1.26,
+          "length_ratio": 1.11,
           "review_required": true
         },
         "ui_038": {
@@ -1153,7 +1133,7 @@
           "review_required": true
         },
         "ui_040": {
-          "length_ratio": 1.45,
+          "length_ratio": 1.24,
           "review_required": true
         },
         "ui_041": {
@@ -1217,7 +1197,7 @@
           "review_required": true
         },
         "msg_0e816c8e17f7": {
-          "length_ratio": 1.07,
+          "length_ratio": 1.19,
           "review_required": true
         },
         "msg_5270c9ce647e": {
@@ -1309,7 +1289,7 @@
           "review_required": true
         },
         "msg_115ae40e6398": {
-          "length_ratio": 1.67,
+          "length_ratio": 1.73,
           "review_required": true
         },
         "msg_0f03ee3ee472": {
@@ -1321,7 +1301,7 @@
           "review_required": true
         },
         "msg_1527f526f087": {
-          "length_ratio": 1.26,
+          "length_ratio": 1.11,
           "review_required": true
         },
         "msg_e94253e91c49": {
@@ -1333,7 +1313,7 @@
           "review_required": true
         },
         "msg_ddc5cf266848": {
-          "length_ratio": 1.45,
+          "length_ratio": 1.24,
           "review_required": true
         },
         "msg_c37f87dfc774": {
@@ -1377,7 +1357,7 @@
           "review_required": true
         },
         "msg_f40e3104ad14": {
-          "length_ratio": 1.11,
+          "length_ratio": 1.05,
           "review_required": true
         },
         "msg_3a78695388b3": {
@@ -1404,16 +1384,8 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_34659fd61a72": {
-          "length_ratio": 0.8,
-          "review_required": true
-        },
-        "msg_541ce7fbc0c0": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_cef6600c14db": {
-          "length_ratio": 1.0,
+        "msg_d7e8f5ebcdd1": {
+          "length_ratio": 0.93,
           "review_required": true
         },
         "msg_5b0a9ac3693a": {
@@ -1421,7 +1393,7 @@
           "review_required": true
         },
         "msg_f1920b5855f9": {
-          "length_ratio": 1.36,
+          "length_ratio": 1.18,
           "review_required": true
         },
         "msg_a53cc0540e4f": {
@@ -1465,7 +1437,7 @@
           "review_required": true
         },
         "msg_ae511c4d36ce": {
-          "length_ratio": 1.59,
+          "length_ratio": 1.35,
           "review_required": true
         },
         "msg_8e3e629fe6f7": {
@@ -1480,12 +1452,12 @@
           "length_ratio": 1.55,
           "review_required": true
         },
-        "msg_0a29d0b91627": {
-          "length_ratio": 1.36,
+        "msg_d4713d8915b8": {
+          "length_ratio": 1.08,
           "review_required": true
         },
-        "msg_f2a0e0bc4654": {
-          "length_ratio": 1.3,
+        "msg_ca25e64817c4": {
+          "length_ratio": 1.32,
           "review_required": true
         },
         "msg_bfa637a72738": {
@@ -1544,20 +1516,12 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_4a70d8f4b647": {
-          "length_ratio": 1.07,
+        "msg_a2ca7e03290f": {
+          "length_ratio": 1.05,
           "review_required": true
         },
-        "msg_b3140286ac71": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_5e7d9a0cc8b6": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_450f661967d8": {
-          "length_ratio": 1.12,
+        "msg_e4fe7f7bd1f6": {
+          "length_ratio": 1.11,
           "review_required": true
         },
         "msg_0f02903bbf75": {
@@ -1576,20 +1540,16 @@
           "length_ratio": 1.8,
           "review_required": true
         },
-        "msg_7066a711b3aa": {
-          "length_ratio": 1.75,
-          "review_required": true
-        },
-        "msg_5d4059022064": {
-          "length_ratio": 1.45,
+        "msg_987e21cd5d8a": {
+          "length_ratio": 1.42,
           "review_required": true
         },
         "msg_e0fb55e50382": {
           "length_ratio": 0.86,
           "review_required": true
         },
-        "msg_54a8c698907c": {
-          "length_ratio": 1.26,
+        "msg_c4fc8fd71468": {
+          "length_ratio": 1.18,
           "review_required": true
         },
         "msg_eb91f332fc67": {
@@ -1652,8 +1612,8 @@
           "length_ratio": 1.3,
           "review_required": true
         },
-        "msg_fa8fd1f427ce": {
-          "length_ratio": 1.05,
+        "msg_fa51b9c92f37": {
+          "length_ratio": 0.95,
           "review_required": true
         },
         "msg_948430c6ab99": {
@@ -1720,8 +1680,8 @@
           "length_ratio": 1.1,
           "review_required": true
         },
-        "msg_aa7aa69fdfd9": {
-          "length_ratio": 1.25,
+        "msg_1184863228f5": {
+          "length_ratio": 1.07,
           "review_required": true
         },
         "msg_365762cb0e8c": {
@@ -1745,7 +1705,7 @@
           "review_required": true
         },
         "msg_dd6fc41d4f91": {
-          "length_ratio": 1.47,
+          "length_ratio": 1.48,
           "review_required": true
         },
         "msg_e0f155662c00": {
@@ -1765,7 +1725,7 @@
           "review_required": true
         },
         "msg_3d35cd1a63d2": {
-          "length_ratio": 1.06,
+          "length_ratio": 1.62,
           "review_required": true
         },
         "msg_98573700d8c5": {
@@ -1777,7 +1737,7 @@
           "review_required": true
         },
         "msg_76caa7b4f5a9": {
-          "length_ratio": 1.59,
+          "length_ratio": 1.24,
           "review_required": true
         },
         "msg_b8d39d362082": {
@@ -1857,7 +1817,7 @@
           "review_required": true
         },
         "msg_eae5735d7bfc": {
-          "length_ratio": 1.5,
+          "length_ratio": 1.36,
           "review_required": true
         },
         "msg_0727d340225f": {
@@ -1917,7 +1877,7 @@
           "review_required": true
         },
         "shot_01-gameplay_headline": {
-          "length_ratio": 1.42,
+          "length_ratio": 1.08,
           "review_required": true
         },
         "shot_01-gameplay_supporting": {
@@ -1925,7 +1885,7 @@
           "review_required": true
         },
         "shot_02-crossword_headline": {
-          "length_ratio": 1.0,
+          "length_ratio": 1.23,
           "review_required": true
         },
         "shot_02-crossword_supporting": {
@@ -2039,7 +1999,7 @@
           "review_required": true
         },
         "ui_014": {
-          "length_ratio": 1.81,
+          "length_ratio": 1.96,
           "review_required": true
         },
         "ui_015": {
@@ -2103,7 +2063,7 @@
           "review_required": true
         },
         "ui_030": {
-          "length_ratio": 1.62,
+          "length_ratio": 1.69,
           "review_required": true
         },
         "ui_031": {
@@ -2119,7 +2079,7 @@
           "review_required": true
         },
         "ui_034": {
-          "length_ratio": 1.53,
+          "length_ratio": 1.47,
           "review_required": true
         },
         "ui_035": {
@@ -2131,7 +2091,7 @@
           "review_required": true
         },
         "ui_037": {
-          "length_ratio": 1.43,
+          "length_ratio": 1.3,
           "review_required": true
         },
         "ui_038": {
@@ -2143,7 +2103,7 @@
           "review_required": true
         },
         "ui_040": {
-          "length_ratio": 1.33,
+          "length_ratio": 1.12,
           "review_required": true
         },
         "ui_041": {
@@ -2207,7 +2167,7 @@
           "review_required": true
         },
         "msg_0e816c8e17f7": {
-          "length_ratio": 1.21,
+          "length_ratio": 1.26,
           "review_required": true
         },
         "msg_5270c9ce647e": {
@@ -2219,7 +2179,7 @@
           "review_required": true
         },
         "msg_585047053aa9": {
-          "length_ratio": 1.81,
+          "length_ratio": 1.96,
           "review_required": true
         },
         "msg_543e87add437": {
@@ -2283,7 +2243,7 @@
           "review_required": true
         },
         "msg_54c98e740241": {
-          "length_ratio": 1.62,
+          "length_ratio": 1.69,
           "review_required": true
         },
         "msg_d77f771b332b": {
@@ -2299,7 +2259,7 @@
           "review_required": true
         },
         "msg_115ae40e6398": {
-          "length_ratio": 1.53,
+          "length_ratio": 1.47,
           "review_required": true
         },
         "msg_0f03ee3ee472": {
@@ -2311,7 +2271,7 @@
           "review_required": true
         },
         "msg_1527f526f087": {
-          "length_ratio": 1.43,
+          "length_ratio": 1.3,
           "review_required": true
         },
         "msg_e94253e91c49": {
@@ -2323,7 +2283,7 @@
           "review_required": true
         },
         "msg_ddc5cf266848": {
-          "length_ratio": 1.33,
+          "length_ratio": 1.12,
           "review_required": true
         },
         "msg_c37f87dfc774": {
@@ -2367,7 +2327,7 @@
           "review_required": true
         },
         "msg_f40e3104ad14": {
-          "length_ratio": 1.38,
+          "length_ratio": 1.34,
           "review_required": true
         },
         "msg_3a78695388b3": {
@@ -2394,15 +2354,7 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_34659fd61a72": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_541ce7fbc0c0": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_cef6600c14db": {
+        "msg_d7e8f5ebcdd1": {
           "length_ratio": 1.0,
           "review_required": true
         },
@@ -2470,11 +2422,11 @@
           "length_ratio": 1.35,
           "review_required": true
         },
-        "msg_0a29d0b91627": {
-          "length_ratio": 1.18,
+        "msg_d4713d8915b8": {
+          "length_ratio": 1.25,
           "review_required": true
         },
-        "msg_f2a0e0bc4654": {
+        "msg_ca25e64817c4": {
           "length_ratio": 1.07,
           "review_required": true
         },
@@ -2487,11 +2439,11 @@
           "review_required": true
         },
         "msg_c402502565e2": {
-          "length_ratio": 1.21,
+          "length_ratio": 1.5,
           "review_required": true
         },
         "msg_26658b593cc4": {
-          "length_ratio": 1.08,
+          "length_ratio": 1.62,
           "review_required": true
         },
         "msg_94fa9b236332": {
@@ -2534,20 +2486,12 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_4a70d8f4b647": {
-          "length_ratio": 0.93,
+        "msg_a2ca7e03290f": {
+          "length_ratio": 1.05,
           "review_required": true
         },
-        "msg_b3140286ac71": {
-          "length_ratio": 1.17,
-          "review_required": true
-        },
-        "msg_5e7d9a0cc8b6": {
-          "length_ratio": 1.14,
-          "review_required": true
-        },
-        "msg_450f661967d8": {
-          "length_ratio": 1.1,
+        "msg_e4fe7f7bd1f6": {
+          "length_ratio": 1.11,
           "review_required": true
         },
         "msg_0f02903bbf75": {
@@ -2563,23 +2507,19 @@
           "review_required": true
         },
         "msg_7812db0f028e": {
-          "length_ratio": 1.3,
+          "length_ratio": 1.6,
           "review_required": true
         },
-        "msg_7066a711b3aa": {
-          "length_ratio": 1.5,
-          "review_required": true
-        },
-        "msg_5d4059022064": {
-          "length_ratio": 1.36,
+        "msg_987e21cd5d8a": {
+          "length_ratio": 1.42,
           "review_required": true
         },
         "msg_e0fb55e50382": {
           "length_ratio": 1.09,
           "review_required": true
         },
-        "msg_54a8c698907c": {
-          "length_ratio": 1.03,
+        "msg_c4fc8fd71468": {
+          "length_ratio": 1.18,
           "review_required": true
         },
         "msg_eb91f332fc67": {
@@ -2642,8 +2582,8 @@
           "length_ratio": 1.3,
           "review_required": true
         },
-        "msg_fa8fd1f427ce": {
-          "length_ratio": 1.0,
+        "msg_fa51b9c92f37": {
+          "length_ratio": 1.05,
           "review_required": true
         },
         "msg_948430c6ab99": {
@@ -2659,7 +2599,7 @@
           "review_required": true
         },
         "msg_25f011b0f89b": {
-          "length_ratio": 1.85,
+          "length_ratio": 1.76,
           "review_required": true
         },
         "msg_e5441b0e72b0": {
@@ -2710,7 +2650,7 @@
           "length_ratio": 1.42,
           "review_required": true
         },
-        "msg_aa7aa69fdfd9": {
+        "msg_1184863228f5": {
           "length_ratio": 1.08,
           "review_required": true
         },
@@ -2735,7 +2675,7 @@
           "review_required": true
         },
         "msg_dd6fc41d4f91": {
-          "length_ratio": 1.38,
+          "length_ratio": 1.44,
           "review_required": true
         },
         "msg_e0f155662c00": {
@@ -2755,7 +2695,7 @@
           "review_required": true
         },
         "msg_3d35cd1a63d2": {
-          "length_ratio": 0.75,
+          "length_ratio": 1.34,
           "review_required": true
         },
         "msg_98573700d8c5": {
@@ -2767,7 +2707,7 @@
           "review_required": true
         },
         "msg_76caa7b4f5a9": {
-          "length_ratio": 1.41,
+          "length_ratio": 1.17,
           "review_required": true
         },
         "msg_b8d39d362082": {
@@ -2799,7 +2739,7 @@
           "review_required": true
         },
         "msg_61dbc5288edf": {
-          "length_ratio": 1.94,
+          "length_ratio": 1.88,
           "review_required": true
         },
         "msg_bbb4106e8144": {
@@ -2815,7 +2755,7 @@
           "review_required": true
         },
         "msg_22b8a1abd6e3": {
-          "length_ratio": 1.0,
+          "length_ratio": 1.25,
           "review_required": true
         },
         "msg_d4c13b10d7bc": {
@@ -2847,7 +2787,7 @@
           "review_required": true
         },
         "msg_eae5735d7bfc": {
-          "length_ratio": 1.29,
+          "length_ratio": 1.14,
           "review_required": true
         },
         "msg_0727d340225f": {
@@ -2903,11 +2843,11 @@
           "review_required": true
         },
         "store_listing": {
-          "length_ratio": 1.32,
+          "length_ratio": 1.33,
           "review_required": true
         },
         "shot_01-gameplay_headline": {
-          "length_ratio": 1.17,
+          "length_ratio": 0.83,
           "review_required": true
         },
         "shot_01-gameplay_supporting": {
@@ -2915,7 +2855,7 @@
           "review_required": true
         },
         "shot_02-crossword_headline": {
-          "length_ratio": 1.0,
+          "length_ratio": 1.07,
           "review_required": true
         },
         "shot_02-crossword_supporting": {
@@ -3017,7 +2957,7 @@
           "review_required": true
         },
         "ui_011": {
-          "length_ratio": 1.25,
+          "length_ratio": 1.34,
           "review_required": true
         },
         "ui_012": {
@@ -3061,7 +3001,7 @@
           "review_required": true
         },
         "ui_022": {
-          "length_ratio": 1.37,
+          "length_ratio": 1.21,
           "review_required": true
         },
         "ui_023": {
@@ -3101,7 +3041,7 @@
           "review_required": true
         },
         "ui_032": {
-          "length_ratio": 1.0,
+          "length_ratio": 0.84,
           "review_required": true
         },
         "ui_033": {
@@ -3121,7 +3061,7 @@
           "review_required": true
         },
         "ui_037": {
-          "length_ratio": 1.52,
+          "length_ratio": 1.29,
           "review_required": true
         },
         "ui_038": {
@@ -3133,7 +3073,7 @@
           "review_required": true
         },
         "ui_040": {
-          "length_ratio": 0.98,
+          "length_ratio": 1.05,
           "review_required": true
         },
         "ui_041": {
@@ -3197,7 +3137,7 @@
           "review_required": true
         },
         "msg_0e816c8e17f7": {
-          "length_ratio": 1.24,
+          "length_ratio": 1.38,
           "review_required": true
         },
         "msg_5270c9ce647e": {
@@ -3241,7 +3181,7 @@
           "review_required": true
         },
         "msg_40d70d845e1e": {
-          "length_ratio": 1.37,
+          "length_ratio": 1.21,
           "review_required": true
         },
         "msg_a8283ade3185": {
@@ -3281,7 +3221,7 @@
           "review_required": true
         },
         "msg_ca63776635cc": {
-          "length_ratio": 1.0,
+          "length_ratio": 0.84,
           "review_required": true
         },
         "msg_8e7dadacd7dc": {
@@ -3301,7 +3241,7 @@
           "review_required": true
         },
         "msg_1527f526f087": {
-          "length_ratio": 1.52,
+          "length_ratio": 1.29,
           "review_required": true
         },
         "msg_e94253e91c49": {
@@ -3313,7 +3253,7 @@
           "review_required": true
         },
         "msg_ddc5cf266848": {
-          "length_ratio": 0.98,
+          "length_ratio": 1.05,
           "review_required": true
         },
         "msg_c37f87dfc774": {
@@ -3337,7 +3277,7 @@
           "review_required": true
         },
         "msg_f97070a26e44": {
-          "length_ratio": 1.28,
+          "length_ratio": 1.42,
           "review_required": true
         },
         "msg_c394f19c3571": {
@@ -3357,7 +3297,7 @@
           "review_required": true
         },
         "msg_f40e3104ad14": {
-          "length_ratio": 1.48,
+          "length_ratio": 1.27,
           "review_required": true
         },
         "msg_3a78695388b3": {
@@ -3377,23 +3317,15 @@
           "review_required": true
         },
         "msg_f3ed8d8349ee": {
-          "length_ratio": 1.24,
+          "length_ratio": 1.05,
           "review_required": true
         },
         "msg_98fa1a68fbba": {
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_34659fd61a72": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_541ce7fbc0c0": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_cef6600c14db": {
-          "length_ratio": 1.0,
+        "msg_d7e8f5ebcdd1": {
+          "length_ratio": 0.93,
           "review_required": true
         },
         "msg_5b0a9ac3693a": {
@@ -3457,15 +3389,15 @@
           "review_required": true
         },
         "msg_5fa29c1802c5": {
+          "length_ratio": 1.3,
+          "review_required": true
+        },
+        "msg_d4713d8915b8": {
           "length_ratio": 1.25,
           "review_required": true
         },
-        "msg_0a29d0b91627": {
-          "length_ratio": 1.27,
-          "review_required": true
-        },
-        "msg_f2a0e0bc4654": {
-          "length_ratio": 1.27,
+        "msg_ca25e64817c4": {
+          "length_ratio": 1.18,
           "review_required": true
         },
         "msg_bfa637a72738": {
@@ -3524,20 +3456,12 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_4a70d8f4b647": {
-          "length_ratio": 1.13,
+        "msg_a2ca7e03290f": {
+          "length_ratio": 1.1,
           "review_required": true
         },
-        "msg_b3140286ac71": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_5e7d9a0cc8b6": {
-          "length_ratio": 1.14,
-          "review_required": true
-        },
-        "msg_450f661967d8": {
-          "length_ratio": 1.31,
+        "msg_e4fe7f7bd1f6": {
+          "length_ratio": 1.09,
           "review_required": true
         },
         "msg_0f02903bbf75": {
@@ -3556,20 +3480,16 @@
           "length_ratio": 1.1,
           "review_required": true
         },
-        "msg_7066a711b3aa": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_5d4059022064": {
-          "length_ratio": 0.91,
+        "msg_987e21cd5d8a": {
+          "length_ratio": 0.92,
           "review_required": true
         },
         "msg_e0fb55e50382": {
           "length_ratio": 0.95,
           "review_required": true
         },
-        "msg_54a8c698907c": {
-          "length_ratio": 1.08,
+        "msg_c4fc8fd71468": {
+          "length_ratio": 1.05,
           "review_required": true
         },
         "msg_eb91f332fc67": {
@@ -3577,7 +3497,7 @@
           "review_required": true
         },
         "msg_fd2cd7f8ee6a": {
-          "length_ratio": 1.48,
+          "length_ratio": 1.18,
           "review_required": true
         },
         "msg_d096df9edd58": {
@@ -3609,7 +3529,7 @@
           "review_required": true
         },
         "msg_55c401c4d28a": {
-          "length_ratio": 1.35,
+          "length_ratio": 1.18,
           "review_required": true
         },
         "msg_2f84421d8ebb": {
@@ -3632,8 +3552,8 @@
           "length_ratio": 1.26,
           "review_required": true
         },
-        "msg_fa8fd1f427ce": {
-          "length_ratio": 1.05,
+        "msg_fa51b9c92f37": {
+          "length_ratio": 0.95,
           "review_required": true
         },
         "msg_948430c6ab99": {
@@ -3649,7 +3569,7 @@
           "review_required": true
         },
         "msg_25f011b0f89b": {
-          "length_ratio": 1.44,
+          "length_ratio": 1.34,
           "review_required": true
         },
         "msg_e5441b0e72b0": {
@@ -3700,8 +3620,8 @@
           "length_ratio": 1.29,
           "review_required": true
         },
-        "msg_aa7aa69fdfd9": {
-          "length_ratio": 0.96,
+        "msg_1184863228f5": {
+          "length_ratio": 1.0,
           "review_required": true
         },
         "msg_365762cb0e8c": {
@@ -3725,7 +3645,7 @@
           "review_required": true
         },
         "msg_dd6fc41d4f91": {
-          "length_ratio": 1.48,
+          "length_ratio": 1.45,
           "review_required": true
         },
         "msg_e0f155662c00": {
@@ -3745,11 +3665,11 @@
           "review_required": true
         },
         "msg_3d35cd1a63d2": {
-          "length_ratio": 1.03,
+          "length_ratio": 1.38,
           "review_required": true
         },
         "msg_98573700d8c5": {
-          "length_ratio": 1.67,
+          "length_ratio": 1.54,
           "review_required": true
         },
         "msg_55d75478eec0": {
@@ -3781,7 +3701,7 @@
           "review_required": true
         },
         "msg_2d400ffa6a48": {
-          "length_ratio": 1.23,
+          "length_ratio": 1.21,
           "review_required": true
         },
         "msg_69de651d5d29": {
@@ -3821,7 +3741,7 @@
           "review_required": true
         },
         "msg_c2fb18dbb1e7": {
-          "length_ratio": 1.84,
+          "length_ratio": 1.65,
           "review_required": true
         },
         "msg_a3dd64d17497": {
@@ -3893,7 +3813,7 @@
           "review_required": true
         },
         "store_listing": {
-          "length_ratio": 1.3,
+          "length_ratio": 1.28,
           "review_required": true
         },
         "shot_01-gameplay_headline": {
@@ -3905,7 +3825,7 @@
           "review_required": true
         },
         "shot_02-crossword_headline": {
-          "length_ratio": 1.47,
+          "length_ratio": 1.53,
           "review_required": true
         },
         "shot_02-crossword_supporting": {
@@ -3925,7 +3845,7 @@
           "review_required": true
         },
         "shot_04-garden_supporting": {
-          "length_ratio": 1.47,
+          "length_ratio": 1.29,
           "review_required": true
         },
         "shot_05-difficulty_headline": {
@@ -4007,7 +3927,7 @@
           "review_required": true
         },
         "ui_011": {
-          "length_ratio": 1.18,
+          "length_ratio": 1.23,
           "review_required": true
         },
         "ui_012": {
@@ -4051,7 +3971,7 @@
           "review_required": true
         },
         "ui_022": {
-          "length_ratio": 1.47,
+          "length_ratio": 1.48,
           "review_required": true
         },
         "ui_023": {
@@ -4099,7 +4019,7 @@
           "review_required": true
         },
         "ui_034": {
-          "length_ratio": 1.4,
+          "length_ratio": 1.33,
           "review_required": true
         },
         "ui_035": {
@@ -4123,7 +4043,7 @@
           "review_required": true
         },
         "ui_040": {
-          "length_ratio": 0.98,
+          "length_ratio": 1.14,
           "review_required": true
         },
         "ui_041": {
@@ -4187,7 +4107,7 @@
           "review_required": true
         },
         "msg_0e816c8e17f7": {
-          "length_ratio": 1.17,
+          "length_ratio": 1.26,
           "review_required": true
         },
         "msg_5270c9ce647e": {
@@ -4231,7 +4151,7 @@
           "review_required": true
         },
         "msg_40d70d845e1e": {
-          "length_ratio": 1.47,
+          "length_ratio": 1.48,
           "review_required": true
         },
         "msg_a8283ade3185": {
@@ -4279,7 +4199,7 @@
           "review_required": true
         },
         "msg_115ae40e6398": {
-          "length_ratio": 1.4,
+          "length_ratio": 1.33,
           "review_required": true
         },
         "msg_0f03ee3ee472": {
@@ -4303,7 +4223,7 @@
           "review_required": true
         },
         "msg_ddc5cf266848": {
-          "length_ratio": 0.98,
+          "length_ratio": 1.14,
           "review_required": true
         },
         "msg_c37f87dfc774": {
@@ -4347,11 +4267,11 @@
           "review_required": true
         },
         "msg_f40e3104ad14": {
-          "length_ratio": 1.48,
+          "length_ratio": 1.43,
           "review_required": true
         },
         "msg_3a78695388b3": {
-          "length_ratio": 1.0,
+          "length_ratio": 3.75,
           "review_required": true
         },
         "msg_13d83dbb23fb": {
@@ -4374,16 +4294,8 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_34659fd61a72": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_541ce7fbc0c0": {
-          "length_ratio": 0.83,
-          "review_required": true
-        },
-        "msg_cef6600c14db": {
-          "length_ratio": 1.0,
+        "msg_d7e8f5ebcdd1": {
+          "length_ratio": 0.87,
           "review_required": true
         },
         "msg_5b0a9ac3693a": {
@@ -4450,12 +4362,12 @@
           "length_ratio": 1.65,
           "review_required": true
         },
-        "msg_0a29d0b91627": {
-          "length_ratio": 2.0,
+        "msg_d4713d8915b8": {
+          "length_ratio": 1.58,
           "review_required": true
         },
-        "msg_f2a0e0bc4654": {
-          "length_ratio": 1.1,
+        "msg_ca25e64817c4": {
+          "length_ratio": 1.11,
           "review_required": true
         },
         "msg_bfa637a72738": {
@@ -4514,20 +4426,12 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_4a70d8f4b647": {
-          "length_ratio": 1.07,
+        "msg_a2ca7e03290f": {
+          "length_ratio": 0.95,
           "review_required": true
         },
-        "msg_b3140286ac71": {
-          "length_ratio": 0.67,
-          "review_required": true
-        },
-        "msg_5e7d9a0cc8b6": {
-          "length_ratio": 0.71,
-          "review_required": true
-        },
-        "msg_450f661967d8": {
-          "length_ratio": 1.21,
+        "msg_e4fe7f7bd1f6": {
+          "length_ratio": 1.14,
           "review_required": true
         },
         "msg_0f02903bbf75": {
@@ -4543,23 +4447,19 @@
           "review_required": true
         },
         "msg_7812db0f028e": {
-          "length_ratio": 1.4,
+          "length_ratio": 1.5,
           "review_required": true
         },
-        "msg_7066a711b3aa": {
-          "length_ratio": 1.38,
-          "review_required": true
-        },
-        "msg_5d4059022064": {
-          "length_ratio": 0.91,
+        "msg_987e21cd5d8a": {
+          "length_ratio": 1.17,
           "review_required": true
         },
         "msg_e0fb55e50382": {
           "length_ratio": 1.09,
           "review_required": true
         },
-        "msg_54a8c698907c": {
-          "length_ratio": 1.03,
+        "msg_c4fc8fd71468": {
+          "length_ratio": 1.14,
           "review_required": true
         },
         "msg_eb91f332fc67": {
@@ -4622,8 +4522,8 @@
           "length_ratio": 1.43,
           "review_required": true
         },
-        "msg_fa8fd1f427ce": {
-          "length_ratio": 0.95,
+        "msg_fa51b9c92f37": {
+          "length_ratio": 1.0,
           "review_required": true
         },
         "msg_948430c6ab99": {
@@ -4639,7 +4539,7 @@
           "review_required": true
         },
         "msg_25f011b0f89b": {
-          "length_ratio": 1.15,
+          "length_ratio": 1.07,
           "review_required": true
         },
         "msg_e5441b0e72b0": {
@@ -4690,8 +4590,8 @@
           "length_ratio": 1.16,
           "review_required": true
         },
-        "msg_aa7aa69fdfd9": {
-          "length_ratio": 1.33,
+        "msg_1184863228f5": {
+          "length_ratio": 1.27,
           "review_required": true
         },
         "msg_365762cb0e8c": {
@@ -4715,7 +4615,7 @@
           "review_required": true
         },
         "msg_dd6fc41d4f91": {
-          "length_ratio": 1.28,
+          "length_ratio": 1.53,
           "review_required": true
         },
         "msg_e0f155662c00": {
@@ -4735,7 +4635,7 @@
           "review_required": true
         },
         "msg_3d35cd1a63d2": {
-          "length_ratio": 0.91,
+          "length_ratio": 1.56,
           "review_required": true
         },
         "msg_98573700d8c5": {
@@ -4747,7 +4647,7 @@
           "review_required": true
         },
         "msg_76caa7b4f5a9": {
-          "length_ratio": 1.43,
+          "length_ratio": 1.35,
           "review_required": true
         },
         "msg_b8d39d362082": {
@@ -4779,7 +4679,7 @@
           "review_required": true
         },
         "msg_61dbc5288edf": {
-          "length_ratio": 1.15,
+          "length_ratio": 1.39,
           "review_required": true
         },
         "msg_bbb4106e8144": {
@@ -4795,7 +4695,7 @@
           "review_required": true
         },
         "msg_22b8a1abd6e3": {
-          "length_ratio": 1.0,
+          "length_ratio": 1.25,
           "review_required": true
         },
         "msg_d4c13b10d7bc": {
@@ -4827,7 +4727,7 @@
           "review_required": true
         },
         "msg_eae5735d7bfc": {
-          "length_ratio": 1.21,
+          "length_ratio": 1.07,
           "review_required": true
         },
         "msg_0727d340225f": {
@@ -4887,7 +4787,7 @@
           "review_required": true
         },
         "shot_01-gameplay_headline": {
-          "length_ratio": 1.25,
+          "length_ratio": 1.17,
           "review_required": true
         },
         "shot_01-gameplay_supporting": {
@@ -4895,7 +4795,7 @@
           "review_required": true
         },
         "shot_02-crossword_headline": {
-          "length_ratio": 1.0,
+          "length_ratio": 1.2,
           "review_required": true
         },
         "shot_02-crossword_supporting": {
@@ -4997,7 +4897,7 @@
           "review_required": true
         },
         "ui_011": {
-          "length_ratio": 1.66,
+          "length_ratio": 1.45,
           "review_required": true
         },
         "ui_012": {
@@ -5089,7 +4989,7 @@
           "review_required": true
         },
         "ui_034": {
-          "length_ratio": 1.87,
+          "length_ratio": 1.67,
           "review_required": true
         },
         "ui_035": {
@@ -5101,7 +5001,7 @@
           "review_required": true
         },
         "ui_037": {
-          "length_ratio": 1.3,
+          "length_ratio": 1.21,
           "review_required": true
         },
         "ui_038": {
@@ -5113,7 +5013,7 @@
           "review_required": true
         },
         "ui_040": {
-          "length_ratio": 1.57,
+          "length_ratio": 1.14,
           "review_required": true
         },
         "ui_041": {
@@ -5177,7 +5077,7 @@
           "review_required": true
         },
         "msg_0e816c8e17f7": {
-          "length_ratio": 1.69,
+          "length_ratio": 1.5,
           "review_required": true
         },
         "msg_5270c9ce647e": {
@@ -5269,7 +5169,7 @@
           "review_required": true
         },
         "msg_115ae40e6398": {
-          "length_ratio": 1.87,
+          "length_ratio": 1.67,
           "review_required": true
         },
         "msg_0f03ee3ee472": {
@@ -5281,7 +5181,7 @@
           "review_required": true
         },
         "msg_1527f526f087": {
-          "length_ratio": 1.3,
+          "length_ratio": 1.21,
           "review_required": true
         },
         "msg_e94253e91c49": {
@@ -5293,7 +5193,7 @@
           "review_required": true
         },
         "msg_ddc5cf266848": {
-          "length_ratio": 1.57,
+          "length_ratio": 1.14,
           "review_required": true
         },
         "msg_c37f87dfc774": {
@@ -5337,7 +5237,7 @@
           "review_required": true
         },
         "msg_f40e3104ad14": {
-          "length_ratio": 1.12,
+          "length_ratio": 1.25,
           "review_required": true
         },
         "msg_3a78695388b3": {
@@ -5349,7 +5249,7 @@
           "review_required": true
         },
         "msg_03a0fc5cff6f": {
-          "length_ratio": 1.53,
+          "length_ratio": 1.6,
           "review_required": true
         },
         "msg_c808f9810a87": {
@@ -5364,20 +5264,12 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_34659fd61a72": {
-          "length_ratio": 0.8,
-          "review_required": true
-        },
-        "msg_541ce7fbc0c0": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_cef6600c14db": {
-          "length_ratio": 1.0,
+        "msg_d7e8f5ebcdd1": {
+          "length_ratio": 0.93,
           "review_required": true
         },
         "msg_5b0a9ac3693a": {
-          "length_ratio": 1.28,
+          "length_ratio": 0.97,
           "review_required": true
         },
         "msg_f1920b5855f9": {
@@ -5440,12 +5332,12 @@
           "length_ratio": 1.65,
           "review_required": true
         },
-        "msg_0a29d0b91627": {
+        "msg_d4713d8915b8": {
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_f2a0e0bc4654": {
-          "length_ratio": 1.3,
+        "msg_ca25e64817c4": {
+          "length_ratio": 1.32,
           "review_required": true
         },
         "msg_bfa637a72738": {
@@ -5504,20 +5396,12 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_4a70d8f4b647": {
-          "length_ratio": 1.07,
+        "msg_a2ca7e03290f": {
+          "length_ratio": 1.05,
           "review_required": true
         },
-        "msg_b3140286ac71": {
-          "length_ratio": 1.33,
-          "review_required": true
-        },
-        "msg_5e7d9a0cc8b6": {
-          "length_ratio": 0.71,
-          "review_required": true
-        },
-        "msg_450f661967d8": {
-          "length_ratio": 1.12,
+        "msg_e4fe7f7bd1f6": {
+          "length_ratio": 1.14,
           "review_required": true
         },
         "msg_0f02903bbf75": {
@@ -5536,20 +5420,16 @@
           "length_ratio": 1.7,
           "review_required": true
         },
-        "msg_7066a711b3aa": {
-          "length_ratio": 1.88,
-          "review_required": true
-        },
-        "msg_5d4059022064": {
-          "length_ratio": 1.64,
+        "msg_987e21cd5d8a": {
+          "length_ratio": 1.58,
           "review_required": true
         },
         "msg_e0fb55e50382": {
           "length_ratio": 0.95,
           "review_required": true
         },
-        "msg_54a8c698907c": {
-          "length_ratio": 1.15,
+        "msg_c4fc8fd71468": {
+          "length_ratio": 1.23,
           "review_required": true
         },
         "msg_eb91f332fc67": {
@@ -5612,8 +5492,8 @@
           "length_ratio": 1.13,
           "review_required": true
         },
-        "msg_fa8fd1f427ce": {
-          "length_ratio": 1.11,
+        "msg_fa51b9c92f37": {
+          "length_ratio": 0.93,
           "review_required": true
         },
         "msg_948430c6ab99": {
@@ -5629,7 +5509,7 @@
           "review_required": true
         },
         "msg_25f011b0f89b": {
-          "length_ratio": 1.32,
+          "length_ratio": 1.24,
           "review_required": true
         },
         "msg_e5441b0e72b0": {
@@ -5680,8 +5560,8 @@
           "length_ratio": 1.13,
           "review_required": true
         },
-        "msg_aa7aa69fdfd9": {
-          "length_ratio": 1.22,
+        "msg_1184863228f5": {
+          "length_ratio": 1.19,
           "review_required": true
         },
         "msg_365762cb0e8c": {
@@ -5705,7 +5585,7 @@
           "review_required": true
         },
         "msg_dd6fc41d4f91": {
-          "length_ratio": 1.22,
+          "length_ratio": 1.41,
           "review_required": true
         },
         "msg_e0f155662c00": {
@@ -5725,7 +5605,7 @@
           "review_required": true
         },
         "msg_3d35cd1a63d2": {
-          "length_ratio": 0.81,
+          "length_ratio": 1.47,
           "review_required": true
         },
         "msg_98573700d8c5": {
@@ -5737,7 +5617,7 @@
           "review_required": true
         },
         "msg_76caa7b4f5a9": {
-          "length_ratio": 1.54,
+          "length_ratio": 1.26,
           "review_required": true
         },
         "msg_b8d39d362082": {
@@ -5877,7 +5757,7 @@
           "review_required": true
         },
         "shot_01-gameplay_headline": {
-          "length_ratio": 1.46,
+          "length_ratio": 1.04,
           "review_required": true
         },
         "shot_01-gameplay_supporting": {
@@ -5885,7 +5765,7 @@
           "review_required": true
         },
         "shot_02-crossword_headline": {
-          "length_ratio": 1.57,
+          "length_ratio": 1.4,
           "review_required": true
         },
         "shot_02-crossword_supporting": {
@@ -5987,15 +5867,15 @@
           "review_required": true
         },
         "ui_011": {
-          "length_ratio": 1.48,
+          "length_ratio": 1.45,
           "review_required": true
         },
         "ui_012": {
-          "length_ratio": 1.04,
+          "length_ratio": 1.27,
           "review_required": true
         },
         "ui_013": {
-          "length_ratio": 1.16,
+          "length_ratio": 1.32,
           "review_required": true
         },
         "ui_014": {
@@ -6019,7 +5899,7 @@
           "review_required": true
         },
         "ui_019": {
-          "length_ratio": 1.64,
+          "length_ratio": 1.73,
           "review_required": true
         },
         "ui_020": {
@@ -6031,7 +5911,7 @@
           "review_required": true
         },
         "ui_022": {
-          "length_ratio": 1.2,
+          "length_ratio": 1.33,
           "review_required": true
         },
         "ui_023": {
@@ -6079,11 +5959,11 @@
           "review_required": true
         },
         "ui_034": {
-          "length_ratio": 1.87,
+          "length_ratio": 1.2,
           "review_required": true
         },
         "ui_035": {
-          "length_ratio": 1.47,
+          "length_ratio": 1.25,
           "review_required": true
         },
         "ui_036": {
@@ -6091,7 +5971,7 @@
           "review_required": true
         },
         "ui_037": {
-          "length_ratio": 1.32,
+          "length_ratio": 1.21,
           "review_required": true
         },
         "ui_038": {
@@ -6103,7 +5983,7 @@
           "review_required": true
         },
         "ui_040": {
-          "length_ratio": 1.31,
+          "length_ratio": 0.98,
           "review_required": true
         },
         "ui_041": {
@@ -6123,7 +6003,7 @@
           "review_required": true
         },
         "ui_045": {
-          "length_ratio": 1.33,
+          "length_ratio": 1.17,
           "review_required": true
         },
         "msg_bf774f712a26": {
@@ -6167,15 +6047,15 @@
           "review_required": true
         },
         "msg_0e816c8e17f7": {
-          "length_ratio": 1.29,
+          "length_ratio": 1.5,
           "review_required": true
         },
         "msg_5270c9ce647e": {
-          "length_ratio": 1.04,
+          "length_ratio": 1.27,
           "review_required": true
         },
         "msg_14922158bcf1": {
-          "length_ratio": 1.16,
+          "length_ratio": 1.32,
           "review_required": true
         },
         "msg_585047053aa9": {
@@ -6199,7 +6079,7 @@
           "review_required": true
         },
         "msg_52cd4eeba682": {
-          "length_ratio": 1.64,
+          "length_ratio": 1.73,
           "review_required": true
         },
         "msg_9d60841e0a78": {
@@ -6211,7 +6091,7 @@
           "review_required": true
         },
         "msg_40d70d845e1e": {
-          "length_ratio": 1.2,
+          "length_ratio": 1.33,
           "review_required": true
         },
         "msg_a8283ade3185": {
@@ -6259,11 +6139,11 @@
           "review_required": true
         },
         "msg_115ae40e6398": {
-          "length_ratio": 1.87,
+          "length_ratio": 1.2,
           "review_required": true
         },
         "msg_0f03ee3ee472": {
-          "length_ratio": 1.47,
+          "length_ratio": 1.25,
           "review_required": true
         },
         "msg_a42a47844fb4": {
@@ -6271,7 +6151,7 @@
           "review_required": true
         },
         "msg_1527f526f087": {
-          "length_ratio": 1.32,
+          "length_ratio": 1.21,
           "review_required": true
         },
         "msg_e94253e91c49": {
@@ -6283,7 +6163,7 @@
           "review_required": true
         },
         "msg_ddc5cf266848": {
-          "length_ratio": 1.31,
+          "length_ratio": 0.98,
           "review_required": true
         },
         "msg_c37f87dfc774": {
@@ -6303,11 +6183,11 @@
           "review_required": true
         },
         "msg_d6173ae6d107": {
-          "length_ratio": 1.33,
+          "length_ratio": 1.17,
           "review_required": true
         },
         "msg_f97070a26e44": {
-          "length_ratio": 1.19,
+          "length_ratio": 1.18,
           "review_required": true
         },
         "msg_c394f19c3571": {
@@ -6327,7 +6207,7 @@
           "review_required": true
         },
         "msg_f40e3104ad14": {
-          "length_ratio": 1.23,
+          "length_ratio": 1.2,
           "review_required": true
         },
         "msg_3a78695388b3": {
@@ -6354,16 +6234,8 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_34659fd61a72": {
-          "length_ratio": 0.8,
-          "review_required": true
-        },
-        "msg_541ce7fbc0c0": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_cef6600c14db": {
-          "length_ratio": 1.0,
+        "msg_d7e8f5ebcdd1": {
+          "length_ratio": 0.93,
           "review_required": true
         },
         "msg_5b0a9ac3693a": {
@@ -6379,7 +6251,7 @@
           "review_required": true
         },
         "msg_96a5eb446ace": {
-          "length_ratio": 1.0,
+          "length_ratio": 0.92,
           "review_required": true
         },
         "msg_27f702d2e3b2": {
@@ -6403,7 +6275,7 @@
           "review_required": true
         },
         "msg_fee5f92e34a8": {
-          "length_ratio": 1.17,
+          "length_ratio": 1.09,
           "review_required": true
         },
         "msg_ad507c3c8a12": {
@@ -6430,12 +6302,12 @@
           "length_ratio": 1.8,
           "review_required": true
         },
-        "msg_0a29d0b91627": {
+        "msg_d4713d8915b8": {
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_f2a0e0bc4654": {
-          "length_ratio": 1.3,
+        "msg_ca25e64817c4": {
+          "length_ratio": 1.32,
           "review_required": true
         },
         "msg_bfa637a72738": {
@@ -6479,7 +6351,7 @@
           "review_required": true
         },
         "msg_7cbfbbc8dca3": {
-          "length_ratio": 0.79,
+          "length_ratio": 0.74,
           "review_required": true
         },
         "msg_b60f78f09280": {
@@ -6494,20 +6366,12 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_4a70d8f4b647": {
-          "length_ratio": 1.07,
+        "msg_a2ca7e03290f": {
+          "length_ratio": 1.05,
           "review_required": true
         },
-        "msg_b3140286ac71": {
-          "length_ratio": 0.67,
-          "review_required": true
-        },
-        "msg_5e7d9a0cc8b6": {
-          "length_ratio": 0.71,
-          "review_required": true
-        },
-        "msg_450f661967d8": {
-          "length_ratio": 1.1,
+        "msg_e4fe7f7bd1f6": {
+          "length_ratio": 1.14,
           "review_required": true
         },
         "msg_0f02903bbf75": {
@@ -6526,20 +6390,16 @@
           "length_ratio": 1.7,
           "review_required": true
         },
-        "msg_7066a711b3aa": {
-          "length_ratio": 2.0,
-          "review_required": true
-        },
-        "msg_5d4059022064": {
-          "length_ratio": 1.64,
+        "msg_987e21cd5d8a": {
+          "length_ratio": 1.0,
           "review_required": true
         },
         "msg_e0fb55e50382": {
           "length_ratio": 1.05,
           "review_required": true
         },
-        "msg_54a8c698907c": {
-          "length_ratio": 1.05,
+        "msg_c4fc8fd71468": {
+          "length_ratio": 1.11,
           "review_required": true
         },
         "msg_eb91f332fc67": {
@@ -6579,7 +6439,7 @@
           "review_required": true
         },
         "msg_55c401c4d28a": {
-          "length_ratio": 1.33,
+          "length_ratio": 1.15,
           "review_required": true
         },
         "msg_2f84421d8ebb": {
@@ -6602,8 +6462,8 @@
           "length_ratio": 1.13,
           "review_required": true
         },
-        "msg_fa8fd1f427ce": {
-          "length_ratio": 1.03,
+        "msg_fa51b9c92f37": {
+          "length_ratio": 0.93,
           "review_required": true
         },
         "msg_948430c6ab99": {
@@ -6619,7 +6479,7 @@
           "review_required": true
         },
         "msg_25f011b0f89b": {
-          "length_ratio": 1.49,
+          "length_ratio": 1.39,
           "review_required": true
         },
         "msg_e5441b0e72b0": {
@@ -6627,7 +6487,7 @@
           "review_required": true
         },
         "msg_121aae1170ab": {
-          "length_ratio": 1.19,
+          "length_ratio": 1.06,
           "review_required": true
         },
         "msg_4c3883effb17": {
@@ -6655,7 +6515,7 @@
           "review_required": true
         },
         "msg_09932cd896a0": {
-          "length_ratio": 1.15,
+          "length_ratio": 1.09,
           "review_required": true
         },
         "msg_be3c173b7f18": {
@@ -6670,12 +6530,12 @@
           "length_ratio": 1.13,
           "review_required": true
         },
-        "msg_aa7aa69fdfd9": {
-          "length_ratio": 1.29,
+        "msg_1184863228f5": {
+          "length_ratio": 1.1,
           "review_required": true
         },
         "msg_365762cb0e8c": {
-          "length_ratio": 1.41,
+          "length_ratio": 1.17,
           "review_required": true
         },
         "msg_5d7d60ebbf9d": {
@@ -6695,7 +6555,7 @@
           "review_required": true
         },
         "msg_dd6fc41d4f91": {
-          "length_ratio": 1.44,
+          "length_ratio": 1.39,
           "review_required": true
         },
         "msg_e0f155662c00": {
@@ -6715,11 +6575,11 @@
           "review_required": true
         },
         "msg_3d35cd1a63d2": {
-          "length_ratio": 0.84,
+          "length_ratio": 1.47,
           "review_required": true
         },
         "msg_98573700d8c5": {
-          "length_ratio": 1.43,
+          "length_ratio": 1.24,
           "review_required": true
         },
         "msg_55d75478eec0": {
@@ -6727,11 +6587,11 @@
           "review_required": true
         },
         "msg_76caa7b4f5a9": {
-          "length_ratio": 1.5,
+          "length_ratio": 1.22,
           "review_required": true
         },
         "msg_b8d39d362082": {
-          "length_ratio": 1.51,
+          "length_ratio": 1.32,
           "review_required": true
         },
         "msg_795b43828254": {
@@ -6751,7 +6611,7 @@
           "review_required": true
         },
         "msg_2d400ffa6a48": {
-          "length_ratio": 1.32,
+          "length_ratio": 1.2,
           "review_required": true
         },
         "msg_69de651d5d29": {
@@ -6759,7 +6619,7 @@
           "review_required": true
         },
         "msg_61dbc5288edf": {
-          "length_ratio": 1.85,
+          "length_ratio": 2.09,
           "review_required": true
         },
         "msg_bbb4106e8144": {
@@ -6771,7 +6631,7 @@
           "review_required": true
         },
         "msg_76394fcb63bc": {
-          "length_ratio": 1.08,
+          "length_ratio": 1.05,
           "review_required": true
         },
         "msg_22b8a1abd6e3": {
@@ -6779,7 +6639,7 @@
           "review_required": true
         },
         "msg_d4c13b10d7bc": {
-          "length_ratio": 1.37,
+          "length_ratio": 1.5,
           "review_required": true
         },
         "msg_ed978d7afee3": {
@@ -6791,7 +6651,7 @@
           "review_required": true
         },
         "msg_c2fb18dbb1e7": {
-          "length_ratio": 1.24,
+          "length_ratio": 1.12,
           "review_required": true
         },
         "msg_a3dd64d17497": {
@@ -6863,11 +6723,11 @@
           "review_required": true
         },
         "store_listing": {
-          "length_ratio": 1.21,
+          "length_ratio": 1.22,
           "review_required": true
         },
         "shot_01-gameplay_headline": {
-          "length_ratio": 1.54,
+          "length_ratio": 0.92,
           "review_required": true
         },
         "shot_01-gameplay_supporting": {
@@ -6875,7 +6735,7 @@
           "review_required": true
         },
         "shot_02-crossword_headline": {
-          "length_ratio": 1.0,
+          "length_ratio": 1.3,
           "review_required": true
         },
         "shot_02-crossword_supporting": {
@@ -6977,7 +6837,7 @@
           "review_required": true
         },
         "ui_011": {
-          "length_ratio": 1.16,
+          "length_ratio": 1.11,
           "review_required": true
         },
         "ui_012": {
@@ -7081,7 +6941,7 @@
           "review_required": true
         },
         "ui_037": {
-          "length_ratio": 1.37,
+          "length_ratio": 1.17,
           "review_required": true
         },
         "ui_038": {
@@ -7093,7 +6953,7 @@
           "review_required": true
         },
         "ui_040": {
-          "length_ratio": 1.0,
+          "length_ratio": 1.02,
           "review_required": true
         },
         "ui_041": {
@@ -7261,7 +7121,7 @@
           "review_required": true
         },
         "msg_1527f526f087": {
-          "length_ratio": 1.37,
+          "length_ratio": 1.17,
           "review_required": true
         },
         "msg_e94253e91c49": {
@@ -7273,7 +7133,7 @@
           "review_required": true
         },
         "msg_ddc5cf266848": {
-          "length_ratio": 1.0,
+          "length_ratio": 1.02,
           "review_required": true
         },
         "msg_c37f87dfc774": {
@@ -7317,11 +7177,11 @@
           "review_required": true
         },
         "msg_f40e3104ad14": {
-          "length_ratio": 1.34,
+          "length_ratio": 1.16,
           "review_required": true
         },
         "msg_3a78695388b3": {
-          "length_ratio": 1.0,
+          "length_ratio": 2.75,
           "review_required": true
         },
         "msg_13d83dbb23fb": {
@@ -7344,15 +7204,7 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_34659fd61a72": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_541ce7fbc0c0": {
-          "length_ratio": 1.17,
-          "review_required": true
-        },
-        "msg_cef6600c14db": {
+        "msg_d7e8f5ebcdd1": {
           "length_ratio": 1.0,
           "review_required": true
         },
@@ -7420,12 +7272,12 @@
           "length_ratio": 1.15,
           "review_required": true
         },
-        "msg_0a29d0b91627": {
+        "msg_d4713d8915b8": {
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_f2a0e0bc4654": {
-          "length_ratio": 1.2,
+        "msg_ca25e64817c4": {
+          "length_ratio": 1.18,
           "review_required": true
         },
         "msg_bfa637a72738": {
@@ -7484,20 +7336,12 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_4a70d8f4b647": {
-          "length_ratio": 1.0,
+        "msg_a2ca7e03290f": {
+          "length_ratio": 1.05,
           "review_required": true
         },
-        "msg_b3140286ac71": {
-          "length_ratio": 1.83,
-          "review_required": true
-        },
-        "msg_5e7d9a0cc8b6": {
-          "length_ratio": 1.86,
-          "review_required": true
-        },
-        "msg_450f661967d8": {
-          "length_ratio": 1.23,
+        "msg_e4fe7f7bd1f6": {
+          "length_ratio": 1.04,
           "review_required": true
         },
         "msg_0f02903bbf75": {
@@ -7516,11 +7360,7 @@
           "length_ratio": 1.5,
           "review_required": true
         },
-        "msg_7066a711b3aa": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_5d4059022064": {
+        "msg_987e21cd5d8a": {
           "length_ratio": 1.0,
           "review_required": true
         },
@@ -7528,8 +7368,8 @@
           "length_ratio": 0.82,
           "review_required": true
         },
-        "msg_54a8c698907c": {
-          "length_ratio": 1.0,
+        "msg_c4fc8fd71468": {
+          "length_ratio": 0.98,
           "review_required": true
         },
         "msg_eb91f332fc67": {
@@ -7537,7 +7377,7 @@
           "review_required": true
         },
         "msg_fd2cd7f8ee6a": {
-          "length_ratio": 1.44,
+          "length_ratio": 1.11,
           "review_required": true
         },
         "msg_d096df9edd58": {
@@ -7569,7 +7409,7 @@
           "review_required": true
         },
         "msg_55c401c4d28a": {
-          "length_ratio": 1.2,
+          "length_ratio": 1.23,
           "review_required": true
         },
         "msg_2f84421d8ebb": {
@@ -7592,8 +7432,8 @@
           "length_ratio": 1.22,
           "review_required": true
         },
-        "msg_fa8fd1f427ce": {
-          "length_ratio": 1.11,
+        "msg_fa51b9c92f37": {
+          "length_ratio": 1.0,
           "review_required": true
         },
         "msg_948430c6ab99": {
@@ -7609,7 +7449,7 @@
           "review_required": true
         },
         "msg_25f011b0f89b": {
-          "length_ratio": 1.17,
+          "length_ratio": 1.07,
           "review_required": true
         },
         "msg_e5441b0e72b0": {
@@ -7660,8 +7500,8 @@
           "length_ratio": 1.45,
           "review_required": true
         },
-        "msg_aa7aa69fdfd9": {
-          "length_ratio": 0.86,
+        "msg_1184863228f5": {
+          "length_ratio": 0.92,
           "review_required": true
         },
         "msg_365762cb0e8c": {
@@ -7685,7 +7525,7 @@
           "review_required": true
         },
         "msg_dd6fc41d4f91": {
-          "length_ratio": 1.33,
+          "length_ratio": 1.44,
           "review_required": true
         },
         "msg_e0f155662c00": {
@@ -7705,7 +7545,7 @@
           "review_required": true
         },
         "msg_3d35cd1a63d2": {
-          "length_ratio": 1.03,
+          "length_ratio": 1.31,
           "review_required": true
         },
         "msg_98573700d8c5": {
@@ -7749,7 +7589,7 @@
           "review_required": true
         },
         "msg_61dbc5288edf": {
-          "length_ratio": 2.42,
+          "length_ratio": 1.64,
           "review_required": true
         },
         "msg_bbb4106e8144": {
@@ -7805,7 +7645,7 @@
           "review_required": true
         },
         "msg_28cc60e8c238": {
-          "length_ratio": 1.08,
+          "length_ratio": 0.92,
           "review_required": true
         },
         "msg_21245fa78fc3": {
@@ -7865,7 +7705,7 @@
           "review_required": true
         },
         "shot_02-crossword_headline": {
-          "length_ratio": 1.37,
+          "length_ratio": 1.57,
           "review_required": true
         },
         "shot_02-crossword_supporting": {
@@ -7967,7 +7807,7 @@
           "review_required": true
         },
         "ui_011": {
-          "length_ratio": 1.32,
+          "length_ratio": 1.3,
           "review_required": true
         },
         "ui_012": {
@@ -7979,7 +7819,7 @@
           "review_required": true
         },
         "ui_014": {
-          "length_ratio": 0.96,
+          "length_ratio": 0.81,
           "review_required": true
         },
         "ui_015": {
@@ -8043,7 +7883,7 @@
           "review_required": true
         },
         "ui_030": {
-          "length_ratio": 1.31,
+          "length_ratio": 0.81,
           "review_required": true
         },
         "ui_031": {
@@ -8071,7 +7911,7 @@
           "review_required": true
         },
         "ui_037": {
-          "length_ratio": 1.23,
+          "length_ratio": 1.13,
           "review_required": true
         },
         "ui_038": {
@@ -8083,7 +7923,7 @@
           "review_required": true
         },
         "ui_040": {
-          "length_ratio": 1.71,
+          "length_ratio": 1.02,
           "review_required": true
         },
         "ui_041": {
@@ -8159,7 +7999,7 @@
           "review_required": true
         },
         "msg_585047053aa9": {
-          "length_ratio": 0.96,
+          "length_ratio": 0.81,
           "review_required": true
         },
         "msg_543e87add437": {
@@ -8223,7 +8063,7 @@
           "review_required": true
         },
         "msg_54c98e740241": {
-          "length_ratio": 1.31,
+          "length_ratio": 0.81,
           "review_required": true
         },
         "msg_d77f771b332b": {
@@ -8251,7 +8091,7 @@
           "review_required": true
         },
         "msg_1527f526f087": {
-          "length_ratio": 1.23,
+          "length_ratio": 1.13,
           "review_required": true
         },
         "msg_e94253e91c49": {
@@ -8263,7 +8103,7 @@
           "review_required": true
         },
         "msg_ddc5cf266848": {
-          "length_ratio": 1.71,
+          "length_ratio": 1.02,
           "review_required": true
         },
         "msg_c37f87dfc774": {
@@ -8307,7 +8147,7 @@
           "review_required": true
         },
         "msg_f40e3104ad14": {
-          "length_ratio": 1.3,
+          "length_ratio": 1.21,
           "review_required": true
         },
         "msg_3a78695388b3": {
@@ -8334,16 +8174,8 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_34659fd61a72": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_541ce7fbc0c0": {
-          "length_ratio": 1.0,
-          "review_required": true
-        },
-        "msg_cef6600c14db": {
-          "length_ratio": 1.0,
+        "msg_d7e8f5ebcdd1": {
+          "length_ratio": 0.93,
           "review_required": true
         },
         "msg_5b0a9ac3693a": {
@@ -8410,12 +8242,12 @@
           "length_ratio": 1.3,
           "review_required": true
         },
-        "msg_0a29d0b91627": {
-          "length_ratio": 2.27,
+        "msg_d4713d8915b8": {
+          "length_ratio": 1.5,
           "review_required": true
         },
-        "msg_f2a0e0bc4654": {
-          "length_ratio": 1.17,
+        "msg_ca25e64817c4": {
+          "length_ratio": 1.18,
           "review_required": true
         },
         "msg_bfa637a72738": {
@@ -8474,20 +8306,12 @@
           "length_ratio": 1.0,
           "review_required": true
         },
-        "msg_4a70d8f4b647": {
-          "length_ratio": 1.27,
+        "msg_a2ca7e03290f": {
+          "length_ratio": 1.05,
           "review_required": true
         },
-        "msg_b3140286ac71": {
-          "length_ratio": 1.33,
-          "review_required": true
-        },
-        "msg_5e7d9a0cc8b6": {
-          "length_ratio": 1.14,
-          "review_required": true
-        },
-        "msg_450f661967d8": {
-          "length_ratio": 1.19,
+        "msg_e4fe7f7bd1f6": {
+          "length_ratio": 1.04,
           "review_required": true
         },
         "msg_0f02903bbf75": {
@@ -8506,20 +8330,16 @@
           "length_ratio": 1.3,
           "review_required": true
         },
-        "msg_7066a711b3aa": {
-          "length_ratio": 1.5,
-          "review_required": true
-        },
-        "msg_5d4059022064": {
-          "length_ratio": 1.27,
+        "msg_987e21cd5d8a": {
+          "length_ratio": 1.25,
           "review_required": true
         },
         "msg_e0fb55e50382": {
           "length_ratio": 0.95,
           "review_required": true
         },
-        "msg_54a8c698907c": {
-          "length_ratio": 0.97,
+        "msg_c4fc8fd71468": {
+          "length_ratio": 1.11,
           "review_required": true
         },
         "msg_eb91f332fc67": {
@@ -8527,7 +8347,7 @@
           "review_required": true
         },
         "msg_fd2cd7f8ee6a": {
-          "length_ratio": 1.3,
+          "length_ratio": 1.09,
           "review_required": true
         },
         "msg_d096df9edd58": {
@@ -8559,7 +8379,7 @@
           "review_required": true
         },
         "msg_55c401c4d28a": {
-          "length_ratio": 1.28,
+          "length_ratio": 1.15,
           "review_required": true
         },
         "msg_2f84421d8ebb": {
@@ -8582,8 +8402,8 @@
           "length_ratio": 1.13,
           "review_required": true
         },
-        "msg_fa8fd1f427ce": {
-          "length_ratio": 1.05,
+        "msg_fa51b9c92f37": {
+          "length_ratio": 0.97,
           "review_required": true
         },
         "msg_948430c6ab99": {
@@ -8599,7 +8419,7 @@
           "review_required": true
         },
         "msg_25f011b0f89b": {
-          "length_ratio": 1.24,
+          "length_ratio": 1.51,
           "review_required": true
         },
         "msg_e5441b0e72b0": {
@@ -8627,7 +8447,7 @@
           "review_required": true
         },
         "msg_66ba6d0a7ecc": {
-          "length_ratio": 0.81,
+          "length_ratio": 1.19,
           "review_required": true
         },
         "msg_16963e44a1e5": {
@@ -8650,8 +8470,8 @@
           "length_ratio": 1.03,
           "review_required": true
         },
-        "msg_aa7aa69fdfd9": {
-          "length_ratio": 1.16,
+        "msg_1184863228f5": {
+          "length_ratio": 1.12,
           "review_required": true
         },
         "msg_365762cb0e8c": {
@@ -8675,7 +8495,7 @@
           "review_required": true
         },
         "msg_dd6fc41d4f91": {
-          "length_ratio": 1.41,
+          "length_ratio": 1.42,
           "review_required": true
         },
         "msg_e0f155662c00": {
@@ -8695,7 +8515,7 @@
           "review_required": true
         },
         "msg_3d35cd1a63d2": {
-          "length_ratio": 0.69,
+          "length_ratio": 1.31,
           "review_required": true
         },
         "msg_98573700d8c5": {
@@ -8711,7 +8531,7 @@
           "review_required": true
         },
         "msg_b8d39d362082": {
-          "length_ratio": 1.39,
+          "length_ratio": 1.31,
           "review_required": true
         },
         "msg_795b43828254": {
@@ -8847,7 +8667,7 @@
           "review_required": true
         },
         "shot_01-gameplay_headline": {
-          "length_ratio": 1.12,
+          "length_ratio": 0.79,
           "review_required": true
         },
         "shot_01-gameplay_supporting": {
@@ -8855,7 +8675,7 @@
           "review_required": true
         },
         "shot_02-crossword_headline": {
-          "length_ratio": 1.23,
+          "length_ratio": 0.87,
           "review_required": true
         },
         "shot_02-crossword_supporting": {
@@ -8928,7 +8748,7 @@
     },
     "review": "Do not machine-translate dictionaries or puzzle answers."
   },
-  "source_count": 246,
+  "source_count": 241,
   "dynamic_strings": "Kotlin templates included from ui-source.json; review locations and runtime coverage before activation.",
   "store_metadata_localization": {
     "locales": [
@@ -9141,7 +8961,7 @@
     },
     {
       "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
-      "line": 160
+      "line": 190
     },
     {
       "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
@@ -9166,6 +8986,14 @@
     {
       "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
       "line": 333
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 335
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",
+      "line": 339
     },
     {
       "file": "app\\src\\main\\java\\com\\wordbloom\\garden\\MainActivity.kt",

@@ -4,11 +4,12 @@
     "publisher_privacy_approval": true,
     "publisher_name_confirmation": true,
     "verified_source_matches_current_production_source": true,
-    "all_required_language_editions_active": false,
-    "native_reviews_recorded": false,
-    "reviewed_content_hashes_match_current_inputs": false,
+    "all_required_language_editions_active": true,
+    "linguistic_reviews_recorded": true,
+    "reviewed_content_hashes_match_current_inputs": true,
     "current_debug_device_matrix_passed": true,
-    "all_locales_device_tested": false,
+    "all_locales_device_tested": true,
+    "locale_progress_boundaries_tested": true,
     "console_candidate_and_copy_match_final_release": false,
     "store_delivered_release_test_passed": false
   },
@@ -26,7 +27,15 @@
   ],
   "active_locales": [
     "en-GB",
-    "en-US"
+    "en-US",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl",
+    "pl",
+    "pt-BR",
+    "pt-PT"
   ],
   "form_complete_does_not_mean_release_ready": true,
   "submission_performed": false

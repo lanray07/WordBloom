@@ -12,7 +12,7 @@ WOORDPUZZELS IN JE EIGEN TEMPO
 Ontdek 24 zorgvuldig samengestelde Engelse puzzels in vier moeilijkheidsgraden, van beginner tot expert. Veeg om letters te verbinden, tik op afzonderlijke tegels of typ een antwoord. Gebruik hints, onthul een letter of schud het wiel als je een frisse blik nodig hebt. De Britse en Amerikaanse edities delen dezelfde verzameling veelgebruikte woorden.
 
 ZES TUINOMGEVINGEN
-Werk je een weg van Sunrise Garden via Enchanted Forest, Blossom Valley, Crystal Lake en Golden Meadow naar Moonlight Garden. Bij je eerste voltooide puzzels krijg je bloemen en verdien je hints. Je voortgang en instellingen worden op je apparaat opgeslagen.
+Werk je een weg van Zonsopgangtuin via Betoverd bos, Bloesemvallei, Kristallen meer en Gouden weide naar Maanlichttuin. Bij je eerste voltooide puzzels krijg je bloemen en verdien je hints. Je voortgang en instellingen worden op je apparaat opgeslagen.
 
 DAGELIJKSE WOORDPUZZELS, OFFLINE BESCHIKBAAR
 Kom terug voor een puzzel op basis van de kalender, geselecteerd uit de meegeleverde verzameling op basis van de lokale datum. Dagelijks spelen is gratis, zonder sancties voor onderbroken reeksen.

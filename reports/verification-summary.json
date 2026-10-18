@@ -1,7 +1,7 @@
 {
   "date": "2026-10-18",
   "status": "packaged candidate; multilingual release gates remain open",
-  "production_source_sha256": "e6e1429d946e36427c61e0bcbdd708a1d07c8860b6ccd8adc6cf9692f46980a0",
+  "production_source_sha256": "67d5634dbd5c39f552fed29abc394d3373a5035041d600f179ddadb4f6e22897",
   "engine_junit": {
     "tests": 11,
     "failures": 0,
@@ -21,8 +21,9 @@
     "errors": 0,
     "skipped": 0
   },
-  "production_compose_renders": 20,
+  "historical_compose_renders": 20,
   "watermarked_marketing_concepts": 32,
+  "visual_scope": "Earlier off-device renders retained as historical evidence; current runtime layout evidence is in hash-bound tablet reports.",
   "lint": {
     "errors": 0,
     "warnings": 24
@@ -41,12 +42,11 @@
   "development_billing_absent_from_release": true,
   "google_play_billing_absent_from_release": true,
   "pending": [
-    "native approval of generated interface translations and eight gameplay locale editions",
-    "multilingual device/layout/input checks and matching listing assets",
+    "matching multilingual console copy, listing assets and final candidate upload",
     "final Amazon store-delivered release/purchase verification"
   ],
   "language_pack_junit": {
-    "tests": 4,
+    "tests": 6,
     "failures": 0,
     "errors": 0,
     "skipped": 0
@@ -61,7 +61,7 @@
     "date": "2026-10-18",
     "device_model": "KFTRWI",
     "android_api": 28,
-    "apk_sha256": "0503a61ebab0d8c6b6c22dc1228612394313bb33eabd94347e2c12e4f1bf0688",
+    "apk_sha256": "b68da339792aff2f238dcbd701d25a965450d713ee67a38de6ada1d0b8245bed",
     "build_type": "normal Amazon debug adapter; no development billing",
     "cases": [
       {
@@ -107,7 +107,7 @@
         "evidence": "reports/fire-tests/settings-large-font-portrait.txt"
       }
     ],
-    "scope": "English device QA; translated language activation/review and store-delivered release testing remain pending",
+    "scope": "English device regression QA. Multilingual cases are recorded separately; Amazon-delivered release testing remains pending.",
     "restored_device_settings": [
       "font_scale",
       "accelerometer_rotation",
@@ -116,6 +116,155 @@
       "stay_on_while_plugged_in"
     ],
     "all_cases_passed": true
+  },
+  "multilingual_device_qa": {
+    "date": "2026-10-18",
+    "application_id": "com.wordbloom.garden",
+    "not_for_release": false,
+    "device": "KFTRWI",
+    "apk_sha256": "b68da339792aff2f238dcbd701d25a965450d713ee67a38de6ada1d0b8245bed",
+    "cases": [
+      {
+        "locale": "en-GB",
+        "orientation": "portrait",
+        "system_font_scale": 1.5,
+        "in_app_larger_text": true,
+        "passed": true,
+        "evidence": "reports/language-tests/production-en-GB-portrait.txt",
+        "local_captures": "dist/language-device-evidence/production-en-GB-portrait"
+      },
+      {
+        "locale": "en-US",
+        "orientation": "portrait",
+        "system_font_scale": 1.5,
+        "in_app_larger_text": true,
+        "passed": true,
+        "evidence": "reports/language-tests/production-en-US-portrait.txt",
+        "local_captures": "dist/language-device-evidence/production-en-US-portrait"
+      },
+      {
+        "locale": "de",
+        "orientation": "portrait",
+        "system_font_scale": 1.5,
+        "in_app_larger_text": true,
+        "passed": true,
+        "evidence": "reports/language-tests/production-de-portrait.txt",
+        "local_captures": "dist/language-device-evidence/production-de-portrait"
+      },
+      {
+        "locale": "es",
+        "orientation": "portrait",
+        "system_font_scale": 1.5,
+        "in_app_larger_text": true,
+        "passed": true,
+        "evidence": "reports/language-tests/production-es-portrait.txt",
+        "local_captures": "dist/language-device-evidence/production-es-portrait"
+      },
+      {
+        "locale": "fr",
+        "orientation": "portrait",
+        "system_font_scale": 1.5,
+        "in_app_larger_text": true,
+        "passed": true,
+        "evidence": "reports/language-tests/production-fr-portrait.txt",
+        "local_captures": "dist/language-device-evidence/production-fr-portrait"
+      },
+      {
+        "locale": "it",
+        "orientation": "portrait",
+        "system_font_scale": 1.5,
+        "in_app_larger_text": true,
+        "passed": true,
+        "evidence": "reports/language-tests/production-it-portrait.txt",
+        "local_captures": "dist/language-device-evidence/production-it-portrait"
+      },
+      {
+        "locale": "nl",
+        "orientation": "portrait",
+        "system_font_scale": 1.5,
+        "in_app_larger_text": true,
+        "passed": true,
+        "evidence": "reports/language-tests/production-nl-portrait.txt",
+        "local_captures": "dist/language-device-evidence/production-nl-portrait"
+      },
+      {
+        "locale": "pl",
+        "orientation": "portrait",
+        "system_font_scale": 1.5,
+        "in_app_larger_text": true,
+        "passed": true,
+        "evidence": "reports/language-tests/production-pl-portrait.txt",
+        "local_captures": "dist/language-device-evidence/production-pl-portrait"
+      },
+      {
+        "locale": "pt-BR",
+        "orientation": "portrait",
+        "system_font_scale": 1.5,
+        "in_app_larger_text": true,
+        "passed": true,
+        "evidence": "reports/language-tests/production-pt-BR-portrait.txt",
+        "local_captures": "dist/language-device-evidence/production-pt-BR-portrait"
+      },
+      {
+        "locale": "pt-PT",
+        "orientation": "portrait",
+        "system_font_scale": 1.5,
+        "in_app_larger_text": true,
+        "passed": true,
+        "evidence": "reports/language-tests/production-pt-PT-portrait.txt",
+        "local_captures": "dist/language-device-evidence/production-pt-PT-portrait"
+      }
+    ],
+    "scope": "Reviewed normal Amazon debug app with actual activated locale assets. Advanced input/layout cases bypass the paywall through a VM test call; no entitlement cache changed or purchase made. This is unminified device QA, not Amazon-delivered release certification.",
+    "restored_settings": [
+      "font_scale",
+      "accelerometer_rotation",
+      "user_rotation"
+    ],
+    "settings_restore_pending": {},
+    "all_requested_cases_passed": true,
+    "passed": true,
+    "locales_passed": [
+      "en-GB",
+      "en-US",
+      "de",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "pl",
+      "pt-BR",
+      "pt-PT"
+    ]
+  },
+  "locale_progress_qa": {
+    "date": "2026-10-18",
+    "cases": [
+      {
+        "source": "en-GB",
+        "target": "de",
+        "shared": false,
+        "passed": true,
+        "evidence": "reports/language-tests/progress-en-GB-de.txt"
+      },
+      {
+        "source": "pt-BR",
+        "target": "pt-PT",
+        "shared": false,
+        "passed": true,
+        "evidence": "reports/language-tests/progress-pt-BR-pt-PT.txt"
+      },
+      {
+        "source": "en-GB",
+        "target": "en-US",
+        "shared": true,
+        "passed": true,
+        "evidence": "reports/language-tests/progress-en-GB-en-US.txt"
+      }
+    ],
+    "scope": "Normal debug real UI and persisted progress; no purchase.",
+    "apk_sha256": "b68da339792aff2f238dcbd701d25a965450d713ee67a38de6ada1d0b8245bed",
+    "passed": true
   },
   "store_image_render_tests": {
     "tests": 3,
@@ -132,7 +281,7 @@
     "development_billing_flag": true,
     "visible_test_only_labels_present": true,
     "device_execution_performed": false,
-    "sha256": "7355dce342d9063d78306b529ce7b85e2a6901a4c51db330773ee5420325f712",
+    "sha256": "f88fa82788293c150a4f6e659a24a05b2afa1c270bcb9319f6740212d6943799",
     "purpose": "Developer QA only; simulated entitlement, no real payment. Separate data from normal app."
   }
 }

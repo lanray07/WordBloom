@@ -75,6 +75,9 @@ def main():
   for field in ('headline','supporting'):source['shot_'+caption['id']+'_'+field]=caption[field]
  cache_path=ROOT/'localization/cache.json';cache=json.loads(cache_path.read_text(encoding='utf-8')) if cache_path.exists() else {}
  glossary=json.loads((ROOT/'localization/glossary.json').read_text(encoding='utf-8'))
+ editorial_path=ROOT/'localization/editorial-overrides.json'
+ editorial_document=json.loads(editorial_path.read_text(encoding='utf-8')) if editorial_path.exists() else {}
+ editorial=editorial_document.get('locales',{})
  report={'provider':'DeepL','credential_present':bool(key),'languages':{},'rtl_prepared':['ar','hi'],'glossary':glossary,'source_count':len(source),'dynamic_strings':'Kotlin templates included from ui-source.json; review locations and runtime coverage before activation.'}
  metadata_path=ROOT/'store/amazon-metadata.json'
  if metadata_path.exists():
@@ -116,6 +119,16 @@ def main():
     cache[digest]=value
     cache_path.parent.mkdir(exist_ok=True);temporary=cache_path.with_suffix('.tmp');temporary.write_text(json.dumps(cache,ensure_ascii=False,indent=2),encoding='utf-8');temporary.replace(cache_path)
    else:missing.append(name);continue
+   overrides=editorial.get(language,{})
+   if text in overrides:value=overrides[text]
+   elif name in ui_source:
+    normalized=re.sub(r'\s+',' ',text.strip()).replace('\\n','\n')
+    if normalized in overrides:value=overrides[normalized].replace('\n','\\n')
+   if name=='store_listing':
+    for world in ['Sunrise Garden','Enchanted Forest','Blossom Valley','Crystal Lake','Golden Meadow','Moonlight Garden']:
+     if world in overrides:value=value.replace(world,overrides[world])
+   if name=='store_listing' or name.startswith('shot_'):
+    for original,revised in editorial_document.get('listing_replacements',{}).get(language,{}).items():value=value.replace(original,revised)
    checks[name]=validate(text,value);output[name]=value
   if not missing:
    xml=ET.Element('resources')

@@ -12,7 +12,7 @@ DES PUZZLES DE MOTS À VOTRE RYTHME
 Explorez 24 puzzles en anglais soigneusement sélectionnés, répartis en quatre niveaux de difficulté, du débutant à l’expert. Faites glisser votre doigt pour relier les lettres, appuyez sur des tuiles individuelles ou saisissez une réponse. Utilisez des indices, dévoilez une lettre ou faites tourner la roue lorsque vous avez besoin d’un nouveau point de vue. Les éditions « anglais britannique » et « anglais américain » partagent le même ensemble de mots à orthographe commune.
 
 SIX ENVIRONNEMENTS DE JARDIN
-Progressez du « Sunrise Garden » à la « Moonlight Garden » en passant par la « Enchanted Forest », la « Blossom Valley », le « Crystal Lake » et la « Golden Meadow ». Vos premières réussites ajoutent des fleurs et vous permettent de gagner des indices. Votre progression et vos paramètres sont enregistrés sur votre appareil.
+Progressez du « Jardin de l'aube » au « Jardin au clair de lune » en passant par la « Forêt enchantée », la « Vallée fleurie », le « Lac de cristal » et la « Prairie dorée ». Vos premières réussites ajoutent des fleurs et vous permettent de gagner des indices. Votre progression et vos paramètres sont enregistrés sur votre appareil.
 
 DES PUZZLES DE MOTS QUOTIDIENS, DISPONIBLES HORS LIGNE
 Revenez chaque jour pour découvrir un puzzle sélectionné dans la collection incluse en fonction de la date locale. Le jeu quotidien est gratuit, sans pénalité en cas d’interruption de la série.

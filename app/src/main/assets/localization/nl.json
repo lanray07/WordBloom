@@ -1,0 +1,722 @@
+{
+  "locale": "nl",
+  "status": "pending_native_review",
+  "entries": {
+    "msg_bf774f712a26": {
+      "source": "WordBloom",
+      "translation": "WordBloom"
+    },
+    "msg_f45e7aacb827": {
+      "source": "Start puzzle",
+      "translation": "Start puzzel"
+    },
+    "msg_9ca934bfdb8d": {
+      "source": "Daily challenge",
+      "translation": "Dagelijkse uitdaging"
+    },
+    "msg_6063b7bfcfc0": {
+      "source": "My garden",
+      "translation": "Mijn tuin"
+    },
+    "msg_74a883a037bc": {
+      "source": "Settings",
+      "translation": "Instellingen"
+    },
+    "msg_19373382e5cb": {
+      "source": "The journey",
+      "translation": "De reis"
+    },
+    "msg_892997679ff1": {
+      "source": "A moment to bloom",
+      "translation": "Een moment om te bloeien"
+    },
+    "msg_2f13d3dec807": {
+      "source": "Little words.\nBeautiful discoveries.",
+      "translation": "Kleine woordjes.\nPrachtige ontdekkingen."
+    },
+    "msg_565a51fd6da7": {
+      "source": "Connect letters. Discover words.\nGrow your vocabulary — and your garden.",
+      "translation": "Verbind letters. Ontdek woorden.\nBreid je woordenschat uit — en je tuin."
+    },
+    "msg_29818d62d5c4": {
+      "source": "OFFLINE PLAY · NO ADS · NO ACCOUNT",
+      "translation": "OFFLINE SPELEN · GEEN ADVERTENTIES · GEEN ACCOUNT"
+    },
+    "msg_0e816c8e17f7": {
+      "source": "✿ Sunrise Garden\nYour first chapter awaits",
+      "translation": "✿ Zonsopgangtuin\nJe eerste hoofdstuk wacht op je"
+    },
+    "msg_5270c9ce647e": {
+      "source": "Make a little time for you",
+      "translation": "Maak even wat tijd vrij voor jezelf"
+    },
+    "msg_14922158bcf1": {
+      "source": "Swipe to connect. Tap to take your time. Every word is a small discovery.",
+      "translation": "Veeg om te verbinden. Tik om de tijd te nemen. Elk woord is een kleine ontdekking."
+    },
+    "msg_585047053aa9": {
+      "source": "You grew something lovely.",
+      "translation": "Je hebt iets moois gekweekt."
+    },
+    "msg_543e87add437": {
+      "source": "↝ Shuffle",
+      "translation": "↝ Schudden"
+    },
+    "msg_af08cc6d16df": {
+      "source": "✦ Letter · 1",
+      "translation": "✦ Letter · 1"
+    },
+    "msg_e14b09ae68d5": {
+      "source": "Starting letter",
+      "translation": "Beginsletter"
+    },
+    "msg_7c8501c77172": {
+      "source": "Reveal word · 3",
+      "translation": "Woord onthullen · 3"
+    },
+    "msg_52cd4eeba682": {
+      "source": "Type a word",
+      "translation": "Typ een woord"
+    },
+    "msg_9d60841e0a78": {
+      "source": "Check",
+      "translation": "Controleer"
+    },
+    "msg_a3c4049c8756": {
+      "source": "Listen to word",
+      "translation": "Luister naar het woord"
+    },
+    "msg_40d70d845e1e": {
+      "source": "Push-to-talk may use your device’s online speech service. Nothing is recorded by WordBloom.",
+      "translation": "Push-to-talk maakt mogelijk gebruik van de online spraakdienst van je apparaat. Er wordt niets opgenomen door WordBloom."
+    },
+    "msg_a8283ade3185": {
+      "source": "Undo",
+      "translation": "Ongedaan maken"
+    },
+    "msg_83b12c2216ef": {
+      "source": "Clear",
+      "translation": "Wissen"
+    },
+    "msg_0590d70c63b5": {
+      "source": "Submit word",
+      "translation": "Woord indienen"
+    },
+    "msg_3a2f00b7c545": {
+      "source": "Six gardens. A world of words.",
+      "translation": "Zes tuinen. Een wereld vol woorden."
+    },
+    "msg_134bcc8dfd71": {
+      "source": "Complete journey puzzles to open the next. Every four journey puzzles restore a chapter.",
+      "translation": "Voltooi reis-puzzels om de volgende te ontgrendelen. Elke vier reis-puzzels wordt een hoofdstuk hersteld."
+    },
+    "msg_a52ace420f21": {
+      "source": "All",
+      "translation": "Alles"
+    },
+    "msg_0b0450991c08": {
+      "source": "Your quiet corner",
+      "translation": "Je rustige hoekje"
+    },
+    "msg_54c98e740241": {
+      "source": "Look how far you’ve grown.",
+      "translation": "Kijk eens hoe ver je al bent gekomen."
+    },
+    "msg_d77f771b332b": {
+      "source": "Daily memories",
+      "translation": "Dagelijkse herinneringen"
+    },
+    "msg_ca63776635cc": {
+      "source": "Make yourself comfortable",
+      "translation": "Maak het jezelf gemakkelijk"
+    },
+    "msg_8e7dadacd7dc": {
+      "source": "A game at your pace.",
+      "translation": "Een spel in je eigen tempo."
+    },
+    "msg_115ae40e6398": {
+      "source": "Puzzle language",
+      "translation": "Puzzeltaal"
+    },
+    "msg_0f03ee3ee472": {
+      "source": "Choose a puzzle language. Each language has its own word collection and saved journey. English UK/US share a collection.",
+      "translation": "Kies een taal voor de puzzels. Elke taal heeft zijn eigen woordenverzameling en opgeslagen voortgang. Brits Engels en Amerikaans Engels delen één verzameling."
+    },
+    "msg_a42a47844fb4": {
+      "source": "Voice, when you want it",
+      "translation": "Stem, wanneer je dat wilt"
+    },
+    "msg_1527f526f087": {
+      "source": "Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.",
+      "translation": "Probeer: “hussel de letters”, “geef me een hint”, “herhaal het woord”, “toon mijn voortgang”, “open de daguitdaging”, “ga naar start”."
+    },
+    "msg_e94253e91c49": {
+      "source": "Your words stay yours",
+      "translation": "Je woorden blijven van jou"
+    },
+    "msg_74a8c06f2269": {
+      "source": "No account. No ads. No analytics. Progress and settings stay on this device. WordBloom stores no microphone recordings. Amazon handles purchase information. Removing the app clears local progress; purchases can be restored through Amazon.",
+      "translation": "Geen account. Geen advertenties. Geen analysegegevens. Voortgang en instellingen blijven op dit apparaat bewaard. WordBloom slaat geen microfoonopnames op. Amazon verwerkt de aankoopgegevens. Als je de app verwijdert, wordt de lokale voortgang gewist; aankopen kunnen via Amazon worden hersteld."
+    },
+    "msg_ddc5cf266848": {
+      "source": "WordBloom 0.1 · 24 puzzles · Offline-first",
+      "translation": "WordBloom 0.1 · 24 puzzels · Offline spelen"
+    },
+    "msg_c37f87dfc774": {
+      "source": "A little more wonder",
+      "translation": "Nog een beetje meer verwondering"
+    },
+    "msg_fd1c4ecb4c40": {
+      "source": "All six illustrated worlds. All 24 puzzles in each available language. Advanced and expert challenges. Expanded garden statistics, plus 4 earned hints per first completion instead of 3. Garden milestones and saved daily history.",
+      "translation": "Alle zes geïllustreerde werelden. Alle 24 puzzels in elke beschikbare taal. Uitdagingen voor gevorderden en experts. Uitgebreide tuinstatistieken, plus 4 verdiende hints bij de eerste voltooiing in plaats van 3. Tuinmijlpalen en opgeslagen dagelijkse geschiedenis."
+    },
+    "msg_2b3aca3a5301": {
+      "source": "One-time purchase · No ads · No subscription",
+      "translation": "Eenmalige aankoop · Geen advertenties · Geen abonnement"
+    },
+    "msg_c5f5dd9f9dbd": {
+      "source": "Restore Amazon purchase",
+      "translation": "Amazon-aankoop herstellen"
+    },
+    "msg_d6173ae6d107": {
+      "source": "Daily puzzles and the introductory chapter remain free in every available language.",
+      "translation": "De dagelijkse puzzels en het inleidende hoofdstuk blijven gratis in alle beschikbare talen."
+    },
+    "msg_f97070a26e44": {
+      "source": "Microphone permission denied. Swipe, tap or type to play.",
+      "translation": "Toegang tot microfoon geweigerd. Veeg, tik of typ om te spelen."
+    },
+    "msg_c394f19c3571": {
+      "source": "DEVELOPMENT BUILD · TEST PURCHASES · NO REAL MONEY",
+      "translation": "ONTWIKKELINGSBUILD · TESTANKOPEN · GEEN ECHT GELD"
+    },
+    "msg_723a37716f9b": {
+      "source": "Finish this puzzle before going to the next level",
+      "translation": "Maak deze puzzel af voordat je naar het volgende niveau gaat"
+    },
+    "msg_48265ef60f8c": {
+      "source": "Find a word first",
+      "translation": "Zoek eerst een woord"
+    },
+    "msg_8d1b47c4d230": {
+      "source": "Open a puzzle to play a word",
+      "translation": "Open een puzzel om een woord te spelen"
+    },
+    "msg_f40e3104ad14": {
+      "source": "Try ‘shuffle letters’, ‘give me a hint’, or say one word",
+      "translation": "Probeer: “hussel de letters”, “geef me een hint” of zeg een woord"
+    },
+    "msg_3a78695388b3": {
+      "source": "Home",
+      "translation": "Startpagina"
+    },
+    "msg_13d83dbb23fb": {
+      "source": "Premium ✓",
+      "translation": "Premium ✓"
+    },
+    "msg_03a0fc5cff6f": {
+      "source": "Explore premium",
+      "translation": "Ontdek premium"
+    },
+    "msg_c808f9810a87": {
+      "source": "Begin your journey",
+      "translation": "Begin je reis"
+    },
+    "msg_f3ed8d8349ee": {
+      "source": "Continue your journey",
+      "translation": "Zet je reis voort"
+    },
+    "msg_98fa1a68fbba": {
+      "source": "{0}  →",
+      "translation": "{0}  →"
+    },
+    "msg_d7e8f5ebcdd1": {
+      "source": "✿  Flowers: {0}",
+      "translation": "✿  Bloemen: {0}"
+    },
+    "msg_5b0a9ac3693a": {
+      "source": "01 / A FRESH LITTLE CHALLENGE",
+      "translation": "01 / EEN LEUKE KLEINE UITDAGING"
+    },
+    "msg_f1920b5855f9": {
+      "source": "Your daily word escape",
+      "translation": "Je dagelijkse woordpuzzel"
+    },
+    "msg_a53cc0540e4f": {
+      "source": "EEEE, d MMMM",
+      "translation": "EEEE, d MMMM"
+    },
+    "msg_96a5eb446ace": {
+      "source": "Play today  →",
+      "translation": "Speel vandaag nog  →"
+    },
+    "msg_27f702d2e3b2": {
+      "source": "02 / ONE WORD AT A TIME",
+      "translation": "02 / ÉÉN WOORD PER KEER"
+    },
+    "msg_11b4bc1d0b3a": {
+      "source": "A world waiting to grow",
+      "translation": "Een wereld die wacht om te groeien"
+    },
+    "msg_f958d2f1ac73": {
+      "source": "Six nature-inspired chapters",
+      "translation": "Zes hoofdstukken geïnspireerd op de natuur"
+    },
+    "msg_0b6cefcbbec0": {
+      "source": "Explore the journey  →",
+      "translation": "Ontdek de reis  →"
+    },
+    "msg_65a0a50953d4": {
+      "source": "03 / YOUR OWN QUIET CORNER",
+      "translation": "03 / JE EIGEN RUSTIGE HOEKJE"
+    },
+    "msg_fee5f92e34a8": {
+      "source": "Watch your garden bloom",
+      "translation": "Zie hoe je tuin tot bloei komt"
+    },
+    "msg_ad507c3c8a12": {
+      "source": "Every completed puzzle plants a flower",
+      "translation": "Elke voltooide puzzel zorgt ervoor dat er een bloem groeit"
+    },
+    "msg_2b69cceea061": {
+      "source": "Visit my garden  →",
+      "translation": "Bezoek mijn tuin  →"
+    },
+    "msg_ae511c4d36ce": {
+      "source": "Daily word escape",
+      "translation": "Dagelijkse woordpuzzel"
+    },
+    "msg_8e3e629fe6f7": {
+      "source": "{0} · Level {1}",
+      "translation": "{0} · Niveau {1}"
+    },
+    "msg_7079299b4aa5": {
+      "source": "A beautiful discovery",
+      "translation": "Een prachtige ontdekking"
+    },
+    "msg_5fa29c1802c5": {
+      "source": "Let your words bloom",
+      "translation": "Laat je woorden bloeien"
+    },
+    "msg_d4713d8915b8": {
+      "source": "✦ Hints: {0}",
+      "translation": "✦ Hints: {0}"
+    },
+    "msg_ca25e64817c4": {
+      "source": "Words found: {0} / {1} · {2}",
+      "translation": "Gevonden woorden: {0} / {1} · {2}"
+    },
+    "msg_bfa637a72738": {
+      "source": "Bonus words: {0}",
+      "translation": "Bonuswoorden: {0}"
+    },
+    "msg_e015e30b0001": {
+      "source": "Back to the garden",
+      "translation": "Terug naar de tuin"
+    },
+    "msg_c402502565e2": {
+      "source": "Next puzzle  →",
+      "translation": "Volgende puzzel  →"
+    },
+    "msg_26658b593cc4": {
+      "source": "Replay puzzle",
+      "translation": "Puzzel opnieuw spelen"
+    },
+    "msg_94fa9b236332": {
+      "source": "Stop listening",
+      "translation": "Niet meer luisteren"
+    },
+    "msg_2982f1d4972e": {
+      "source": "◉ Speak",
+      "translation": "◉ Spreken"
+    },
+    "msg_7ffb956802a5": {
+      "source": "Voice availability",
+      "translation": "Beschikbaarheid van spraak"
+    },
+    "msg_cd167e8baced": {
+      "source": "{0},{1}",
+      "translation": "{0},{1}"
+    },
+    "msg_10c2094f6509": {
+      "source": "Row {0}, column {1}: {2}",
+      "translation": "Rij {0}, kolom {1}: {2}"
+    },
+    "msg_a0b7a33254e1": {
+      "source": "Row {0}, column {1}: empty letter",
+      "translation": "Rij {0}, kolom {1}: lege letter"
+    },
+    "msg_7cbfbbc8dca3": {
+      "source": "Connect the letters",
+      "translation": "Verbind de letters"
+    },
+    "msg_b60f78f09280": {
+      "source": "Letter {0}, tile {1}, selected",
+      "translation": "Letter {0}, tegel {1}, geselecteerd"
+    },
+    "msg_c84c4c392414": {
+      "source": "Letter {0}, tile {1}",
+      "translation": "Letter {0}, tegel {1}"
+    },
+    "msg_3f4f403ebf04": {
+      "source": "{0}. {1}",
+      "translation": "{0}. {1}"
+    },
+    "msg_a2ca7e03290f": {
+      "source": "Flowers planted: {0}",
+      "translation": "Geplante bloemen: {0}"
+    },
+    "msg_e4fe7f7bd1f6": {
+      "source": "Chapters restored: {0} / 6 · Daily puzzles completed: {1}",
+      "translation": "Herstelde hoofdstukken: {0} / 6 · Voltooide dagpuzzels: {1}"
+    },
+    "msg_0f02903bbf75": {
+      "source": "First bloom",
+      "translation": "Eerste bloem"
+    },
+    "msg_662e46f0e1ba": {
+      "source": "Garden keeper",
+      "translation": "Tuinbeheerder"
+    },
+    "msg_6b79c5405359": {
+      "source": "Wildflower soul",
+      "translation": "Een ziel als een wilde bloem"
+    },
+    "msg_7812db0f028e": {
+      "source": "Full bloom",
+      "translation": "Volledige bloei"
+    },
+    "msg_987e21cd5d8a": {
+      "source": "Puzzles: {0}",
+      "translation": "Puzzels: {0}"
+    },
+    "msg_e0fb55e50382": {
+      "source": "Your garden in numbers",
+      "translation": "Je tuin in cijfers"
+    },
+    "msg_c4fc8fd71468": {
+      "source": "Words in completed puzzles: {0} · Journey restored: {1}%",
+      "translation": "Woorden in voltooide puzzels: {0} · Reis voltooid: {1}%"
+    },
+    "msg_eb91f332fc67": {
+      "source": "{0} / {1}",
+      "translation": "{0} / {1}"
+    },
+    "msg_fd2cd7f8ee6a": {
+      "source": "Your first daily escape is waiting. Play whenever you like — no streak to protect.",
+      "translation": "Je eerste dagpuzzel wacht op je. Speel wanneer je wilt — je hoeft geen reeks bij te houden."
+    },
+    "msg_d096df9edd58": {
+      "source": "Spoken guidance",
+      "translation": "Gesproken aanwijzingen"
+    },
+    "msg_66782b653f84": {
+      "source": "Gentle word sounds",
+      "translation": "Zachte woordklanken"
+    },
+    "msg_e4c869e510f8": {
+      "source": "Garden ambience",
+      "translation": "Tuinsfeer"
+    },
+    "msg_17e055f886cd": {
+      "source": "High-contrast letter tiles",
+      "translation": "Lettertegels met hoog contrast"
+    },
+    "msg_297ef4c79b4b": {
+      "source": "Reduce motion",
+      "translation": "Beweging beperken"
+    },
+    "msg_13b394639582": {
+      "source": "Larger text",
+      "translation": "Grotere tekst"
+    },
+    "msg_321119913705": {
+      "source": "Evening theme",
+      "translation": "Avondthema"
+    },
+    "msg_55c401c4d28a": {
+      "source": "A compatible recognition service is available. Use Speak in a puzzle; your device’s service may send speech to its provider.",
+      "translation": "Er is een geschikte spraakherkenningsdienst beschikbaar. Gebruik ‘Spreken’ in een puzzel; de dienst van je apparaat kan spraak naar de aanbieder sturen."
+    },
+    "msg_2f84421d8ebb": {
+      "source": "No compatible recognition service was found. Swipe, tap and text entry provide the full game.",
+      "translation": "Er is geen compatibele herkenningsdienst gevonden. Door te vegen, te tikken en tekst in te voeren kun je het spel volledig spelen."
+    },
+    "msg_75f0c89607b7": {
+      "source": "The whole garden is yours.",
+      "translation": "De hele tuin is van jou."
+    },
+    "msg_69af495a2235": {
+      "source": "Let the whole garden bloom.",
+      "translation": "Laat de hele tuin bloeien."
+    },
+    "msg_f11043f6ea65": {
+      "source": "Unlock premium · {0}",
+      "translation": "Premium ontgrendelen · {0}"
+    },
+    "msg_d41acbd03306": {
+      "source": "Store price unavailable",
+      "translation": "Winkelprijs niet beschikbaar"
+    },
+    "msg_fa51b9c92f37": {
+      "source": "Original illustration: {0}. Flowers: {1}",
+      "translation": "Originele illustratie: {0}. Bloemen: {1}"
+    },
+    "msg_948430c6ab99": {
+      "source": "Amazon product availability depends on device",
+      "translation": "De beschikbaarheid van Amazon-producten is afhankelijk van het apparaat"
+    },
+    "msg_8e554e7b755a": {
+      "source": "A little wordplay. A little wonder.",
+      "translation": "Een beetje woordspelletje. Een beetje verwondering."
+    },
+    "msg_ecbce2c3864e": {
+      "source": "daily:{0}:",
+      "translation": "dagelijks: {0}:"
+    },
+    "msg_25f011b0f89b": {
+      "source": "Find {0} words. Swipe or tap the letters.",
+      "translation": "Zoek {0} woorden. Veeg of tik op de letters."
+    },
+    "msg_e5441b0e72b0": {
+      "source": "A fresh look at a familiar puzzle. Replay earns no additional hints.",
+      "translation": "Een frisse kijk op een bekende puzzel. Herhalen levert geen extra hints op."
+    },
+    "msg_121aae1170ab": {
+      "source": "Letters shuffled",
+      "translation": "Letters door elkaar"
+    },
+    "msg_4c3883effb17": {
+      "source": "Look for the highlighted starting letter",
+      "translation": "Zoek naar de gemarkeerde beginletter"
+    },
+    "msg_0fc6b50e8f45": {
+      "source": "Beautiful! {0}",
+      "translation": "Prachtig! {0}"
+    },
+    "msg_b48e2dc3f476": {
+      "source": "Bonus word! {0} · +1 hint",
+      "translation": "Bonuswoord! {0} · +1 hint"
+    },
+    "msg_5c1a9c613e0a": {
+      "source": "Bonus word! {0}",
+      "translation": "Bonuswoord! {0}"
+    },
+    "msg_66ba6d0a7ecc": {
+      "source": "You already found {0}",
+      "translation": "Je hebt {0} al gevonden"
+    },
+    "msg_16963e44a1e5": {
+      "source": "That word is not in this puzzle’s curated word list",
+      "translation": "Dat woord staat niet in de samengestelde woordenlijst van deze puzzel"
+    },
+    "msg_09932cd896a0": {
+      "source": "Earn hints by completing puzzles or finding bonus words",
+      "translation": "Verdien hints door puzzels op te lossen of bonuswoorden te vinden"
+    },
+    "msg_be3c173b7f18": {
+      "source": "Revealed {0}",
+      "translation": "Onthuld {0}"
+    },
+    "msg_e456af789328": {
+      "source": "All its letters are visible: {0}",
+      "translation": "Alle letters zijn zichtbaar: {0}"
+    },
+    "msg_07fff96bbf7e": {
+      "source": "One new letter, a little closer",
+      "translation": "Eén nieuwe letter, weer een stukje dichterbij"
+    },
+    "msg_1184863228f5": {
+      "source": "Puzzle complete. Your garden is growing! Hints earned: +{0}",
+      "translation": "Puzzel voltooid. Je tuin groeit! Verdiende hints: +{0}"
+    },
+    "msg_365762cb0e8c": {
+      "source": "Progress could not be saved. Please try again.",
+      "translation": "De voortgang kon niet worden opgeslagen. Probeer het nog eens."
+    },
+    "msg_5d7d60ebbf9d": {
+      "source": "Connecting to Amazon Appstore…",
+      "translation": "Verbinding maken met de Amazon Appstore…"
+    },
+    "msg_10e2536378b8": {
+      "source": "premium:{0}",
+      "translation": "premium: {0}"
+    },
+    "msg_a5ba5ae64c29": {
+      "source": "Amazon purchasing is unavailable on this device",
+      "translation": "Aankopen via Amazon zijn op dit apparaat niet beschikbaar"
+    },
+    "msg_ddd669be77ae": {
+      "source": "Amazon purchasing is incompatible with this device",
+      "translation": "Aankopen via Amazon zijn niet compatibel met dit apparaat"
+    },
+    "msg_dd6fc41d4f91": {
+      "source": "Store product unavailable. Check Amazon Appstore or try Restore.",
+      "translation": "Product niet beschikbaar. Controleer de Amazon Appstore of kies ‘Amazon-aankoop herstellen’."
+    },
+    "msg_e0f155662c00": {
+      "source": "Amazon account unavailable. Saved offline access retained.",
+      "translation": "Amazon-account niet beschikbaar. Opgeslagen offline toegang blijft behouden."
+    },
+    "msg_128074e4c337": {
+      "source": "Amazon product unavailable on this installation",
+      "translation": "Amazon-product niet beschikbaar op deze installatie"
+    },
+    "msg_dd3e1e29a760": {
+      "source": "One purchase. A garden of possibilities.",
+      "translation": "Eén aankoop. Een tuin vol mogelijkheden."
+    },
+    "msg_50b0c029f3a3": {
+      "source": "Amazon account changed. Restore from the current account.",
+      "translation": "Amazon-account gewijzigd. Herstel vanuit het huidige account."
+    },
+    "msg_3d35cd1a63d2": {
+      "source": "Purchase {0}. No access granted.",
+      "translation": "Aankoopstatus: {0}. Geen toegang verleend."
+    },
+    "msg_98573700d8c5": {
+      "source": "Purchase could not be saved on this device. Please try Restore.",
+      "translation": "De aankoop kon niet op dit apparaat worden opgeslagen. Probeer ‘Herstellen’."
+    },
+    "msg_55d75478eec0": {
+      "source": "Premium purchase cancelled",
+      "translation": "Premium-aankoop geannuleerd"
+    },
+    "msg_76caa7b4f5a9": {
+      "source": "Premium restored. Welcome to the whole garden.",
+      "translation": "Premium-toegang hersteld. Welkom in de hele tuin."
+    },
+    "msg_b8d39d362082": {
+      "source": "Restore unavailable. Please try again with Amazon Appstore.",
+      "translation": "Herstellen is niet mogelijk. Probeer het opnieuw via de Amazon Appstore."
+    },
+    "msg_795b43828254": {
+      "source": "Premium restored",
+      "translation": "Premium hersteld"
+    },
+    "msg_4250182a589d": {
+      "source": "No premium purchase found for this Amazon account",
+      "translation": "Er zijn geen premium-aankopen gevonden voor dit Amazon-account"
+    },
+    "msg_f9bbfdc8a3ea": {
+      "source": "Platform callback",
+      "translation": "Terugkoppeling naar het platform"
+    },
+    "msg_020c24469ada": {
+      "source": "Spoken voice unavailable for this language. Touch controls remain available.",
+      "translation": "Gesproken stem niet beschikbaar voor deze taal. Aanraakbediening blijft beschikbaar."
+    },
+    "msg_2d400ffa6a48": {
+      "source": "Speech recognition unavailable. You can swipe, tap, or type words.",
+      "translation": "Spraakherkenning is niet beschikbaar. Je kunt vegen, tikken of woorden typen."
+    },
+    "msg_69de651d5d29": {
+      "source": "Microphone permission is needed for push-to-talk only.",
+      "translation": "Toestemming voor de microfoon is alleen nodig voor push-to-talk."
+    },
+    "msg_61dbc5288edf": {
+      "source": "Audio is busy. Try again shortly.",
+      "translation": "Het audiosysteem is bezet. Probeer het straks opnieuw."
+    },
+    "msg_bbb4106e8144": {
+      "source": "Listening…",
+      "translation": "Luisteren…"
+    },
+    "msg_185afcb24dce": {
+      "source": "Speech service could not start. Touch controls remain available.",
+      "translation": "De spraakservice kon niet worden gestart. De aanraakbediening blijft beschikbaar."
+    },
+    "msg_76394fcb63bc": {
+      "source": "Listening… Speak a command or a word.",
+      "translation": "Luisteren… Spreek een commando of een woord uit."
+    },
+    "msg_22b8a1abd6e3": {
+      "source": "Recognising…",
+      "translation": "Herkennen…"
+    },
+    "msg_d4c13b10d7bc": {
+      "source": "No word recognised. Try again.",
+      "translation": "Woord niet herkend. Probeer het nog eens."
+    },
+    "msg_ed978d7afee3": {
+      "source": "Speech service needs a connection. Use touch to play offline.",
+      "translation": "De spraakservice vereist een verbinding. Gebruik aanraking om offline te spelen."
+    },
+    "msg_b76434749b96": {
+      "source": "Microphone permission unavailable.",
+      "translation": "Toestemming voor microfoon niet beschikbaar."
+    },
+    "msg_c2fb18dbb1e7": {
+      "source": "Speech unavailable ({0}). Try again or use touch.",
+      "translation": "Gesproken tekst niet beschikbaar ({0}). Probeer het opnieuw of gebruik aanraking."
+    },
+    "msg_a3dd64d17497": {
+      "source": "Heard: {0}",
+      "translation": "Gehoord: {0}"
+    },
+    "msg_2e09d4c2f8af": {
+      "source": "Sunrise Garden",
+      "translation": "Zonsopgangtuin"
+    },
+    "msg_987b2beefb6c": {
+      "source": "Enchanted Forest",
+      "translation": "Betoverd bos"
+    },
+    "msg_eae5735d7bfc": {
+      "source": "Blossom Valley",
+      "translation": "Bloesemvallei"
+    },
+    "msg_0727d340225f": {
+      "source": "Crystal Lake",
+      "translation": "Kristallen meer"
+    },
+    "msg_28cc60e8c238": {
+      "source": "Golden Meadow",
+      "translation": "Gouden weide"
+    },
+    "msg_21245fa78fc3": {
+      "source": "Moonlight Garden",
+      "translation": "Maanlichttuin"
+    },
+    "msg_c865ebb3052c": {
+      "source": "Beginner",
+      "translation": "Beginner"
+    },
+    "msg_3b1cfa63d7d9": {
+      "source": "Intermediate",
+      "translation": "Gemiddeld"
+    },
+    "msg_9f088dbebd6c": {
+      "source": "Advanced",
+      "translation": "Gevorderd"
+    },
+    "msg_8b317b0c50ee": {
+      "source": "Expert",
+      "translation": "Expert"
+    },
+    "msg_2430e09ec2ec": {
+      "source": "successful",
+      "translation": "geslaagd"
+    },
+    "msg_5d28a90f4498": {
+      "source": "failed",
+      "translation": "mislukt"
+    },
+    "msg_0b470848c772": {
+      "source": "already purchased",
+      "translation": "reeds aangeschaft"
+    },
+    "msg_60dad20a602e": {
+      "source": "invalid sku",
+      "translation": "ongeldig artikelnummer"
+    },
+    "msg_0bee0730a4f9": {
+      "source": "not supported",
+      "translation": "niet ondersteund"
+    },
+    "msg_62a2fed3d6e0": {
+      "source": "pending",
+      "translation": "in afwachting"
+    }
+  }
+}

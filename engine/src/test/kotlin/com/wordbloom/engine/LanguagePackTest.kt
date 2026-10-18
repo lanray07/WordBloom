@@ -32,7 +32,7 @@ class LanguagePackTest {
   assertTrue(Words.canForm("SŁOWO","SŁOWO"))
  }
  @Test fun draftCannotSilentlyBecomeAnApprovedLanguage() {
-  (DraftLanguagePacks.locales-ApprovedLanguages.locales.toSet()).forEach { locale ->
+  ((DraftLanguagePacks.locales-ApprovedLanguages.locales.toSet())+listOf("ar","hi","zz")).forEach { locale ->
    try { Library.forLanguage(locale);fail("Unapproved locale activated: $locale") } catch(expected: IllegalArgumentException) { }
   }
  }
@@ -41,5 +41,21 @@ class LanguagePackTest {
   assertEquals(Command.SHUFFLE,Commands.parse("Wymieszaj litery","pl").command)
   assertEquals("ÉTOILE",Commands.parse("e\u0301toile","fr").word)
   assertEquals("SŁOWO",Commands.parse("słowo","pl").word)
+ }
+ @Test fun everyDisplayedCommandIsAcceptedInItsLanguage() {
+  val expected=listOf(Command.START,Command.NEXT,Command.SHUFFLE,Command.HINT,Command.REPEAT,Command.PROGRESS,Command.DAILY,Command.PAUSE,Command.HOME)
+  (DraftLanguagePacks.locales+"en-GB").forEach { locale ->
+   val phrases=Commands.examples(locale).split(" · ")
+   assertEquals(9,phrases.size)
+   phrases.zip(expected).forEach { (phrase,command) -> assertEquals("$locale: $phrase",command,Commands.parse(phrase,locale).command) }
+  }
+  assertEquals(Command.SHUFFLE,Commands.parse("embaralhar letras","pt-BR").command)
+  assertEquals(Command.SHUFFLE,Commands.parse("baralhar letras","pt-PT").command)
+ }
+ @Test fun draftCollectionsContainNoDuplicateTargetSets() {
+  DraftLanguagePacks.locales.forEach { locale ->
+   val sets=DraftLanguagePacks.puzzles(locale).map { it.answers.toSet() }
+   assertEquals(locale,sets.size,sets.distinct().size)
+  }
  }
 }

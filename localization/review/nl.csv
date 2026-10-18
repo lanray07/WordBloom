@@ -1,191 +1,186 @@
 ﻿id,English source,Draft translation,Source locations,Automated flags,Reviewer notes,Approved by reviewer
-msg_bf774f712a26,WordBloom,WordBloom,resource:app_name,,,
-msg_f45e7aacb827,Start puzzle,Start puzzel,resource:play,,,
-msg_9ca934bfdb8d,Daily challenge,Dagelijkse uitdaging,resource:daily,,,
-msg_6063b7bfcfc0,My garden,Mijn tuin,resource:garden,,,
-msg_74a883a037bc,Settings,Instellingen,resource:settings; app/src/main/java/com/wordbloom/garden/MainActivity.kt:136,,,
-msg_19373382e5cb,The journey,De reis,resource:ui_006,,,
-msg_892997679ff1,A moment to bloom,Een moment om te bloeien,resource:ui_007,,,
+msg_bf774f712a26,WordBloom,WordBloom,resource:app_name,,,Codex (ai_editorial_lexical)
+msg_f45e7aacb827,Start puzzle,Start puzzel,resource:play,,,Codex (ai_editorial_lexical)
+msg_9ca934bfdb8d,Daily challenge,Dagelijkse uitdaging,resource:daily,,,Codex (ai_editorial_lexical)
+msg_6063b7bfcfc0,My garden,Mijn tuin,resource:garden,,,Codex (ai_editorial_lexical)
+msg_74a883a037bc,Settings,Instellingen,resource:settings; app/src/main/java/com/wordbloom/garden/MainActivity.kt:136,,,Codex (ai_editorial_lexical)
+msg_19373382e5cb,The journey,De reis,resource:ui_006,,,Codex (ai_editorial_lexical)
+msg_892997679ff1,A moment to bloom,Een moment om te bloeien,resource:ui_007,,,Codex (ai_editorial_lexical)
 msg_2f13d3dec807,"Little words.
 Beautiful discoveries.","Kleine woordjes.
-Prachtige ontdekkingen.",resource:ui_008,,,
+Prachtige ontdekkingen.",resource:ui_008,,,Codex (ai_editorial_lexical)
 msg_565a51fd6da7,"Connect letters. Discover words.
 Grow your vocabulary — and your garden.","Verbind letters. Ontdek woorden.
-Breid je woordenschat uit — en je tuin.",resource:ui_009,,,
-msg_29818d62d5c4,OFFLINE PLAY · NO ADS · NO ACCOUNT,OFFLINE SPELEN · GEEN ADVERTENTIES · GEEN ACCOUNT,resource:ui_010,,,
+Breid je woordenschat uit — en je tuin.",resource:ui_009,,,Codex (ai_editorial_lexical)
+msg_29818d62d5c4,OFFLINE PLAY · NO ADS · NO ACCOUNT,OFFLINE SPELEN · GEEN ADVERTENTIES · GEEN ACCOUNT,resource:ui_010,,,Codex (ai_editorial_lexical)
 msg_0e816c8e17f7,"✿ Sunrise Garden
-Your first chapter awaits","✿ Sunrise Garden
-Je eerste hoofdstuk wacht op je",resource:ui_011,,,
-msg_5270c9ce647e,Make a little time for you,Maak even wat tijd vrij voor jezelf,resource:ui_012,,,
-msg_14922158bcf1,Swipe to connect. Tap to take your time. Every word is a small discovery.,Veeg om te verbinden. Tik om de tijd te nemen. Elk woord is een kleine ontdekking.,resource:ui_013,,,
-msg_585047053aa9,You grew something lovely.,Je hebt iets moois gekweekt.,resource:ui_014,,,
-msg_543e87add437,↝ Shuffle,↝ Schudden,resource:ui_015,,,
-msg_af08cc6d16df,✦ Letter · 1,✦ Letter · 1,resource:ui_016,unchanged text: verify shared terminology or missed translation,,
-msg_e14b09ae68d5,Starting letter,Beginsletter,resource:ui_017,,,
-msg_7c8501c77172,Reveal word · 3,Woord onthullen · 3,resource:ui_018,,,
-msg_52cd4eeba682,Type a word,Typ een woord,resource:ui_019,,,
-msg_9d60841e0a78,Check,Controleer,resource:ui_020,,,
-msg_a3c4049c8756,Listen to word,Luister naar het woord,resource:ui_021,,,
-msg_40d70d845e1e,Push-to-talk may use your device’s online speech service. Nothing is recorded by WordBloom.,Push-to-talk maakt mogelijk gebruik van de online spraakdienst van je apparaat. Er wordt niets opgenomen door WordBloom.,resource:ui_022,,,
-msg_a8283ade3185,Undo,Ongedaan maken,resource:ui_023,,,
-msg_83b12c2216ef,Clear,Wissen,resource:ui_024,,,
-msg_0590d70c63b5,Submit word,Woord indienen,resource:ui_025,,,
-msg_3a2f00b7c545,Six gardens. A world of words.,Zes tuinen. Een wereld vol woorden.,resource:ui_026,,,
-msg_134bcc8dfd71,Complete journey puzzles to open the next. Every four journey puzzles restore a chapter.,Voltooi reis-puzzels om de volgende te ontgrendelen. Elke vier reis-puzzels wordt een hoofdstuk hersteld.,resource:ui_027,,,
-msg_a52ace420f21,All,Alles,resource:ui_028,,,
-msg_0b0450991c08,Your quiet corner,Je rustige hoekje,resource:ui_029,,,
-msg_54c98e740241,Look how far you’ve grown.,Kijk eens hoe ver je al bent gekomen.,resource:ui_030,,,
-msg_d77f771b332b,Daily memories,Dagelijkse herinneringen,resource:ui_031,expanded text: inspect device wrapping,,
-msg_ca63776635cc,Make yourself comfortable,Maak het jezelf gemakkelijk,resource:ui_032,,,
-msg_8e7dadacd7dc,A game at your pace.,Een spel in je eigen tempo.,resource:ui_033,,,
-msg_115ae40e6398,Puzzle language,Puzzeltaal,resource:ui_034,,,
-msg_0f03ee3ee472,Choose a puzzle language. Each language has its own word collection and saved journey. English UK/US share a collection.,Kies een taal voor de puzzels. Elke taal heeft zijn eigen woordenverzameling en opgeslagen voortgang. Brits Engels en Amerikaans Engels delen één verzameling.,resource:ui_035,,,
-msg_a42a47844fb4,"Voice, when you want it","Stem, wanneer je dat wilt",resource:ui_036,,,
-msg_1527f526f087,"Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.","Probeer eens: „letters door elkaar husselen”, „geef me een hint”, „herhaal het woord”, „toon mijn voortgang”, „open de dagelijkse uitdaging”, „ga naar huis”.",resource:ui_037,,,
-msg_e94253e91c49,Your words stay yours,Je woorden blijven van jou,resource:ui_038,,,
-msg_74a8c06f2269,No account. No ads. No analytics. Progress and settings stay on this device. WordBloom stores no microphone recordings. Amazon handles purchase information. Removing the app clears local progress; purchases can be restored through Amazon.,"Geen account. Geen advertenties. Geen analysegegevens. Voortgang en instellingen blijven op dit apparaat bewaard. WordBloom slaat geen microfoonopnames op. Amazon verwerkt de aankoopgegevens. Als je de app verwijdert, wordt de lokale voortgang gewist; aankopen kunnen via Amazon worden hersteld.",resource:ui_039,,,
-msg_ddc5cf266848,WordBloom 0.1 · 24 puzzles · Offline-first,WordBloom 0.1 · 24 puzzels · Offline-first,resource:ui_040,,,
-msg_c37f87dfc774,A little more wonder,Nog een beetje meer verwondering,resource:ui_041,,,
-msg_fd1c4ecb4c40,"All six illustrated worlds. All 24 puzzles in each available language. Advanced and expert challenges. Expanded garden statistics, plus 4 earned hints per first completion instead of 3. Garden milestones and saved daily history.","Alle zes geïllustreerde werelden. Alle 24 puzzels in elke beschikbare taal. Uitdagingen voor gevorderden en experts. Uitgebreide tuinstatistieken, plus 4 verdiende hints bij de eerste voltooiing in plaats van 3. Tuinmijlpalen en opgeslagen dagelijkse geschiedenis.",resource:ui_042,,,
-msg_2b3aca3a5301,One-time purchase · No ads · No subscription,Eenmalige aankoop · Geen advertenties · Geen abonnement,resource:ui_043,,,
-msg_c5f5dd9f9dbd,Restore Amazon purchase,Amazon-aankoop herstellen,resource:ui_044,,,
-msg_d6173ae6d107,Daily puzzles and the introductory chapter remain free in every available language.,De dagelijkse puzzels en het inleidende hoofdstuk blijven gratis in alle beschikbare talen.,resource:ui_045,,,
-msg_f97070a26e44,"Microphone permission denied. Swipe, tap or type to play.","Toegang tot microfoon geweigerd. Veeg, tik of typ om te spelen.",app/src/main/java/com/wordbloom/garden/MainActivity.kt:60,,,
-msg_c394f19c3571,DEVELOPMENT BUILD · TEST PURCHASES · NO REAL MONEY,ONTWIKKELINGSBUILD · TESTANKOPEN · GEEN ECHT GELD,app/src/main/java/com/wordbloom/garden/MainActivity.kt:89,,,
-msg_723a37716f9b,Finish this puzzle before going to the next level,Maak deze puzzel af voordat je naar het volgende niveau gaat,app/src/main/java/com/wordbloom/garden/MainActivity.kt:113,,,
-msg_48265ef60f8c,Find a word first,Zoek eerst een woord,app/src/main/java/com/wordbloom/garden/MainActivity.kt:116,,,
-msg_8d1b47c4d230,Open a puzzle to play a word,Open een puzzel om een woord te spelen,app/src/main/java/com/wordbloom/garden/MainActivity.kt:120,,,
-msg_f40e3104ad14,"Try ‘shuffle letters’, ‘give me a hint’, or say one word","Probeer ‘letters door elkaar husselen’, ‘geef me een hint’ of zeg één woord",app/src/main/java/com/wordbloom/garden/MainActivity.kt:121,,,
-msg_3a78695388b3,Home,Home,app/src/main/java/com/wordbloom/garden/MainActivity.kt:136,unchanged text: verify shared terminology or missed translation,,
-msg_13d83dbb23fb,Premium ✓,Premium ✓,app/src/main/java/com/wordbloom/garden/MainActivity.kt:137,unchanged text: verify shared terminology or missed translation,,
-msg_03a0fc5cff6f,Explore premium,Ontdek premium,app/src/main/java/com/wordbloom/garden/MainActivity.kt:137,,,
-msg_c808f9810a87,Begin your journey,Begin je reis,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,
-msg_f3ed8d8349ee,Continue your journey,Zet je reis voort,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,
-msg_98fa1a68fbba,{0}  →,{0}  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,
-msg_34659fd61a72,bloom,bloem,app/src/main/java/com/wordbloom/garden/MainActivity.kt:160; app/src/main/java/com/wordbloom/garden/MainActivity.kt:332,,,
-msg_541ce7fbc0c0,blooms,bloemen,app/src/main/java/com/wordbloom/garden/MainActivity.kt:160; app/src/main/java/com/wordbloom/garden/MainActivity.kt:332,,,
-msg_cef6600c14db,✿  {0} {1},✿  {0} {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:160,,,
-msg_5b0a9ac3693a,01 / A FRESH LITTLE CHALLENGE,01 / EEN LEUKE KLEINE UITDAGING,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,
-msg_f1920b5855f9,Your daily word escape,Je dagelijkse woordpuzzel,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,
-msg_a53cc0540e4f,"EEEE, d MMMM","EEEE, d MMMM",app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,unchanged text: verify shared terminology or missed translation,,
-msg_96a5eb446ace,Play today  →,Speel vandaag nog  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,
-msg_27f702d2e3b2,02 / ONE WORD AT A TIME,02 / ÉÉN WOORD PER KEER,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,
-msg_11b4bc1d0b3a,A world waiting to grow,Een wereld die wacht om te groeien,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,
-msg_f958d2f1ac73,Six nature-inspired chapters,Zes hoofdstukken geïnspireerd op de natuur,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,
-msg_0b6cefcbbec0,Explore the journey  →,Ontdek de reis  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,
-msg_65a0a50953d4,03 / YOUR OWN QUIET CORNER,03 / JE EIGEN RUSTIGE HOEKJE,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,
-msg_fee5f92e34a8,Watch your garden bloom,Zie hoe je tuin tot bloei komt,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,
-msg_ad507c3c8a12,Every completed puzzle plants a flower,Elke voltooide puzzel zorgt ervoor dat er een bloem groeit,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,
-msg_2b69cceea061,Visit my garden  →,Bezoek mijn tuin  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,
-msg_ae511c4d36ce,Daily word escape,Dagelijkse woordpuzzel,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,
-msg_8e3e629fe6f7,{0} · Level {1},{0} · Niveau {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,
-msg_7079299b4aa5,A beautiful discovery,Een prachtige ontdekking,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,
-msg_5fa29c1802c5,Let your words bloom,Laat je woorden bloeien,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,
-msg_0a29d0b91627,✦ {0} hints,✦ {0} hints,app/src/main/java/com/wordbloom/garden/MainActivity.kt:182,unchanged text: verify shared terminology or missed translation,,
-msg_f2a0e0bc4654,{0} of {1} words found  ·  {2},{0} van {1} woorden gevonden  ·  {2},app/src/main/java/com/wordbloom/garden/MainActivity.kt:190,,,
-msg_bfa637a72738,Bonus words: {0},Bonuswoorden: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:191,,,
-msg_e015e30b0001,Back to the garden,Terug naar de tuin,app/src/main/java/com/wordbloom/garden/MainActivity.kt:199,,,
-msg_c402502565e2,Next puzzle  →,Volgende puzzel  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:199,,,
-msg_26658b593cc4,Replay puzzle,Puzzel opnieuw spelen,app/src/main/java/com/wordbloom/garden/MainActivity.kt:200,,,
-msg_94fa9b236332,Stop listening,Niet meer luisteren,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,
-msg_2982f1d4972e,◉ Speak,◉ Spreken,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,
-msg_7ffb956802a5,Voice availability,Beschikbaarheid van spraak,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,
-msg_cd167e8baced,"{0},{1}","{0},{1}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:241; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:74; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:75; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:77,,,
-msg_10c2094f6509,"Row {0}, column {1}: {2}","Rij {0}, kolom {1}: {2}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:243,,,
-msg_a0b7a33254e1,"Row {0}, column {1}: empty letter","Rij {0}, kolom {1}: lege letter",app/src/main/java/com/wordbloom/garden/MainActivity.kt:243,,,
-msg_7cbfbbc8dca3,Connect the letters,Verbind de letters,app/src/main/java/com/wordbloom/garden/MainActivity.kt:259,,,
-msg_b60f78f09280,"Letter {0}, tile {1}, selected","Letter {0}, tegel {1}, geselecteerd",app/src/main/java/com/wordbloom/garden/MainActivity.kt:291,,,
-msg_c84c4c392414,"Letter {0}, tile {1}","Letter {0}, tegel {1}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:291,,,
-msg_3f4f403ebf04,{0}. {1},{0}. {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:314,,,
-msg_4a70d8f4b647,{0} {1} planted,{0} {1} geplant,app/src/main/java/com/wordbloom/garden/MainActivity.kt:332,,,
-msg_b3140286ac71,escape,ontsnapping,app/src/main/java/com/wordbloom/garden/MainActivity.kt:333,,,
-msg_5e7d9a0cc8b6,escapes,ontsnappingen,app/src/main/java/com/wordbloom/garden/MainActivity.kt:333,,,
-msg_450f661967d8,{0} of 6 chapters restored · {1} daily {2} completed,{0} van de 6 hoofdstukken hersteld · {1} dagelijkse {2} voltooid,app/src/main/java/com/wordbloom/garden/MainActivity.kt:333,,,
-msg_0f02903bbf75,First bloom,Eerste bloem,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,
-msg_662e46f0e1ba,Garden keeper,Tuinbeheerder,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,
-msg_6b79c5405359,Wildflower soul,Een ziel als een wilde bloem,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,expanded text: inspect device wrapping,,
-msg_7812db0f028e,Full bloom,Volledige bloei,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,
-msg_7066a711b3aa,1 puzzle,1 puzzel,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,
-msg_5d4059022064,{0} puzzles,{0}-puzzels,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,
-msg_e0fb55e50382,Your garden in numbers,Je tuin in cijfers,app/src/main/java/com/wordbloom/garden/MainActivity.kt:338,,,
-msg_54a8c698907c,{0} words in completed puzzles · {1}% of the journey restored,{0} woorden in voltooide puzzels · {1} % van de reis hersteld,app/src/main/java/com/wordbloom/garden/MainActivity.kt:339,,,
-msg_eb91f332fc67,{0} / {1},{0} / {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:345,,,
-msg_fd2cd7f8ee6a,Your first daily escape is waiting. Play whenever you like — no streak to protect.,Je eerste ‘daily escape’ staat op je te wachten. Speel wanneer je maar wilt — je hoeft geen streak in stand te houden.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:352,,,
-msg_d096df9edd58,Spoken guidance,Gesproken aanwijzingen,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_66782b653f84,Gentle word sounds,Zachte woordklanken,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_e4c869e510f8,Garden ambience,Tuinsfeer,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_17e055f886cd,High-contrast letter tiles,Lettertegels met hoog contrast,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_297ef4c79b4b,Reduce motion,Beweging beperken,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_13b394639582,Larger text,Grotere tekst,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_321119913705,Evening theme,Avondthema,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_55c401c4d28a,A compatible recognition service is available. Use Speak in a puzzle; your device’s service may send speech to its provider.,Er is een compatibele herkenningsdienst beschikbaar. Gebruik ‘Speak’ in een puzzel; de dienst van uw apparaat kan spraak naar de aanbieder verzenden.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:366,,,
-msg_2f84421d8ebb,"No compatible recognition service was found. Swipe, tap and text entry provide the full game.","Er is geen compatibele herkenningsdienst gevonden. Door te vegen, te tikken en tekst in te voeren kun je het spel volledig spelen.",app/src/main/java/com/wordbloom/garden/MainActivity.kt:366,,,
-msg_75f0c89607b7,The whole garden is yours.,De hele tuin is van jou.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:376,,,
-msg_69af495a2235,Let the whole garden bloom.,Laat de hele tuin bloeien.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:376,,,
-msg_f11043f6ea65,Unlock premium · {0},Premium ontgrendelen · {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:379,,,
-msg_d41acbd03306,Store price unavailable,Winkelprijs niet beschikbaar,app/src/main/java/com/wordbloom/garden/MainActivity.kt:379,,,
-msg_fa8fd1f427ce,"Original illustrated {0}, {1} flowers","Originele geïllustreerde {0}, {1} bloemen",app/src/main/java/com/wordbloom/garden/MainActivity.kt:391,,,
-msg_948430c6ab99,Amazon product availability depends on device,De beschikbaarheid van Amazon-producten is afhankelijk van het apparaat,app/src/main/java/com/wordbloom/garden/MainActivity.kt:468,,,
-msg_8e554e7b755a,A little wordplay. A little wonder.,Een beetje woordspelletje. Een beetje verwondering.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:14,,,
-msg_ecbce2c3864e,daily:{0}:,dagelijks: {0}:,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:31,,,
-msg_25f011b0f89b,Find {0} words. Swipe or tap the letters.,Zoek woorden met {0}. Veeg of tik op de letters.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:49,,,
-msg_e5441b0e72b0,A fresh look at a familiar puzzle. Replay earns no additional hints.,Een frisse kijk op een bekende puzzel. Herhalen levert geen extra hints op.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:51,,,
-msg_121aae1170ab,Letters shuffled,Letters door elkaar,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:53,,,
-msg_4c3883effb17,Look for the highlighted starting letter,Zoek naar de gemarkeerde beginletter,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:54,,,
-msg_0fc6b50e8f45,Beautiful! {0},Prachtig! {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:59,,,
-msg_b48e2dc3f476,Bonus word! {0} · +1 hint,Bonuswoord! {0} · +1 hint,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:60,,,
-msg_5c1a9c613e0a,Bonus word! {0},Bonuswoord! {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:60,,,
-msg_66ba6d0a7ecc,You already found {0},Je hebt {0} al gevonden,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:61,,,
-msg_16963e44a1e5,That word is not in this puzzle’s curated word list,Dat woord staat niet in de samengestelde woordenlijst van deze puzzel,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:62,,,
-msg_09932cd896a0,Earn hints by completing puzzles or finding bonus words,Verdien hints door puzzels op te lossen of bonuswoorden te vinden,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:70,,,
-msg_be3c173b7f18,Revealed {0},Onthuld {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:71,,,
-msg_e456af789328,All its letters are visible: {0},Alle letters zijn zichtbaar: {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:76,,,
-msg_07fff96bbf7e,"One new letter, a little closer","Eén nieuwe letter, weer een stukje dichterbij",app/src/main/java/com/wordbloom/garden/GameViewModel.kt:77,,,
-msg_aa7aa69fdfd9,Puzzle complete. Your garden is growing! +{0} hints,Puzzel voltooid. Je tuin groeit! + {0} hints,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:88,,,
-msg_365762cb0e8c,Progress could not be saved. Please try again.,De voortgang kon niet worden opgeslagen. Probeer het nog eens.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:92,,,
-msg_5d7d60ebbf9d,Connecting to Amazon Appstore…,Verbinding maken met de Amazon Appstore…,app/src/main/java/com/wordbloom/garden/Billing.kt:13,,,
-msg_10e2536378b8,premium:{0},premium: {0},app/src/main/java/com/wordbloom/garden/Billing.kt:17; app/src/main/java/com/wordbloom/garden/Billing.kt:34; app/src/main/java/com/wordbloom/garden/Billing.kt:41,,,
-msg_a5ba5ae64c29,Amazon purchasing is unavailable on this device,Aankopen via Amazon zijn op dit apparaat niet beschikbaar,app/src/main/java/com/wordbloom/garden/Billing.kt:25; app/src/main/java/com/wordbloom/garden/Billing.kt:29; app/src/main/java/com/wordbloom/garden/Billing.kt:29,,,
-msg_ddd669be77ae,Amazon purchasing is incompatible with this device,Aankopen via Amazon zijn niet compatibel met dit apparaat,app/src/main/java/com/wordbloom/garden/Billing.kt:26,,,
-msg_dd6fc41d4f91,Store product unavailable. Check Amazon Appstore or try Restore.,Product niet beschikbaar in de winkel. Kijk in de Amazon Appstore of probeer Restore.,app/src/main/java/com/wordbloom/garden/Billing.kt:30,,,
-msg_e0f155662c00,Amazon account unavailable. Saved offline access retained.,Amazon-account niet beschikbaar. Opgeslagen offline toegang blijft behouden.,app/src/main/java/com/wordbloom/garden/Billing.kt:39,,,
-msg_128074e4c337,Amazon product unavailable on this installation,Amazon-product niet beschikbaar op deze installatie,app/src/main/java/com/wordbloom/garden/Billing.kt:46,,,
-msg_dd3e1e29a760,One purchase. A garden of possibilities.,Eén aankoop. Een tuin vol mogelijkheden.,app/src/main/java/com/wordbloom/garden/Billing.kt:46,,,
-msg_50b0c029f3a3,Amazon account changed. Restore from the current account.,Amazon-account gewijzigd. Herstel vanuit het huidige account.,app/src/main/java/com/wordbloom/garden/Billing.kt:50,,,
-msg_3d35cd1a63d2,Purchase {0}. No access granted.,{0} kopen. Geen toegang verleend.,app/src/main/java/com/wordbloom/garden/Billing.kt:53,,,
-msg_98573700d8c5,Purchase could not be saved on this device. Please try Restore.,De aankoop kon niet op dit apparaat worden opgeslagen. Probeer ‘Herstellen’.,app/src/main/java/com/wordbloom/garden/Billing.kt:59,,,
-msg_55d75478eec0,Premium purchase cancelled,Premium-aankoop geannuleerd,app/src/main/java/com/wordbloom/garden/Billing.kt:62,,,
-msg_76caa7b4f5a9,Premium restored. Welcome to the whole garden.,Premium-toegang hersteld. Welkom in de hele tuin.,app/src/main/java/com/wordbloom/garden/Billing.kt:62,,,
-msg_b8d39d362082,Restore unavailable. Please try again with Amazon Appstore.,Herstellen is niet mogelijk. Probeer het opnieuw via de Amazon Appstore.,app/src/main/java/com/wordbloom/garden/Billing.kt:66,,,
-msg_795b43828254,Premium restored,Premium hersteld,app/src/main/java/com/wordbloom/garden/Billing.kt:75,,,
-msg_4250182a589d,No premium purchase found for this Amazon account,Er zijn geen premium-aankopen gevonden voor dit Amazon-account,app/src/main/java/com/wordbloom/garden/Billing.kt:75,,,
-msg_f9bbfdc8a3ea,Platform callback,Terugkoppeling naar het platform,app/src/main/java/com/wordbloom/garden/Voice.kt:26,expanded text: inspect device wrapping,,
-msg_020c24469ada,Spoken voice unavailable for this language. Touch controls remain available.,Gesproken stem niet beschikbaar voor deze taal. Aanraakbediening blijft beschikbaar.,app/src/main/java/com/wordbloom/garden/Voice.kt:34,,,
-msg_2d400ffa6a48,"Speech recognition unavailable. You can swipe, tap, or type words.","Spraakherkenning is niet beschikbaar. Je kunt vegen, tikken of woorden typen.",app/src/main/java/com/wordbloom/garden/Voice.kt:43,,,
-msg_69de651d5d29,Microphone permission is needed for push-to-talk only.,Toestemming voor de microfoon is alleen nodig voor push-to-talk.,app/src/main/java/com/wordbloom/garden/Voice.kt:44,,,
-msg_61dbc5288edf,Audio is busy. Try again shortly.,Er is momenteel veel verkeer op de audioverbinding. Probeer het straks nog eens.,app/src/main/java/com/wordbloom/garden/Voice.kt:48,expanded text: inspect device wrapping,,
-msg_bbb4106e8144,Listening…,Luisteren…,app/src/main/java/com/wordbloom/garden/Voice.kt:50,,,
-msg_185afcb24dce,Speech service could not start. Touch controls remain available.,De spraakservice kon niet worden gestart. De aanraakbediening blijft beschikbaar.,app/src/main/java/com/wordbloom/garden/Voice.kt:52,,,
-msg_76394fcb63bc,Listening… Speak a command or a word.,Luisteren… Spreek een commando of een woord uit.,app/src/main/java/com/wordbloom/garden/Voice.kt:56,,,
-msg_22b8a1abd6e3,Recognising…,Herkennen…,app/src/main/java/com/wordbloom/garden/Voice.kt:60,,,
-msg_d4c13b10d7bc,No word recognised. Try again.,Woord niet herkend. Probeer het nog eens.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,
-msg_ed978d7afee3,Speech service needs a connection. Use touch to play offline.,De spraakservice vereist een verbinding. Gebruik aanraking om offline te spelen.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,
-msg_b76434749b96,Microphone permission unavailable.,Toestemming voor microfoon niet beschikbaar.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,
-msg_c2fb18dbb1e7,Speech unavailable ({0}). Try again or use touch.,Gesproken tekst niet beschikbaar ({0}). Probeer het opnieuw of gebruik aanraking.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,
-msg_a3dd64d17497,Heard: {0},Gehoord: {0},app/src/main/java/com/wordbloom/garden/Voice.kt:62,,,
-msg_2e09d4c2f8af,Sunrise Garden,Zonsopgangtuin,engine:display-label,,,
-msg_987b2beefb6c,Enchanted Forest,Betoverd bos,engine:display-label,,,
-msg_eae5735d7bfc,Blossom Valley,Bloesemvallei,engine:display-label,,,
-msg_0727d340225f,Crystal Lake,Kristallen meer,engine:display-label,,,
-msg_28cc60e8c238,Golden Meadow,'Gouden weide',engine:display-label,,,
-msg_21245fa78fc3,Moonlight Garden,Maanlichttuin,engine:display-label,,,
-msg_c865ebb3052c,Beginner,Beginner,engine:display-label,unchanged text: verify shared terminology or missed translation,,
-msg_3b1cfa63d7d9,Intermediate,Gemiddeld,engine:display-label,,,
-msg_9f088dbebd6c,Advanced,Gevorderd,engine:display-label,,,
-msg_8b317b0c50ee,Expert,Expert,engine:display-label,unchanged text: verify shared terminology or missed translation,,
-msg_2430e09ec2ec,successful,geslaagd,sdk:purchase-status-display,,,
-msg_5d28a90f4498,failed,mislukt,sdk:purchase-status-display,,,
-msg_0b470848c772,already purchased,reeds aangeschaft,sdk:purchase-status-display,,,
-msg_60dad20a602e,invalid sku,ongeldig artikelnummer,sdk:purchase-status-display,expanded text: inspect device wrapping,,
-msg_0bee0730a4f9,not supported,niet ondersteund,sdk:purchase-status-display,,,
-msg_62a2fed3d6e0,pending,in afwachting,sdk:purchase-status-display,,,
+Your first chapter awaits","✿ Zonsopgangtuin
+Je eerste hoofdstuk wacht op je",resource:ui_011,,,Codex (ai_editorial_lexical)
+msg_5270c9ce647e,Make a little time for you,Maak even wat tijd vrij voor jezelf,resource:ui_012,,,Codex (ai_editorial_lexical)
+msg_14922158bcf1,Swipe to connect. Tap to take your time. Every word is a small discovery.,Veeg om te verbinden. Tik om de tijd te nemen. Elk woord is een kleine ontdekking.,resource:ui_013,,,Codex (ai_editorial_lexical)
+msg_585047053aa9,You grew something lovely.,Je hebt iets moois gekweekt.,resource:ui_014,,,Codex (ai_editorial_lexical)
+msg_543e87add437,↝ Shuffle,↝ Schudden,resource:ui_015,,,Codex (ai_editorial_lexical)
+msg_af08cc6d16df,✦ Letter · 1,✦ Letter · 1,resource:ui_016,unchanged text: verify shared terminology or missed translation,,Codex (ai_editorial_lexical)
+msg_e14b09ae68d5,Starting letter,Beginsletter,resource:ui_017,,,Codex (ai_editorial_lexical)
+msg_7c8501c77172,Reveal word · 3,Woord onthullen · 3,resource:ui_018,,,Codex (ai_editorial_lexical)
+msg_52cd4eeba682,Type a word,Typ een woord,resource:ui_019,,,Codex (ai_editorial_lexical)
+msg_9d60841e0a78,Check,Controleer,resource:ui_020,,,Codex (ai_editorial_lexical)
+msg_a3c4049c8756,Listen to word,Luister naar het woord,resource:ui_021,,,Codex (ai_editorial_lexical)
+msg_40d70d845e1e,Push-to-talk may use your device’s online speech service. Nothing is recorded by WordBloom.,Push-to-talk maakt mogelijk gebruik van de online spraakdienst van je apparaat. Er wordt niets opgenomen door WordBloom.,resource:ui_022,,,Codex (ai_editorial_lexical)
+msg_a8283ade3185,Undo,Ongedaan maken,resource:ui_023,,,Codex (ai_editorial_lexical)
+msg_83b12c2216ef,Clear,Wissen,resource:ui_024,,,Codex (ai_editorial_lexical)
+msg_0590d70c63b5,Submit word,Woord indienen,resource:ui_025,,,Codex (ai_editorial_lexical)
+msg_3a2f00b7c545,Six gardens. A world of words.,Zes tuinen. Een wereld vol woorden.,resource:ui_026,,,Codex (ai_editorial_lexical)
+msg_134bcc8dfd71,Complete journey puzzles to open the next. Every four journey puzzles restore a chapter.,Voltooi reis-puzzels om de volgende te ontgrendelen. Elke vier reis-puzzels wordt een hoofdstuk hersteld.,resource:ui_027,,,Codex (ai_editorial_lexical)
+msg_a52ace420f21,All,Alles,resource:ui_028,,,Codex (ai_editorial_lexical)
+msg_0b0450991c08,Your quiet corner,Je rustige hoekje,resource:ui_029,,,Codex (ai_editorial_lexical)
+msg_54c98e740241,Look how far you’ve grown.,Kijk eens hoe ver je al bent gekomen.,resource:ui_030,,,Codex (ai_editorial_lexical)
+msg_d77f771b332b,Daily memories,Dagelijkse herinneringen,resource:ui_031,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_ca63776635cc,Make yourself comfortable,Maak het jezelf gemakkelijk,resource:ui_032,,,Codex (ai_editorial_lexical)
+msg_8e7dadacd7dc,A game at your pace.,Een spel in je eigen tempo.,resource:ui_033,,,Codex (ai_editorial_lexical)
+msg_115ae40e6398,Puzzle language,Puzzeltaal,resource:ui_034,,,Codex (ai_editorial_lexical)
+msg_0f03ee3ee472,Choose a puzzle language. Each language has its own word collection and saved journey. English UK/US share a collection.,Kies een taal voor de puzzels. Elke taal heeft zijn eigen woordenverzameling en opgeslagen voortgang. Brits Engels en Amerikaans Engels delen één verzameling.,resource:ui_035,,,Codex (ai_editorial_lexical)
+msg_a42a47844fb4,"Voice, when you want it","Stem, wanneer je dat wilt",resource:ui_036,,,Codex (ai_editorial_lexical)
+msg_1527f526f087,"Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.","Probeer: “hussel de letters”, “geef me een hint”, “herhaal het woord”, “toon mijn voortgang”, “open de daguitdaging”, “ga naar start”.",resource:ui_037,,,Codex (ai_editorial_lexical)
+msg_e94253e91c49,Your words stay yours,Je woorden blijven van jou,resource:ui_038,,,Codex (ai_editorial_lexical)
+msg_74a8c06f2269,No account. No ads. No analytics. Progress and settings stay on this device. WordBloom stores no microphone recordings. Amazon handles purchase information. Removing the app clears local progress; purchases can be restored through Amazon.,"Geen account. Geen advertenties. Geen analysegegevens. Voortgang en instellingen blijven op dit apparaat bewaard. WordBloom slaat geen microfoonopnames op. Amazon verwerkt de aankoopgegevens. Als je de app verwijdert, wordt de lokale voortgang gewist; aankopen kunnen via Amazon worden hersteld.",resource:ui_039,,,Codex (ai_editorial_lexical)
+msg_ddc5cf266848,WordBloom 0.1 · 24 puzzles · Offline-first,WordBloom 0.1 · 24 puzzels · Offline spelen,resource:ui_040,,,Codex (ai_editorial_lexical)
+msg_c37f87dfc774,A little more wonder,Nog een beetje meer verwondering,resource:ui_041,,,Codex (ai_editorial_lexical)
+msg_fd1c4ecb4c40,"All six illustrated worlds. All 24 puzzles in each available language. Advanced and expert challenges. Expanded garden statistics, plus 4 earned hints per first completion instead of 3. Garden milestones and saved daily history.","Alle zes geïllustreerde werelden. Alle 24 puzzels in elke beschikbare taal. Uitdagingen voor gevorderden en experts. Uitgebreide tuinstatistieken, plus 4 verdiende hints bij de eerste voltooiing in plaats van 3. Tuinmijlpalen en opgeslagen dagelijkse geschiedenis.",resource:ui_042,,,Codex (ai_editorial_lexical)
+msg_2b3aca3a5301,One-time purchase · No ads · No subscription,Eenmalige aankoop · Geen advertenties · Geen abonnement,resource:ui_043,,,Codex (ai_editorial_lexical)
+msg_c5f5dd9f9dbd,Restore Amazon purchase,Amazon-aankoop herstellen,resource:ui_044,,,Codex (ai_editorial_lexical)
+msg_d6173ae6d107,Daily puzzles and the introductory chapter remain free in every available language.,De dagelijkse puzzels en het inleidende hoofdstuk blijven gratis in alle beschikbare talen.,resource:ui_045,,,Codex (ai_editorial_lexical)
+msg_f97070a26e44,"Microphone permission denied. Swipe, tap or type to play.","Toegang tot microfoon geweigerd. Veeg, tik of typ om te spelen.",app/src/main/java/com/wordbloom/garden/MainActivity.kt:60,,,Codex (ai_editorial_lexical)
+msg_c394f19c3571,DEVELOPMENT BUILD · TEST PURCHASES · NO REAL MONEY,ONTWIKKELINGSBUILD · TESTANKOPEN · GEEN ECHT GELD,app/src/main/java/com/wordbloom/garden/MainActivity.kt:89,,,Codex (ai_editorial_lexical)
+msg_723a37716f9b,Finish this puzzle before going to the next level,Maak deze puzzel af voordat je naar het volgende niveau gaat,app/src/main/java/com/wordbloom/garden/MainActivity.kt:113,,,Codex (ai_editorial_lexical)
+msg_48265ef60f8c,Find a word first,Zoek eerst een woord,app/src/main/java/com/wordbloom/garden/MainActivity.kt:116,,,Codex (ai_editorial_lexical)
+msg_8d1b47c4d230,Open a puzzle to play a word,Open een puzzel om een woord te spelen,app/src/main/java/com/wordbloom/garden/MainActivity.kt:120,,,Codex (ai_editorial_lexical)
+msg_f40e3104ad14,"Try ‘shuffle letters’, ‘give me a hint’, or say one word","Probeer: “hussel de letters”, “geef me een hint” of zeg een woord",app/src/main/java/com/wordbloom/garden/MainActivity.kt:121,,,Codex (ai_editorial_lexical)
+msg_3a78695388b3,Home,Startpagina,app/src/main/java/com/wordbloom/garden/MainActivity.kt:136,,,Codex (ai_editorial_lexical)
+msg_13d83dbb23fb,Premium ✓,Premium ✓,app/src/main/java/com/wordbloom/garden/MainActivity.kt:137,unchanged text: verify shared terminology or missed translation,,Codex (ai_editorial_lexical)
+msg_03a0fc5cff6f,Explore premium,Ontdek premium,app/src/main/java/com/wordbloom/garden/MainActivity.kt:137,,,Codex (ai_editorial_lexical)
+msg_c808f9810a87,Begin your journey,Begin je reis,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,Codex (ai_editorial_lexical)
+msg_f3ed8d8349ee,Continue your journey,Zet je reis voort,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,Codex (ai_editorial_lexical)
+msg_98fa1a68fbba,{0}  →,{0}  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,Codex (ai_editorial_lexical)
+msg_d7e8f5ebcdd1,✿  Flowers: {0},✿  Bloemen: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:160,,,Codex (ai_editorial_lexical)
+msg_5b0a9ac3693a,01 / A FRESH LITTLE CHALLENGE,01 / EEN LEUKE KLEINE UITDAGING,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,Codex (ai_editorial_lexical)
+msg_f1920b5855f9,Your daily word escape,Je dagelijkse woordpuzzel,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,Codex (ai_editorial_lexical)
+msg_a53cc0540e4f,"EEEE, d MMMM","EEEE, d MMMM",app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,unchanged text: verify shared terminology or missed translation,,Codex (ai_editorial_lexical)
+msg_96a5eb446ace,Play today  →,Speel vandaag nog  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,Codex (ai_editorial_lexical)
+msg_27f702d2e3b2,02 / ONE WORD AT A TIME,02 / ÉÉN WOORD PER KEER,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,Codex (ai_editorial_lexical)
+msg_11b4bc1d0b3a,A world waiting to grow,Een wereld die wacht om te groeien,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,Codex (ai_editorial_lexical)
+msg_f958d2f1ac73,Six nature-inspired chapters,Zes hoofdstukken geïnspireerd op de natuur,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,Codex (ai_editorial_lexical)
+msg_0b6cefcbbec0,Explore the journey  →,Ontdek de reis  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,Codex (ai_editorial_lexical)
+msg_65a0a50953d4,03 / YOUR OWN QUIET CORNER,03 / JE EIGEN RUSTIGE HOEKJE,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,Codex (ai_editorial_lexical)
+msg_fee5f92e34a8,Watch your garden bloom,Zie hoe je tuin tot bloei komt,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,Codex (ai_editorial_lexical)
+msg_ad507c3c8a12,Every completed puzzle plants a flower,Elke voltooide puzzel zorgt ervoor dat er een bloem groeit,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,Codex (ai_editorial_lexical)
+msg_2b69cceea061,Visit my garden  →,Bezoek mijn tuin  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,Codex (ai_editorial_lexical)
+msg_ae511c4d36ce,Daily word escape,Dagelijkse woordpuzzel,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,Codex (ai_editorial_lexical)
+msg_8e3e629fe6f7,{0} · Level {1},{0} · Niveau {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,Codex (ai_editorial_lexical)
+msg_7079299b4aa5,A beautiful discovery,Een prachtige ontdekking,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,Codex (ai_editorial_lexical)
+msg_5fa29c1802c5,Let your words bloom,Laat je woorden bloeien,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,Codex (ai_editorial_lexical)
+msg_d4713d8915b8,✦ Hints: {0},✦ Hints: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:182,unchanged text: verify shared terminology or missed translation,,Codex (ai_editorial_lexical)
+msg_ca25e64817c4,Words found: {0} / {1} · {2},Gevonden woorden: {0} / {1} · {2},app/src/main/java/com/wordbloom/garden/MainActivity.kt:190,,,Codex (ai_editorial_lexical)
+msg_bfa637a72738,Bonus words: {0},Bonuswoorden: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:191,,,Codex (ai_editorial_lexical)
+msg_e015e30b0001,Back to the garden,Terug naar de tuin,app/src/main/java/com/wordbloom/garden/MainActivity.kt:199,,,Codex (ai_editorial_lexical)
+msg_c402502565e2,Next puzzle  →,Volgende puzzel  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:199,,,Codex (ai_editorial_lexical)
+msg_26658b593cc4,Replay puzzle,Puzzel opnieuw spelen,app/src/main/java/com/wordbloom/garden/MainActivity.kt:200,,,Codex (ai_editorial_lexical)
+msg_94fa9b236332,Stop listening,Niet meer luisteren,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,Codex (ai_editorial_lexical)
+msg_2982f1d4972e,◉ Speak,◉ Spreken,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,Codex (ai_editorial_lexical)
+msg_7ffb956802a5,Voice availability,Beschikbaarheid van spraak,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,Codex (ai_editorial_lexical)
+msg_cd167e8baced,"{0},{1}","{0},{1}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:241; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:74; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:75; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:77,,,Codex (ai_editorial_lexical)
+msg_10c2094f6509,"Row {0}, column {1}: {2}","Rij {0}, kolom {1}: {2}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:243,,,Codex (ai_editorial_lexical)
+msg_a0b7a33254e1,"Row {0}, column {1}: empty letter","Rij {0}, kolom {1}: lege letter",app/src/main/java/com/wordbloom/garden/MainActivity.kt:243,,,Codex (ai_editorial_lexical)
+msg_7cbfbbc8dca3,Connect the letters,Verbind de letters,app/src/main/java/com/wordbloom/garden/MainActivity.kt:259,,,Codex (ai_editorial_lexical)
+msg_b60f78f09280,"Letter {0}, tile {1}, selected","Letter {0}, tegel {1}, geselecteerd",app/src/main/java/com/wordbloom/garden/MainActivity.kt:291,,,Codex (ai_editorial_lexical)
+msg_c84c4c392414,"Letter {0}, tile {1}","Letter {0}, tegel {1}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:291,,,Codex (ai_editorial_lexical)
+msg_3f4f403ebf04,{0}. {1},{0}. {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:314,,,Codex (ai_editorial_lexical)
+msg_a2ca7e03290f,Flowers planted: {0},Geplante bloemen: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:332,,,Codex (ai_editorial_lexical)
+msg_e4fe7f7bd1f6,Chapters restored: {0} / 6 · Daily puzzles completed: {1},Herstelde hoofdstukken: {0} / 6 · Voltooide dagpuzzels: {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:333,,,Codex (ai_editorial_lexical)
+msg_0f02903bbf75,First bloom,Eerste bloem,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,Codex (ai_editorial_lexical)
+msg_662e46f0e1ba,Garden keeper,Tuinbeheerder,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,Codex (ai_editorial_lexical)
+msg_6b79c5405359,Wildflower soul,Een ziel als een wilde bloem,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_7812db0f028e,Full bloom,Volledige bloei,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,Codex (ai_editorial_lexical)
+msg_987e21cd5d8a,Puzzles: {0},Puzzels: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,Codex (ai_editorial_lexical)
+msg_e0fb55e50382,Your garden in numbers,Je tuin in cijfers,app/src/main/java/com/wordbloom/garden/MainActivity.kt:338,,,Codex (ai_editorial_lexical)
+msg_c4fc8fd71468,Words in completed puzzles: {0} · Journey restored: {1}%,Woorden in voltooide puzzels: {0} · Reis voltooid: {1}%,app/src/main/java/com/wordbloom/garden/MainActivity.kt:339,,,Codex (ai_editorial_lexical)
+msg_eb91f332fc67,{0} / {1},{0} / {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:345,,,Codex (ai_editorial_lexical)
+msg_fd2cd7f8ee6a,Your first daily escape is waiting. Play whenever you like — no streak to protect.,Je eerste dagpuzzel wacht op je. Speel wanneer je wilt — je hoeft geen reeks bij te houden.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:352,,,Codex (ai_editorial_lexical)
+msg_d096df9edd58,Spoken guidance,Gesproken aanwijzingen,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_66782b653f84,Gentle word sounds,Zachte woordklanken,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_e4c869e510f8,Garden ambience,Tuinsfeer,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_17e055f886cd,High-contrast letter tiles,Lettertegels met hoog contrast,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_297ef4c79b4b,Reduce motion,Beweging beperken,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_13b394639582,Larger text,Grotere tekst,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_321119913705,Evening theme,Avondthema,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_55c401c4d28a,A compatible recognition service is available. Use Speak in a puzzle; your device’s service may send speech to its provider.,Er is een geschikte spraakherkenningsdienst beschikbaar. Gebruik ‘Spreken’ in een puzzel; de dienst van je apparaat kan spraak naar de aanbieder sturen.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:366,,,Codex (ai_editorial_lexical)
+msg_2f84421d8ebb,"No compatible recognition service was found. Swipe, tap and text entry provide the full game.","Er is geen compatibele herkenningsdienst gevonden. Door te vegen, te tikken en tekst in te voeren kun je het spel volledig spelen.",app/src/main/java/com/wordbloom/garden/MainActivity.kt:366,,,Codex (ai_editorial_lexical)
+msg_75f0c89607b7,The whole garden is yours.,De hele tuin is van jou.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:376,,,Codex (ai_editorial_lexical)
+msg_69af495a2235,Let the whole garden bloom.,Laat de hele tuin bloeien.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:376,,,Codex (ai_editorial_lexical)
+msg_f11043f6ea65,Unlock premium · {0},Premium ontgrendelen · {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:379,,,Codex (ai_editorial_lexical)
+msg_d41acbd03306,Store price unavailable,Winkelprijs niet beschikbaar,app/src/main/java/com/wordbloom/garden/MainActivity.kt:379,,,Codex (ai_editorial_lexical)
+msg_fa51b9c92f37,Original illustration: {0}. Flowers: {1},Originele illustratie: {0}. Bloemen: {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:391,,,Codex (ai_editorial_lexical)
+msg_948430c6ab99,Amazon product availability depends on device,De beschikbaarheid van Amazon-producten is afhankelijk van het apparaat,app/src/main/java/com/wordbloom/garden/MainActivity.kt:468,,,Codex (ai_editorial_lexical)
+msg_8e554e7b755a,A little wordplay. A little wonder.,Een beetje woordspelletje. Een beetje verwondering.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:14,,,Codex (ai_editorial_lexical)
+msg_ecbce2c3864e,daily:{0}:,dagelijks: {0}:,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:31,,,Codex (ai_editorial_lexical)
+msg_25f011b0f89b,Find {0} words. Swipe or tap the letters.,Zoek {0} woorden. Veeg of tik op de letters.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:49,,,Codex (ai_editorial_lexical)
+msg_e5441b0e72b0,A fresh look at a familiar puzzle. Replay earns no additional hints.,Een frisse kijk op een bekende puzzel. Herhalen levert geen extra hints op.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:51,,,Codex (ai_editorial_lexical)
+msg_121aae1170ab,Letters shuffled,Letters door elkaar,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:53,,,Codex (ai_editorial_lexical)
+msg_4c3883effb17,Look for the highlighted starting letter,Zoek naar de gemarkeerde beginletter,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:54,,,Codex (ai_editorial_lexical)
+msg_0fc6b50e8f45,Beautiful! {0},Prachtig! {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:59,,,Codex (ai_editorial_lexical)
+msg_b48e2dc3f476,Bonus word! {0} · +1 hint,Bonuswoord! {0} · +1 hint,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:60,,,Codex (ai_editorial_lexical)
+msg_5c1a9c613e0a,Bonus word! {0},Bonuswoord! {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:60,,,Codex (ai_editorial_lexical)
+msg_66ba6d0a7ecc,You already found {0},Je hebt {0} al gevonden,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:61,,,Codex (ai_editorial_lexical)
+msg_16963e44a1e5,That word is not in this puzzle’s curated word list,Dat woord staat niet in de samengestelde woordenlijst van deze puzzel,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:62,,,Codex (ai_editorial_lexical)
+msg_09932cd896a0,Earn hints by completing puzzles or finding bonus words,Verdien hints door puzzels op te lossen of bonuswoorden te vinden,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:70,,,Codex (ai_editorial_lexical)
+msg_be3c173b7f18,Revealed {0},Onthuld {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:71,,,Codex (ai_editorial_lexical)
+msg_e456af789328,All its letters are visible: {0},Alle letters zijn zichtbaar: {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:76,,,Codex (ai_editorial_lexical)
+msg_07fff96bbf7e,"One new letter, a little closer","Eén nieuwe letter, weer een stukje dichterbij",app/src/main/java/com/wordbloom/garden/GameViewModel.kt:77,,,Codex (ai_editorial_lexical)
+msg_1184863228f5,Puzzle complete. Your garden is growing! Hints earned: +{0},Puzzel voltooid. Je tuin groeit! Verdiende hints: +{0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:88,,,Codex (ai_editorial_lexical)
+msg_365762cb0e8c,Progress could not be saved. Please try again.,De voortgang kon niet worden opgeslagen. Probeer het nog eens.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:92,,,Codex (ai_editorial_lexical)
+msg_5d7d60ebbf9d,Connecting to Amazon Appstore…,Verbinding maken met de Amazon Appstore…,app/src/main/java/com/wordbloom/garden/Billing.kt:13,,,Codex (ai_editorial_lexical)
+msg_10e2536378b8,premium:{0},premium: {0},app/src/main/java/com/wordbloom/garden/Billing.kt:17; app/src/main/java/com/wordbloom/garden/Billing.kt:34; app/src/main/java/com/wordbloom/garden/Billing.kt:41,,,Codex (ai_editorial_lexical)
+msg_a5ba5ae64c29,Amazon purchasing is unavailable on this device,Aankopen via Amazon zijn op dit apparaat niet beschikbaar,app/src/main/java/com/wordbloom/garden/Billing.kt:25; app/src/main/java/com/wordbloom/garden/Billing.kt:29; app/src/main/java/com/wordbloom/garden/Billing.kt:29,,,Codex (ai_editorial_lexical)
+msg_ddd669be77ae,Amazon purchasing is incompatible with this device,Aankopen via Amazon zijn niet compatibel met dit apparaat,app/src/main/java/com/wordbloom/garden/Billing.kt:26,,,Codex (ai_editorial_lexical)
+msg_dd6fc41d4f91,Store product unavailable. Check Amazon Appstore or try Restore.,Product niet beschikbaar. Controleer de Amazon Appstore of kies ‘Amazon-aankoop herstellen’.,app/src/main/java/com/wordbloom/garden/Billing.kt:30,,,Codex (ai_editorial_lexical)
+msg_e0f155662c00,Amazon account unavailable. Saved offline access retained.,Amazon-account niet beschikbaar. Opgeslagen offline toegang blijft behouden.,app/src/main/java/com/wordbloom/garden/Billing.kt:39,,,Codex (ai_editorial_lexical)
+msg_128074e4c337,Amazon product unavailable on this installation,Amazon-product niet beschikbaar op deze installatie,app/src/main/java/com/wordbloom/garden/Billing.kt:46,,,Codex (ai_editorial_lexical)
+msg_dd3e1e29a760,One purchase. A garden of possibilities.,Eén aankoop. Een tuin vol mogelijkheden.,app/src/main/java/com/wordbloom/garden/Billing.kt:46,,,Codex (ai_editorial_lexical)
+msg_50b0c029f3a3,Amazon account changed. Restore from the current account.,Amazon-account gewijzigd. Herstel vanuit het huidige account.,app/src/main/java/com/wordbloom/garden/Billing.kt:50,,,Codex (ai_editorial_lexical)
+msg_3d35cd1a63d2,Purchase {0}. No access granted.,Aankoopstatus: {0}. Geen toegang verleend.,app/src/main/java/com/wordbloom/garden/Billing.kt:53,,,Codex (ai_editorial_lexical)
+msg_98573700d8c5,Purchase could not be saved on this device. Please try Restore.,De aankoop kon niet op dit apparaat worden opgeslagen. Probeer ‘Herstellen’.,app/src/main/java/com/wordbloom/garden/Billing.kt:59,,,Codex (ai_editorial_lexical)
+msg_55d75478eec0,Premium purchase cancelled,Premium-aankoop geannuleerd,app/src/main/java/com/wordbloom/garden/Billing.kt:62,,,Codex (ai_editorial_lexical)
+msg_76caa7b4f5a9,Premium restored. Welcome to the whole garden.,Premium-toegang hersteld. Welkom in de hele tuin.,app/src/main/java/com/wordbloom/garden/Billing.kt:62,,,Codex (ai_editorial_lexical)
+msg_b8d39d362082,Restore unavailable. Please try again with Amazon Appstore.,Herstellen is niet mogelijk. Probeer het opnieuw via de Amazon Appstore.,app/src/main/java/com/wordbloom/garden/Billing.kt:66,,,Codex (ai_editorial_lexical)
+msg_795b43828254,Premium restored,Premium hersteld,app/src/main/java/com/wordbloom/garden/Billing.kt:75,,,Codex (ai_editorial_lexical)
+msg_4250182a589d,No premium purchase found for this Amazon account,Er zijn geen premium-aankopen gevonden voor dit Amazon-account,app/src/main/java/com/wordbloom/garden/Billing.kt:75,,,Codex (ai_editorial_lexical)
+msg_f9bbfdc8a3ea,Platform callback,Terugkoppeling naar het platform,app/src/main/java/com/wordbloom/garden/Voice.kt:26,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_020c24469ada,Spoken voice unavailable for this language. Touch controls remain available.,Gesproken stem niet beschikbaar voor deze taal. Aanraakbediening blijft beschikbaar.,app/src/main/java/com/wordbloom/garden/Voice.kt:34,,,Codex (ai_editorial_lexical)
+msg_2d400ffa6a48,"Speech recognition unavailable. You can swipe, tap, or type words.","Spraakherkenning is niet beschikbaar. Je kunt vegen, tikken of woorden typen.",app/src/main/java/com/wordbloom/garden/Voice.kt:43,,,Codex (ai_editorial_lexical)
+msg_69de651d5d29,Microphone permission is needed for push-to-talk only.,Toestemming voor de microfoon is alleen nodig voor push-to-talk.,app/src/main/java/com/wordbloom/garden/Voice.kt:44,,,Codex (ai_editorial_lexical)
+msg_61dbc5288edf,Audio is busy. Try again shortly.,Het audiosysteem is bezet. Probeer het straks opnieuw.,app/src/main/java/com/wordbloom/garden/Voice.kt:48,,,Codex (ai_editorial_lexical)
+msg_bbb4106e8144,Listening…,Luisteren…,app/src/main/java/com/wordbloom/garden/Voice.kt:50,,,Codex (ai_editorial_lexical)
+msg_185afcb24dce,Speech service could not start. Touch controls remain available.,De spraakservice kon niet worden gestart. De aanraakbediening blijft beschikbaar.,app/src/main/java/com/wordbloom/garden/Voice.kt:52,,,Codex (ai_editorial_lexical)
+msg_76394fcb63bc,Listening… Speak a command or a word.,Luisteren… Spreek een commando of een woord uit.,app/src/main/java/com/wordbloom/garden/Voice.kt:56,,,Codex (ai_editorial_lexical)
+msg_22b8a1abd6e3,Recognising…,Herkennen…,app/src/main/java/com/wordbloom/garden/Voice.kt:60,,,Codex (ai_editorial_lexical)
+msg_d4c13b10d7bc,No word recognised. Try again.,Woord niet herkend. Probeer het nog eens.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,Codex (ai_editorial_lexical)
+msg_ed978d7afee3,Speech service needs a connection. Use touch to play offline.,De spraakservice vereist een verbinding. Gebruik aanraking om offline te spelen.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,Codex (ai_editorial_lexical)
+msg_b76434749b96,Microphone permission unavailable.,Toestemming voor microfoon niet beschikbaar.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,Codex (ai_editorial_lexical)
+msg_c2fb18dbb1e7,Speech unavailable ({0}). Try again or use touch.,Gesproken tekst niet beschikbaar ({0}). Probeer het opnieuw of gebruik aanraking.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,Codex (ai_editorial_lexical)
+msg_a3dd64d17497,Heard: {0},Gehoord: {0},app/src/main/java/com/wordbloom/garden/Voice.kt:62,,,Codex (ai_editorial_lexical)
+msg_2e09d4c2f8af,Sunrise Garden,Zonsopgangtuin,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_987b2beefb6c,Enchanted Forest,Betoverd bos,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_eae5735d7bfc,Blossom Valley,Bloesemvallei,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_0727d340225f,Crystal Lake,Kristallen meer,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_28cc60e8c238,Golden Meadow,Gouden weide,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_21245fa78fc3,Moonlight Garden,Maanlichttuin,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_c865ebb3052c,Beginner,Beginner,engine:display-label,unchanged text: verify shared terminology or missed translation,,Codex (ai_editorial_lexical)
+msg_3b1cfa63d7d9,Intermediate,Gemiddeld,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_9f088dbebd6c,Advanced,Gevorderd,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_8b317b0c50ee,Expert,Expert,engine:display-label,unchanged text: verify shared terminology or missed translation,,Codex (ai_editorial_lexical)
+msg_2430e09ec2ec,successful,geslaagd,sdk:purchase-status-display,,,Codex (ai_editorial_lexical)
+msg_5d28a90f4498,failed,mislukt,sdk:purchase-status-display,,,Codex (ai_editorial_lexical)
+msg_0b470848c772,already purchased,reeds aangeschaft,sdk:purchase-status-display,,,Codex (ai_editorial_lexical)
+msg_60dad20a602e,invalid sku,ongeldig artikelnummer,sdk:purchase-status-display,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_0bee0730a4f9,not supported,niet ondersteund,sdk:purchase-status-display,,,Codex (ai_editorial_lexical)
+msg_62a2fed3d6e0,pending,in afwachting,sdk:purchase-status-display,,,Codex (ai_editorial_lexical)

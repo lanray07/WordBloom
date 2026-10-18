@@ -149,12 +149,13 @@ object Commands {
   "it" to "inizia il puzzle|prossimo livello|mescola le lettere|dammi un suggerimento|ripeti la parola|mostra i miei progressi|apri la sfida giornaliera|metti in pausa il gioco|torna all’inizio",
   "nl" to "start de puzzel|volgend niveau|hussel de letters|geef me een hint|herhaal het woord|toon mijn voortgang|open de daguitdaging|pauzeer het spel|ga naar start",
   "pl" to "rozpocznij łamigłówkę|następny poziom|wymieszaj litery|daj mi wskazówkę|powtórz słowo|pokaż moje postępy|otwórz wyzwanie dnia|wstrzymaj grę|wróć do startu",
-  "pt" to "iniciar o puzzle|próximo nível|misturar letras|dá-me uma dica|repetir a palavra|mostrar o meu progresso|abrir o desafio diário|pausar o jogo|voltar ao início"
+  "pt-BR" to "iniciar o quebra-cabeça|próximo nível|embaralhar letras|me dê uma dica|repita a palavra|mostre meu progresso|abra o desafio diário|pause o jogo|volte ao início",
+  "pt-PT" to "iniciar o puzzle|próximo nível|baralhar letras|dá-me uma dica|repete a palavra|mostra o meu progresso|abre o desafio diário|pausa o jogo|volta ao início"
  )
- fun examples(language: String): String=phrases[language.substringBefore('-')]?.split('|')?.joinToString(" · ")?:english.keys.joinToString(" · ")
+ fun examples(language: String): String=(phrases[language]?:phrases[language.substringBefore('-')])?.split('|')?.joinToString(" · ")?:english.keys.joinToString(" · ")
  fun parse(text: String, language: String): VoiceInput {
   val value=Normalizer.normalize(text.trim(),Normalizer.Form.NFC).lowercase(Locale.ROOT).removeSuffix(".").replace('\u0027','’')
-  val translated=phrases[language.substringBefore('-')]?.split('|')?.zip(english.values)?.toMap().orEmpty()
+  val translated=(phrases[language]?:phrases[language.substringBefore('-')])?.split('|')?.zip(english.values)?.toMap().orEmpty()
   return (translated[value]?:english[value])?.let { VoiceInput(it) } ?: if(value.all { it.isLetter() } && value.length>=3) VoiceInput(Command.WORD,Words.normalise(value,Locale.forLanguageTag(language))) else VoiceInput(Command.AMBIGUOUS)
  }
 }

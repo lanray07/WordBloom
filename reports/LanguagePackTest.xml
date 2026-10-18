@@ -1,10 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<testsuite name="com.wordbloom.engine.LanguagePackTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-18T09:16:23.845Z" time="0.142">
+<testsuite name="com.wordbloom.engine.LanguagePackTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-18T10:30:36.926Z" time="0.122">
   <properties />
-  <testcase name="allEightDraftEditionsHaveDistinctSolvableProgressIds" classname="com.wordbloom.engine.LanguagePackTest" time="0.133" />
-  <testcase name="localizedSpokenWordsAndCommands" classname="com.wordbloom.engine.LanguagePackTest" time="0.008" />
-  <testcase name="accentsAreNotSilentlyRemovedOrSubstituted" classname="com.wordbloom.engine.LanguagePackTest" time="0.0" />
-  <testcase name="draftCannotSilentlyBecomeAnApprovedLanguage" classname="com.wordbloom.engine.LanguagePackTest" time="0.001" />
+  <testcase name="everyDisplayedCommandIsAcceptedInItsLanguage" classname="com.wordbloom.engine.LanguagePackTest" time="0.008" />
+  <testcase name="draftCollectionsContainNoDuplicateTargetSets" classname="com.wordbloom.engine.LanguagePackTest" time="0.044" />
+  <testcase name="allEightDraftEditionsHaveDistinctSolvableProgressIds" classname="com.wordbloom.engine.LanguagePackTest" time="0.066" />
+  <testcase name="localizedSpokenWordsAndCommands" classname="com.wordbloom.engine.LanguagePackTest" time="0.001" />
+  <testcase name="accentsAreNotSilentlyRemovedOrSubstituted" classname="com.wordbloom.engine.LanguagePackTest" time="0.001" />
+  <testcase name="draftCannotSilentlyBecomeAnApprovedLanguage" classname="com.wordbloom.engine.LanguagePackTest" time="0.0" />
   <system-out />
   <system-err />
 </testsuite>

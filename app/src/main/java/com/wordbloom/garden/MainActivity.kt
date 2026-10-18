@@ -144,7 +144,7 @@ class MainActivity: ComponentActivity() {
 @Composable private fun Home(s: GameState,play: ()->Unit,daily: ()->Unit,go: (String)->Unit) {
  Column(Modifier.widthIn(max=1200.dp).fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp),verticalArrangement=Arrangement.spacedBy(22.dp)) {
   BoxWithConstraints {
-   val wide=maxWidth>700.dp
+   val wide=maxWidth>700.dp*LocalDensity.current.fontScale.coerceAtLeast(1f)
    val intro: @Composable ()->Unit = {
     Column(Modifier.padding(if(wide)24.dp else 4.dp),verticalArrangement=Arrangement.spacedBy(18.dp)) {
      Eyebrow(stringResource(R.string.ui_007))
@@ -157,7 +157,7 @@ class MainActivity: ComponentActivity() {
    if(wide) Row(verticalAlignment=Alignment.CenterVertically) { Box(Modifier.weight(1f)){intro()};Box(Modifier.weight(1.1f).height(360.dp).clip(RoundedCornerShape(28.dp))){GardenArt(0,6);Surface(Modifier.align(Alignment.BottomStart).padding(20.dp),color=Cream.copy(alpha=.9f),shape=RoundedCornerShape(16.dp)){UiText(stringResource(R.string.ui_011),Modifier.padding(16.dp),color=Pine,fontFamily=FontFamily.Serif,fontSize=18.sp)}} }
    else Column { intro();Spacer(Modifier.height(20.dp));Box(Modifier.fillMaxWidth().height(220.dp).clip(RoundedCornerShape(24.dp))){GardenArt(0,6)} }
   }
-  Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween,verticalAlignment=Alignment.CenterVertically) { Box(Modifier.weight(1f)) { Title(stringResource(R.string.ui_012),24) };UiText("✿  ${s.completed.size} ${if(s.completed.size==1)"bloom" else "blooms"}",fontSize=13.sp) }
+  Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween,verticalAlignment=Alignment.CenterVertically) { Box(Modifier.weight(1f)) { Title(stringResource(R.string.ui_012),24) };UiText("✿  Flowers: ${s.completed.size}",fontSize=13.sp) }
   FlowRow(horizontalArrangement=Arrangement.spacedBy(14.dp),verticalArrangement=Arrangement.spacedBy(14.dp)) {
    HomeCard("01 / A FRESH LITTLE CHALLENGE","Your daily word escape",LocalDate.now().format(DateTimeFormatter.ofPattern("EEEE, d MMMM",Locale.forLanguageTag(s.language))),"Play today  →",daily)
    HomeCard("02 / ONE WORD AT A TIME","A world waiting to grow","Six nature-inspired chapters","Explore the journey  →",{go("worlds")})
@@ -179,15 +179,15 @@ class MainActivity: ComponentActivity() {
  Column(Modifier.widthIn(max=1200.dp).fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal=20.dp,vertical=if(compact)12.dp else 16.dp),horizontalAlignment=Alignment.CenterHorizontally,verticalArrangement=Arrangement.spacedBy(if(compact)8.dp else 12.dp)) {
   Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween,verticalAlignment=Alignment.CenterVertically) {
    Column(Modifier.weight(1f)) { Eyebrow(if(p.id.startsWith("daily"))"Daily word escape" else "${Library.worlds[p.world]} · Level ${Library.forLanguage(s.language).indexOfFirst { it.id==p.id }+1}");Title(if(done)"A beautiful discovery" else "Let your words bloom",if(compact)24 else 28) }
-   UiText("✦ ${s.hints} hints",fontWeight=FontWeight.SemiBold)
+   UiText("✦ Hints: ${s.hints}",fontWeight=FontWeight.SemiBold)
   }
   LinearProgressIndicator(progress={s.found.size.toFloat()/p.answers.size},modifier=Modifier.fillMaxWidth().height(5.dp).clip(CircleShape))
   BoxWithConstraints(Modifier.fillMaxWidth()) {
-   val wide=maxWidth>700.dp
+   val wide=maxWidth>700.dp*LocalDensity.current.fontScale.coerceAtLeast(1f)
    val board: @Composable ()->Unit = {
     Column(horizontalAlignment=Alignment.CenterHorizontally,verticalArrangement=Arrangement.spacedBy(if(compact)8.dp else 12.dp)) {
      Box(Modifier.fillMaxWidth().height(if(wide)330.dp else if(compact)(p.height*24).dp.coerceIn(100.dp,220.dp) else 220.dp).clip(RoundedCornerShape(24.dp))) { GardenArt(p.world,s.found.size+2,.28f);CrosswordBoard(p,s,settings,Modifier.fillMaxSize().padding(20.dp));BloomCelebration(done,settings.reduced,Modifier.matchParentSize()) }
-     UiText("${s.found.size} of ${p.answers.size} words found  ·  ${p.difficulty.name.lowercase().replaceFirstChar { it.uppercase() }}",fontSize=13.sp)
+     UiText("Words found: ${s.found.size} / ${p.answers.size} · ${p.difficulty.name.lowercase().replaceFirstChar { it.uppercase() }}",fontSize=13.sp)
      if(s.bonus.isNotEmpty()) UiText("Bonus words: ${s.bonus.joinToString(" · ")}",fontSize=13.sp)
     }
    }
@@ -200,11 +200,11 @@ class MainActivity: ComponentActivity() {
       if(!p.id.startsWith("daily"))TextButton(onClick=replay){UiText("Replay puzzle")}
      } else {
       LetterWheel(p,s.revision,settings,s.highlighted,submit)
-      Row(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
+      FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp),verticalArrangement=Arrangement.spacedBy(6.dp)) {
        OutlinedButton(onClick=shuffle){UiText(stringResource(R.string.ui_015))}
        OutlinedButton(onClick={hint(false)}){UiText(stringResource(R.string.ui_016))}
       }
-      Row(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
+      FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp),verticalArrangement=Arrangement.spacedBy(6.dp)) {
        TextButton(onClick=startHint){UiText(stringResource(R.string.ui_017))};TextButton(onClick={hint(true)}){UiText(stringResource(R.string.ui_018))}
       }
      }
@@ -220,7 +220,7 @@ class MainActivity: ComponentActivity() {
     Button(onClick={submit(typed);typed=""},enabled=typed.isNotBlank()){UiText(stringResource(R.string.ui_020))}
    }
   }
-  Row(verticalAlignment=Alignment.CenterVertically,horizontalArrangement=Arrangement.spacedBy(8.dp)) {
+  FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp),verticalArrangement=Arrangement.spacedBy(6.dp)) {
    OutlinedButton(onClick=mic){UiText(if(listening)"Stop listening" else if(available)"◉ Speak" else "Voice availability")}
    TextButton(onClick=say){UiText(stringResource(R.string.ui_021))}
   }
@@ -241,7 +241,7 @@ class MainActivity: ComponentActivity() {
      val c=p.cells[x to y];val visible=(x to y) in revealed || "$x,$y" in s.revealed
      if(c==null)Spacer(Modifier.size((cell-3.dp).coerceAtLeast(4.dp)))
      else Box(Modifier.size((cell-3.dp).coerceAtLeast(4.dp)).clip(RoundedCornerShape(7.dp)).background(if(visible)Pine else Color.White.copy(alpha=.94f)).border(1.dp,if(settings.contrast)Pine else Sage.copy(alpha=.22f),RoundedCornerShape(7.dp)).semantics { contentDescription=uiLabel(if(visible)"Row ${y+1}, column ${x+1}: $c" else "Row ${y+1}, column ${x+1}: empty letter") },contentAlignment=Alignment.Center) {
-      UiText(if(visible)c.toString() else "",fontSize=letterSize,fontWeight=FontWeight.SemiBold,color=if(visible)Cream else Pine)
+      UiText(if(visible)c.toString() else "",fontSize=letterSize,lineHeight=letterSize*1.1f,fontWeight=FontWeight.SemiBold,color=if(visible)Cream else Pine)
      }
     }
    } }
@@ -294,7 +294,7 @@ class MainActivity: ComponentActivity() {
    }
    UiText("✿",modifier=Modifier.align(Alignment.Center),fontSize=26.sp,color=Sage)
   }
-  Row(horizontalArrangement=Arrangement.spacedBy(4.dp)) {
+  FlowRow(horizontalArrangement=Arrangement.spacedBy(4.dp),verticalArrangement=Arrangement.spacedBy(4.dp)) {
    TextButton(onClick={chosen=chosen.dropLast(1)},enabled=chosen.isNotEmpty()){UiText(stringResource(R.string.ui_023))}
    TextButton(onClick={chosen=emptyList()},enabled=chosen.isNotEmpty()){UiText(stringResource(R.string.ui_024))}
    TextButton(onClick={submit(word);chosen=emptyList()},enabled=chosen.isNotEmpty()){UiText(stringResource(R.string.ui_025))}
@@ -329,14 +329,14 @@ class MainActivity: ComponentActivity() {
  Column(Modifier.widthIn(max=1050.dp).verticalScroll(rememberScrollState()).padding(24.dp),verticalArrangement=Arrangement.spacedBy(20.dp)) {
   Eyebrow(stringResource(R.string.ui_029));Title(stringResource(R.string.ui_030))
   Box(Modifier.fillMaxWidth().height(340.dp).clip(RoundedCornerShape(28.dp))){GardenArt((complete/4).coerceAtMost(5),blooms)}
-  Title("$blooms ${if(blooms==1)"bloom" else "blooms"} planted",30)
-  UiText("${complete/4} of 6 chapters restored · $dailyCount daily ${if(dailyCount==1)"escape" else "escapes"} completed")
+  Title("Flowers planted: $blooms",30)
+  UiText("Chapters restored: ${complete/4} / 6 · Daily puzzles completed: $dailyCount")
   FlowRow(horizontalArrangement=Arrangement.spacedBy(12.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
-   listOf(1 to "First bloom",4 to "Garden keeper",12 to "Wildflower soul",24 to "Full bloom").forEach { (count,label)->Surface(shape=RoundedCornerShape(18.dp),color=if(blooms>=count)Peach else Sage.copy(alpha=.12f)){Column(Modifier.padding(22.dp)){UiText(if(blooms>=count)"✿" else "◇",fontSize=30.sp,color=Pine);UiText(label,fontFamily=FontFamily.Serif,color=if(blooms>=count)Pine else MaterialTheme.colorScheme.onSurface);UiText(if(count==1)"1 puzzle" else "$count puzzles",fontSize=12.sp,color=if(blooms>=count)Pine else MaterialTheme.colorScheme.onSurface)}} }
+   listOf(1 to "First bloom",4 to "Garden keeper",12 to "Wildflower soul",24 to "Full bloom").forEach { (count,label)->Surface(shape=RoundedCornerShape(18.dp),color=if(blooms>=count)Peach else Sage.copy(alpha=.12f)){Column(Modifier.padding(22.dp)){UiText(if(blooms>=count)"✿" else "◇",fontSize=30.sp,color=Pine);UiText(label,fontFamily=FontFamily.Serif,color=if(blooms>=count)Pine else MaterialTheme.colorScheme.onSurface);UiText("Puzzles: $count",fontSize=12.sp,color=if(blooms>=count)Pine else MaterialTheme.colorScheme.onSurface)}} }
   }
   if(premium) {
    Title("Your garden in numbers",24)
-   UiText("${s.completed.size*3} words in completed puzzles · ${((complete/24f)*100).toInt()}% of the journey restored")
+   UiText("Words in completed puzzles: ${s.completed.size*3} · Journey restored: ${((complete/24f)*100).toInt()}%")
    FlowRow(horizontalArrangement=Arrangement.spacedBy(10.dp),verticalArrangement=Arrangement.spacedBy(10.dp)) {
     Difficulty.entries.forEach { difficulty ->
      val solved=Library.forLanguage(s.language).count { it.difficulty==difficulty && it.id in s.completed }
@@ -388,7 +388,7 @@ class MainActivity: ComponentActivity() {
  val uiLabel=rememberUiLabel()
  val palettes=listOf(listOf(0xFFF4D8B0,0xFFF6EDD5,0xFFACB890,0xFF658A74),listOf(0xFFBAC8B7,0xFFE3E4C7,0xFF789784,0xFF345E51),listOf(0xFFEBD0D4,0xFFFFE9DC,0xFFC6ACAA,0xFF8D9B7A),listOf(0xFFBFD8DB,0xFFECEDD7,0xFF8DB5B0,0xFF4D8F99),listOf(0xFFF0CE95,0xFFFFE7B2,0xFFC5B778,0xFF86986A),listOf(0xFF263D53,0xFF6A758E,0xFF536D79,0xFF264C50))
  val pal=palettes[world.coerceIn(0,5)].map { Color(it) }
- Canvas(Modifier.fillMaxSize().semantics { contentDescription=uiLabel("Original illustrated ${Library.worlds[world.coerceIn(0,5)]}, $blooms flowers") }) {
+ Canvas(Modifier.fillMaxSize().semantics { contentDescription=uiLabel("Original illustration: ${Library.worlds[world.coerceIn(0,5)]}. Flowers: $blooms") }) {
   val w=size.width;val h=size.height
   drawRect(Brush.verticalGradient(listOf(pal[0],pal[1])),alpha=opacity)
   drawCircle(if(world==5)Cream else Color(0xFFFFF1CF),w*.065f,Offset(w*.77f,h*.23f),alpha=opacity)

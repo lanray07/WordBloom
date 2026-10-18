@@ -1,5 +1,5 @@
 {
-  "status": "draft; native vocabulary and difficulty approval required",
+  "status": "Separate AI editorial/lexical review completed; hashes and limits in approvals.json; no native human certification",
   "packs": {
     "de": [
       {
@@ -163,11 +163,11 @@
         "world": 3
       },
       {
-        "letters": "BLUMEEN",
+        "letters": "WUNDER",
         "targets": [
-          "BLUMEN",
-          "BLUME",
-          "LEBEN"
+          "WUNDER",
+          "RUNDE",
+          "WUND"
         ],
         "difficulty": "INTERMEDIATE",
         "world": 4
@@ -288,7 +288,7 @@
         "letters": "LAGO",
         "targets": [
           "LAGO",
-          "GOLA",
+          "OLA",
           "ALGO"
         ],
         "difficulty": "BEGINNER",
@@ -409,7 +409,7 @@
         "targets": [
           "MOLINO",
           "LINO",
-          "LIMO"
+          "MONO"
         ],
         "difficulty": "INTERMEDIATE",
         "world": 4
@@ -520,7 +520,7 @@
         "letters": "TTARE",
         "targets": [
           "TARTE",
-          "TARE",
+          "RATE",
           "ART"
         ],
         "difficulty": "INTERMEDIATE",
@@ -560,8 +560,8 @@
         "letters": "JARDIN",
         "targets": [
           "JARDIN",
-          "RADIN",
-          "DRAIN"
+          "AIR",
+          "DIRA"
         ],
         "difficulty": "INTERMEDIATE",
         "world": 1
@@ -671,7 +671,7 @@
         "targets": [
           "JARDINS",
           "JARDIN",
-          "RADINS"
+          "DANS"
         ],
         "difficulty": "ADVANCED",
         "world": 4
@@ -749,11 +749,11 @@
         "world": 0
       },
       {
-        "letters": "SOOLE",
+        "letters": "SOOLEA",
         "targets": [
           "SOLE",
           "SOLO",
-          "LESO"
+          "SALE"
         ],
         "difficulty": "BEGINNER",
         "world": 0
@@ -872,7 +872,7 @@
         "letters": "LIMONE",
         "targets": [
           "LIMONE",
-          "LIMO",
+          "NOME",
           "MENO"
         ],
         "difficulty": "INTERMEDIATE",
@@ -1125,7 +1125,7 @@
         "targets": [
           "TUINEN",
           "TUIN",
-          "TUNEN"
+          "NIET"
         ],
         "difficulty": "INTERMEDIATE",
         "world": 3
@@ -1263,11 +1263,11 @@
         "world": 1
       },
       {
-        "letters": "ROKK",
+        "letters": "ROOKK",
         "targets": [
           "ROK",
           "KROK",
-          "KOK"
+          "OKO"
         ],
         "difficulty": "BEGINNER",
         "world": 1
@@ -1297,7 +1297,7 @@
         "targets": [
           "POLE",
           "POLA",
-          "LEPI"
+          "LIPA"
         ],
         "difficulty": "BEGINNER",
         "world": 2
@@ -1387,7 +1387,7 @@
         "targets": [
           "OGRODY",
           "OGRÓD",
-          "RODY"
+          "GÓRY"
         ],
         "difficulty": "INTERMEDIATE",
         "world": 4
@@ -1488,7 +1488,7 @@
         "letters": "ROSA",
         "targets": [
           "ROSA",
-          "AROS",
+          "SOAR",
           "RASO"
         ],
         "difficulty": "BEGINNER",
@@ -1525,10 +1525,10 @@
         "world": 1
       },
       {
-        "letters": "AARREI",
+        "letters": "AAREI",
         "targets": [
           "AREIA",
-          "AREAR",
+          "IRA",
           "RAIA"
         ],
         "difficulty": "INTERMEDIATE",
@@ -1549,7 +1549,7 @@
         "targets": [
           "PLANTA",
           "PLANO",
-          "TALA"
+          "LATA"
         ],
         "difficulty": "INTERMEDIATE",
         "world": 2
@@ -1659,7 +1659,7 @@
         "targets": [
           "PALAVRA",
           "PALAVRAS",
-          "LAVRA"
+          "SALA"
         ],
         "difficulty": "EXPERT",
         "world": 5
@@ -1679,7 +1679,7 @@
         "targets": [
           "BORBOLETA",
           "BOLA",
-          "BOLETO"
+          "BOTA"
         ],
         "difficulty": "EXPERT",
         "world": 5

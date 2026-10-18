@@ -9,14 +9,15 @@ The dense expert daily board was also visually inspected with large text and the
 evening/high-contrast settings; real QA captures are in `store/raw/tablet/`.
 
 The device has no recognition service; the unavailable-service message and
-swipe/tap/type fallback were tested. TTS engines are installed. Audible voice and
-VoiceView quality require hands-on confirmation; speech recognition round trips
+swipe/tap/type fallback were tested. TTS engines are installed. The publisher confirmed clear English letter speech; regional audio and
+VoiceView quality still need hands-on observation; speech recognition round trips
 are not claimed from this hardware configuration.
 
 Amazon App Tester checks passed for the normal Amazon debug adapter: price
 display using a UK fixture, cancellation, purchase/fulfilment, restore, account
 switch and test-receipt cancellation. No real money was charged. Final
-store-delivered, minified-release and multilingual runtime testing remain pending.
+store-delivered minified-release testing remains pending. Multilingual device
+evidence is recorded separately in reports/localized-device-qa.json.
 
 Compile/target SDK 36, minSdk 26, JDK 17 and core-library desugaring. No mandatory
 Google Play Services, Firebase or Google billing. API below 26 is unsupported.

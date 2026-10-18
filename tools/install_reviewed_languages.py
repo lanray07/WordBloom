@@ -26,7 +26,8 @@ def main(check_only=False):
  # Validate all requested languages before mutating installed assets/registry.
  for locale in approvals['required_for_release']:
   review=approvals['locales'].get(locale,{})
-  assert review.get('reviewer','').strip() and re.fullmatch(r'\d{4}-\d{2}-\d{2}',review.get('reviewed_on','')),f'{locale}: native reviewer/date missing'
+  assert review.get('reviewer','').strip() and re.fullmatch(r'\d{4}-\d{2}-\d{2}',review.get('reviewed_on','')),f'{locale}: linguistic reviewer/date missing'
+  assert review.get('review_kind') in ['ai_editorial_lexical','human_linguistic_review'],f'{locale}: review method missing'
   assert review.get('ui_approved') is True and review.get('gameplay_approved') is True,f'{locale}: review not approved'
   path=ROOT/f'localization/generated/messages/{locale}.json'
   assert path.exists(),f'{locale}: translation generation incomplete'
@@ -43,12 +44,15 @@ def main(check_only=False):
    validate(item['source'],item['translation'])
   installed[locale]=path.read_bytes()
  if check_only:
+  for locale,contents in installed.items():
+   target=ROOT/f'app/src/main/assets/localization/{locale}.json'
+   assert target.exists() and target.read_bytes()==contents,f'{locale}: installed asset differs from reviewed bundle'
   print('All required language reviews and compiled vocabulary hashes validated.')
   return
  for locale,contents in installed.items():
   path=ROOT/f'app/src/main/assets/localization/{locale}.json';path.parent.mkdir(parents=True,exist_ok=True);path.write_bytes(contents)
  locales=['en-GB','en-US',*installed]
- lines=['package com.wordbloom.engine','/** Generated from hash-bound native approvals. */','object ApprovedLanguages {', ' val locales=listOf('+','.join(json.dumps(x) for x in locales)+')', ' val names=mapOf('+','.join(json.dumps(x)+' to '+json.dumps(NAMES[x],ensure_ascii=False) for x in locales)+')','}']
+ lines=['package com.wordbloom.engine','/** Generated from explicit hash-bound linguistic review records. */','object ApprovedLanguages {', ' val locales=listOf('+','.join(json.dumps(x) for x in locales)+')', ' val names=mapOf('+','.join(json.dumps(x)+' to '+json.dumps(NAMES[x],ensure_ascii=False) for x in locales)+')','}']
  (ROOT/'engine/src/main/kotlin/com/wordbloom/engine/ApprovedLanguages.kt').write_text('\n'.join(lines)+'\n',encoding='utf-8')
  print('Installed reviewed interfaces and activated eight language editions. Rebuild and run language/device QA before upload.')
 

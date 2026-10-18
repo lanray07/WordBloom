@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-18",
+  "application_id": "com.wordbloom.garden.qa",
+  "not_for_release": true,
+  "device": "KFTRWI",
+  "apk_sha256": "fa4d9980484a3736fea86c0178bfc64169e70f3391e5e9fca2390c9216d87f82",
+  "cases": [
+    {
+      "locale": "de",
+      "orientation": "landscape",
+      "system_font_scale": 1.0,
+      "passed": true,
+      "evidence": "reports/language-tests/de-landscape.txt",
+      "local_captures": "dist/language-device-evidence/de-landscape"
+    },
+    {
+      "locale": "de",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "passed": true,
+      "evidence": "reports/language-tests/de-portrait.txt",
+      "local_captures": "dist/language-device-evidence/de-portrait"
+    },
+    {
+      "locale": "es",
+      "orientation": "landscape",
+      "system_font_scale": 1.0,
+      "passed": true,
+      "evidence": "reports/language-tests/es-landscape.txt",
+      "local_captures": "dist/language-device-evidence/es-landscape"
+    },
+    {
+      "locale": "es",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "passed": true,
+      "evidence": "reports/language-tests/es-portrait.txt",
+      "local_captures": "dist/language-device-evidence/es-portrait"
+    },
+    {
+      "locale": "fr",
+      "orientation": "landscape",
+      "system_font_scale": 1.0,
+      "passed": true,
+      "evidence": "reports/language-tests/fr-landscape.txt",
+      "local_captures": "dist/language-device-evidence/fr-landscape"
+    },
+    {
+      "locale": "fr",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "passed": true,
+      "evidence": "reports/language-tests/fr-portrait.txt",
+      "local_captures": "dist/language-device-evidence/fr-portrait"
+    },
+    {
+      "locale": "it",
+      "orientation": "landscape",
+      "system_font_scale": 1.0,
+      "passed": true,
+      "evidence": "reports/language-tests/it-landscape.txt",
+      "local_captures": "dist/language-device-evidence/it-landscape"
+    },
+    {
+      "locale": "it",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "passed": true,
+      "evidence": "reports/language-tests/it-portrait.txt",
+      "local_captures": "dist/language-device-evidence/it-portrait"
+    },
+    {
+      "locale": "nl",
+      "orientation": "landscape",
+      "system_font_scale": 1.0,
+      "passed": true,
+      "evidence": "reports/language-tests/nl-landscape.txt",
+      "local_captures": "dist/language-device-evidence/nl-landscape"
+    },
+    {
+      "locale": "nl",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "passed": true,
+      "evidence": "reports/language-tests/nl-portrait.txt",
+      "local_captures": "dist/language-device-evidence/nl-portrait"
+    },
+    {
+      "locale": "pl",
+      "orientation": "landscape",
+      "system_font_scale": 1.0,
+      "passed": true,
+      "evidence": "reports/language-tests/pl-landscape.txt",
+      "local_captures": "dist/language-device-evidence/pl-landscape"
+    },
+    {
+      "locale": "pl",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "passed": true,
+      "evidence": "reports/language-tests/pl-portrait.txt",
+      "local_captures": "dist/language-device-evidence/pl-portrait"
+    },
+    {
+      "locale": "pt-BR",
+      "orientation": "landscape",
+      "system_font_scale": 1.0,
+      "passed": true,
+      "evidence": "reports/language-tests/pt-BR-landscape.txt",
+      "local_captures": "dist/language-device-evidence/pt-BR-landscape"
+    },
+    {
+      "locale": "pt-BR",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "passed": true,
+      "evidence": "reports/language-tests/pt-BR-portrait.txt",
+      "local_captures": "dist/language-device-evidence/pt-BR-portrait"
+    },
+    {
+      "locale": "pt-PT",
+      "orientation": "landscape",
+      "system_font_scale": 1.0,
+      "passed": true,
+      "evidence": "reports/language-tests/pt-PT-landscape.txt",
+      "local_captures": "dist/language-device-evidence/pt-PT-landscape"
+    },
+    {
+      "locale": "pt-PT",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "passed": true,
+      "evidence": "reports/language-tests/pt-PT-portrait.txt",
+      "local_captures": "dist/language-device-evidence/pt-PT-portrait"
+    }
+  ],
+  "scope": "Draft language UI/input/progress checks in isolated QA copy. Long/accented puzzle selection bypasses the paywall through a VM test call; no entitlement cache changed, no purchase made. Not native certification or production release QA.",
+  "restored_settings": [
+    "font_scale",
+    "accelerometer_rotation",
+    "user_rotation"
+  ],
+  "settings_restore_pending": {},
+  "all_requested_cases_passed": true,
+  "passed": true,
+  "locales_passed": [
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl",
+    "pl",
+    "pt-BR",
+    "pt-PT"
+  ],
+  "notes": "German cases completed before USB disconnect. Other seven locales completed after reconnect using the same app APK. Visual inspection found narrow large-font controls, corrected in the subsequent normal production-source candidate."
+}

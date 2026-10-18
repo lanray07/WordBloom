@@ -44,7 +44,7 @@
     },
     "msg_0e816c8e17f7": {
       "source": "✿ Sunrise Garden\nYour first chapter awaits",
-      "translation": "✿ Sunrise Garden\nTu primer capítulo te espera"
+      "translation": "✿ Jardín del amanecer\nTu primer capítulo te espera"
     },
     "msg_5270c9ce647e": {
       "source": "Make a little time for you",
@@ -136,7 +136,7 @@
     },
     "msg_115ae40e6398": {
       "source": "Puzzle language",
-      "translation": "Lenguaje de los acertijos"
+      "translation": "Idioma de los rompecabezas"
     },
     "msg_0f03ee3ee472": {
       "source": "Choose a puzzle language. Each language has its own word collection and saved journey. English UK/US share a collection.",
@@ -148,7 +148,7 @@
     },
     "msg_1527f526f087": {
       "source": "Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.",
-      "translation": "Prueba: «mezclar letras», «dame una pista», «repite la palabra», «muéstrame mi progreso», «abrir el reto diario», «volver a la página de inicio»."
+      "translation": "Prueba: “mezclar letras”, “dame una pista”, “repetir la palabra”, “mostrar mi progreso”, “abrir el reto diario”, “ir al inicio”."
     },
     "msg_e94253e91c49": {
       "source": "Your words stay yours",
@@ -160,7 +160,7 @@
     },
     "msg_ddc5cf266848": {
       "source": "WordBloom 0.1 · 24 puzzles · Offline-first",
-      "translation": "WordBloom 0.1 · 24 acertijos · Prioridad al modo sin conexión"
+      "translation": "WordBloom 0.1 · 24 rompecabezas · Juego sin conexión"
     },
     "msg_c37f87dfc774": {
       "source": "A little more wonder",
@@ -204,7 +204,7 @@
     },
     "msg_f40e3104ad14": {
       "source": "Try ‘shuffle letters’, ‘give me a hint’, or say one word",
-      "translation": "Prueba con «mezclar letras», «dame una pista» o di una palabra"
+      "translation": "Prueba: “mezclar letras”, “dame una pista” o di una palabra"
     },
     "msg_3a78695388b3": {
       "source": "Home",
@@ -230,17 +230,9 @@
       "source": "{0}  →",
       "translation": "{0}  →"
     },
-    "msg_34659fd61a72": {
-      "source": "bloom",
-      "translation": "flor"
-    },
-    "msg_541ce7fbc0c0": {
-      "source": "blooms",
-      "translation": "flores"
-    },
-    "msg_cef6600c14db": {
-      "source": "✿  {0} {1}",
-      "translation": "✿  {0} {1}"
+    "msg_d7e8f5ebcdd1": {
+      "source": "✿  Flowers: {0}",
+      "translation": "✿  Flores: {0}"
     },
     "msg_5b0a9ac3693a": {
       "source": "01 / A FRESH LITTLE CHALLENGE",
@@ -248,7 +240,7 @@
     },
     "msg_f1920b5855f9": {
       "source": "Your daily word escape",
-      "translation": "Tu «escape de palabras» diario"
+      "translation": "Tu reto diario de palabras"
     },
     "msg_a53cc0540e4f": {
       "source": "EEEE, d MMMM",
@@ -292,7 +284,7 @@
     },
     "msg_ae511c4d36ce": {
       "source": "Daily word escape",
-      "translation": "Escapada diaria de palabras"
+      "translation": "Reto diario de palabras"
     },
     "msg_8e3e629fe6f7": {
       "source": "{0} · Level {1}",
@@ -306,13 +298,13 @@
       "source": "Let your words bloom",
       "translation": "Deja que tus palabras florezcan"
     },
-    "msg_0a29d0b91627": {
-      "source": "✦ {0} hints",
-      "translation": "✦ Pistas de {0}"
+    "msg_d4713d8915b8": {
+      "source": "✦ Hints: {0}",
+      "translation": "✦ Pistas: {0}"
     },
-    "msg_f2a0e0bc4654": {
-      "source": "{0} of {1} words found  ·  {2}",
-      "translation": "{0} de {1} palabras encontradas  ·  {2}"
+    "msg_ca25e64817c4": {
+      "source": "Words found: {0} / {1} · {2}",
+      "translation": "Palabras encontradas: {0} / {1} · {2}"
     },
     "msg_bfa637a72738": {
       "source": "Bonus words: {0}",
@@ -370,21 +362,13 @@
       "source": "{0}. {1}",
       "translation": "{0}. {1}"
     },
-    "msg_4a70d8f4b647": {
-      "source": "{0} {1} planted",
-      "translation": "{0} {1} plantado"
+    "msg_a2ca7e03290f": {
+      "source": "Flowers planted: {0}",
+      "translation": "Flores plantadas: {0}"
     },
-    "msg_b3140286ac71": {
-      "source": "escape",
-      "translation": "escape"
-    },
-    "msg_5e7d9a0cc8b6": {
-      "source": "escapes",
-      "translation": "escapes"
-    },
-    "msg_450f661967d8": {
-      "source": "{0} of 6 chapters restored · {1} daily {2} completed",
-      "translation": "{0} de 6 capítulos restaurados · {1} diario {2} completado"
+    "msg_e4fe7f7bd1f6": {
+      "source": "Chapters restored: {0} / 6 · Daily puzzles completed: {1}",
+      "translation": "Capítulos restaurados: {0} / 6 · Retos diarios completados: {1}"
     },
     "msg_0f02903bbf75": {
       "source": "First bloom",
@@ -402,21 +386,17 @@
       "source": "Full bloom",
       "translation": "Floración completa"
     },
-    "msg_7066a711b3aa": {
-      "source": "1 puzzle",
-      "translation": "1 rompecabezas"
-    },
-    "msg_5d4059022064": {
-      "source": "{0} puzzles",
-      "translation": "Rompecabezas {0}"
+    "msg_987e21cd5d8a": {
+      "source": "Puzzles: {0}",
+      "translation": "Rompecabezas: {0}"
     },
     "msg_e0fb55e50382": {
       "source": "Your garden in numbers",
       "translation": "Tu jardín en cifras"
     },
-    "msg_54a8c698907c": {
-      "source": "{0} words in completed puzzles · {1}% of the journey restored",
-      "translation": "{0} palabras en los rompecabezas completados · {1} % del recorrido recuperado"
+    "msg_c4fc8fd71468": {
+      "source": "Words in completed puzzles: {0} · Journey restored: {1}%",
+      "translation": "Palabras en rompecabezas completados: {0} · Viaje completado: {1}%"
     },
     "msg_eb91f332fc67": {
       "source": "{0} / {1}",
@@ -478,9 +458,9 @@
       "source": "Store price unavailable",
       "translation": "Precio en tienda no disponible"
     },
-    "msg_fa8fd1f427ce": {
-      "source": "Original illustrated {0}, {1} flowers",
-      "translation": "{0} e {1}, flores ilustradas originales"
+    "msg_fa51b9c92f37": {
+      "source": "Original illustration: {0}. Flowers: {1}",
+      "translation": "Ilustración original: {0}. Flores: {1}"
     },
     "msg_948430c6ab99": {
       "source": "Amazon product availability depends on device",
@@ -496,7 +476,7 @@
     },
     "msg_25f011b0f89b": {
       "source": "Find {0} words. Swipe or tap the letters.",
-      "translation": "Encuentra palabras {0}. Desliza el dedo o toca las letras."
+      "translation": "Encuentra {0} palabras. Desliza el dedo o toca las letras."
     },
     "msg_e5441b0e72b0": {
       "source": "A fresh look at a familiar puzzle. Replay earns no additional hints.",
@@ -546,9 +526,9 @@
       "source": "One new letter, a little closer",
       "translation": "Una nueva letra, un poco más cerca"
     },
-    "msg_aa7aa69fdfd9": {
-      "source": "Puzzle complete. Your garden is growing! +{0} hints",
-      "translation": "Rompecabezas completado. ¡Tu jardín está creciendo! + {0} pistas"
+    "msg_1184863228f5": {
+      "source": "Puzzle complete. Your garden is growing! Hints earned: +{0}",
+      "translation": "Rompecabezas completado. ¡Tu jardín crece! Pistas ganadas: +{0}"
     },
     "msg_365762cb0e8c": {
       "source": "Progress could not be saved. Please try again.",
@@ -572,7 +552,7 @@
     },
     "msg_dd6fc41d4f91": {
       "source": "Store product unavailable. Check Amazon Appstore or try Restore.",
-      "translation": "El producto no está disponible en la tienda. Consulta la Amazon Appstore o prueba con Restore."
+      "translation": "Producto no disponible. Consulta Amazon Appstore o selecciona «Recuperar una compra en Amazon»."
     },
     "msg_e0f155662c00": {
       "source": "Amazon account unavailable. Saved offline access retained.",
@@ -592,7 +572,7 @@
     },
     "msg_3d35cd1a63d2": {
       "source": "Purchase {0}. No access granted.",
-      "translation": "Comprar {0}. No se concede acceso."
+      "translation": "Estado de la compra: {0}. No se ha concedido acceso."
     },
     "msg_98573700d8c5": {
       "source": "Purchase could not be saved on this device. Please try Restore.",
@@ -604,7 +584,7 @@
     },
     "msg_76caa7b4f5a9": {
       "source": "Premium restored. Welcome to the whole garden.",
-      "translation": "Se ha restablecido la suscripción Premium. Bienvenido al jardín completo."
+      "translation": "Acceso premium recuperado. Bienvenido al jardín completo."
     },
     "msg_b8d39d362082": {
       "source": "Restore unavailable. Please try again with Amazon Appstore.",
@@ -684,7 +664,7 @@
     },
     "msg_eae5735d7bfc": {
       "source": "Blossom Valley",
-      "translation": "«valle de las flores»"
+      "translation": "Valle de las flores"
     },
     "msg_0727d340225f": {
       "source": "Crystal Lake",

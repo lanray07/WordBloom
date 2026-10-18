@@ -1,7 +1,7 @@
 """Build original, language-specific word-connect seed data. Not translated answers.
 
-Vocabulary is a draft for native editorial approval; structural tests cannot
-certify age suitability, idiom or regional preference.
+Initial vocabulary requires separate linguistic review; structural tests cannot
+certify age suitability, idiom or regional preference. Reviewed JSON is canonical.
 """
 import argparse
 import json
@@ -42,7 +42,7 @@ def initial_drafts():
 
 def render_kotlin(packs):
  assert set(packs)==set(WORDS),'Expected seven vocabulary languages'
- lines = ['package com.wordbloom.engine', '', '/** Generated original vocabulary drafts. Never activate without native editorial approval. */', 'object DraftLanguagePacks {', ' val locales = listOf("de", "es", "fr", "it", "nl", "pl", "pt-BR", "pt-PT")', ' private val seeds: Map<String,List<Seed>> = mapOf(']
+ lines = ['package com.wordbloom.engine', '', '/** Generated original vocabulary. Activation requires separate hash-bound linguistic review. */', 'object DraftLanguagePacks {', ' val locales = listOf("de", "es", "fr", "it", "nl", "pl", "pt-BR", "pt-PT")', ' private val seeds: Map<String,List<Seed>> = mapOf(']
  for locale, seeds in packs.items():
   assert len(seeds)==24,(locale,'Expected 24 puzzles')
   lines.append('  '+json.dumps(locale)+' to listOf(')
@@ -62,7 +62,7 @@ def main():
  ap=argparse.ArgumentParser();ap.add_argument('--regenerate-drafts',action='store_true');args=ap.parse_args()
  path=ROOT/'localization/gameplay-drafts.json'
  if args.regenerate_drafts or not path.exists():
-  path.write_text(json.dumps(dict(status='draft; native vocabulary and difficulty approval required',packs=initial_drafts()),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+  path.write_text(json.dumps(dict(status='draft; separate vocabulary and difficulty review required before activation',packs=initial_drafts()),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  packs=json.loads(path.read_text(encoding='utf-8'))['packs']
  (ROOT/'engine/src/main/kotlin/com/wordbloom/engine/DraftLanguagePacks.kt').write_text(render_kotlin(packs),encoding='utf-8')
  print('Prepared', sum(map(len,packs.values())), 'language-specific puzzle drafts; Portuguese shared regional vocabulary.')

@@ -4,7 +4,12 @@
   "user_rotation": "0",
   "wifi_on": "1",
   "stay_on_while_plugged_in": "0",
+  "date": "2026-10-18",
   "sandbox_mode": "none",
   "original_app_tester_json_restored": true,
-  "app_tester_selected_account": "Amazon User 1 / US; visually verified"
+  "app_tester_selected_account": "Amazon User 1 / US; unchanged since earlier restoration",
+  "isolated_language_qa_packages_removed": true,
+  "normal_test_app_data_cleared": true,
+  "normal_app_left_installed": true,
+  "apk_sha256": "b68da339792aff2f238dcbd701d25a965450d713ee67a38de6ada1d0b8245bed"
 }

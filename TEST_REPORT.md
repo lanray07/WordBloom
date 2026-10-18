@@ -5,9 +5,9 @@ Amazon sandbox testing and release checks that remain pending.
 
 ## Executed checks
 
-- Engine: 11 existing gameplay/generation/entitlement cases, 4 language-pack cases
-  and 3 translation-template cases passed. The draft-language tests prepare 192
-  solvable locale-edition puzzles, preserve accents and reject unapproved language
+- Engine: 11 existing gameplay/generation/entitlement cases, 6 language-pack cases
+  and 3 translation-template cases passed. The language-pack tests prepare 192
+  solvable locale-edition puzzles, preserve accents and reject unsupported language
   activation. They do not establish lexical correctness or child suitability.
 - Development billing contract: 5 JVM cases passed. These exercise an isolated
   simulated adapter; they are separate from the real Amazon SDK sandbox below.
@@ -80,21 +80,41 @@ values and checks them again after activity recreation.
 
 ## Localization review
 
-The first release requires all eight additional gameplay locale editions.
-DeepL generation completed for all eight additional locale editions: 184 UI
-templates and 246 total source entries each, with no missing entries. Placeholder,
-brand, catalogue and resource coverage checks passed. Review CSVs and an archive
-were exported; flags require human editorial/layout review, not automatic rejection. Draft vocabularies and interface installation support are
-prepared, but non-English editions remain disabled. Wordfreq 3.1.1 observations
-were recorded for 488 candidate words; one unobserved draft form was replaced
-with dictionary-attested Italian SELLA. Twenty rare words remain flagged for
-linguistic/difficulty review. Corpus evidence is not dictionary/native approval.
-See `localization/REVIEW_HANDOFF.md` and `reports/word-frequency-review.json`.
+All ten requested locale editions are active in the normal candidate after
+separate Codex AI editorial/lexical review. DeepL supplied eight additional
+editions with 179 UI templates and 241 total source entries each. Every UI entry,
+listing/caption draft, target/bonus set and displayed command was inspected.
+Seventeen word sets were improved. Counter grammar, purchase/speech meanings,
+chapter names, register and Portuguese regional commands were corrected.
+The method and exact hashes are in localization/approvals.json; native human
+certification is not claimed. Further fluent regional/difficulty review would
+increase confidence. Structural tests alone do not establish lexical correctness.
+
+Frequency evidence covers 491 non-English and 123 English observations. Five
+non-English and five English low-frequency flags were checked against primary
+dictionaries and retained with reasons in reports/rare-word-adjudication.json.
+No unobserved entries remain. No dictionary definitions/corpus is shipped.
+
+Sixteen earlier draft-prototype tablet cases passed (eight languages in landscape
+and portrait at 150% system text). Visual inspection found cramped German controls
+at large text; production controls now wrap whole buttons and the board stacks
+above the wheel when text is enlarged. Dense-grid letters now use an explicit
+line height, correcting clipping seen in physical captures. An Android 9 ICU
+regex crash was also fixed.
+Final normal-app evidence belongs to reports/localized-device-qa.json, distinct
+from reports/localized-draft-device-qa.json. All ten final normal-app portrait
+cases passed at 150% system text plus the in-app larger-text option. The real
+large-text overview is reports/multilingual-large-text-preview.jpg. Three
+real-UI progress-switching cases also passed, including Portuguese isolation and
+shared English progress. The switching automation was corrected to dismiss the
+keyboard before reaching the header; no app progress fix was necessary.
+Advanced layout checks seed only QA
+progress and open a long/accented puzzle through a VM call, without changing an
+entitlement or purchasing. Locale progress boundaries have a separate real-UI
+check. Device screenshots are actual captures, not listing render compositions.
 
 ## Remaining release tests
 
-- Approved translations and independently validated word packs, followed by
-  locale-by-locale layout, accented/repeated-letter input and switching checks.
 - Matching final listing copy/assets and the final candidate upload.
 - Amazon store-delivered **minified release** price/purchase/restore testing.
   App Tester is a debug sandbox; it does not certify the production build.
@@ -109,12 +129,16 @@ provided for developer QA and has not been device-certified or uploaded.
 
 ## Final package verification
 
-Production API 36 debug, release and instrumentation APK builds and lint passed. Lint: 0 errors, 24 warnings (including dependency-version suggestions and intentionally unused preparation assets). Engine: 11 passed; billing contract: 5 passed; localisation: 9 passed; visual: 2 passed with 20 renders. Debug signing verified. Release is unsigned; Amazon applies store signing. The development purchase adapter and Google Play Billing are absent from release DEX. A separate signed .dev APK with explicit simulated-purchase labels is provided for developer QA; its manifest, build flag and signature were verified without device execution.
+Production API 36 debug, release and instrumentation APK builds and lint passed. Lint: 0 errors, 24 warnings (including dependency-version suggestions and intentionally unused preparation assets). Engine: 11 passed; billing contract: 5 passed; localisation: 9 passed; historical visual evidence: 2 suites with 20 earlier renders (not rerun for this candidate). Debug signing verified. Release is unsigned; Amazon applies store signing. The development purchase adapter and Google Play Billing are absent from release DEX. A separate signed .dev APK with explicit simulated-purchase labels is provided for developer QA; its manifest, build flag and signature were verified without device execution.
 
-Fast-swipe tracing now preserves the original down and interpolates crossed tiles; regression tests cover a fast segment, backtracking and a near miss. The Amazon SDK emits stack-map warnings under R8, so the final store-delivered purchase flow still needs App Tester/live verification.
+Fast-swipe tracing now preserves the original down and interpolates crossed tiles; regression tests cover a fast segment, backtracking and a near miss. The Amazon SDK emits stack-map warnings under R8, so the final store-delivered purchase flow still needs Amazon-delivered live verification.
 
-Three additional independent native Compose screen renders passed for the listing images. Their source pixels, export dimensions and hashes were checked. They are layoutlib renders, not physical-device captures or evidence of device runtime behavior.
+Three earlier independent Compose screen renders passed for the listing images. Their export dimensions and hashes were checked. These historical layoutlib renders predate the final multilingual UI fixes and do not certify the current runtime layout.
 
-Additional engine checks: language packs 4 passed; message translation 3 passed. Draft language editions remain disabled pending native approval.
+Additional engine checks: language packs 6 passed; message translation 3 passed. All ten locale editions are active after separate hash-bound AI editorial/lexical review, without claiming native human certification.
 
-Seven physical Fire device scenarios passed on the packaged normal debug APK: baseline gameplay/storage, recreation/hints/voice fallback, continuous touch swipes/backtracking, settings persistence, portrait, Wi-Fi disabled and large font. This is one Fire model and an unminified debug build; store-delivered release and multilingual runtime QA remain pending.
+Seven physical Fire device scenarios passed on the packaged normal debug APK: baseline gameplay/storage, recreation/hints/voice fallback, continuous touch swipes/backtracking, settings persistence, portrait, Wi-Fi disabled and large font. This is one Fire model and an unminified debug build; Amazon-delivered release testing remains pending. Multilingual cases are recorded separately.
+
+All ten locale editions passed the normal-app portrait matrix at 150% system text plus in-app larger text. Locale selection, invalid/valid words, recreation, completion, garden, premium copy and advanced long/accented input were checked. Real screenshots were inspected separately; advanced puzzles use a test VM call and do not certify purchases.
+
+Three real-UI switching checks passed: English/German progress isolation, Brazil/Portugal progress isolation, and intentionally shared UK/US English progress.

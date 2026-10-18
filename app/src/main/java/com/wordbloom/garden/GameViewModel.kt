@@ -85,7 +85,7 @@ class GameViewModel(app: Application): AndroidViewModel(app) {
     val complete=proposed.found.containsAll(p.answers)
     val first=complete && p.id !in proposed.completed
     val reward=if(premium)4 else 3
-    val next=proposed.copy(completed=if(complete)proposed.completed+p.id else proposed.completed,hints=proposed.hints+if(first)reward else 0,message=if(first)"Puzzle complete. Your garden is growing! +$reward hints" else proposed.message)
+    val next=proposed.copy(completed=if(complete)proposed.completed+p.id else proposed.completed,hints=proposed.hints+if(first)reward else 0,message=if(first)"Puzzle complete. Your garden is growing! Hints earned: +$reward" else proposed.message)
     dao.save(Progress(p.id,next.found.joinToString("|"),next.bonus.joinToString("|"),next.revealed.joinToString("|"),complete || p.id in next.completed),Wallet(hints=next.hints))
     val live=state.value
     mutable.value=if(live.puzzle?.id==p.id && live.language==next.language)next.copy(page=live.page) else live.copy(completed=if(live.language==next.language)next.completed else live.completed,hints=next.hints)

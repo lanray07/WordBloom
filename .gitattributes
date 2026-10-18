@@ -1,0 +1,6 @@
+# Review hashes must survive Windows checkouts and generated-file exports.
+localization/ui-source.json text eol=crlf
+localization/gameplay-drafts.json text eol=crlf
+localization/voice-command-drafts.json text eol=crlf
+localization/generated/messages/*.json text eol=crlf
+app/src/main/assets/localization/*.json text eol=crlf

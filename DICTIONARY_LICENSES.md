@@ -1,8 +1,8 @@
 # Dictionary and asset provenance
 
-No competitor puzzle database or proprietary level sequence is copied. No raw external dictionary or frequency corpus is bundled in the Android application. English targets and bonus lists in `engine/src/main/kotlin/com/wordbloom/engine/Puzzle.kt` are authored selections of ordinary words for this project. There is no third-party word-list licence to reproduce. The owner may use/modify the selection and arrangements; final content review is still required.
+No competitor puzzle database or proprietary level sequence is copied. No raw external dictionary or frequency corpus is bundled in the Android application. English targets and bonus lists in `engine/src/main/kotlin/com/wordbloom/engine/Puzzle.kt` are authored selections of ordinary words for this project. There is no third-party word-list licence to reproduce. The owner may use/modify the selection and arrangements; separate content review is recorded in reports/editorial-review.json.
 
-No non-English dictionary has been acquired or represented as ready. Before enabling a locale, record source/version, licence text and redistribution terms, audience filters, frequency source, spelling rules, reviewer and validation report. `tools/validate_pack.py` requires provenance/reviewer fields but does not replace linguistic review or connected-layout tests.
+Non-English targets are authored curated selections, not a redistributed dictionary. Source/method, frequency attribution, spelling checks, reviewer and validation evidence are recorded in localization/approvals.json and reports/editorial-review.json. `tools/validate_pack.py` requires provenance/reviewer fields but does not replace linguistic review or connected-layout tests.
 
 Garden SVGs, Android Canvas scenes and locally synthesised ambient audio are original project assets. No stock photography, recorded samples or downloaded font files are bundled. System fonts are selected at runtime. See `assets/LICENSE.txt` and the reproducible soundtrack generator `tools/generate_ambience.py`.
 
@@ -23,9 +23,10 @@ QA storage, outside the APK and delivery source archive.
 
 This corpus is a usage snapshot through about 2021. Observed frequency does not
 establish standard spelling, regional preference, child suitability or complete
-dictionary membership. The report checks 488 candidate words across seven
-vocabulary languages (Portuguese editions share the vocabulary). A targeted
-Italian correction replaced an unobserved draft form with dictionary-attested
-SELLA; see `reports/linguistic-corrections.json`. Twenty lower-frequency words
-remain flagged for review. No full language pack is claimed linguistically
-approved from this evidence.
+dictionary membership. The current report checks 491 non-English and 123 English
+word observations (Portuguese editions share vocabulary). Seventeen target sets
+were improved in a separate editorial pass. Five non-English and five English
+rarity flags remain in the corpus report and have primary-dictionary
+adjudications in reports/rare-word-adjudication.json. Corpus frequency alone is
+not linguistic approval. The separate AI editorial/lexical review method and
+limitations are recorded honestly; no native human certification is claimed.

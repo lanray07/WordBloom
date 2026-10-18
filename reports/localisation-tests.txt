@@ -9,6 +9,6 @@ test_nested_kotlin_interpolation_and_quoted_branches (test_ui_catalog.UiCatalogT
 test_provider_batch_preserves_order_and_parameters (test_ui_catalog.UiCatalogTests) ... ok
 
 ----------------------------------------------------------------------
-Ran 9 tests in 0.003s
+Ran 9 tests in 0.005s
 
 OK

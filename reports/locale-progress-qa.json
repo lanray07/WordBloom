@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-18",
+  "cases": [
+    {
+      "source": "en-GB",
+      "target": "de",
+      "shared": false,
+      "passed": true,
+      "evidence": "reports/language-tests/progress-en-GB-de.txt"
+    },
+    {
+      "source": "pt-BR",
+      "target": "pt-PT",
+      "shared": false,
+      "passed": true,
+      "evidence": "reports/language-tests/progress-pt-BR-pt-PT.txt"
+    },
+    {
+      "source": "en-GB",
+      "target": "en-US",
+      "shared": true,
+      "passed": true,
+      "evidence": "reports/language-tests/progress-en-GB-en-US.txt"
+    }
+  ],
+  "scope": "Normal debug real UI and persisted progress; no purchase.",
+  "apk_sha256": "b68da339792aff2f238dcbd701d25a965450d713ee67a38de6ada1d0b8245bed",
+  "passed": true
+}

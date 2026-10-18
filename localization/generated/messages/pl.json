@@ -44,7 +44,7 @@
     },
     "msg_0e816c8e17f7": {
       "source": "✿ Sunrise Garden\nYour first chapter awaits",
-      "translation": "✿ Ogród Wschodu Słońca\nCzeka na Ciebie pierwszy rozdział"
+      "translation": "✿ Ogród wschodu słońca\nCzeka na Ciebie pierwszy rozdział"
     },
     "msg_5270c9ce647e": {
       "source": "Make a little time for you",
@@ -56,7 +56,7 @@
     },
     "msg_585047053aa9": {
       "source": "You grew something lovely.",
-      "translation": "Wyhodowałeś coś pięknego."
+      "translation": "Coś pięknego wyrosło."
     },
     "msg_543e87add437": {
       "source": "↝ Shuffle",
@@ -120,7 +120,7 @@
     },
     "msg_54c98e740241": {
       "source": "Look how far you’ve grown.",
-      "translation": "Zobacz, jak bardzo się rozwinąłeś."
+      "translation": "Zobacz swoje postępy."
     },
     "msg_d77f771b332b": {
       "source": "Daily memories",
@@ -148,7 +148,7 @@
     },
     "msg_1527f526f087": {
       "source": "Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.",
-      "translation": "Wypróbuj: „przetasuj litery”, „daj mi podpowiedź”, „powtórz słowo”, „pokaż mój postęp”, „otwórz codzienne wyzwanie”, „wróć do strony głównej”."
+      "translation": "Wypróbuj: “wymieszaj litery”, “daj mi wskazówkę”, “powtórz słowo”, “pokaż moje postępy”, “otwórz wyzwanie dnia”, “wróć do startu”."
     },
     "msg_e94253e91c49": {
       "source": "Your words stay yours",
@@ -160,7 +160,7 @@
     },
     "msg_ddc5cf266848": {
       "source": "WordBloom 0.1 · 24 puzzles · Offline-first",
-      "translation": "WordBloom 0.1 · 24 łamigłówki · Działa przede wszystkim w trybie offline"
+      "translation": "WordBloom 0.1 · 24 łamigłówki · Gra offline"
     },
     "msg_c37f87dfc774": {
       "source": "A little more wonder",
@@ -204,7 +204,7 @@
     },
     "msg_f40e3104ad14": {
       "source": "Try ‘shuffle letters’, ‘give me a hint’, or say one word",
-      "translation": "Spróbuj „przetasować litery”, „daj mi podpowiedź” lub powiedz jedno słowo"
+      "translation": "Wypróbuj: “wymieszaj litery”, “daj mi wskazówkę” lub wypowiedz słowo"
     },
     "msg_3a78695388b3": {
       "source": "Home",
@@ -230,17 +230,9 @@
       "source": "{0}  →",
       "translation": "{0}  →"
     },
-    "msg_34659fd61a72": {
-      "source": "bloom",
-      "translation": "kwiat"
-    },
-    "msg_541ce7fbc0c0": {
-      "source": "blooms",
-      "translation": "kwiaty"
-    },
-    "msg_cef6600c14db": {
-      "source": "✿  {0} {1}",
-      "translation": "✿  {0} {1}"
+    "msg_d7e8f5ebcdd1": {
+      "source": "✿  Flowers: {0}",
+      "translation": "✿  Kwiaty: {0}"
     },
     "msg_5b0a9ac3693a": {
       "source": "01 / A FRESH LITTLE CHALLENGE",
@@ -248,7 +240,7 @@
     },
     "msg_f1920b5855f9": {
       "source": "Your daily word escape",
-      "translation": "Twoja codzienna ucieczka słowna"
+      "translation": "Twoje codzienne wyzwanie słowne"
     },
     "msg_a53cc0540e4f": {
       "source": "EEEE, d MMMM",
@@ -292,7 +284,7 @@
     },
     "msg_ae511c4d36ce": {
       "source": "Daily word escape",
-      "translation": "Codzienna ucieczka słowna"
+      "translation": "Codzienne wyzwanie słowne"
     },
     "msg_8e3e629fe6f7": {
       "source": "{0} · Level {1}",
@@ -306,13 +298,13 @@
       "source": "Let your words bloom",
       "translation": "Niech Twoje słowa zakwitną"
     },
-    "msg_0a29d0b91627": {
-      "source": "✦ {0} hints",
-      "translation": "✦ Wskazówki dotyczące {0}"
+    "msg_d4713d8915b8": {
+      "source": "✦ Hints: {0}",
+      "translation": "✦ Podpowiedzi: {0}"
     },
-    "msg_f2a0e0bc4654": {
-      "source": "{0} of {1} words found  ·  {2}",
-      "translation": "{0} z {1} znalezionych słów  ·  {2}"
+    "msg_ca25e64817c4": {
+      "source": "Words found: {0} / {1} · {2}",
+      "translation": "Znalezione słowa: {0} / {1} · {2}"
     },
     "msg_bfa637a72738": {
       "source": "Bonus words: {0}",
@@ -370,21 +362,13 @@
       "source": "{0}. {1}",
       "translation": "{0}. {1}"
     },
-    "msg_4a70d8f4b647": {
-      "source": "{0} {1} planted",
-      "translation": "{0} {1} umieszczone"
+    "msg_a2ca7e03290f": {
+      "source": "Flowers planted: {0}",
+      "translation": "Posadzone kwiaty: {0}"
     },
-    "msg_b3140286ac71": {
-      "source": "escape",
-      "translation": "ucieczka"
-    },
-    "msg_5e7d9a0cc8b6": {
-      "source": "escapes",
-      "translation": "ucieczki"
-    },
-    "msg_450f661967d8": {
-      "source": "{0} of 6 chapters restored · {1} daily {2} completed",
-      "translation": "{0} z 6 rozdziałów przywróconych · {1} codzienna {2} ukończona"
+    "msg_e4fe7f7bd1f6": {
+      "source": "Chapters restored: {0} / 6 · Daily puzzles completed: {1}",
+      "translation": "Odnowione rozdziały: {0} / 6 · Ukończone wyzwania dnia: {1}"
     },
     "msg_0f02903bbf75": {
       "source": "First bloom",
@@ -402,21 +386,17 @@
       "source": "Full bloom",
       "translation": "Pełny rozkwit"
     },
-    "msg_7066a711b3aa": {
-      "source": "1 puzzle",
-      "translation": "1 łamigłówka"
-    },
-    "msg_5d4059022064": {
-      "source": "{0} puzzles",
-      "translation": "{0} łamigłówki"
+    "msg_987e21cd5d8a": {
+      "source": "Puzzles: {0}",
+      "translation": "Łamigłówki: {0}"
     },
     "msg_e0fb55e50382": {
       "source": "Your garden in numbers",
       "translation": "Twój ogród w liczbach"
     },
-    "msg_54a8c698907c": {
-      "source": "{0} words in completed puzzles · {1}% of the journey restored",
-      "translation": "{0} słów w ukończonych łamigłówkach · {1}% drogi odzyskanej"
+    "msg_c4fc8fd71468": {
+      "source": "Words in completed puzzles: {0} · Journey restored: {1}%",
+      "translation": "Słowa w ukończonych łamigłówkach: {0} · Ukończona podróż: {1}%"
     },
     "msg_eb91f332fc67": {
       "source": "{0} / {1}",
@@ -424,7 +404,7 @@
     },
     "msg_fd2cd7f8ee6a": {
       "source": "Your first daily escape is waiting. Play whenever you like — no streak to protect.",
-      "translation": "Czeka na Ciebie pierwsza codzienna ucieczka. Graj, kiedy tylko chcesz — nie musisz dbać o utrzymanie passy."
+      "translation": "Czeka na Ciebie pierwsze wyzwanie dnia. Graj, kiedy chcesz — nie musisz utrzymywać serii."
     },
     "msg_d096df9edd58": {
       "source": "Spoken guidance",
@@ -456,7 +436,7 @@
     },
     "msg_55c401c4d28a": {
       "source": "A compatible recognition service is available. Use Speak in a puzzle; your device’s service may send speech to its provider.",
-      "translation": "Dostępna jest kompatybilna usługa rozpoznawania mowy. Użyj funkcji „Speak” w łamigłówce; usługa Twojego urządzenia może wysłać sygnał mowy do swojego dostawcy."
+      "translation": "Dostępna jest zgodna usługa rozpoznawania mowy. Użyj przycisku „Mów” w łamigłówce; usługa urządzenia może wysłać nagranie do swojego dostawcy."
     },
     "msg_2f84421d8ebb": {
       "source": "No compatible recognition service was found. Swipe, tap and text entry provide the full game.",
@@ -478,9 +458,9 @@
       "source": "Store price unavailable",
       "translation": "Cena w sklepie niedostępna"
     },
-    "msg_fa8fd1f427ce": {
-      "source": "Original illustrated {0}, {1} flowers",
-      "translation": "Oryginalne, ilustrowane kwiaty {0}, {1}"
+    "msg_fa51b9c92f37": {
+      "source": "Original illustration: {0}. Flowers: {1}",
+      "translation": "Oryginalna ilustracja: {0}. Kwiaty: {1}"
     },
     "msg_948430c6ab99": {
       "source": "Amazon product availability depends on device",
@@ -496,7 +476,7 @@
     },
     "msg_25f011b0f89b": {
       "source": "Find {0} words. Swipe or tap the letters.",
-      "translation": "Znajdź słowa {0}. Przesuń palcem lub dotknij liter."
+      "translation": "Słowa do znalezienia: {0}. Przesuwaj palcem lub dotykaj liter."
     },
     "msg_e5441b0e72b0": {
       "source": "A fresh look at a familiar puzzle. Replay earns no additional hints.",
@@ -524,7 +504,7 @@
     },
     "msg_66ba6d0a7ecc": {
       "source": "You already found {0}",
-      "translation": "Znalazłeś już {0}"
+      "translation": "Słowo już znalezione: {0}"
     },
     "msg_16963e44a1e5": {
       "source": "That word is not in this puzzle’s curated word list",
@@ -546,9 +526,9 @@
       "source": "One new letter, a little closer",
       "translation": "Jedna nowa litera, o krok bliżej"
     },
-    "msg_aa7aa69fdfd9": {
-      "source": "Puzzle complete. Your garden is growing! +{0} hints",
-      "translation": "Zagadka ukończona. Twój ogród się rozrasta! + wskazówki {0}"
+    "msg_1184863228f5": {
+      "source": "Puzzle complete. Your garden is growing! Hints earned: +{0}",
+      "translation": "Łamigłówka ukończona. Twój ogród rośnie! Zdobyte podpowiedzi: +{0}"
     },
     "msg_365762cb0e8c": {
       "source": "Progress could not be saved. Please try again.",
@@ -572,7 +552,7 @@
     },
     "msg_dd6fc41d4f91": {
       "source": "Store product unavailable. Check Amazon Appstore or try Restore.",
-      "translation": "Produkt niedostępny w sklepie. Sprawdź w Amazon Appstore lub spróbuj przywrócić aplikację."
+      "translation": "Produkt niedostępny. Sprawdź Amazon Appstore lub wybierz „Przywróć zakup z serwisu Amazon”."
     },
     "msg_e0f155662c00": {
       "source": "Amazon account unavailable. Saved offline access retained.",
@@ -592,7 +572,7 @@
     },
     "msg_3d35cd1a63d2": {
       "source": "Purchase {0}. No access granted.",
-      "translation": "Kup {0}. Brak dostępu."
+      "translation": "Status zakupu: {0}. Nie przyznano dostępu."
     },
     "msg_98573700d8c5": {
       "source": "Purchase could not be saved on this device. Please try Restore.",
@@ -608,7 +588,7 @@
     },
     "msg_b8d39d362082": {
       "source": "Restore unavailable. Please try again with Amazon Appstore.",
-      "translation": "Funkcja przywracania jest niedostępna. Spróbuj ponownie w sklepie Amazon Appstore."
+      "translation": "Przywracanie zakupu jest niedostępne. Spróbuj ponownie przez Amazon Appstore."
     },
     "msg_795b43828254": {
       "source": "Premium restored",
@@ -708,7 +688,7 @@
     },
     "msg_9f088dbebd6c": {
       "source": "Advanced",
-      "translation": "Zaawansowane"
+      "translation": "Zaawansowany"
     },
     "msg_8b317b0c50ee": {
       "source": "Expert",

@@ -1,0 +1,30 @@
+{
+  "application_id": "com.wordbloom.garden.qa",
+  "not_for_release": true,
+  "approved_for_release": false,
+  "canonical_production_source_sha256": "b01a2a6430fd6bf29f1aeaccf40f05d57d9208bf8e3933500907ec57a0995af2",
+  "apk_sha256": "fa4d9980484a3736fea86c0178bfc64169e70f3391e5e9fca2390c9216d87f82",
+  "translation_bundle_sha256": {
+    "de": "9ee928fe5da2f145a5637a8e8ab00a2c3a95a46d40045ec08d13a2ebaed2407b",
+    "es": "9b28275dc5fb72251c16d2c0959a33b43c437fae2de1883396457a5ddc2a29fd",
+    "fr": "25644d04b453f8ae70ef1c4daffd3d618d39faab21ae77a2ee0e3437cd2ead37",
+    "it": "49114824cdbec9ae54363276305da2988e94a9732c3770673caf980e99f985cc",
+    "nl": "da1254d3266ef52dd9bc25b8589f1c960c9d9c413dd36580c5684d8c6fcd8dd3",
+    "pl": "d4d5155d9de73b8c6f119c418dc172485b5503659825fd24053e468da16e6e14",
+    "pt-BR": "1fe8e4f71537500a102bd46980741a68f15dbcfa28f045260913cabc3716c12d",
+    "pt-PT": "b57a006e9de42f1ef384d73dab3cbb500daf467c9cec8ebeae6e65f28bac03bf"
+  },
+  "locales": [
+    "en-GB",
+    "en-US",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl",
+    "pl",
+    "pt-BR",
+    "pt-PT"
+  ],
+  "scope": "Isolated copy with draft registry/assets and persistent QA banner; canonical production languages unchanged."
+}

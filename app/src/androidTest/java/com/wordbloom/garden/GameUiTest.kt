@@ -48,7 +48,7 @@ class GameUiTest {
   rule.onNodeWithContentDescription("Letter A, tile 2").performClick()
   rule.onNodeWithContentDescription("Letter T, tile 3").performClick()
   rule.onNodeWithText("Submit word").performClick()
-  rule.waitUntil(5000) { rule.onAllNodesWithText("1 of 3 words found  ·  Beginner").fetchSemanticsNodes().isNotEmpty() }
+  rule.waitUntil(5000) { rule.onAllNodesWithText("Words found: 1 / 3 · Beginner").fetchSemanticsNodes().isNotEmpty() }
   enter("ACT");enter("SAT")
   rule.onNodeWithText("You grew something lovely.").assertExists()
  }

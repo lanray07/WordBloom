@@ -10,7 +10,7 @@
   <string name="ui_008">Pequenas palavras. \n Lindas descobertas.</string>
   <string name="ui_009">Conecte letras. Descubra palavras. \nAumente seu vocabulário — e seu jardim.</string>
   <string name="ui_010">JOGO OFFLINE  ·  SEM ANÚNCIOS  ·  SEM CONTA</string>
-  <string name="ui_011">✿  Jardim do Nascer do Sol\nSeu primeiro capítulo está esperando por você</string>
+  <string name="ui_011">✿ Jardim do nascer do sol\nSeu primeiro capítulo espera por você</string>
   <string name="ui_012">Reserve um tempinho para você</string>
   <string name="ui_013">Deslize para conectar. Toque para ir com calma. Cada palavra é uma pequena descoberta.</string>
   <string name="ui_014">Você cultivou algo lindo.</string>
@@ -33,13 +33,13 @@
   <string name="ui_031">Memórias diárias</string>
   <string name="ui_032">Fique à vontade</string>
   <string name="ui_033">Um jogo no seu ritmo.</string>
-  <string name="ui_034">Linguagem dos quebra-cabeças</string>
+  <string name="ui_034">Idioma dos quebra-cabeças</string>
   <string name="ui_035">Escolha o idioma do quebra-cabeça. Cada idioma tem seu próprio conjunto de palavras e seu próprio histórico de progresso. O inglês do Reino Unido e dos EUA compartilham o mesmo conjunto.</string>
   <string name="ui_036">Voz, quando você quiser</string>
-  <string name="ui_037">Experimente: “embaralhar letras”, “me dê uma dica”, “repita a palavra”, “mostrar meu progresso”, “abrir o desafio diário”, “voltar à página inicial”.</string>
+  <string name="ui_037">Experimente: “embaralhar letras”, “me dê uma dica”, “repita a palavra”, “mostre meu progresso”, “abra o desafio diário”, “volte ao início”.</string>
   <string name="ui_038">Suas palavras continuam sendo suas</string>
   <string name="ui_039">Sem conta. Sem anúncios. Sem análises. O progresso e as configurações permanecem neste dispositivo. O WordBloom não armazena gravações de microfone. A Amazon gerencia as informações de compra. A remoção do aplicativo apaga o progresso local; as compras podem ser restauradas pela Amazon.</string>
-  <string name="ui_040">WordBloom 0.1 · 24 quebra-cabeças · Prioridade para o modo offline</string>
+  <string name="ui_040">WordBloom 0.1 · 24 quebra-cabeças · Jogo offline</string>
   <string name="ui_041">Um pouco mais de encanto</string>
   <string name="ui_042">Todos os seis mundos ilustrados. Todos os 24 quebra-cabeças em cada idioma disponível. Desafios para jogadores avançados e especialistas. Estatísticas ampliadas do jardim, além de 4 dicas ganhas na primeira conclusão, em vez de 3. Marcos do jardim e histórico diário salvo.</string>
   <string name="ui_043">Compra única · Sem anúncios · Sem assinatura</string>

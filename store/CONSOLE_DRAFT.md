@@ -93,3 +93,11 @@ minified Amazon-delivered candidate.
 locales. No new translations or APK were uploaded; native linguistic approval,
 activation, multilingual device tests and matching final listing copy remain
 required. The current console draft stays unsubmitted.
+
+
+18 October editorial/lexical review: all ten locales are active in the local
+candidate, with method and hashes in localization/approvals.json. This is AI
+editorial/lexical validation, not native human certification. Current console
+APK/copy still describe English gameplay. No new console upload, invitation,
+submission or publication is implied by the local tablet results. Final
+multilingual metadata/assets and candidate upload remain required before LAT.

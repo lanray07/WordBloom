@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-18",
+  "reviewer": "Codex",
+  "independent_native_certification": false,
+  "scope": [
+    "All generated interface/message entries in eight locales read in the editorial pass",
+    "All generated listing prose and screenshot captions inspected",
+    "All seven non-English target-word sets and existing English target/bonus sets inspected",
+    "All nine displayed voice commands per locale checked against parser examples"
+  ],
+  "fixed_issue_categories": [
+    "Premium access mistranslated as a subscription",
+    "Clear mistranslated as solution",
+    "Misordered word and hint counts",
+    "English singular/plural fragments causing inflection errors",
+    "Number/noun sentence fragments replaced with count labels",
+    "Untranslated landscape names and screenshot headlines",
+    "Incorrect speech synthesis versus speech recognition description",
+    "Restore treated as a separate app or an application restore",
+    "Mixed register in German and European Portuguese",
+    "Brazilian and European Portuguese voice commands shared inaccurately",
+    "One duplicate German target set",
+    "Rare, technical or region-sensitive beginner targets replaced with familiar alternatives",
+    "Android 9 ICU regex rejects unescaped closing brace in translation placeholder pattern; both braces are now escaped",
+    "Large-text controls wrap whole buttons and board stacks above wheel",
+    "Dense crossword letters use an explicit line height to prevent Android 9 clipping"
+  ],
+  "word_set_changes": 17,
+  "known_remaining_limits": [
+    "No independent native human certification; fluent regional and audience/difficulty review would increase confidence",
+    "Portuguese vocabulary is shared between regional editions",
+    "Recognition round trips cannot be tested on this tablet because no recognition service is installed",
+    "Amazon console still has the earlier English-only candidate; matching upload and store-delivered release testing remain pending"
+  ],
+  "evidence": [
+    "localization/editorial-overrides.json",
+    "reports/editorial-word-changes.json",
+    "reports/word-frequency-review.json"
+  ],
+  "translation_override_count": 281,
+  "interface_templates_per_locale": 179,
+  "total_source_entries_per_locale": 241,
+  "remaining_frequency_flags": {
+    "non_English": 5,
+    "English": 5
+  },
+  "word_count": 614,
+  "remaining_flagged_words": {
+    "de": [
+      "ERLEN",
+      "REGENTAG",
+      "WELK"
+    ],
+    "es": [
+      "BRÍO"
+    ],
+    "it": [
+      "REMA"
+    ],
+    "en": [
+      "ALERTING",
+      "CATIONS",
+      "TAMER",
+      "TAMERS",
+      "TINSEL"
+    ]
+  },
+  "separate_linguistic_validation": {
+    "method": "Read every authored target/bonus set separately from interface generation; inspect spelling, morphology and meaning; cross-check frequency flags with primary dictionaries; replace obscure introductory entries; re-run structural and accent tests.",
+    "native_human_certification": false,
+    "review_kind": "ai_editorial_lexical",
+    "evidence": [
+      "reports/editorial-word-changes.json",
+      "reports/rare-word-adjudication.json",
+      "reports/word-frequency-review.json"
+    ]
+  }
+}

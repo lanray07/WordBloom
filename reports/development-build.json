@@ -5,6 +5,6 @@
   "development_billing_flag": true,
   "visible_test_only_labels_present": true,
   "device_execution_performed": false,
-  "sha256": "7355dce342d9063d78306b529ce7b85e2a6901a4c51db330773ee5420325f712",
+  "sha256": "f88fa82788293c150a4f6e659a24a05b2afa1c270bcb9319f6740212d6943799",
   "purpose": "Developer QA only; simulated entitlement, no real payment. Separate data from normal app."
 }

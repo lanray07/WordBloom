@@ -403,30 +403,13 @@
         "if(s.completed.isEmpty())\"Begin your journey\" else \"Continue your journey\""
       ]
     },
-    "msg_34659fd61a72": {
-      "source": "bloom",
-      "locations": [
-        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:160",
-        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:332"
-      ],
-      "parameters": []
-    },
-    "msg_541ce7fbc0c0": {
-      "source": "blooms",
-      "locations": [
-        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:160",
-        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:332"
-      ],
-      "parameters": []
-    },
-    "msg_cef6600c14db": {
-      "source": "✿  {0} {1}",
+    "msg_d7e8f5ebcdd1": {
+      "source": "✿  Flowers: {0}",
       "locations": [
         "app/src/main/java/com/wordbloom/garden/MainActivity.kt:160"
       ],
       "parameters": [
-        "s.completed.size",
-        "if(s.completed.size==1)\"bloom\" else \"blooms\""
+        "s.completed.size"
       ]
     },
     "msg_5b0a9ac3693a": {
@@ -544,8 +527,8 @@
       ],
       "parameters": []
     },
-    "msg_0a29d0b91627": {
-      "source": "✦ {0} hints",
+    "msg_d4713d8915b8": {
+      "source": "✦ Hints: {0}",
       "locations": [
         "app/src/main/java/com/wordbloom/garden/MainActivity.kt:182"
       ],
@@ -553,8 +536,8 @@
         "s.hints"
       ]
     },
-    "msg_f2a0e0bc4654": {
-      "source": "{0} of {1} words found  ·  {2}",
+    "msg_ca25e64817c4": {
+      "source": "Words found: {0} / {1} · {2}",
       "locations": [
         "app/src/main/java/com/wordbloom/garden/MainActivity.kt:190"
       ],
@@ -686,39 +669,23 @@
         "name"
       ]
     },
-    "msg_4a70d8f4b647": {
-      "source": "{0} {1} planted",
+    "msg_a2ca7e03290f": {
+      "source": "Flowers planted: {0}",
       "locations": [
         "app/src/main/java/com/wordbloom/garden/MainActivity.kt:332"
       ],
       "parameters": [
-        "blooms",
-        "if(blooms==1)\"bloom\" else \"blooms\""
+        "blooms"
       ]
     },
-    "msg_b3140286ac71": {
-      "source": "escape",
-      "locations": [
-        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:333"
-      ],
-      "parameters": []
-    },
-    "msg_5e7d9a0cc8b6": {
-      "source": "escapes",
-      "locations": [
-        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:333"
-      ],
-      "parameters": []
-    },
-    "msg_450f661967d8": {
-      "source": "{0} of 6 chapters restored · {1} daily {2} completed",
+    "msg_e4fe7f7bd1f6": {
+      "source": "Chapters restored: {0} / 6 · Daily puzzles completed: {1}",
       "locations": [
         "app/src/main/java/com/wordbloom/garden/MainActivity.kt:333"
       ],
       "parameters": [
         "complete/4",
-        "dailyCount",
-        "if(dailyCount==1)\"escape\" else \"escapes\""
+        "dailyCount"
       ]
     },
     "msg_0f02903bbf75": {
@@ -749,15 +716,8 @@
       ],
       "parameters": []
     },
-    "msg_7066a711b3aa": {
-      "source": "1 puzzle",
-      "locations": [
-        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:335"
-      ],
-      "parameters": []
-    },
-    "msg_5d4059022064": {
-      "source": "{0} puzzles",
+    "msg_987e21cd5d8a": {
+      "source": "Puzzles: {0}",
       "locations": [
         "app/src/main/java/com/wordbloom/garden/MainActivity.kt:335"
       ],
@@ -772,8 +732,8 @@
       ],
       "parameters": []
     },
-    "msg_54a8c698907c": {
-      "source": "{0} words in completed puzzles · {1}% of the journey restored",
+    "msg_c4fc8fd71468": {
+      "source": "Words in completed puzzles: {0} · Journey restored: {1}%",
       "locations": [
         "app/src/main/java/com/wordbloom/garden/MainActivity.kt:339"
       ],
@@ -892,8 +852,8 @@
       ],
       "parameters": []
     },
-    "msg_fa8fd1f427ce": {
-      "source": "Original illustrated {0}, {1} flowers",
+    "msg_fa51b9c92f37": {
+      "source": "Original illustration: {0}. Flowers: {1}",
       "locations": [
         "app/src/main/java/com/wordbloom/garden/MainActivity.kt:391"
       ],
@@ -1030,8 +990,8 @@
       ],
       "parameters": []
     },
-    "msg_aa7aa69fdfd9": {
-      "source": "Puzzle complete. Your garden is growing! +{0} hints",
+    "msg_1184863228f5": {
+      "source": "Puzzle complete. Your garden is growing! Hints earned: +{0}",
       "locations": [
         "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:88"
       ],

@@ -230,17 +230,9 @@
       "source": "{0}  →",
       "translation": "{0}  →"
     },
-    "msg_34659fd61a72": {
-      "source": "bloom",
-      "translation": "bloom"
-    },
-    "msg_541ce7fbc0c0": {
-      "source": "blooms",
-      "translation": "blooms"
-    },
-    "msg_cef6600c14db": {
-      "source": "✿  {0} {1}",
-      "translation": "✿  {0} {1}"
+    "msg_d7e8f5ebcdd1": {
+      "source": "✿  Flowers: {0}",
+      "translation": "✿  Flowers: {0}"
     },
     "msg_5b0a9ac3693a": {
       "source": "01 / A FRESH LITTLE CHALLENGE",
@@ -306,13 +298,13 @@
       "source": "Let your words bloom",
       "translation": "Let your words bloom"
     },
-    "msg_0a29d0b91627": {
-      "source": "✦ {0} hints",
-      "translation": "✦ {0} hints"
+    "msg_d4713d8915b8": {
+      "source": "✦ Hints: {0}",
+      "translation": "✦ Hints: {0}"
     },
-    "msg_f2a0e0bc4654": {
-      "source": "{0} of {1} words found  ·  {2}",
-      "translation": "{0} of {1} words found  ·  {2}"
+    "msg_ca25e64817c4": {
+      "source": "Words found: {0} / {1} · {2}",
+      "translation": "Words found: {0} / {1} · {2}"
     },
     "msg_bfa637a72738": {
       "source": "Bonus words: {0}",
@@ -370,21 +362,13 @@
       "source": "{0}. {1}",
       "translation": "{0}. {1}"
     },
-    "msg_4a70d8f4b647": {
-      "source": "{0} {1} planted",
-      "translation": "{0} {1} planted"
+    "msg_a2ca7e03290f": {
+      "source": "Flowers planted: {0}",
+      "translation": "Flowers planted: {0}"
     },
-    "msg_b3140286ac71": {
-      "source": "escape",
-      "translation": "escape"
-    },
-    "msg_5e7d9a0cc8b6": {
-      "source": "escapes",
-      "translation": "escapes"
-    },
-    "msg_450f661967d8": {
-      "source": "{0} of 6 chapters restored · {1} daily {2} completed",
-      "translation": "{0} of 6 chapters restored · {1} daily {2} completed"
+    "msg_e4fe7f7bd1f6": {
+      "source": "Chapters restored: {0} / 6 · Daily puzzles completed: {1}",
+      "translation": "Chapters restored: {0} / 6 · Daily puzzles completed: {1}"
     },
     "msg_0f02903bbf75": {
       "source": "First bloom",
@@ -402,21 +386,17 @@
       "source": "Full bloom",
       "translation": "Full bloom"
     },
-    "msg_7066a711b3aa": {
-      "source": "1 puzzle",
-      "translation": "1 puzzle"
-    },
-    "msg_5d4059022064": {
-      "source": "{0} puzzles",
-      "translation": "{0} puzzles"
+    "msg_987e21cd5d8a": {
+      "source": "Puzzles: {0}",
+      "translation": "Puzzles: {0}"
     },
     "msg_e0fb55e50382": {
       "source": "Your garden in numbers",
       "translation": "Your garden in numbers"
     },
-    "msg_54a8c698907c": {
-      "source": "{0} words in completed puzzles · {1}% of the journey restored",
-      "translation": "{0} words in completed puzzles · {1}% of the journey restored"
+    "msg_c4fc8fd71468": {
+      "source": "Words in completed puzzles: {0} · Journey restored: {1}%",
+      "translation": "Words in completed puzzles: {0} · Journey restored: {1}%"
     },
     "msg_eb91f332fc67": {
       "source": "{0} / {1}",
@@ -478,9 +458,9 @@
       "source": "Store price unavailable",
       "translation": "Store price unavailable"
     },
-    "msg_fa8fd1f427ce": {
-      "source": "Original illustrated {0}, {1} flowers",
-      "translation": "Original illustrated {0}, {1} flowers"
+    "msg_fa51b9c92f37": {
+      "source": "Original illustration: {0}. Flowers: {1}",
+      "translation": "Original illustration: {0}. Flowers: {1}"
     },
     "msg_948430c6ab99": {
       "source": "Amazon product availability depends on device",
@@ -546,9 +526,9 @@
       "source": "One new letter, a little closer",
       "translation": "One new letter, a little closer"
     },
-    "msg_aa7aa69fdfd9": {
-      "source": "Puzzle complete. Your garden is growing! +{0} hints",
-      "translation": "Puzzle complete. Your garden is growing! +{0} hints"
+    "msg_1184863228f5": {
+      "source": "Puzzle complete. Your garden is growing! Hints earned: +{0}",
+      "translation": "Puzzle complete. Your garden is growing! Hints earned: +{0}"
     },
     "msg_365762cb0e8c": {
       "source": "Progress could not be saved. Please try again.",

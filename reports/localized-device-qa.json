@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-18",
+  "application_id": "com.wordbloom.garden",
+  "not_for_release": false,
+  "device": "KFTRWI",
+  "apk_sha256": "b68da339792aff2f238dcbd701d25a965450d713ee67a38de6ada1d0b8245bed",
+  "cases": [
+    {
+      "locale": "en-GB",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "in_app_larger_text": true,
+      "passed": true,
+      "evidence": "reports/language-tests/production-en-GB-portrait.txt",
+      "local_captures": "dist/language-device-evidence/production-en-GB-portrait"
+    },
+    {
+      "locale": "en-US",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "in_app_larger_text": true,
+      "passed": true,
+      "evidence": "reports/language-tests/production-en-US-portrait.txt",
+      "local_captures": "dist/language-device-evidence/production-en-US-portrait"
+    },
+    {
+      "locale": "de",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "in_app_larger_text": true,
+      "passed": true,
+      "evidence": "reports/language-tests/production-de-portrait.txt",
+      "local_captures": "dist/language-device-evidence/production-de-portrait"
+    },
+    {
+      "locale": "es",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "in_app_larger_text": true,
+      "passed": true,
+      "evidence": "reports/language-tests/production-es-portrait.txt",
+      "local_captures": "dist/language-device-evidence/production-es-portrait"
+    },
+    {
+      "locale": "fr",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "in_app_larger_text": true,
+      "passed": true,
+      "evidence": "reports/language-tests/production-fr-portrait.txt",
+      "local_captures": "dist/language-device-evidence/production-fr-portrait"
+    },
+    {
+      "locale": "it",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "in_app_larger_text": true,
+      "passed": true,
+      "evidence": "reports/language-tests/production-it-portrait.txt",
+      "local_captures": "dist/language-device-evidence/production-it-portrait"
+    },
+    {
+      "locale": "nl",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "in_app_larger_text": true,
+      "passed": true,
+      "evidence": "reports/language-tests/production-nl-portrait.txt",
+      "local_captures": "dist/language-device-evidence/production-nl-portrait"
+    },
+    {
+      "locale": "pl",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "in_app_larger_text": true,
+      "passed": true,
+      "evidence": "reports/language-tests/production-pl-portrait.txt",
+      "local_captures": "dist/language-device-evidence/production-pl-portrait"
+    },
+    {
+      "locale": "pt-BR",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "in_app_larger_text": true,
+      "passed": true,
+      "evidence": "reports/language-tests/production-pt-BR-portrait.txt",
+      "local_captures": "dist/language-device-evidence/production-pt-BR-portrait"
+    },
+    {
+      "locale": "pt-PT",
+      "orientation": "portrait",
+      "system_font_scale": 1.5,
+      "in_app_larger_text": true,
+      "passed": true,
+      "evidence": "reports/language-tests/production-pt-PT-portrait.txt",
+      "local_captures": "dist/language-device-evidence/production-pt-PT-portrait"
+    }
+  ],
+  "scope": "Reviewed normal Amazon debug app with actual activated locale assets. Advanced input/layout cases bypass the paywall through a VM test call; no entitlement cache changed or purchase made. This is unminified device QA, not Amazon-delivered release certification.",
+  "restored_settings": [
+    "font_scale",
+    "accelerometer_rotation",
+    "user_rotation"
+  ],
+  "settings_restore_pending": {},
+  "all_requested_cases_passed": true,
+  "passed": true,
+  "locales_passed": [
+    "en-GB",
+    "en-US",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl",
+    "pl",
+    "pt-BR",
+    "pt-PT"
+  ]
+}

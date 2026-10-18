@@ -1,5 +1,5 @@
 {
-  "status": "three production-screen listing images uploaded; eight English physical Fire QA captures recorded; multilingual release pending",
+  "status": "Final multilingual candidate tested locally; three earlier listing renders remain in console; final matching upload pending",
   "specification_status": "Verified against official Appstore Details documentation on 2026-10-16; recheck console before upload.",
   "variants": {
     "phone": [
@@ -21,9 +21,9 @@
       "headline": "Word Connect Puzzle Game",
       "supporting": "Swipe letters, discover words and enjoy relaxing puzzles.",
       "source": "Physical Fire tablet instrumentation capture",
-      "status": "English tablet QA captured; multilingual replacement pending",
+      "status": "Final normal-debug English physical QA capture; not uploaded",
       "path": "store/raw/tablet/01-gameplay.png",
-      "sha256": "80516e8167ed010e07691df84d2de6bf82031f1c074ba9aa009c542f043fcfcb",
+      "sha256": "7e1ec2b5e3a7de5e1371360af600d85e7584831b09f53b065c1a1ffc7c5baea7",
       "dimensions": [
         1920,
         1200
@@ -34,9 +34,9 @@
       "headline": "Letter Connect & Crossword Fun",
       "supporting": "Connect letters to complete clever word grids.",
       "source": "Physical Fire tablet instrumentation capture",
-      "status": "English tablet QA captured; multilingual replacement pending",
+      "status": "Final normal-debug English physical QA capture; not uploaded",
       "path": "store/raw/tablet/02-crossword.png",
-      "sha256": "4134554884d13028cab4bb1440ab7c76a2c467a69df202a91eeb07f5e485b48b",
+      "sha256": "11224c5e47d6e529b7393617dadc9011f05efdef237055c66c419960bc151e53",
       "dimensions": [
         1920,
         1200
@@ -47,9 +47,9 @@
       "headline": "Daily Word Puzzle Challenge",
       "supporting": "Enjoy a calendar-based puzzle, available offline.",
       "source": "Physical Fire tablet instrumentation capture",
-      "status": "English tablet QA captured; multilingual replacement pending",
+      "status": "Final normal-debug English physical QA capture; not uploaded",
       "path": "store/raw/tablet/03-daily.png",
-      "sha256": "8cdd738f5393dd40cce9c6a108d0374336ad89f51b701c1ece0f923b7bb2ac7a",
+      "sha256": "c49ba6c2923ef503a75299615c40e68aa4b3349ba256ccd0e6c74d0b3f202741",
       "dimensions": [
         1920,
         1200
@@ -60,9 +60,9 @@
       "headline": "Relaxing Word Games",
       "supporting": "Grow a beautiful garden as you solve puzzles.",
       "source": "Physical Fire tablet instrumentation capture",
-      "status": "English tablet QA captured; multilingual replacement pending",
+      "status": "Final normal-debug English physical QA capture; not uploaded",
       "path": "store/raw/tablet/04-garden.png",
-      "sha256": "53f8de370afe40813c8eec7640b9e4b41de2deea5be0d3dc49f26d973ed12d76",
+      "sha256": "bfb5688272a343a98e6f93f3c84057125ba768ad968d7bbaae511481be57e1a2",
       "dimensions": [
         1920,
         1200
@@ -73,9 +73,9 @@
       "headline": "Easy to Challenging Word Puzzles",
       "supporting": "Start simple and unlock new challenges.",
       "source": "Physical Fire tablet instrumentation capture",
-      "status": "English tablet QA captured; multilingual replacement pending",
+      "status": "Final normal-debug English physical QA capture; not uploaded",
       "path": "store/raw/tablet/05-difficulty.png",
-      "sha256": "42ad518bec555459368aa23bf7d31f10e6871273f263fd28f99c47aad4b45c8c",
+      "sha256": "3b0de90524226150b1f695e9a9d3d278913e568746f3e6f8e67cb24ff001b3ea",
       "dimensions": [
         1920,
         1200
@@ -86,9 +86,9 @@
       "headline": "Voice-Guided Word Games",
       "supporting": "Optional narration and device-dependent voice commands.",
       "source": "Physical Fire tablet instrumentation capture",
-      "status": "English tablet QA captured; multilingual replacement pending",
+      "status": "Final normal-debug English physical QA capture; not uploaded",
       "path": "store/raw/tablet/06-voice.png",
-      "sha256": "6ee48b472e7d4f90ced1753c7a032c772fb432fd025fa5b3ed335d507bd907d6",
+      "sha256": "8790bfff74f9faa39825a334cd2199d6fefca8e8120d438eff58990fd0275320",
       "dimensions": [
         1920,
         1200
@@ -99,9 +99,9 @@
       "headline": "Offline Word Puzzle Games",
       "supporting": "Enjoy included puzzles without an internet connection.",
       "source": "Physical Fire tablet instrumentation capture",
-      "status": "English tablet QA captured; multilingual replacement pending",
+      "status": "Final normal-debug English physical QA capture; not uploaded",
       "path": "store/raw/tablet/07-offline.png",
-      "sha256": "01ccea35f45d30da155d5f6ee20e06f3ba9507f2f7ff84da0ce356664306ba32",
+      "sha256": "b295ec70492cd82fd1d69fb9082e5a91d67dd23b8c56acebe953c1ec7f828f5a",
       "dimensions": [
         1920,
         1200
@@ -112,9 +112,9 @@
       "headline": "English Word Puzzle Collection",
       "supporting": "24 curated puzzles for English UK and English US.",
       "source": "Physical Fire tablet instrumentation capture",
-      "status": "English tablet QA captured; multilingual replacement pending",
+      "status": "Final normal-debug English physical QA capture; not uploaded",
       "path": "store/raw/tablet/08-english.png",
-      "sha256": "2e087740dbead407b042bd21493c64ea8331ef57427ed879b79d8d917409fa99",
+      "sha256": "9755a87d45585b812227ed84b0fe89543780956c4eefce42bad99e4b6ed5c7b1",
       "dimensions": [
         1920,
         1200
@@ -475,7 +475,7 @@
     "model": "KFTRWI",
     "api": 28,
     "date": "2026-10-18",
-    "apk_sha256": "0503a61ebab0d8c6b6c22dc1228612394313bb33eabd94347e2c12e4f1bf0688",
+    "apk_sha256": "b68da339792aff2f238dcbd701d25a965450d713ee67a38de6ada1d0b8245bed",
     "uploaded": false,
     "scope": "English normal-debug QA. 07-offline illustrates Home; offline execution is proved separately by runtime-wifi-off."
   }

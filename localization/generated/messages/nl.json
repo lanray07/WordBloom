@@ -44,7 +44,7 @@
     },
     "msg_0e816c8e17f7": {
       "source": "✿ Sunrise Garden\nYour first chapter awaits",
-      "translation": "✿ Sunrise Garden\nJe eerste hoofdstuk wacht op je"
+      "translation": "✿ Zonsopgangtuin\nJe eerste hoofdstuk wacht op je"
     },
     "msg_5270c9ce647e": {
       "source": "Make a little time for you",
@@ -148,7 +148,7 @@
     },
     "msg_1527f526f087": {
       "source": "Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.",
-      "translation": "Probeer eens: „letters door elkaar husselen”, „geef me een hint”, „herhaal het woord”, „toon mijn voortgang”, „open de dagelijkse uitdaging”, „ga naar huis”."
+      "translation": "Probeer: “hussel de letters”, “geef me een hint”, “herhaal het woord”, “toon mijn voortgang”, “open de daguitdaging”, “ga naar start”."
     },
     "msg_e94253e91c49": {
       "source": "Your words stay yours",
@@ -160,7 +160,7 @@
     },
     "msg_ddc5cf266848": {
       "source": "WordBloom 0.1 · 24 puzzles · Offline-first",
-      "translation": "WordBloom 0.1 · 24 puzzels · Offline-first"
+      "translation": "WordBloom 0.1 · 24 puzzels · Offline spelen"
     },
     "msg_c37f87dfc774": {
       "source": "A little more wonder",
@@ -204,11 +204,11 @@
     },
     "msg_f40e3104ad14": {
       "source": "Try ‘shuffle letters’, ‘give me a hint’, or say one word",
-      "translation": "Probeer ‘letters door elkaar husselen’, ‘geef me een hint’ of zeg één woord"
+      "translation": "Probeer: “hussel de letters”, “geef me een hint” of zeg een woord"
     },
     "msg_3a78695388b3": {
       "source": "Home",
-      "translation": "Home"
+      "translation": "Startpagina"
     },
     "msg_13d83dbb23fb": {
       "source": "Premium ✓",
@@ -230,17 +230,9 @@
       "source": "{0}  →",
       "translation": "{0}  →"
     },
-    "msg_34659fd61a72": {
-      "source": "bloom",
-      "translation": "bloem"
-    },
-    "msg_541ce7fbc0c0": {
-      "source": "blooms",
-      "translation": "bloemen"
-    },
-    "msg_cef6600c14db": {
-      "source": "✿  {0} {1}",
-      "translation": "✿  {0} {1}"
+    "msg_d7e8f5ebcdd1": {
+      "source": "✿  Flowers: {0}",
+      "translation": "✿  Bloemen: {0}"
     },
     "msg_5b0a9ac3693a": {
       "source": "01 / A FRESH LITTLE CHALLENGE",
@@ -306,13 +298,13 @@
       "source": "Let your words bloom",
       "translation": "Laat je woorden bloeien"
     },
-    "msg_0a29d0b91627": {
-      "source": "✦ {0} hints",
-      "translation": "✦ {0} hints"
+    "msg_d4713d8915b8": {
+      "source": "✦ Hints: {0}",
+      "translation": "✦ Hints: {0}"
     },
-    "msg_f2a0e0bc4654": {
-      "source": "{0} of {1} words found  ·  {2}",
-      "translation": "{0} van {1} woorden gevonden  ·  {2}"
+    "msg_ca25e64817c4": {
+      "source": "Words found: {0} / {1} · {2}",
+      "translation": "Gevonden woorden: {0} / {1} · {2}"
     },
     "msg_bfa637a72738": {
       "source": "Bonus words: {0}",
@@ -370,21 +362,13 @@
       "source": "{0}. {1}",
       "translation": "{0}. {1}"
     },
-    "msg_4a70d8f4b647": {
-      "source": "{0} {1} planted",
-      "translation": "{0} {1} geplant"
+    "msg_a2ca7e03290f": {
+      "source": "Flowers planted: {0}",
+      "translation": "Geplante bloemen: {0}"
     },
-    "msg_b3140286ac71": {
-      "source": "escape",
-      "translation": "ontsnapping"
-    },
-    "msg_5e7d9a0cc8b6": {
-      "source": "escapes",
-      "translation": "ontsnappingen"
-    },
-    "msg_450f661967d8": {
-      "source": "{0} of 6 chapters restored · {1} daily {2} completed",
-      "translation": "{0} van de 6 hoofdstukken hersteld · {1} dagelijkse {2} voltooid"
+    "msg_e4fe7f7bd1f6": {
+      "source": "Chapters restored: {0} / 6 · Daily puzzles completed: {1}",
+      "translation": "Herstelde hoofdstukken: {0} / 6 · Voltooide dagpuzzels: {1}"
     },
     "msg_0f02903bbf75": {
       "source": "First bloom",
@@ -402,21 +386,17 @@
       "source": "Full bloom",
       "translation": "Volledige bloei"
     },
-    "msg_7066a711b3aa": {
-      "source": "1 puzzle",
-      "translation": "1 puzzel"
-    },
-    "msg_5d4059022064": {
-      "source": "{0} puzzles",
-      "translation": "{0}-puzzels"
+    "msg_987e21cd5d8a": {
+      "source": "Puzzles: {0}",
+      "translation": "Puzzels: {0}"
     },
     "msg_e0fb55e50382": {
       "source": "Your garden in numbers",
       "translation": "Je tuin in cijfers"
     },
-    "msg_54a8c698907c": {
-      "source": "{0} words in completed puzzles · {1}% of the journey restored",
-      "translation": "{0} woorden in voltooide puzzels · {1} % van de reis hersteld"
+    "msg_c4fc8fd71468": {
+      "source": "Words in completed puzzles: {0} · Journey restored: {1}%",
+      "translation": "Woorden in voltooide puzzels: {0} · Reis voltooid: {1}%"
     },
     "msg_eb91f332fc67": {
       "source": "{0} / {1}",
@@ -424,7 +404,7 @@
     },
     "msg_fd2cd7f8ee6a": {
       "source": "Your first daily escape is waiting. Play whenever you like — no streak to protect.",
-      "translation": "Je eerste ‘daily escape’ staat op je te wachten. Speel wanneer je maar wilt — je hoeft geen streak in stand te houden."
+      "translation": "Je eerste dagpuzzel wacht op je. Speel wanneer je wilt — je hoeft geen reeks bij te houden."
     },
     "msg_d096df9edd58": {
       "source": "Spoken guidance",
@@ -456,7 +436,7 @@
     },
     "msg_55c401c4d28a": {
       "source": "A compatible recognition service is available. Use Speak in a puzzle; your device’s service may send speech to its provider.",
-      "translation": "Er is een compatibele herkenningsdienst beschikbaar. Gebruik ‘Speak’ in een puzzel; de dienst van uw apparaat kan spraak naar de aanbieder verzenden."
+      "translation": "Er is een geschikte spraakherkenningsdienst beschikbaar. Gebruik ‘Spreken’ in een puzzel; de dienst van je apparaat kan spraak naar de aanbieder sturen."
     },
     "msg_2f84421d8ebb": {
       "source": "No compatible recognition service was found. Swipe, tap and text entry provide the full game.",
@@ -478,9 +458,9 @@
       "source": "Store price unavailable",
       "translation": "Winkelprijs niet beschikbaar"
     },
-    "msg_fa8fd1f427ce": {
-      "source": "Original illustrated {0}, {1} flowers",
-      "translation": "Originele geïllustreerde {0}, {1} bloemen"
+    "msg_fa51b9c92f37": {
+      "source": "Original illustration: {0}. Flowers: {1}",
+      "translation": "Originele illustratie: {0}. Bloemen: {1}"
     },
     "msg_948430c6ab99": {
       "source": "Amazon product availability depends on device",
@@ -496,7 +476,7 @@
     },
     "msg_25f011b0f89b": {
       "source": "Find {0} words. Swipe or tap the letters.",
-      "translation": "Zoek woorden met {0}. Veeg of tik op de letters."
+      "translation": "Zoek {0} woorden. Veeg of tik op de letters."
     },
     "msg_e5441b0e72b0": {
       "source": "A fresh look at a familiar puzzle. Replay earns no additional hints.",
@@ -546,9 +526,9 @@
       "source": "One new letter, a little closer",
       "translation": "Eén nieuwe letter, weer een stukje dichterbij"
     },
-    "msg_aa7aa69fdfd9": {
-      "source": "Puzzle complete. Your garden is growing! +{0} hints",
-      "translation": "Puzzel voltooid. Je tuin groeit! + {0} hints"
+    "msg_1184863228f5": {
+      "source": "Puzzle complete. Your garden is growing! Hints earned: +{0}",
+      "translation": "Puzzel voltooid. Je tuin groeit! Verdiende hints: +{0}"
     },
     "msg_365762cb0e8c": {
       "source": "Progress could not be saved. Please try again.",
@@ -572,7 +552,7 @@
     },
     "msg_dd6fc41d4f91": {
       "source": "Store product unavailable. Check Amazon Appstore or try Restore.",
-      "translation": "Product niet beschikbaar in de winkel. Kijk in de Amazon Appstore of probeer Restore."
+      "translation": "Product niet beschikbaar. Controleer de Amazon Appstore of kies ‘Amazon-aankoop herstellen’."
     },
     "msg_e0f155662c00": {
       "source": "Amazon account unavailable. Saved offline access retained.",
@@ -592,7 +572,7 @@
     },
     "msg_3d35cd1a63d2": {
       "source": "Purchase {0}. No access granted.",
-      "translation": "{0} kopen. Geen toegang verleend."
+      "translation": "Aankoopstatus: {0}. Geen toegang verleend."
     },
     "msg_98573700d8c5": {
       "source": "Purchase could not be saved on this device. Please try Restore.",
@@ -636,7 +616,7 @@
     },
     "msg_61dbc5288edf": {
       "source": "Audio is busy. Try again shortly.",
-      "translation": "Er is momenteel veel verkeer op de audioverbinding. Probeer het straks nog eens."
+      "translation": "Het audiosysteem is bezet. Probeer het straks opnieuw."
     },
     "msg_bbb4106e8144": {
       "source": "Listening…",
@@ -692,7 +672,7 @@
     },
     "msg_28cc60e8c238": {
       "source": "Golden Meadow",
-      "translation": "'Gouden weide'"
+      "translation": "Gouden weide"
     },
     "msg_21245fa78fc3": {
       "source": "Moonlight Garden",

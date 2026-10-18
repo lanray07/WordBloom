@@ -2,7 +2,7 @@
   "date": "2026-10-18",
   "device_model": "KFTRWI",
   "android_api": 28,
-  "apk_sha256": "0503a61ebab0d8c6b6c22dc1228612394313bb33eabd94347e2c12e4f1bf0688",
+  "apk_sha256": "b68da339792aff2f238dcbd701d25a965450d713ee67a38de6ada1d0b8245bed",
   "build_type": "normal Amazon debug adapter; no development billing",
   "cases": [
     {
@@ -48,7 +48,7 @@
       "evidence": "reports/fire-tests/settings-large-font-portrait.txt"
     }
   ],
-  "scope": "English device QA; translated language activation/review and store-delivered release testing remain pending",
+  "scope": "English device regression QA. Multilingual cases are recorded separately; Amazon-delivered release testing remains pending.",
   "restored_device_settings": [
     "font_scale",
     "accelerometer_rotation",

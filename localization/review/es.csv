@@ -1,191 +1,186 @@
 ﻿id,English source,Draft translation,Source locations,Automated flags,Reviewer notes,Approved by reviewer
-msg_bf774f712a26,WordBloom,WordBloom,resource:app_name,,,
-msg_f45e7aacb827,Start puzzle,Empezar el juego,resource:play,,,
-msg_9ca934bfdb8d,Daily challenge,Reto diario,resource:daily,,,
-msg_6063b7bfcfc0,My garden,Mi jardín,resource:garden,,,
-msg_74a883a037bc,Settings,Configuración,resource:settings; app/src/main/java/com/wordbloom/garden/MainActivity.kt:136,,,
-msg_19373382e5cb,The journey,El viaje,resource:ui_006,,,
-msg_892997679ff1,A moment to bloom,Un momento para florecer,resource:ui_007,,,
+msg_bf774f712a26,WordBloom,WordBloom,resource:app_name,,,Codex (ai_editorial_lexical)
+msg_f45e7aacb827,Start puzzle,Empezar el juego,resource:play,,,Codex (ai_editorial_lexical)
+msg_9ca934bfdb8d,Daily challenge,Reto diario,resource:daily,,,Codex (ai_editorial_lexical)
+msg_6063b7bfcfc0,My garden,Mi jardín,resource:garden,,,Codex (ai_editorial_lexical)
+msg_74a883a037bc,Settings,Configuración,resource:settings; app/src/main/java/com/wordbloom/garden/MainActivity.kt:136,,,Codex (ai_editorial_lexical)
+msg_19373382e5cb,The journey,El viaje,resource:ui_006,,,Codex (ai_editorial_lexical)
+msg_892997679ff1,A moment to bloom,Un momento para florecer,resource:ui_007,,,Codex (ai_editorial_lexical)
 msg_2f13d3dec807,"Little words.
 Beautiful discoveries.","Pequeñas palabras.
-Hermosos descubrimientos.",resource:ui_008,,,
+Hermosos descubrimientos.",resource:ui_008,,,Codex (ai_editorial_lexical)
 msg_565a51fd6da7,"Connect letters. Discover words.
 Grow your vocabulary — and your garden.","Une letras. Descubre palabras.
-Amplía tu vocabulario… y tu jardín.",resource:ui_009,,,
-msg_29818d62d5c4,OFFLINE PLAY · NO ADS · NO ACCOUNT,JUEGO SIN CONEXIÓN · SIN ANUNCIOS · SIN CUENTA,resource:ui_010,,,
+Amplía tu vocabulario… y tu jardín.",resource:ui_009,,,Codex (ai_editorial_lexical)
+msg_29818d62d5c4,OFFLINE PLAY · NO ADS · NO ACCOUNT,JUEGO SIN CONEXIÓN · SIN ANUNCIOS · SIN CUENTA,resource:ui_010,,,Codex (ai_editorial_lexical)
 msg_0e816c8e17f7,"✿ Sunrise Garden
-Your first chapter awaits","✿ Sunrise Garden
-Tu primer capítulo te espera",resource:ui_011,,,
-msg_5270c9ce647e,Make a little time for you,Dedica un ratito a ti mismo,resource:ui_012,,,
-msg_14922158bcf1,Swipe to connect. Tap to take your time. Every word is a small discovery.,Desliza el dedo para conectar. Toca la pantalla para tomarte tu tiempo. Cada palabra es un pequeño descubrimiento.,resource:ui_013,,,
-msg_585047053aa9,You grew something lovely.,Has cultivado algo precioso.,resource:ui_014,,,
-msg_543e87add437,↝ Shuffle,↝ Barajar,resource:ui_015,,,
-msg_af08cc6d16df,✦ Letter · 1,✦ Letra · 1,resource:ui_016,,,
-msg_e14b09ae68d5,Starting letter,Letra inicial,resource:ui_017,,,
-msg_7c8501c77172,Reveal word · 3,Revelar palabra · 3,resource:ui_018,,,
-msg_52cd4eeba682,Type a word,Escribe una palabra,resource:ui_019,expanded text: inspect device wrapping,,
-msg_9d60841e0a78,Check,Comprobar,resource:ui_020,,,
-msg_a3c4049c8756,Listen to word,Escucha la palabra,resource:ui_021,,,
-msg_40d70d845e1e,Push-to-talk may use your device’s online speech service. Nothing is recorded by WordBloom.,La función «pulsar para hablar» puede utilizar el servicio de voz en línea de tu dispositivo. WordBloom no graba nada.,resource:ui_022,,,
-msg_a8283ade3185,Undo,Deshacer,resource:ui_023,,,
-msg_83b12c2216ef,Clear,Borrar,resource:ui_024,,,
-msg_0590d70c63b5,Submit word,Enviar palabra,resource:ui_025,,,
-msg_3a2f00b7c545,Six gardens. A world of words.,Seis jardines. Un mundo de palabras.,resource:ui_026,,,
-msg_134bcc8dfd71,Complete journey puzzles to open the next. Every four journey puzzles restore a chapter.,Completa los acertijos del viaje para desbloquear el siguiente. Cada cuatro acertijos del viaje se restaura un capítulo.,resource:ui_027,,,
-msg_a52ace420f21,All,Todo,resource:ui_028,,,
-msg_0b0450991c08,Your quiet corner,Tu rincón tranquilo,resource:ui_029,,,
-msg_54c98e740241,Look how far you’ve grown.,Mira lo mucho que has avanzado.,resource:ui_030,,,
-msg_d77f771b332b,Daily memories,Recuerdos diarios,resource:ui_031,,,
-msg_ca63776635cc,Make yourself comfortable,Ponte cómodo,resource:ui_032,,,
-msg_8e7dadacd7dc,A game at your pace.,Un juego a tu ritmo.,resource:ui_033,,,
-msg_115ae40e6398,Puzzle language,Lenguaje de los acertijos,resource:ui_034,,,
-msg_0f03ee3ee472,Choose a puzzle language. Each language has its own word collection and saved journey. English UK/US share a collection.,Elige el idioma del juego. Cada idioma tiene su propio conjunto de palabras y su propio progreso guardado. El inglés británico y el estadounidense comparten el mismo conjunto.,resource:ui_035,,,
-msg_a42a47844fb4,"Voice, when you want it","Voz, cuando tú quieras",resource:ui_036,,,
-msg_1527f526f087,"Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.","Prueba: «mezclar letras», «dame una pista», «repite la palabra», «muéstrame mi progreso», «abrir el reto diario», «volver a la página de inicio».",resource:ui_037,,,
-msg_e94253e91c49,Your words stay yours,Tus palabras siguen siendo tuyas,resource:ui_038,,,
-msg_74a8c06f2269,No account. No ads. No analytics. Progress and settings stay on this device. WordBloom stores no microphone recordings. Amazon handles purchase information. Removing the app clears local progress; purchases can be restored through Amazon.,Sin cuenta. Sin anuncios. Sin análisis de datos. El progreso y la configuración se guardan en este dispositivo. WordBloom no almacena grabaciones del micrófono. Amazon gestiona la información de las compras. Al desinstalar la aplicación se borra el progreso local; las compras se pueden recuperar a través de Amazon.,resource:ui_039,,,
-msg_ddc5cf266848,WordBloom 0.1 · 24 puzzles · Offline-first,WordBloom 0.1 · 24 acertijos · Prioridad al modo sin conexión,resource:ui_040,,,
-msg_c37f87dfc774,A little more wonder,Un poco más de asombro,resource:ui_041,,,
-msg_fd1c4ecb4c40,"All six illustrated worlds. All 24 puzzles in each available language. Advanced and expert challenges. Expanded garden statistics, plus 4 earned hints per first completion instead of 3. Garden milestones and saved daily history.","Los seis mundos ilustrados. Los 24 rompecabezas en cada idioma disponible. Desafíos para jugadores avanzados y expertos. Estadísticas ampliadas del jardín, además de 4 pistas ganadas por cada primera finalización en lugar de 3. Hitos del jardín e historial diario guardado.",resource:ui_042,,,
-msg_2b3aca3a5301,One-time purchase · No ads · No subscription,Compra única · Sin anuncios · Sin suscripción,resource:ui_043,,,
-msg_c5f5dd9f9dbd,Restore Amazon purchase,Recuperar una compra en Amazon,resource:ui_044,,,
-msg_d6173ae6d107,Daily puzzles and the introductory chapter remain free in every available language.,Los rompecabezas diarios y el capítulo introductorio siguen siendo gratuitos en todos los idiomas disponibles.,resource:ui_045,,,
-msg_f97070a26e44,"Microphone permission denied. Swipe, tap or type to play.","Permiso de micrófono denegado. Desliza el dedo, toca la pantalla o escribe para jugar.",app/src/main/java/com/wordbloom/garden/MainActivity.kt:60,,,
-msg_c394f19c3571,DEVELOPMENT BUILD · TEST PURCHASES · NO REAL MONEY,VERSIÓN DE DESARROLLO · COMPRAS DE PRUEBA · SIN DINERO REAL,app/src/main/java/com/wordbloom/garden/MainActivity.kt:89,,,
-msg_723a37716f9b,Finish this puzzle before going to the next level,Termina este rompecabezas antes de pasar al siguiente nivel,app/src/main/java/com/wordbloom/garden/MainActivity.kt:113,,,
-msg_48265ef60f8c,Find a word first,Encuentra primero una palabra,app/src/main/java/com/wordbloom/garden/MainActivity.kt:116,expanded text: inspect device wrapping,,
-msg_8d1b47c4d230,Open a puzzle to play a word,Abre un juego de palabras para jugar,app/src/main/java/com/wordbloom/garden/MainActivity.kt:120,,,
-msg_f40e3104ad14,"Try ‘shuffle letters’, ‘give me a hint’, or say one word","Prueba con «mezclar letras», «dame una pista» o di una palabra",app/src/main/java/com/wordbloom/garden/MainActivity.kt:121,,,
-msg_3a78695388b3,Home,Inicio,app/src/main/java/com/wordbloom/garden/MainActivity.kt:136,,,
-msg_13d83dbb23fb,Premium ✓,Premium ✓,app/src/main/java/com/wordbloom/garden/MainActivity.kt:137,unchanged text: verify shared terminology or missed translation,,
-msg_03a0fc5cff6f,Explore premium,Explora la versión premium,app/src/main/java/com/wordbloom/garden/MainActivity.kt:137,expanded text: inspect device wrapping,,
-msg_c808f9810a87,Begin your journey,Comienza tu aventura,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,
-msg_f3ed8d8349ee,Continue your journey,Continúa tu viaje,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,
-msg_98fa1a68fbba,{0}  →,{0}  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,
-msg_34659fd61a72,bloom,flor,app/src/main/java/com/wordbloom/garden/MainActivity.kt:160; app/src/main/java/com/wordbloom/garden/MainActivity.kt:332,,,
-msg_541ce7fbc0c0,blooms,flores,app/src/main/java/com/wordbloom/garden/MainActivity.kt:160; app/src/main/java/com/wordbloom/garden/MainActivity.kt:332,,,
-msg_cef6600c14db,✿  {0} {1},✿  {0} {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:160,,,
-msg_5b0a9ac3693a,01 / A FRESH LITTLE CHALLENGE,01 / UN PEQUEÑO RETO NUEVO,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,
-msg_f1920b5855f9,Your daily word escape,Tu «escape de palabras» diario,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,
-msg_a53cc0540e4f,"EEEE, d MMMM","EEEE, d MMMM",app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,unchanged text: verify shared terminology or missed translation,,
-msg_96a5eb446ace,Play today  →,Juega hoy  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,
-msg_27f702d2e3b2,02 / ONE WORD AT A TIME,02 / UNA PALABRA A LA VEZ,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,
-msg_11b4bc1d0b3a,A world waiting to grow,Un mundo a la espera de crecer,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,
-msg_f958d2f1ac73,Six nature-inspired chapters,Seis capítulos inspirados en la naturaleza,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,
-msg_0b6cefcbbec0,Explore the journey  →,Explora el viaje  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,
-msg_65a0a50953d4,03 / YOUR OWN QUIET CORNER,03 / TU PROPIO RINCÓN TRANQUILO,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,
-msg_fee5f92e34a8,Watch your garden bloom,Mira cómo florece tu jardín,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,
-msg_ad507c3c8a12,Every completed puzzle plants a flower,Cada rompecabezas completado hace florecer una flor,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,
-msg_2b69cceea061,Visit my garden  →,Visita mi jardín  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,
-msg_ae511c4d36ce,Daily word escape,Escapada diaria de palabras,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,
-msg_8e3e629fe6f7,{0} · Level {1},{0} · Nivel {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,
-msg_7079299b4aa5,A beautiful discovery,Un hermoso descubrimiento,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,
-msg_5fa29c1802c5,Let your words bloom,Deja que tus palabras florezcan,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,
-msg_0a29d0b91627,✦ {0} hints,✦ Pistas de {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:182,,,
-msg_f2a0e0bc4654,{0} of {1} words found  ·  {2},{0} de {1} palabras encontradas  ·  {2},app/src/main/java/com/wordbloom/garden/MainActivity.kt:190,,,
-msg_bfa637a72738,Bonus words: {0},Palabras extra: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:191,,,
-msg_e015e30b0001,Back to the garden,De vuelta al jardín,app/src/main/java/com/wordbloom/garden/MainActivity.kt:199,,,
-msg_c402502565e2,Next puzzle  →,Siguiente rompecabezas  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:199,expanded text: inspect device wrapping,,
-msg_26658b593cc4,Replay puzzle,Volver a jugar al rompecabezas,app/src/main/java/com/wordbloom/garden/MainActivity.kt:200,expanded text: inspect device wrapping,,
-msg_94fa9b236332,Stop listening,Deja de escuchar,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,
-msg_2982f1d4972e,◉ Speak,◉ Hablar,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,
-msg_7ffb956802a5,Voice availability,Disponibilidad de la voz,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,
-msg_cd167e8baced,"{0},{1}","{0},{1}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:241; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:74; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:75; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:77,,,
-msg_10c2094f6509,"Row {0}, column {1}: {2}","Fila {0}, columna {1}: {2}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:243,,,
-msg_a0b7a33254e1,"Row {0}, column {1}: empty letter","Fila {0}, columna {1}: letra en blanco",app/src/main/java/com/wordbloom/garden/MainActivity.kt:243,,,
-msg_7cbfbbc8dca3,Connect the letters,Une las letras,app/src/main/java/com/wordbloom/garden/MainActivity.kt:259,,,
-msg_b60f78f09280,"Letter {0}, tile {1}, selected","Letra {0}, ficha {1}, seleccionada",app/src/main/java/com/wordbloom/garden/MainActivity.kt:291,,,
-msg_c84c4c392414,"Letter {0}, tile {1}","Letra {0}, ficha {1}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:291,,,
-msg_3f4f403ebf04,{0}. {1},{0}. {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:314,,,
-msg_4a70d8f4b647,{0} {1} planted,{0} {1} plantado,app/src/main/java/com/wordbloom/garden/MainActivity.kt:332,,,
-msg_b3140286ac71,escape,escape,app/src/main/java/com/wordbloom/garden/MainActivity.kt:333,unchanged text: verify shared terminology or missed translation,,
-msg_5e7d9a0cc8b6,escapes,escapes,app/src/main/java/com/wordbloom/garden/MainActivity.kt:333,unchanged text: verify shared terminology or missed translation,,
-msg_450f661967d8,{0} of 6 chapters restored · {1} daily {2} completed,{0} de 6 capítulos restaurados · {1} diario {2} completado,app/src/main/java/com/wordbloom/garden/MainActivity.kt:333,,,
-msg_0f02903bbf75,First bloom,Primera flor,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,
-msg_662e46f0e1ba,Garden keeper,Cuidador del jardín,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,
-msg_6b79c5405359,Wildflower soul,Alma de flor silvestre,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,
-msg_7812db0f028e,Full bloom,Floración completa,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,expanded text: inspect device wrapping,,
-msg_7066a711b3aa,1 puzzle,1 rompecabezas,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,expanded text: inspect device wrapping,,
-msg_5d4059022064,{0} puzzles,Rompecabezas {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,
-msg_e0fb55e50382,Your garden in numbers,Tu jardín en cifras,app/src/main/java/com/wordbloom/garden/MainActivity.kt:338,,,
-msg_54a8c698907c,{0} words in completed puzzles · {1}% of the journey restored,{0} palabras en los rompecabezas completados · {1} % del recorrido recuperado,app/src/main/java/com/wordbloom/garden/MainActivity.kt:339,,,
-msg_eb91f332fc67,{0} / {1},{0} / {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:345,,,
-msg_fd2cd7f8ee6a,Your first daily escape is waiting. Play whenever you like — no streak to protect.,Tu primer «escape diario» te está esperando. Juega cuando quieras: no hay que mantener ninguna racha.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:352,,,
-msg_d096df9edd58,Spoken guidance,Indicaciones de voz,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_66782b653f84,Gentle word sounds,Sonidos suaves de las palabras,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_e4c869e510f8,Garden ambience,Ambiente de jardín,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_17e055f886cd,High-contrast letter tiles,Fichas de letras de alto contraste,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_297ef4c79b4b,Reduce motion,Reducir el movimiento,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_13b394639582,Larger text,Letra más grande,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_321119913705,Evening theme,Tema de la noche,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,
-msg_55c401c4d28a,A compatible recognition service is available. Use Speak in a puzzle; your device’s service may send speech to its provider.,Hay disponible un servicio de reconocimiento compatible. Utiliza la función «Hablar» en un rompecabezas; es posible que el servicio de tu dispositivo envíe la voz a su proveedor.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:366,,,
-msg_2f84421d8ebb,"No compatible recognition service was found. Swipe, tap and text entry provide the full game.","No se ha encontrado ningún servicio de reconocimiento compatible. Desliza el dedo, toca la pantalla e introduce texto para disfrutar del juego al completo.",app/src/main/java/com/wordbloom/garden/MainActivity.kt:366,,,
-msg_75f0c89607b7,The whole garden is yours.,Todo el jardín es tuyo.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:376,,,
-msg_69af495a2235,Let the whole garden bloom.,Deja que florezca todo el jardín.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:376,,,
-msg_f11043f6ea65,Unlock premium · {0},Desbloquear la versión premium · {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:379,expanded text: inspect device wrapping,,
-msg_d41acbd03306,Store price unavailable,Precio en tienda no disponible,app/src/main/java/com/wordbloom/garden/MainActivity.kt:379,,,
-msg_fa8fd1f427ce,"Original illustrated {0}, {1} flowers","{0} e {1}, flores ilustradas originales",app/src/main/java/com/wordbloom/garden/MainActivity.kt:391,,,
-msg_948430c6ab99,Amazon product availability depends on device,La disponibilidad de los productos de Amazon depende del dispositivo,app/src/main/java/com/wordbloom/garden/MainActivity.kt:468,,,
-msg_8e554e7b755a,A little wordplay. A little wonder.,Un pequeño juego de palabras. Una pequeña maravilla.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:14,,,
-msg_ecbce2c3864e,daily:{0}:,diario: {0}:,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:31,,,
-msg_25f011b0f89b,Find {0} words. Swipe or tap the letters.,Encuentra palabras {0}. Desliza el dedo o toca las letras.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:49,,,
-msg_e5441b0e72b0,A fresh look at a familiar puzzle. Replay earns no additional hints.,Una nueva perspectiva de un rompecabezas conocido. Volver a jugar no otorga pistas adicionales.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:51,,,
-msg_121aae1170ab,Letters shuffled,Letras mezcladas,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:53,,,
-msg_4c3883effb17,Look for the highlighted starting letter,Busca la letra inicial resaltada,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:54,,,
-msg_0fc6b50e8f45,Beautiful! {0},¡Precioso! {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:59,,,
-msg_b48e2dc3f476,Bonus word! {0} · +1 hint,¡Palabra extra! {0} · +1 pista,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:60,,,
-msg_5c1a9c613e0a,Bonus word! {0},¡Palabra extra! {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:60,,,
-msg_66ba6d0a7ecc,You already found {0},Ya has encontrado {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:61,,,
-msg_16963e44a1e5,That word is not in this puzzle’s curated word list,Esa palabra no figura en la lista de palabras seleccionadas para este juego de palabras,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:62,expanded text: inspect device wrapping,,
-msg_09932cd896a0,Earn hints by completing puzzles or finding bonus words,Consigue pistas completando rompecabezas o encontrando palabras extra,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:70,,,
-msg_be3c173b7f18,Revealed {0},Revelado {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:71,,,
-msg_e456af789328,All its letters are visible: {0},Todas sus letras están visibles: {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:76,,,
-msg_07fff96bbf7e,"One new letter, a little closer","Una nueva letra, un poco más cerca",app/src/main/java/com/wordbloom/garden/GameViewModel.kt:77,,,
-msg_aa7aa69fdfd9,Puzzle complete. Your garden is growing! +{0} hints,Rompecabezas completado. ¡Tu jardín está creciendo! + {0} pistas,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:88,,,
-msg_365762cb0e8c,Progress could not be saved. Please try again.,No se ha podido guardar el progreso. Inténtalo de nuevo.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:92,,,
-msg_5d7d60ebbf9d,Connecting to Amazon Appstore…,Conectando con Amazon Appstore…,app/src/main/java/com/wordbloom/garden/Billing.kt:13,,,
-msg_10e2536378b8,premium:{0},premium: {0},app/src/main/java/com/wordbloom/garden/Billing.kt:17; app/src/main/java/com/wordbloom/garden/Billing.kt:34; app/src/main/java/com/wordbloom/garden/Billing.kt:41,,,
-msg_a5ba5ae64c29,Amazon purchasing is unavailable on this device,Las compras en Amazon no están disponibles en este dispositivo,app/src/main/java/com/wordbloom/garden/Billing.kt:25; app/src/main/java/com/wordbloom/garden/Billing.kt:29; app/src/main/java/com/wordbloom/garden/Billing.kt:29,,,
-msg_ddd669be77ae,Amazon purchasing is incompatible with this device,Las compras en Amazon no son compatibles con este dispositivo,app/src/main/java/com/wordbloom/garden/Billing.kt:26,,,
-msg_dd6fc41d4f91,Store product unavailable. Check Amazon Appstore or try Restore.,El producto no está disponible en la tienda. Consulta la Amazon Appstore o prueba con Restore.,app/src/main/java/com/wordbloom/garden/Billing.kt:30,,,
-msg_e0f155662c00,Amazon account unavailable. Saved offline access retained.,Cuenta de Amazon no disponible. Se mantiene el acceso sin conexión guardado.,app/src/main/java/com/wordbloom/garden/Billing.kt:39,,,
-msg_128074e4c337,Amazon product unavailable on this installation,Producto de Amazon no disponible en esta instalación,app/src/main/java/com/wordbloom/garden/Billing.kt:46,,,
-msg_dd3e1e29a760,One purchase. A garden of possibilities.,Una sola compra. Un jardín de posibilidades.,app/src/main/java/com/wordbloom/garden/Billing.kt:46,,,
-msg_50b0c029f3a3,Amazon account changed. Restore from the current account.,Se ha cambiado la cuenta de Amazon. Restaurar desde la cuenta actual.,app/src/main/java/com/wordbloom/garden/Billing.kt:50,,,
-msg_3d35cd1a63d2,Purchase {0}. No access granted.,Comprar {0}. No se concede acceso.,app/src/main/java/com/wordbloom/garden/Billing.kt:53,,,
-msg_98573700d8c5,Purchase could not be saved on this device. Please try Restore.,No se ha podido guardar la compra en este dispositivo. Intenta restaurarla.,app/src/main/java/com/wordbloom/garden/Billing.kt:59,,,
-msg_55d75478eec0,Premium purchase cancelled,Compra premium cancelada,app/src/main/java/com/wordbloom/garden/Billing.kt:62,,,
-msg_76caa7b4f5a9,Premium restored. Welcome to the whole garden.,Se ha restablecido la suscripción Premium. Bienvenido al jardín completo.,app/src/main/java/com/wordbloom/garden/Billing.kt:62,,,
-msg_b8d39d362082,Restore unavailable. Please try again with Amazon Appstore.,La restauración no está disponible. Inténtalo de nuevo con Amazon Appstore.,app/src/main/java/com/wordbloom/garden/Billing.kt:66,,,
-msg_795b43828254,Premium restored,Premium restablecido,app/src/main/java/com/wordbloom/garden/Billing.kt:75,,,
-msg_4250182a589d,No premium purchase found for this Amazon account,No se ha encontrado ninguna compra premium para esta cuenta de Amazon,app/src/main/java/com/wordbloom/garden/Billing.kt:75,,,
-msg_f9bbfdc8a3ea,Platform callback,Llamada de retorno de la plataforma,app/src/main/java/com/wordbloom/garden/Voice.kt:26,expanded text: inspect device wrapping,,
-msg_020c24469ada,Spoken voice unavailable for this language. Touch controls remain available.,La voz en off no está disponible para este idioma. Los controles táctiles siguen estando disponibles.,app/src/main/java/com/wordbloom/garden/Voice.kt:34,,,
-msg_2d400ffa6a48,"Speech recognition unavailable. You can swipe, tap, or type words.","El reconocimiento de voz no está disponible. Puedes deslizar el dedo, tocar la pantalla o escribir las palabras.",app/src/main/java/com/wordbloom/garden/Voice.kt:43,,,
-msg_69de651d5d29,Microphone permission is needed for push-to-talk only.,Se necesita permiso para el micrófono únicamente para la función «pulsar para hablar».,app/src/main/java/com/wordbloom/garden/Voice.kt:44,,,
-msg_61dbc5288edf,Audio is busy. Try again shortly.,Hay mucho tráfico de audio. Inténtalo de nuevo dentro de un rato.,app/src/main/java/com/wordbloom/garden/Voice.kt:48,expanded text: inspect device wrapping,,
-msg_bbb4106e8144,Listening…,Escuchando…,app/src/main/java/com/wordbloom/garden/Voice.kt:50,,,
-msg_185afcb24dce,Speech service could not start. Touch controls remain available.,No se ha podido iniciar el servicio de voz. Los controles táctiles siguen estando disponibles.,app/src/main/java/com/wordbloom/garden/Voice.kt:52,,,
-msg_76394fcb63bc,Listening… Speak a command or a word.,A la escucha… Di un comando o una palabra.,app/src/main/java/com/wordbloom/garden/Voice.kt:56,,,
-msg_22b8a1abd6e3,Recognising…,Reconociendo…,app/src/main/java/com/wordbloom/garden/Voice.kt:60,,,
-msg_d4c13b10d7bc,No word recognised. Try again.,No se ha reconocido ninguna palabra. Inténtalo de nuevo.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,expanded text: inspect device wrapping,,
-msg_ed978d7afee3,Speech service needs a connection. Use touch to play offline.,El servicio de voz requiere conexión. Utiliza la función táctil para jugar sin conexión.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,
-msg_b76434749b96,Microphone permission unavailable.,No se dispone de permiso para el micrófono.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,
-msg_c2fb18dbb1e7,Speech unavailable ({0}). Try again or use touch.,El audio no está disponible ({0}). Inténtalo de nuevo o utiliza la función táctil.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,
-msg_a3dd64d17497,Heard: {0},Se ha oído: {0},app/src/main/java/com/wordbloom/garden/Voice.kt:62,,,
-msg_2e09d4c2f8af,Sunrise Garden,Jardín del amanecer,engine:display-label,,,
-msg_987b2beefb6c,Enchanted Forest,Bosque encantado,engine:display-label,,,
-msg_eae5735d7bfc,Blossom Valley,«valle de las flores»,engine:display-label,,,
-msg_0727d340225f,Crystal Lake,Lago cristalino,engine:display-label,,,
-msg_28cc60e8c238,Golden Meadow,Pradera dorada,engine:display-label,,,
-msg_21245fa78fc3,Moonlight Garden,Jardín a la luz de la luna,engine:display-label,,,
-msg_c865ebb3052c,Beginner,Principiante,engine:display-label,,,
-msg_3b1cfa63d7d9,Intermediate,Nivel intermedio,engine:display-label,,,
-msg_9f088dbebd6c,Advanced,Avanzado,engine:display-label,,,
-msg_8b317b0c50ee,Expert,Experto,engine:display-label,,,
-msg_2430e09ec2ec,successful,correcto,sdk:purchase-status-display,,,
-msg_5d28a90f4498,failed,fallido,sdk:purchase-status-display,,,
-msg_0b470848c772,already purchased,ya comprado,sdk:purchase-status-display,,,
-msg_60dad20a602e,invalid sku,SKU no válido,sdk:purchase-status-display,,,
-msg_0bee0730a4f9,not supported,no compatible,sdk:purchase-status-display,,,
-msg_62a2fed3d6e0,pending,pendiente,sdk:purchase-status-display,,,
+Your first chapter awaits","✿ Jardín del amanecer
+Tu primer capítulo te espera",resource:ui_011,,,Codex (ai_editorial_lexical)
+msg_5270c9ce647e,Make a little time for you,Dedica un ratito a ti mismo,resource:ui_012,,,Codex (ai_editorial_lexical)
+msg_14922158bcf1,Swipe to connect. Tap to take your time. Every word is a small discovery.,Desliza el dedo para conectar. Toca la pantalla para tomarte tu tiempo. Cada palabra es un pequeño descubrimiento.,resource:ui_013,,,Codex (ai_editorial_lexical)
+msg_585047053aa9,You grew something lovely.,Has cultivado algo precioso.,resource:ui_014,,,Codex (ai_editorial_lexical)
+msg_543e87add437,↝ Shuffle,↝ Barajar,resource:ui_015,,,Codex (ai_editorial_lexical)
+msg_af08cc6d16df,✦ Letter · 1,✦ Letra · 1,resource:ui_016,,,Codex (ai_editorial_lexical)
+msg_e14b09ae68d5,Starting letter,Letra inicial,resource:ui_017,,,Codex (ai_editorial_lexical)
+msg_7c8501c77172,Reveal word · 3,Revelar palabra · 3,resource:ui_018,,,Codex (ai_editorial_lexical)
+msg_52cd4eeba682,Type a word,Escribe una palabra,resource:ui_019,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_9d60841e0a78,Check,Comprobar,resource:ui_020,,,Codex (ai_editorial_lexical)
+msg_a3c4049c8756,Listen to word,Escucha la palabra,resource:ui_021,,,Codex (ai_editorial_lexical)
+msg_40d70d845e1e,Push-to-talk may use your device’s online speech service. Nothing is recorded by WordBloom.,La función «pulsar para hablar» puede utilizar el servicio de voz en línea de tu dispositivo. WordBloom no graba nada.,resource:ui_022,,,Codex (ai_editorial_lexical)
+msg_a8283ade3185,Undo,Deshacer,resource:ui_023,,,Codex (ai_editorial_lexical)
+msg_83b12c2216ef,Clear,Borrar,resource:ui_024,,,Codex (ai_editorial_lexical)
+msg_0590d70c63b5,Submit word,Enviar palabra,resource:ui_025,,,Codex (ai_editorial_lexical)
+msg_3a2f00b7c545,Six gardens. A world of words.,Seis jardines. Un mundo de palabras.,resource:ui_026,,,Codex (ai_editorial_lexical)
+msg_134bcc8dfd71,Complete journey puzzles to open the next. Every four journey puzzles restore a chapter.,Completa los acertijos del viaje para desbloquear el siguiente. Cada cuatro acertijos del viaje se restaura un capítulo.,resource:ui_027,,,Codex (ai_editorial_lexical)
+msg_a52ace420f21,All,Todo,resource:ui_028,,,Codex (ai_editorial_lexical)
+msg_0b0450991c08,Your quiet corner,Tu rincón tranquilo,resource:ui_029,,,Codex (ai_editorial_lexical)
+msg_54c98e740241,Look how far you’ve grown.,Mira lo mucho que has avanzado.,resource:ui_030,,,Codex (ai_editorial_lexical)
+msg_d77f771b332b,Daily memories,Recuerdos diarios,resource:ui_031,,,Codex (ai_editorial_lexical)
+msg_ca63776635cc,Make yourself comfortable,Ponte cómodo,resource:ui_032,,,Codex (ai_editorial_lexical)
+msg_8e7dadacd7dc,A game at your pace.,Un juego a tu ritmo.,resource:ui_033,,,Codex (ai_editorial_lexical)
+msg_115ae40e6398,Puzzle language,Idioma de los rompecabezas,resource:ui_034,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_0f03ee3ee472,Choose a puzzle language. Each language has its own word collection and saved journey. English UK/US share a collection.,Elige el idioma del juego. Cada idioma tiene su propio conjunto de palabras y su propio progreso guardado. El inglés británico y el estadounidense comparten el mismo conjunto.,resource:ui_035,,,Codex (ai_editorial_lexical)
+msg_a42a47844fb4,"Voice, when you want it","Voz, cuando tú quieras",resource:ui_036,,,Codex (ai_editorial_lexical)
+msg_1527f526f087,"Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.","Prueba: “mezclar letras”, “dame una pista”, “repetir la palabra”, “mostrar mi progreso”, “abrir el reto diario”, “ir al inicio”.",resource:ui_037,,,Codex (ai_editorial_lexical)
+msg_e94253e91c49,Your words stay yours,Tus palabras siguen siendo tuyas,resource:ui_038,,,Codex (ai_editorial_lexical)
+msg_74a8c06f2269,No account. No ads. No analytics. Progress and settings stay on this device. WordBloom stores no microphone recordings. Amazon handles purchase information. Removing the app clears local progress; purchases can be restored through Amazon.,Sin cuenta. Sin anuncios. Sin análisis de datos. El progreso y la configuración se guardan en este dispositivo. WordBloom no almacena grabaciones del micrófono. Amazon gestiona la información de las compras. Al desinstalar la aplicación se borra el progreso local; las compras se pueden recuperar a través de Amazon.,resource:ui_039,,,Codex (ai_editorial_lexical)
+msg_ddc5cf266848,WordBloom 0.1 · 24 puzzles · Offline-first,WordBloom 0.1 · 24 rompecabezas · Juego sin conexión,resource:ui_040,,,Codex (ai_editorial_lexical)
+msg_c37f87dfc774,A little more wonder,Un poco más de asombro,resource:ui_041,,,Codex (ai_editorial_lexical)
+msg_fd1c4ecb4c40,"All six illustrated worlds. All 24 puzzles in each available language. Advanced and expert challenges. Expanded garden statistics, plus 4 earned hints per first completion instead of 3. Garden milestones and saved daily history.","Los seis mundos ilustrados. Los 24 rompecabezas en cada idioma disponible. Desafíos para jugadores avanzados y expertos. Estadísticas ampliadas del jardín, además de 4 pistas ganadas por cada primera finalización en lugar de 3. Hitos del jardín e historial diario guardado.",resource:ui_042,,,Codex (ai_editorial_lexical)
+msg_2b3aca3a5301,One-time purchase · No ads · No subscription,Compra única · Sin anuncios · Sin suscripción,resource:ui_043,,,Codex (ai_editorial_lexical)
+msg_c5f5dd9f9dbd,Restore Amazon purchase,Recuperar una compra en Amazon,resource:ui_044,,,Codex (ai_editorial_lexical)
+msg_d6173ae6d107,Daily puzzles and the introductory chapter remain free in every available language.,Los rompecabezas diarios y el capítulo introductorio siguen siendo gratuitos en todos los idiomas disponibles.,resource:ui_045,,,Codex (ai_editorial_lexical)
+msg_f97070a26e44,"Microphone permission denied. Swipe, tap or type to play.","Permiso de micrófono denegado. Desliza el dedo, toca la pantalla o escribe para jugar.",app/src/main/java/com/wordbloom/garden/MainActivity.kt:60,,,Codex (ai_editorial_lexical)
+msg_c394f19c3571,DEVELOPMENT BUILD · TEST PURCHASES · NO REAL MONEY,VERSIÓN DE DESARROLLO · COMPRAS DE PRUEBA · SIN DINERO REAL,app/src/main/java/com/wordbloom/garden/MainActivity.kt:89,,,Codex (ai_editorial_lexical)
+msg_723a37716f9b,Finish this puzzle before going to the next level,Termina este rompecabezas antes de pasar al siguiente nivel,app/src/main/java/com/wordbloom/garden/MainActivity.kt:113,,,Codex (ai_editorial_lexical)
+msg_48265ef60f8c,Find a word first,Encuentra primero una palabra,app/src/main/java/com/wordbloom/garden/MainActivity.kt:116,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_8d1b47c4d230,Open a puzzle to play a word,Abre un juego de palabras para jugar,app/src/main/java/com/wordbloom/garden/MainActivity.kt:120,,,Codex (ai_editorial_lexical)
+msg_f40e3104ad14,"Try ‘shuffle letters’, ‘give me a hint’, or say one word","Prueba: “mezclar letras”, “dame una pista” o di una palabra",app/src/main/java/com/wordbloom/garden/MainActivity.kt:121,,,Codex (ai_editorial_lexical)
+msg_3a78695388b3,Home,Inicio,app/src/main/java/com/wordbloom/garden/MainActivity.kt:136,,,Codex (ai_editorial_lexical)
+msg_13d83dbb23fb,Premium ✓,Premium ✓,app/src/main/java/com/wordbloom/garden/MainActivity.kt:137,unchanged text: verify shared terminology or missed translation,,Codex (ai_editorial_lexical)
+msg_03a0fc5cff6f,Explore premium,Explora la versión premium,app/src/main/java/com/wordbloom/garden/MainActivity.kt:137,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_c808f9810a87,Begin your journey,Comienza tu aventura,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,Codex (ai_editorial_lexical)
+msg_f3ed8d8349ee,Continue your journey,Continúa tu viaje,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,Codex (ai_editorial_lexical)
+msg_98fa1a68fbba,{0}  →,{0}  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:153,,,Codex (ai_editorial_lexical)
+msg_d7e8f5ebcdd1,✿  Flowers: {0},✿  Flores: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:160,,,Codex (ai_editorial_lexical)
+msg_5b0a9ac3693a,01 / A FRESH LITTLE CHALLENGE,01 / UN PEQUEÑO RETO NUEVO,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,Codex (ai_editorial_lexical)
+msg_f1920b5855f9,Your daily word escape,Tu reto diario de palabras,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,Codex (ai_editorial_lexical)
+msg_a53cc0540e4f,"EEEE, d MMMM","EEEE, d MMMM",app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,unchanged text: verify shared terminology or missed translation,,Codex (ai_editorial_lexical)
+msg_96a5eb446ace,Play today  →,Juega hoy  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:162,,,Codex (ai_editorial_lexical)
+msg_27f702d2e3b2,02 / ONE WORD AT A TIME,02 / UNA PALABRA A LA VEZ,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,Codex (ai_editorial_lexical)
+msg_11b4bc1d0b3a,A world waiting to grow,Un mundo a la espera de crecer,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,Codex (ai_editorial_lexical)
+msg_f958d2f1ac73,Six nature-inspired chapters,Seis capítulos inspirados en la naturaleza,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,Codex (ai_editorial_lexical)
+msg_0b6cefcbbec0,Explore the journey  →,Explora el viaje  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:163,,,Codex (ai_editorial_lexical)
+msg_65a0a50953d4,03 / YOUR OWN QUIET CORNER,03 / TU PROPIO RINCÓN TRANQUILO,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,Codex (ai_editorial_lexical)
+msg_fee5f92e34a8,Watch your garden bloom,Mira cómo florece tu jardín,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,Codex (ai_editorial_lexical)
+msg_ad507c3c8a12,Every completed puzzle plants a flower,Cada rompecabezas completado hace florecer una flor,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,Codex (ai_editorial_lexical)
+msg_2b69cceea061,Visit my garden  →,Visita mi jardín  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:164,,,Codex (ai_editorial_lexical)
+msg_ae511c4d36ce,Daily word escape,Reto diario de palabras,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,Codex (ai_editorial_lexical)
+msg_8e3e629fe6f7,{0} · Level {1},{0} · Nivel {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,Codex (ai_editorial_lexical)
+msg_7079299b4aa5,A beautiful discovery,Un hermoso descubrimiento,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,Codex (ai_editorial_lexical)
+msg_5fa29c1802c5,Let your words bloom,Deja que tus palabras florezcan,app/src/main/java/com/wordbloom/garden/MainActivity.kt:181,,,Codex (ai_editorial_lexical)
+msg_d4713d8915b8,✦ Hints: {0},✦ Pistas: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:182,,,Codex (ai_editorial_lexical)
+msg_ca25e64817c4,Words found: {0} / {1} · {2},Palabras encontradas: {0} / {1} · {2},app/src/main/java/com/wordbloom/garden/MainActivity.kt:190,,,Codex (ai_editorial_lexical)
+msg_bfa637a72738,Bonus words: {0},Palabras extra: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:191,,,Codex (ai_editorial_lexical)
+msg_e015e30b0001,Back to the garden,De vuelta al jardín,app/src/main/java/com/wordbloom/garden/MainActivity.kt:199,,,Codex (ai_editorial_lexical)
+msg_c402502565e2,Next puzzle  →,Siguiente rompecabezas  →,app/src/main/java/com/wordbloom/garden/MainActivity.kt:199,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_26658b593cc4,Replay puzzle,Volver a jugar al rompecabezas,app/src/main/java/com/wordbloom/garden/MainActivity.kt:200,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_94fa9b236332,Stop listening,Deja de escuchar,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,Codex (ai_editorial_lexical)
+msg_2982f1d4972e,◉ Speak,◉ Hablar,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,Codex (ai_editorial_lexical)
+msg_7ffb956802a5,Voice availability,Disponibilidad de la voz,app/src/main/java/com/wordbloom/garden/MainActivity.kt:224,,,Codex (ai_editorial_lexical)
+msg_cd167e8baced,"{0},{1}","{0},{1}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:241; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:74; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:75; app/src/main/java/com/wordbloom/garden/GameViewModel.kt:77,,,Codex (ai_editorial_lexical)
+msg_10c2094f6509,"Row {0}, column {1}: {2}","Fila {0}, columna {1}: {2}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:243,,,Codex (ai_editorial_lexical)
+msg_a0b7a33254e1,"Row {0}, column {1}: empty letter","Fila {0}, columna {1}: letra en blanco",app/src/main/java/com/wordbloom/garden/MainActivity.kt:243,,,Codex (ai_editorial_lexical)
+msg_7cbfbbc8dca3,Connect the letters,Une las letras,app/src/main/java/com/wordbloom/garden/MainActivity.kt:259,,,Codex (ai_editorial_lexical)
+msg_b60f78f09280,"Letter {0}, tile {1}, selected","Letra {0}, ficha {1}, seleccionada",app/src/main/java/com/wordbloom/garden/MainActivity.kt:291,,,Codex (ai_editorial_lexical)
+msg_c84c4c392414,"Letter {0}, tile {1}","Letra {0}, ficha {1}",app/src/main/java/com/wordbloom/garden/MainActivity.kt:291,,,Codex (ai_editorial_lexical)
+msg_3f4f403ebf04,{0}. {1},{0}. {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:314,,,Codex (ai_editorial_lexical)
+msg_a2ca7e03290f,Flowers planted: {0},Flores plantadas: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:332,,,Codex (ai_editorial_lexical)
+msg_e4fe7f7bd1f6,Chapters restored: {0} / 6 · Daily puzzles completed: {1},Capítulos restaurados: {0} / 6 · Retos diarios completados: {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:333,,,Codex (ai_editorial_lexical)
+msg_0f02903bbf75,First bloom,Primera flor,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,Codex (ai_editorial_lexical)
+msg_662e46f0e1ba,Garden keeper,Cuidador del jardín,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,Codex (ai_editorial_lexical)
+msg_6b79c5405359,Wildflower soul,Alma de flor silvestre,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,Codex (ai_editorial_lexical)
+msg_7812db0f028e,Full bloom,Floración completa,app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_987e21cd5d8a,Puzzles: {0},Rompecabezas: {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:335,,,Codex (ai_editorial_lexical)
+msg_e0fb55e50382,Your garden in numbers,Tu jardín en cifras,app/src/main/java/com/wordbloom/garden/MainActivity.kt:338,,,Codex (ai_editorial_lexical)
+msg_c4fc8fd71468,Words in completed puzzles: {0} · Journey restored: {1}%,Palabras en rompecabezas completados: {0} · Viaje completado: {1}%,app/src/main/java/com/wordbloom/garden/MainActivity.kt:339,,,Codex (ai_editorial_lexical)
+msg_eb91f332fc67,{0} / {1},{0} / {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:345,,,Codex (ai_editorial_lexical)
+msg_fd2cd7f8ee6a,Your first daily escape is waiting. Play whenever you like — no streak to protect.,Tu primer «escape diario» te está esperando. Juega cuando quieras: no hay que mantener ninguna racha.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:352,,,Codex (ai_editorial_lexical)
+msg_d096df9edd58,Spoken guidance,Indicaciones de voz,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_66782b653f84,Gentle word sounds,Sonidos suaves de las palabras,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_e4c869e510f8,Garden ambience,Ambiente de jardín,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_17e055f886cd,High-contrast letter tiles,Fichas de letras de alto contraste,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_297ef4c79b4b,Reduce motion,Reducir el movimiento,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_13b394639582,Larger text,Letra más grande,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_321119913705,Evening theme,Tema de la noche,app/src/main/java/com/wordbloom/garden/MainActivity.kt:359,,,Codex (ai_editorial_lexical)
+msg_55c401c4d28a,A compatible recognition service is available. Use Speak in a puzzle; your device’s service may send speech to its provider.,Hay disponible un servicio de reconocimiento compatible. Utiliza la función «Hablar» en un rompecabezas; es posible que el servicio de tu dispositivo envíe la voz a su proveedor.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:366,,,Codex (ai_editorial_lexical)
+msg_2f84421d8ebb,"No compatible recognition service was found. Swipe, tap and text entry provide the full game.","No se ha encontrado ningún servicio de reconocimiento compatible. Desliza el dedo, toca la pantalla e introduce texto para disfrutar del juego al completo.",app/src/main/java/com/wordbloom/garden/MainActivity.kt:366,,,Codex (ai_editorial_lexical)
+msg_75f0c89607b7,The whole garden is yours.,Todo el jardín es tuyo.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:376,,,Codex (ai_editorial_lexical)
+msg_69af495a2235,Let the whole garden bloom.,Deja que florezca todo el jardín.,app/src/main/java/com/wordbloom/garden/MainActivity.kt:376,,,Codex (ai_editorial_lexical)
+msg_f11043f6ea65,Unlock premium · {0},Desbloquear la versión premium · {0},app/src/main/java/com/wordbloom/garden/MainActivity.kt:379,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_d41acbd03306,Store price unavailable,Precio en tienda no disponible,app/src/main/java/com/wordbloom/garden/MainActivity.kt:379,,,Codex (ai_editorial_lexical)
+msg_fa51b9c92f37,Original illustration: {0}. Flowers: {1},Ilustración original: {0}. Flores: {1},app/src/main/java/com/wordbloom/garden/MainActivity.kt:391,,,Codex (ai_editorial_lexical)
+msg_948430c6ab99,Amazon product availability depends on device,La disponibilidad de los productos de Amazon depende del dispositivo,app/src/main/java/com/wordbloom/garden/MainActivity.kt:468,,,Codex (ai_editorial_lexical)
+msg_8e554e7b755a,A little wordplay. A little wonder.,Un pequeño juego de palabras. Una pequeña maravilla.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:14,,,Codex (ai_editorial_lexical)
+msg_ecbce2c3864e,daily:{0}:,diario: {0}:,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:31,,,Codex (ai_editorial_lexical)
+msg_25f011b0f89b,Find {0} words. Swipe or tap the letters.,Encuentra {0} palabras. Desliza el dedo o toca las letras.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:49,,,Codex (ai_editorial_lexical)
+msg_e5441b0e72b0,A fresh look at a familiar puzzle. Replay earns no additional hints.,Una nueva perspectiva de un rompecabezas conocido. Volver a jugar no otorga pistas adicionales.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:51,,,Codex (ai_editorial_lexical)
+msg_121aae1170ab,Letters shuffled,Letras mezcladas,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:53,,,Codex (ai_editorial_lexical)
+msg_4c3883effb17,Look for the highlighted starting letter,Busca la letra inicial resaltada,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:54,,,Codex (ai_editorial_lexical)
+msg_0fc6b50e8f45,Beautiful! {0},¡Precioso! {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:59,,,Codex (ai_editorial_lexical)
+msg_b48e2dc3f476,Bonus word! {0} · +1 hint,¡Palabra extra! {0} · +1 pista,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:60,,,Codex (ai_editorial_lexical)
+msg_5c1a9c613e0a,Bonus word! {0},¡Palabra extra! {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:60,,,Codex (ai_editorial_lexical)
+msg_66ba6d0a7ecc,You already found {0},Ya has encontrado {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:61,,,Codex (ai_editorial_lexical)
+msg_16963e44a1e5,That word is not in this puzzle’s curated word list,Esa palabra no figura en la lista de palabras seleccionadas para este juego de palabras,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:62,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_09932cd896a0,Earn hints by completing puzzles or finding bonus words,Consigue pistas completando rompecabezas o encontrando palabras extra,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:70,,,Codex (ai_editorial_lexical)
+msg_be3c173b7f18,Revealed {0},Revelado {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:71,,,Codex (ai_editorial_lexical)
+msg_e456af789328,All its letters are visible: {0},Todas sus letras están visibles: {0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:76,,,Codex (ai_editorial_lexical)
+msg_07fff96bbf7e,"One new letter, a little closer","Una nueva letra, un poco más cerca",app/src/main/java/com/wordbloom/garden/GameViewModel.kt:77,,,Codex (ai_editorial_lexical)
+msg_1184863228f5,Puzzle complete. Your garden is growing! Hints earned: +{0},Rompecabezas completado. ¡Tu jardín crece! Pistas ganadas: +{0},app/src/main/java/com/wordbloom/garden/GameViewModel.kt:88,,,Codex (ai_editorial_lexical)
+msg_365762cb0e8c,Progress could not be saved. Please try again.,No se ha podido guardar el progreso. Inténtalo de nuevo.,app/src/main/java/com/wordbloom/garden/GameViewModel.kt:92,,,Codex (ai_editorial_lexical)
+msg_5d7d60ebbf9d,Connecting to Amazon Appstore…,Conectando con Amazon Appstore…,app/src/main/java/com/wordbloom/garden/Billing.kt:13,,,Codex (ai_editorial_lexical)
+msg_10e2536378b8,premium:{0},premium: {0},app/src/main/java/com/wordbloom/garden/Billing.kt:17; app/src/main/java/com/wordbloom/garden/Billing.kt:34; app/src/main/java/com/wordbloom/garden/Billing.kt:41,,,Codex (ai_editorial_lexical)
+msg_a5ba5ae64c29,Amazon purchasing is unavailable on this device,Las compras en Amazon no están disponibles en este dispositivo,app/src/main/java/com/wordbloom/garden/Billing.kt:25; app/src/main/java/com/wordbloom/garden/Billing.kt:29; app/src/main/java/com/wordbloom/garden/Billing.kt:29,,,Codex (ai_editorial_lexical)
+msg_ddd669be77ae,Amazon purchasing is incompatible with this device,Las compras en Amazon no son compatibles con este dispositivo,app/src/main/java/com/wordbloom/garden/Billing.kt:26,,,Codex (ai_editorial_lexical)
+msg_dd6fc41d4f91,Store product unavailable. Check Amazon Appstore or try Restore.,Producto no disponible. Consulta Amazon Appstore o selecciona «Recuperar una compra en Amazon».,app/src/main/java/com/wordbloom/garden/Billing.kt:30,,,Codex (ai_editorial_lexical)
+msg_e0f155662c00,Amazon account unavailable. Saved offline access retained.,Cuenta de Amazon no disponible. Se mantiene el acceso sin conexión guardado.,app/src/main/java/com/wordbloom/garden/Billing.kt:39,,,Codex (ai_editorial_lexical)
+msg_128074e4c337,Amazon product unavailable on this installation,Producto de Amazon no disponible en esta instalación,app/src/main/java/com/wordbloom/garden/Billing.kt:46,,,Codex (ai_editorial_lexical)
+msg_dd3e1e29a760,One purchase. A garden of possibilities.,Una sola compra. Un jardín de posibilidades.,app/src/main/java/com/wordbloom/garden/Billing.kt:46,,,Codex (ai_editorial_lexical)
+msg_50b0c029f3a3,Amazon account changed. Restore from the current account.,Se ha cambiado la cuenta de Amazon. Restaurar desde la cuenta actual.,app/src/main/java/com/wordbloom/garden/Billing.kt:50,,,Codex (ai_editorial_lexical)
+msg_3d35cd1a63d2,Purchase {0}. No access granted.,Estado de la compra: {0}. No se ha concedido acceso.,app/src/main/java/com/wordbloom/garden/Billing.kt:53,,,Codex (ai_editorial_lexical)
+msg_98573700d8c5,Purchase could not be saved on this device. Please try Restore.,No se ha podido guardar la compra en este dispositivo. Intenta restaurarla.,app/src/main/java/com/wordbloom/garden/Billing.kt:59,,,Codex (ai_editorial_lexical)
+msg_55d75478eec0,Premium purchase cancelled,Compra premium cancelada,app/src/main/java/com/wordbloom/garden/Billing.kt:62,,,Codex (ai_editorial_lexical)
+msg_76caa7b4f5a9,Premium restored. Welcome to the whole garden.,Acceso premium recuperado. Bienvenido al jardín completo.,app/src/main/java/com/wordbloom/garden/Billing.kt:62,,,Codex (ai_editorial_lexical)
+msg_b8d39d362082,Restore unavailable. Please try again with Amazon Appstore.,La restauración no está disponible. Inténtalo de nuevo con Amazon Appstore.,app/src/main/java/com/wordbloom/garden/Billing.kt:66,,,Codex (ai_editorial_lexical)
+msg_795b43828254,Premium restored,Premium restablecido,app/src/main/java/com/wordbloom/garden/Billing.kt:75,,,Codex (ai_editorial_lexical)
+msg_4250182a589d,No premium purchase found for this Amazon account,No se ha encontrado ninguna compra premium para esta cuenta de Amazon,app/src/main/java/com/wordbloom/garden/Billing.kt:75,,,Codex (ai_editorial_lexical)
+msg_f9bbfdc8a3ea,Platform callback,Llamada de retorno de la plataforma,app/src/main/java/com/wordbloom/garden/Voice.kt:26,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_020c24469ada,Spoken voice unavailable for this language. Touch controls remain available.,La voz en off no está disponible para este idioma. Los controles táctiles siguen estando disponibles.,app/src/main/java/com/wordbloom/garden/Voice.kt:34,,,Codex (ai_editorial_lexical)
+msg_2d400ffa6a48,"Speech recognition unavailable. You can swipe, tap, or type words.","El reconocimiento de voz no está disponible. Puedes deslizar el dedo, tocar la pantalla o escribir las palabras.",app/src/main/java/com/wordbloom/garden/Voice.kt:43,,,Codex (ai_editorial_lexical)
+msg_69de651d5d29,Microphone permission is needed for push-to-talk only.,Se necesita permiso para el micrófono únicamente para la función «pulsar para hablar».,app/src/main/java/com/wordbloom/garden/Voice.kt:44,,,Codex (ai_editorial_lexical)
+msg_61dbc5288edf,Audio is busy. Try again shortly.,Hay mucho tráfico de audio. Inténtalo de nuevo dentro de un rato.,app/src/main/java/com/wordbloom/garden/Voice.kt:48,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_bbb4106e8144,Listening…,Escuchando…,app/src/main/java/com/wordbloom/garden/Voice.kt:50,,,Codex (ai_editorial_lexical)
+msg_185afcb24dce,Speech service could not start. Touch controls remain available.,No se ha podido iniciar el servicio de voz. Los controles táctiles siguen estando disponibles.,app/src/main/java/com/wordbloom/garden/Voice.kt:52,,,Codex (ai_editorial_lexical)
+msg_76394fcb63bc,Listening… Speak a command or a word.,A la escucha… Di un comando o una palabra.,app/src/main/java/com/wordbloom/garden/Voice.kt:56,,,Codex (ai_editorial_lexical)
+msg_22b8a1abd6e3,Recognising…,Reconociendo…,app/src/main/java/com/wordbloom/garden/Voice.kt:60,,,Codex (ai_editorial_lexical)
+msg_d4c13b10d7bc,No word recognised. Try again.,No se ha reconocido ninguna palabra. Inténtalo de nuevo.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,expanded text: inspect device wrapping,,Codex (ai_editorial_lexical)
+msg_ed978d7afee3,Speech service needs a connection. Use touch to play offline.,El servicio de voz requiere conexión. Utiliza la función táctil para jugar sin conexión.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,Codex (ai_editorial_lexical)
+msg_b76434749b96,Microphone permission unavailable.,No se dispone de permiso para el micrófono.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,Codex (ai_editorial_lexical)
+msg_c2fb18dbb1e7,Speech unavailable ({0}). Try again or use touch.,El audio no está disponible ({0}). Inténtalo de nuevo o utiliza la función táctil.,app/src/main/java/com/wordbloom/garden/Voice.kt:61,,,Codex (ai_editorial_lexical)
+msg_a3dd64d17497,Heard: {0},Se ha oído: {0},app/src/main/java/com/wordbloom/garden/Voice.kt:62,,,Codex (ai_editorial_lexical)
+msg_2e09d4c2f8af,Sunrise Garden,Jardín del amanecer,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_987b2beefb6c,Enchanted Forest,Bosque encantado,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_eae5735d7bfc,Blossom Valley,Valle de las flores,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_0727d340225f,Crystal Lake,Lago cristalino,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_28cc60e8c238,Golden Meadow,Pradera dorada,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_21245fa78fc3,Moonlight Garden,Jardín a la luz de la luna,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_c865ebb3052c,Beginner,Principiante,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_3b1cfa63d7d9,Intermediate,Nivel intermedio,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_9f088dbebd6c,Advanced,Avanzado,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_8b317b0c50ee,Expert,Experto,engine:display-label,,,Codex (ai_editorial_lexical)
+msg_2430e09ec2ec,successful,correcto,sdk:purchase-status-display,,,Codex (ai_editorial_lexical)
+msg_5d28a90f4498,failed,fallido,sdk:purchase-status-display,,,Codex (ai_editorial_lexical)
+msg_0b470848c772,already purchased,ya comprado,sdk:purchase-status-display,,,Codex (ai_editorial_lexical)
+msg_60dad20a602e,invalid sku,SKU no válido,sdk:purchase-status-display,,,Codex (ai_editorial_lexical)
+msg_0bee0730a4f9,not supported,no compatible,sdk:purchase-status-display,,,Codex (ai_editorial_lexical)
+msg_62a2fed3d6e0,pending,pendiente,sdk:purchase-status-display,,,Codex (ai_editorial_lexical)

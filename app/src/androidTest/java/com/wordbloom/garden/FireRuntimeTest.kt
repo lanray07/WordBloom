@@ -43,17 +43,17 @@ class FireRuntimeTest {
   rule.onNodeWithText("Type a word").performTextInput("CAST")
   click("Check")
   rule.waitUntil(5000) { rule.onAllNodesWithText("Bonus words: CAST").fetchSemanticsNodes().isNotEmpty() }
-  rule.onNodeWithText("✦ 9 hints").assertExists()
+  rule.onNodeWithText("✦ Hints: 9").assertExists()
   click("✦ Letter · 1")
-  rule.waitUntil(5000) { rule.onAllNodesWithText("✦ 8 hints").fetchSemanticsNodes().isNotEmpty() }
+  rule.waitUntil(5000) { rule.onAllNodesWithText("✦ Hints: 8").fetchSemanticsNodes().isNotEmpty() }
   rule.onNodeWithText("Type a word").performScrollTo().performTextInput("CAT")
   click("Check")
-  rule.waitUntil(5000) { rule.onAllNodesWithText("1 of 3 words found  ·  Beginner").fetchSemanticsNodes().isNotEmpty() }
+  rule.waitUntil(5000) { rule.onAllNodesWithText("Words found: 1 / 3 · Beginner").fetchSemanticsNodes().isNotEmpty() }
   rule.activityRule.scenario.recreate()
   rule.waitForIdle()
-  rule.onNodeWithText("1 of 3 words found  ·  Beginner").assertExists()
+  rule.onNodeWithText("Words found: 1 / 3 · Beginner").assertExists()
   rule.onNodeWithText("Bonus words: CAST").assertExists()
-  rule.onNodeWithText("✦ 8 hints").assertExists()
+  rule.onNodeWithText("✦ Hints: 8").assertExists()
   // This Fire device has no recognition service. Touch play must remain usable.
   if(rule.onAllNodesWithText("Voice availability").fetchSemanticsNodes().isNotEmpty()) {
    click("Voice availability")
@@ -64,7 +64,7 @@ class FireRuntimeTest {
   rule.onNodeWithText("DAILY WORD ESCAPE").assertExists()
   home()
   click("Visit my garden  →")
-  rule.onNodeWithText("0 blooms planted").assertExists()
+  rule.onNodeWithText("Flowers planted: 0").assertExists()
  }
  @Test fun accessibilitySettingsPersistAfterRecreation() {
   Assume.assumeTrue(InstrumentationRegistry.getArguments().getString("settings") == "true")
@@ -88,11 +88,11 @@ class FireRuntimeTest {
   fun centre(description: String)=rule.onNodeWithContentDescription(description).fetchSemanticsNode().boundsInRoot.center
   val c=centre("Letter C, tile 1");val a=centre("Letter A, tile 2");val t=centre("Letter T, tile 3")
   rule.onRoot().performTouchInput { down(c);moveTo(a);moveTo(t);up() }
-  rule.waitUntil(5000) { rule.onAllNodesWithText("1 of 3 words found  ·  Beginner").fetchSemanticsNodes().isNotEmpty() }
+  rule.waitUntil(5000) { rule.onAllNodesWithText("Words found: 1 / 3 · Beginner").fetchSemanticsNodes().isNotEmpty() }
   // C -> A -> C removes A, leaving CT, which must not complete another word.
   rule.onRoot().performTouchInput { down(c);moveTo(a);moveTo(c);moveTo(t);up() }
   rule.waitForIdle()
   rule.onNodeWithText("That word is not in this puzzle’s curated word list").assertExists()
-  rule.onNodeWithText("1 of 3 words found  ·  Beginner").assertExists()
+  rule.onNodeWithText("Words found: 1 / 3 · Beginner").assertExists()
  }
 }

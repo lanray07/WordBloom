@@ -44,7 +44,7 @@
     },
     "msg_0e816c8e17f7": {
       "source": "✿ Sunrise Garden\nYour first chapter awaits",
-      "translation": "✿ Sunrise Garden\nDein erstes Kapitel wartet auf dich"
+      "translation": "✿ Sonnenaufgangsgarten\nDein erstes Kapitel wartet auf dich"
     },
     "msg_5270c9ce647e": {
       "source": "Make a little time for you",
@@ -88,7 +88,7 @@
     },
     "msg_40d70d845e1e": {
       "source": "Push-to-talk may use your device’s online speech service. Nothing is recorded by WordBloom.",
-      "translation": "Die Push-to-Talk-Funktion nutzt möglicherweise den Online-Sprachdienst Ihres Geräts. Von WordBloom wird nichts aufgezeichnet."
+      "translation": "Push-to-Talk kann den Online-Spracherkennungsdienst deines Geräts nutzen. WordBloom speichert keine Aufnahmen."
     },
     "msg_a8283ade3185": {
       "source": "Undo",
@@ -96,7 +96,7 @@
     },
     "msg_83b12c2216ef": {
       "source": "Clear",
-      "translation": "Lösung"
+      "translation": "Leeren"
     },
     "msg_0590d70c63b5": {
       "source": "Submit word",
@@ -128,7 +128,7 @@
     },
     "msg_ca63776635cc": {
       "source": "Make yourself comfortable",
-      "translation": "Machen Sie es sich bequem"
+      "translation": "Mach es dir gemütlich"
     },
     "msg_8e7dadacd7dc": {
       "source": "A game at your pace.",
@@ -148,7 +148,7 @@
     },
     "msg_1527f526f087": {
       "source": "Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.",
-      "translation": "Versuchen Sie: „Buchstaben mischen“, „Gib mir einen Hinweis“, „Wiederhole das Wort“, „Zeige meinen Fortschritt an“, „Tägliche Herausforderung öffnen“, „Zurück zur Startseite“."
+      "translation": "Probiere: “buchstaben mischen”, “gib mir einen tipp”, “wiederhole das wort”, “zeige meinen fortschritt”, “öffne die tagesaufgabe”, “zur startseite”."
     },
     "msg_e94253e91c49": {
       "source": "Your words stay yours",
@@ -160,7 +160,7 @@
     },
     "msg_ddc5cf266848": {
       "source": "WordBloom 0.1 · 24 puzzles · Offline-first",
-      "translation": "WordBloom 0.1 · 24 Rätsel · Offline-First"
+      "translation": "WordBloom 0.1 · 24 Rätsel · Offline spielbar"
     },
     "msg_c37f87dfc774": {
       "source": "A little more wonder",
@@ -184,7 +184,7 @@
     },
     "msg_f97070a26e44": {
       "source": "Microphone permission denied. Swipe, tap or type to play.",
-      "translation": "Mikrofonberechtigung verweigert. Zum Spielen wischen, tippen oder tippen."
+      "translation": "Mikrofonberechtigung verweigert. Spiele durch Wischen, Antippen oder Texteingabe."
     },
     "msg_c394f19c3571": {
       "source": "DEVELOPMENT BUILD · TEST PURCHASES · NO REAL MONEY",
@@ -204,7 +204,7 @@
     },
     "msg_f40e3104ad14": {
       "source": "Try ‘shuffle letters’, ‘give me a hint’, or say one word",
-      "translation": "Probieren Sie „Buchstaben mischen“, „Gib mir einen Hinweis“ oder sagen Sie ein Wort"
+      "translation": "Probiere: “buchstaben mischen”, “gib mir einen tipp” oder sage ein Wort"
     },
     "msg_3a78695388b3": {
       "source": "Home",
@@ -224,23 +224,15 @@
     },
     "msg_f3ed8d8349ee": {
       "source": "Continue your journey",
-      "translation": "Setzen Sie Ihre Reise fort"
+      "translation": "Setze deine Reise fort"
     },
     "msg_98fa1a68fbba": {
       "source": "{0}  →",
       "translation": "{0}  →"
     },
-    "msg_34659fd61a72": {
-      "source": "bloom",
-      "translation": "Blüte"
-    },
-    "msg_541ce7fbc0c0": {
-      "source": "blooms",
-      "translation": "Blüten"
-    },
-    "msg_cef6600c14db": {
-      "source": "✿  {0} {1}",
-      "translation": "✿  {0} {1}"
+    "msg_d7e8f5ebcdd1": {
+      "source": "✿  Flowers: {0}",
+      "translation": "✿  Blüten: {0}"
     },
     "msg_5b0a9ac3693a": {
       "source": "01 / A FRESH LITTLE CHALLENGE",
@@ -304,15 +296,15 @@
     },
     "msg_5fa29c1802c5": {
       "source": "Let your words bloom",
-      "translation": "Lass deine Worte erblühen"
+      "translation": "Lass deine Wörter erblühen"
     },
-    "msg_0a29d0b91627": {
-      "source": "✦ {0} hints",
-      "translation": "✦ {0} Hinweise"
+    "msg_d4713d8915b8": {
+      "source": "✦ Hints: {0}",
+      "translation": "✦ Hinweise: {0}"
     },
-    "msg_f2a0e0bc4654": {
-      "source": "{0} of {1} words found  ·  {2}",
-      "translation": "{0} von {1} gefundenen Wörtern  ·  {2}"
+    "msg_ca25e64817c4": {
+      "source": "Words found: {0} / {1} · {2}",
+      "translation": "Gefundene Wörter: {0} / {1} · {2}"
     },
     "msg_bfa637a72738": {
       "source": "Bonus words: {0}",
@@ -340,7 +332,7 @@
     },
     "msg_7ffb956802a5": {
       "source": "Voice availability",
-      "translation": "Sprachunterstützung"
+      "translation": "Sprachverfügbarkeit"
     },
     "msg_cd167e8baced": {
       "source": "{0},{1}",
@@ -370,21 +362,13 @@
       "source": "{0}. {1}",
       "translation": "{0}. {1}"
     },
-    "msg_4a70d8f4b647": {
-      "source": "{0} {1} planted",
-      "translation": "{0} {1} gepflanzt"
+    "msg_a2ca7e03290f": {
+      "source": "Flowers planted: {0}",
+      "translation": "Gepflanzte Blüten: {0}"
     },
-    "msg_b3140286ac71": {
-      "source": "escape",
-      "translation": "Flucht"
-    },
-    "msg_5e7d9a0cc8b6": {
-      "source": "escapes",
-      "translation": "Fluchten"
-    },
-    "msg_450f661967d8": {
-      "source": "{0} of 6 chapters restored · {1} daily {2} completed",
-      "translation": "{0} von 6 Kapiteln wiederhergestellt · {1} täglich {2} abgeschlossen"
+    "msg_e4fe7f7bd1f6": {
+      "source": "Chapters restored: {0} / 6 · Daily puzzles completed: {1}",
+      "translation": "Wiederhergestellte Kapitel: {0} / 6 · Gelöste Tagesrätsel: {1}"
     },
     "msg_0f02903bbf75": {
       "source": "First bloom",
@@ -402,21 +386,17 @@
       "source": "Full bloom",
       "translation": "Volle Blüte"
     },
-    "msg_7066a711b3aa": {
-      "source": "1 puzzle",
-      "translation": "1 Rätsel"
-    },
-    "msg_5d4059022064": {
-      "source": "{0} puzzles",
-      "translation": "{0}-Rätsel"
+    "msg_987e21cd5d8a": {
+      "source": "Puzzles: {0}",
+      "translation": "Rätsel: {0}"
     },
     "msg_e0fb55e50382": {
       "source": "Your garden in numbers",
       "translation": "Dein Garten in Zahlen"
     },
-    "msg_54a8c698907c": {
-      "source": "{0} words in completed puzzles · {1}% of the journey restored",
-      "translation": "{0} Wörter in gelösten Rätseln · {1} % der Reise wiederhergestellt"
+    "msg_c4fc8fd71468": {
+      "source": "Words in completed puzzles: {0} · Journey restored: {1}%",
+      "translation": "Wörter in gelösten Rätseln: {0} · Reise abgeschlossen: {1}%"
     },
     "msg_eb91f332fc67": {
       "source": "{0} / {1}",
@@ -424,11 +404,11 @@
     },
     "msg_fd2cd7f8ee6a": {
       "source": "Your first daily escape is waiting. Play whenever you like — no streak to protect.",
-      "translation": "Dein erstes „Daily Escape“ wartet schon auf dich. Spiele, wann immer du möchtest – du musst keine Serie aufrechterhalten."
+      "translation": "Dein erstes Tagesrätsel wartet. Spiele, wann du möchtest – du musst keine Serie aufrechterhalten."
     },
     "msg_d096df9edd58": {
       "source": "Spoken guidance",
-      "translation": "Sprachliche Anleitung"
+      "translation": "Gesprochene Anleitung"
     },
     "msg_66782b653f84": {
       "source": "Gentle word sounds",
@@ -456,7 +436,7 @@
     },
     "msg_55c401c4d28a": {
       "source": "A compatible recognition service is available. Use Speak in a puzzle; your device’s service may send speech to its provider.",
-      "translation": "Ein kompatibler Erkennungsdienst ist verfügbar. Verwenden Sie „Sprechen“ in einem Rätsel; der Dienst Ihres Geräts sendet möglicherweise Sprachdaten an seinen Anbieter."
+      "translation": "Ein kompatibler Spracherkennungsdienst ist verfügbar. Wähle „Sprechen“ im Rätsel; der Dienst deines Geräts kann Sprache an seinen Anbieter senden."
     },
     "msg_2f84421d8ebb": {
       "source": "No compatible recognition service was found. Swipe, tap and text entry provide the full game.",
@@ -478,9 +458,9 @@
       "source": "Store price unavailable",
       "translation": "Preis im Shop nicht verfügbar"
     },
-    "msg_fa8fd1f427ce": {
-      "source": "Original illustrated {0}, {1} flowers",
-      "translation": "Original-Illustrationen {0}, {1} Blumen"
+    "msg_fa51b9c92f37": {
+      "source": "Original illustration: {0}. Flowers: {1}",
+      "translation": "Originalillustration: {0}. Blumen: {1}"
     },
     "msg_948430c6ab99": {
       "source": "Amazon product availability depends on device",
@@ -496,7 +476,7 @@
     },
     "msg_25f011b0f89b": {
       "source": "Find {0} words. Swipe or tap the letters.",
-      "translation": "Finde Wörter mit {0}. Wische oder tippe auf die Buchstaben."
+      "translation": "Finde {0} Wörter. Wische oder tippe auf die Buchstaben."
     },
     "msg_e5441b0e72b0": {
       "source": "A fresh look at a familiar puzzle. Replay earns no additional hints.",
@@ -546,9 +526,9 @@
       "source": "One new letter, a little closer",
       "translation": "Ein neuer Buchstabe, ein Stückchen näher"
     },
-    "msg_aa7aa69fdfd9": {
-      "source": "Puzzle complete. Your garden is growing! +{0} hints",
-      "translation": "Rätsel gelöst. Dein Garten wächst! + {0} Hinweise"
+    "msg_1184863228f5": {
+      "source": "Puzzle complete. Your garden is growing! Hints earned: +{0}",
+      "translation": "Rätsel gelöst. Dein Garten wächst! Verdiente Hinweise: +{0}"
     },
     "msg_365762cb0e8c": {
       "source": "Progress could not be saved. Please try again.",
@@ -572,7 +552,7 @@
     },
     "msg_dd6fc41d4f91": {
       "source": "Store product unavailable. Check Amazon Appstore or try Restore.",
-      "translation": "Produkt im Store nicht verfügbar. Schau im Amazon Appstore nach oder versuche es mit „Restore“."
+      "translation": "Produkt nicht verfügbar. Prüfe den Amazon Appstore oder wähle „Amazon-Kauf wiederherstellen“."
     },
     "msg_e0f155662c00": {
       "source": "Amazon account unavailable. Saved offline access retained.",
@@ -592,11 +572,11 @@
     },
     "msg_3d35cd1a63d2": {
       "source": "Purchase {0}. No access granted.",
-      "translation": "{0} kaufen. Kein Zugriff gewährt."
+      "translation": "Kaufstatus: {0}. Kein Zugang freigeschaltet."
     },
     "msg_98573700d8c5": {
       "source": "Purchase could not be saved on this device. Please try Restore.",
-      "translation": "Der Kauf konnte auf diesem Gerät nicht gespeichert werden. Bitte versuchen Sie es mit „Wiederherstellen“."
+      "translation": "Der Kauf konnte auf diesem Gerät nicht gespeichert werden. Versuche, den Kauf wiederherzustellen."
     },
     "msg_55d75478eec0": {
       "source": "Premium purchase cancelled",
@@ -628,7 +608,7 @@
     },
     "msg_2d400ffa6a48": {
       "source": "Speech recognition unavailable. You can swipe, tap, or type words.",
-      "translation": "Spracherkennung nicht verfügbar. Sie können wischen, tippen oder Wörter eingeben."
+      "translation": "Spracherkennung nicht verfügbar. Du kannst wischen, tippen oder Wörter eingeben."
     },
     "msg_69de651d5d29": {
       "source": "Microphone permission is needed for push-to-talk only.",
@@ -668,7 +648,7 @@
     },
     "msg_c2fb18dbb1e7": {
       "source": "Speech unavailable ({0}). Try again or use touch.",
-      "translation": "Sprache nicht verfügbar ({0}). Versuchen Sie es erneut oder nutzen Sie die Touch-Funktion."
+      "translation": "Sprache nicht verfügbar ({0}). Versuche es erneut oder nutze die Touch-Steuerung."
     },
     "msg_a3dd64d17497": {
       "source": "Heard: {0}",

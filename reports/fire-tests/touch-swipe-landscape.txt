@@ -1,9 +1,5 @@
 com.wordbloom.garden.FireRuntimeTest:.
 
-
-
-Time: 5.404
-
-
+Time: 6.525
 
 OK (1 test)

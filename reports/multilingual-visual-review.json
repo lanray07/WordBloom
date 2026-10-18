@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-18",
+  "reviewer": "Codex",
+  "apk_sha256": "b68da339792aff2f238dcbd701d25a965450d713ee67a38de6ada1d0b8245bed",
+  "system_font_scale": 1.5,
+  "in_app_larger_text": true,
+  "scope": "Actual normal-debug physical captures. Board glyphs, accented input and control wrapping inspected. Scrollable content need not fit simultaneously. Not native human language, audio or Amazon-delivered release certification.",
+  "captures": [
+    {
+      "locale": "en-GB",
+      "board_path": "dist/language-device-evidence/production-en-GB-portrait/accent-or-long-word-board.png",
+      "board_sha256": "039ee907f4f0a68220ee1ad7dbedd5844b2190eac3b1f9ee5232a86d4aff5bed",
+      "controls_path": "dist/language-device-evidence/production-en-GB-portrait/accent-or-long-word.png",
+      "controls_sha256": "6bfc74031712875dff5854240f87f99eb2d7c9403067307b5d1c395c2e093b03"
+    },
+    {
+      "locale": "en-US",
+      "board_path": "dist/language-device-evidence/production-en-US-portrait/accent-or-long-word-board.png",
+      "board_sha256": "35e4ff5ee445680506340fde11f9a4788926d2dd3d0c3b3847e87b18e6a34135",
+      "controls_path": "dist/language-device-evidence/production-en-US-portrait/accent-or-long-word.png",
+      "controls_sha256": "35e4ff5ee445680506340fde11f9a4788926d2dd3d0c3b3847e87b18e6a34135"
+    },
+    {
+      "locale": "de",
+      "board_path": "dist/language-device-evidence/production-de-portrait/accent-or-long-word-board.png",
+      "board_sha256": "3216483f427406281dd14d4e77f2277dc74efc733ad9a21fbba38fd82bb496f3",
+      "controls_path": "dist/language-device-evidence/production-de-portrait/accent-or-long-word.png",
+      "controls_sha256": "cc9b13b56d3a90969557641aab4c95d2a8137690fc31a1349b2a14e1e1ad459d"
+    },
+    {
+      "locale": "es",
+      "board_path": "dist/language-device-evidence/production-es-portrait/accent-or-long-word-board.png",
+      "board_sha256": "3cf3f8c3d1f311e5a918524561bad081d86faf84ec9e558ffab9c7eb94b1ca3d",
+      "controls_path": "dist/language-device-evidence/production-es-portrait/accent-or-long-word.png",
+      "controls_sha256": "71915591c0f226ffe4bedd5148daf16dcfc55b2b1bbf77715a1924c0d19b4d55"
+    },
+    {
+      "locale": "fr",
+      "board_path": "dist/language-device-evidence/production-fr-portrait/accent-or-long-word-board.png",
+      "board_sha256": "dbef472b5fde48768c547411d9bfb54c3d9ebce02a560a8beaf9b5c804cb876c",
+      "controls_path": "dist/language-device-evidence/production-fr-portrait/accent-or-long-word.png",
+      "controls_sha256": "dbef472b5fde48768c547411d9bfb54c3d9ebce02a560a8beaf9b5c804cb876c"
+    },
+    {
+      "locale": "it",
+      "board_path": "dist/language-device-evidence/production-it-portrait/accent-or-long-word-board.png",
+      "board_sha256": "e8b6c559224e39ae5590b5b808fa46123906939c24c8469a7b8a2422fb31728b",
+      "controls_path": "dist/language-device-evidence/production-it-portrait/accent-or-long-word.png",
+      "controls_sha256": "7b132ff6d58c95084c640bf7169624889e25fd2372fdc119ab35011a2adfc8bd"
+    },
+    {
+      "locale": "nl",
+      "board_path": "dist/language-device-evidence/production-nl-portrait/accent-or-long-word-board.png",
+      "board_sha256": "af7afb8b41803216024402cf6effd2b832bee51607ae610229694b84f766dcac",
+      "controls_path": "dist/language-device-evidence/production-nl-portrait/accent-or-long-word.png",
+      "controls_sha256": "50ffce37b3008389c06957ed001f877df31058f53f3a08ecadfd7ef02babfba6"
+    },
+    {
+      "locale": "pl",
+      "board_path": "dist/language-device-evidence/production-pl-portrait/accent-or-long-word-board.png",
+      "board_sha256": "f8a0f0c489f78af39711811be23532b456720df0c3aa1b81722aeef158da67f9",
+      "controls_path": "dist/language-device-evidence/production-pl-portrait/accent-or-long-word.png",
+      "controls_sha256": "570dea5027bc368262f3ad171af729b5a33bfea5af86937f7033fd3a4027d934"
+    },
+    {
+      "locale": "pt-BR",
+      "board_path": "dist/language-device-evidence/production-pt-BR-portrait/accent-or-long-word-board.png",
+      "board_sha256": "e87298dcc62bacafc24d706ef8aa31f40e246cae420a0b83855b62d9cb1ff082",
+      "controls_path": "dist/language-device-evidence/production-pt-BR-portrait/accent-or-long-word.png",
+      "controls_sha256": "2e0999c4590d74f858fa715f2ff35a80cb4de22b8ea72d1024ea076cf78232c1"
+    },
+    {
+      "locale": "pt-PT",
+      "board_path": "dist/language-device-evidence/production-pt-PT-portrait/accent-or-long-word-board.png",
+      "board_sha256": "7f6f4af16fc699f540cfa4221b42776cbd7edb70c3267dbe5948be574f9fb83b",
+      "controls_path": "dist/language-device-evidence/production-pt-PT-portrait/accent-or-long-word.png",
+      "controls_sha256": "cb9db3bde51f6c8ad309e776c22507fbd1e99c47db629b7ff6e8e3b511696a0b"
+    }
+  ],
+  "preview": "reports/multilingual-large-text-preview.jpg"
+}

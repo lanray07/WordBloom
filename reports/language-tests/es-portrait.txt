@@ -1,0 +1,5 @@
+com.wordbloom.garden.LocalizationDeviceTest:.
+
+Time: 23.736
+
+OK (1 test)

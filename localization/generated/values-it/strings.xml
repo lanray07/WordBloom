@@ -10,7 +10,7 @@
   <string name="ui_008">Piccole parole. \n Bellissime scoperte.</string>
   <string name="ui_009">Unisci le lettere. Scopri le parole. \nArricchisci il tuo vocabolario... e il tuo giardino.</string>
   <string name="ui_010">GIOCO OFFLINE  ·  SENZA PUBBLICITÀ  ·  SENZA ACCOUNT</string>
-  <string name="ui_011">✿  Sunrise Garden \nIl tuo primo capitolo ti aspetta</string>
+  <string name="ui_011">✿ Giardino dell’alba\nIl tuo primo capitolo ti aspetta</string>
   <string name="ui_012">Prenditi un po’ di tempo per te stesso</string>
   <string name="ui_013">Scorri per collegare. Tocca per prenderti il tuo tempo. Ogni parola è una piccola scoperta.</string>
   <string name="ui_014">Hai coltivato qualcosa di incantevole.</string>
@@ -21,7 +21,7 @@
   <string name="ui_019">Digita una parola</string>
   <string name="ui_020">Verifica</string>
   <string name="ui_021">Ascolta la parola</string>
-  <string name="ui_022">La funzione “Push-to-talk” potrebbe utilizzare il servizio di sintesi vocale online del tuo dispositivo. WordBloom non registra nulla.</string>
+  <string name="ui_022">La funzione premi per parlare può utilizzare il servizio di riconoscimento vocale online del dispositivo. WordBloom non registra nulla.</string>
   <string name="ui_023">Annulla</string>
   <string name="ui_024">Cancella</string>
   <string name="ui_025">Invia parola</string>
@@ -33,13 +33,13 @@
   <string name="ui_031">Ricordi quotidiani</string>
   <string name="ui_032">Mettiti comodo</string>
   <string name="ui_033">Un gioco da giocare al proprio ritmo.</string>
-  <string name="ui_034">Linguaggio dei puzzle</string>
+  <string name="ui_034">Lingua dei rompicapi</string>
   <string name="ui_035">Scegli la lingua del rompicapo. Ogni lingua ha il proprio repertorio di parole e il proprio percorso salvato. L'inglese britannico e quello statunitense condividono lo stesso repertorio.</string>
   <string name="ui_036">Voce, quando vuoi tu</string>
-  <string name="ui_037">Prova: «mescola le lettere», «dammi un suggerimento», «ripeti la parola», «mostrami i miei progressi», «apri la sfida giornaliera», «torna alla home».</string>
+  <string name="ui_037">Prova: “mescola le lettere”, “dammi un suggerimento”, “ripeti la parola”, “mostra i miei progressi”, “apri la sfida giornaliera”, “torna all’inizio”.</string>
   <string name="ui_038">Le tue parole rimangono tue</string>
   <string name="ui_039">Nessun account. Nessuna pubblicità. Nessuna analisi dei dati. I progressi e le impostazioni rimangono su questo dispositivo. WordBloom non memorizza registrazioni dal microfono. Amazon gestisce le informazioni relative agli acquisti. La disinstallazione dell’app cancella i progressi locali; gli acquisti possono essere ripristinati tramite Amazon.</string>
-  <string name="ui_040">WordBloom 0.1 · 24 puzzle · Offline-first</string>
+  <string name="ui_040">WordBloom 0.1 · 24 rompicapi · Giocabile offline</string>
   <string name="ui_041">Ancora un po’ di meraviglia</string>
   <string name="ui_042">Tutti e sei i mondi illustrati. Tutti i 24 puzzle in ogni lingua disponibile. Sfide per giocatori avanzati ed esperti. Statistiche del giardino ampliate, oltre a 4 suggerimenti guadagnati per ogni primo completamento invece di 3. Traguardi del giardino e cronologia giornaliera salvata.</string>
   <string name="ui_043">Acquisto una tantum · Senza pubblicità · Senza abbonamento</string>

@@ -10,7 +10,7 @@
   <string name="ui_008">Kleine woordjes. \nPrachtige ontdekkingen.</string>
   <string name="ui_009">Verbind letters. Ontdek woorden. \nBreid je woordenschat uit — en je tuin.</string>
   <string name="ui_010">OFFLINE SPELEN  ·  GEEN ADVERTENTIES  ·  GEEN ACCOUNT</string>
-  <string name="ui_011">✿  Sunrise Garden \nJe eerste hoofdstuk wacht op je</string>
+  <string name="ui_011">✿ Zonsopgangtuin\nJe eerste hoofdstuk wacht op je</string>
   <string name="ui_012">Maak even wat tijd vrij voor jezelf</string>
   <string name="ui_013">Veeg om te verbinden. Tik om de tijd te nemen. Elk woord is een kleine ontdekking.</string>
   <string name="ui_014">Je hebt iets moois gekweekt.</string>
@@ -36,10 +36,10 @@
   <string name="ui_034">Puzzeltaal</string>
   <string name="ui_035">Kies een taal voor de puzzels. Elke taal heeft zijn eigen woordenverzameling en opgeslagen voortgang. Brits Engels en Amerikaans Engels delen één verzameling.</string>
   <string name="ui_036">Stem, wanneer je dat wilt</string>
-  <string name="ui_037">Probeer eens: „letters door elkaar husselen”, „geef me een hint”, „herhaal het woord”, „toon mijn voortgang”, „open de dagelijkse uitdaging”, „ga naar huis”.</string>
+  <string name="ui_037">Probeer: “hussel de letters”, “geef me een hint”, “herhaal het woord”, “toon mijn voortgang”, “open de daguitdaging”, “ga naar start”.</string>
   <string name="ui_038">Je woorden blijven van jou</string>
   <string name="ui_039">Geen account. Geen advertenties. Geen analysegegevens. Voortgang en instellingen blijven op dit apparaat bewaard. WordBloom slaat geen microfoonopnames op. Amazon verwerkt de aankoopgegevens. Als je de app verwijdert, wordt de lokale voortgang gewist; aankopen kunnen via Amazon worden hersteld.</string>
-  <string name="ui_040">WordBloom 0.1 · 24 puzzels · Offline-first</string>
+  <string name="ui_040">WordBloom 0.1 · 24 puzzels · Offline spelen</string>
   <string name="ui_041">Nog een beetje meer verwondering</string>
   <string name="ui_042">Alle zes geïllustreerde werelden. Alle 24 puzzels in elke beschikbare taal. Uitdagingen voor gevorderden en experts. Uitgebreide tuinstatistieken, plus 4 verdiende hints bij de eerste voltooiing in plaats van 3. Tuinmijlpalen en opgeslagen dagelijkse geschiedenis.</string>
   <string name="ui_043">Eenmalige aankoop · Geen advertenties · Geen abonnement</string>

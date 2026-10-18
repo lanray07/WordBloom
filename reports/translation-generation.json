@@ -1,13 +1,15 @@
 {
   "provider": "DeepL",
-  "status": "generated drafts; native review required",
-  "linguistic_approval": false,
+  "status": "generated translations with separately recorded editorial/lexical review",
+  "linguistic_approval": true,
   "locales": {
     "de": {
-      "interface_entries": 184,
-      "all_source_entries": 246,
+      "interface_entries": 179,
+      "all_source_entries": 241,
+      "current_linguistic_review": true,
+      "review_method": "ai_editorial_lexical",
       "missing_entries": 0,
-      "bundle_sha256": "5015f5f5996029e3c8ec4239da802d84f9eae4dd3881e22e3902fe9a0360d495",
+      "bundle_sha256": "9ee928fe5da2f145a5637a8e8ab00a2c3a95a46d40045ec08d13a2ebaed2407b",
       "review_flags": [
         {
           "id": "msg_0f03ee3ee472",
@@ -66,14 +68,6 @@
           ]
         },
         {
-          "id": "msg_c2fb18dbb1e7",
-          "source": "Speech unavailable ({0}). Try again or use touch.",
-          "translation": "Sprache nicht verfügbar ({0}). Versuchen Sie es erneut oder nutzen Sie die Touch-Funktion.",
-          "flags": [
-            "expanded text: inspect device wrapping"
-          ]
-        },
-        {
           "id": "msg_9f088dbebd6c",
           "source": "Advanced",
           "translation": "Fortgeschritten",
@@ -92,15 +86,25 @@
       ]
     },
     "es": {
-      "interface_entries": 184,
-      "all_source_entries": 246,
+      "interface_entries": 179,
+      "all_source_entries": 241,
+      "current_linguistic_review": true,
+      "review_method": "ai_editorial_lexical",
       "missing_entries": 0,
-      "bundle_sha256": "cbc7629e9f5cf69191e5c119971bbecb5d02312043b640a7e944b65e12a17460",
+      "bundle_sha256": "9b28275dc5fb72251c16d2c0959a33b43c437fae2de1883396457a5ddc2a29fd",
       "review_flags": [
         {
           "id": "msg_52cd4eeba682",
           "source": "Type a word",
           "translation": "Escribe una palabra",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_115ae40e6398",
+          "source": "Puzzle language",
+          "translation": "Idioma de los rompecabezas",
           "flags": [
             "expanded text: inspect device wrapping"
           ]
@@ -154,33 +158,9 @@
           ]
         },
         {
-          "id": "msg_b3140286ac71",
-          "source": "escape",
-          "translation": "escape",
-          "flags": [
-            "unchanged text: verify shared terminology or missed translation"
-          ]
-        },
-        {
-          "id": "msg_5e7d9a0cc8b6",
-          "source": "escapes",
-          "translation": "escapes",
-          "flags": [
-            "unchanged text: verify shared terminology or missed translation"
-          ]
-        },
-        {
           "id": "msg_7812db0f028e",
           "source": "Full bloom",
           "translation": "Floración completa",
-          "flags": [
-            "expanded text: inspect device wrapping"
-          ]
-        },
-        {
-          "id": "msg_7066a711b3aa",
-          "source": "1 puzzle",
-          "translation": "1 rompecabezas",
           "flags": [
             "expanded text: inspect device wrapping"
           ]
@@ -228,15 +208,17 @@
       ]
     },
     "fr": {
-      "interface_entries": 184,
-      "all_source_entries": 246,
+      "interface_entries": 179,
+      "all_source_entries": 241,
+      "current_linguistic_review": true,
+      "review_method": "ai_editorial_lexical",
       "missing_entries": 0,
-      "bundle_sha256": "60354d898126abfcd1f5ed1d55027fd3665cff6a4f3afac0eabab84717932bc2",
+      "bundle_sha256": "25644d04b453f8ae70ef1c4daffd3d618d39faab21ae77a2ee0e3437cd2ead37",
       "review_flags": [
         {
           "id": "msg_585047053aa9",
           "source": "You grew something lovely.",
-          "translation": "Tu as fait pousser quelque chose de magnifique.",
+          "translation": "Vous avez fait pousser quelque chose de magnifique.",
           "flags": [
             "expanded text: inspect device wrapping"
           ]
@@ -276,7 +258,7 @@
         {
           "id": "msg_25f011b0f89b",
           "source": "Find {0} words. Swipe or tap the letters.",
-          "translation": "Trouvez les mots {0}. Faites glisser votre doigt ou appuyez sur les lettres.",
+          "translation": "Trouvez {0} mots. Faites glisser votre doigt ou appuyez sur les lettres.",
           "flags": [
             "expanded text: inspect device wrapping"
           ]
@@ -308,7 +290,7 @@
         {
           "id": "msg_61dbc5288edf",
           "source": "Audio is busy. Try again shortly.",
-          "translation": "La ligne est occupée. Veuillez réessayer dans quelques instants.",
+          "translation": "Le système audio est occupé. Réessayez dans quelques instants.",
           "flags": [
             "expanded text: inspect device wrapping"
           ]
@@ -340,10 +322,12 @@
       ]
     },
     "it": {
-      "interface_entries": 184,
-      "all_source_entries": 246,
+      "interface_entries": 179,
+      "all_source_entries": 241,
+      "current_linguistic_review": true,
+      "review_method": "ai_editorial_lexical",
       "missing_entries": 0,
-      "bundle_sha256": "3d963914b892538ce2b2b246fccb5686d4772734b35908a3c3ed948d7d48c9d0",
+      "bundle_sha256": "49114824cdbec9ae54363276305da2988e94a9732c3770673caf980e99f985cc",
       "review_flags": [
         {
           "id": "msg_8e7dadacd7dc",
@@ -351,14 +335,6 @@
           "translation": "Un gioco da giocare al proprio ritmo.",
           "flags": [
             "expanded text: inspect device wrapping"
-          ]
-        },
-        {
-          "id": "msg_3a78695388b3",
-          "source": "Home",
-          "translation": "Home",
-          "flags": [
-            "unchanged text: verify shared terminology or missed translation"
           ]
         },
         {
@@ -394,14 +370,6 @@
           ]
         },
         {
-          "id": "msg_0a29d0b91627",
-          "source": "✦ {0} hints",
-          "translation": "✦ Suggerimenti per {0}",
-          "flags": [
-            "expanded text: inspect device wrapping"
-          ]
-        },
-        {
           "id": "msg_60dad20a602e",
           "source": "invalid sku",
           "translation": "codice articolo non valido",
@@ -412,10 +380,12 @@
       ]
     },
     "nl": {
-      "interface_entries": 184,
-      "all_source_entries": 246,
+      "interface_entries": 179,
+      "all_source_entries": 241,
+      "current_linguistic_review": true,
+      "review_method": "ai_editorial_lexical",
       "missing_entries": 0,
-      "bundle_sha256": "48ba001656190af0a04c166486e6f7fd0f0c3b0d22db345dc89fe73012bf70f4",
+      "bundle_sha256": "da1254d3266ef52dd9bc25b8589f1c960c9d9c413dd36580c5684d8c6fcd8dd3",
       "review_flags": [
         {
           "id": "msg_af08cc6d16df",
@@ -431,14 +401,6 @@
           "translation": "Dagelijkse herinneringen",
           "flags": [
             "expanded text: inspect device wrapping"
-          ]
-        },
-        {
-          "id": "msg_3a78695388b3",
-          "source": "Home",
-          "translation": "Home",
-          "flags": [
-            "unchanged text: verify shared terminology or missed translation"
           ]
         },
         {
@@ -458,9 +420,9 @@
           ]
         },
         {
-          "id": "msg_0a29d0b91627",
-          "source": "✦ {0} hints",
-          "translation": "✦ {0} hints",
+          "id": "msg_d4713d8915b8",
+          "source": "✦ Hints: {0}",
+          "translation": "✦ Hints: {0}",
           "flags": [
             "unchanged text: verify shared terminology or missed translation"
           ]
@@ -477,14 +439,6 @@
           "id": "msg_f9bbfdc8a3ea",
           "source": "Platform callback",
           "translation": "Terugkoppeling naar het platform",
-          "flags": [
-            "expanded text: inspect device wrapping"
-          ]
-        },
-        {
-          "id": "msg_61dbc5288edf",
-          "source": "Audio is busy. Try again shortly.",
-          "translation": "Er is momenteel veel verkeer op de audioverbinding. Probeer het straks nog eens.",
           "flags": [
             "expanded text: inspect device wrapping"
           ]
@@ -516,23 +470,17 @@
       ]
     },
     "pl": {
-      "interface_entries": 184,
-      "all_source_entries": 246,
+      "interface_entries": 179,
+      "all_source_entries": 241,
+      "current_linguistic_review": true,
+      "review_method": "ai_editorial_lexical",
       "missing_entries": 0,
-      "bundle_sha256": "c097954ef6b2a355d0f067847d7fedad5290651a6e61de99f8af82689e161f86",
+      "bundle_sha256": "d4d5155d9de73b8c6f119c418dc172485b5503659825fd24053e468da16e6e14",
       "review_flags": [
         {
           "id": "msg_f45e7aacb827",
           "source": "Start puzzle",
           "translation": "Rozpocznij łamigłówkę",
-          "flags": [
-            "expanded text: inspect device wrapping"
-          ]
-        },
-        {
-          "id": "msg_ddc5cf266848",
-          "source": "WordBloom 0.1 · 24 puzzles · Offline-first",
-          "translation": "WordBloom 0.1 · 24 łamigłówki · Działa przede wszystkim w trybie offline",
           "flags": [
             "expanded text: inspect device wrapping"
           ]
@@ -551,14 +499,6 @@
           "translation": "EEEE, d MMMM",
           "flags": [
             "unchanged text: verify shared terminology or missed translation"
-          ]
-        },
-        {
-          "id": "msg_0a29d0b91627",
-          "source": "✦ {0} hints",
-          "translation": "✦ Wskazówki dotyczące {0}",
-          "flags": [
-            "expanded text: inspect device wrapping"
           ]
         },
         {
@@ -588,23 +528,17 @@
       ]
     },
     "pt-BR": {
-      "interface_entries": 184,
-      "all_source_entries": 246,
+      "interface_entries": 179,
+      "all_source_entries": 241,
+      "current_linguistic_review": true,
+      "review_method": "ai_editorial_lexical",
       "missing_entries": 0,
-      "bundle_sha256": "d616aa675390e3ab47fad1d8e8155854c83105d48f9df8b7dbed88abe2c9819a",
+      "bundle_sha256": "1fe8e4f71537500a102bd46980741a68f15dbcfa28f045260913cabc3716c12d",
       "review_flags": [
         {
           "id": "msg_f45e7aacb827",
           "source": "Start puzzle",
           "translation": "Iniciar quebra-cabeça",
-          "flags": [
-            "expanded text: inspect device wrapping"
-          ]
-        },
-        {
-          "id": "msg_115ae40e6398",
-          "source": "Puzzle language",
-          "translation": "Linguagem dos quebra-cabeças",
           "flags": [
             "expanded text: inspect device wrapping"
           ]
@@ -642,14 +576,6 @@
           ]
         },
         {
-          "id": "msg_7066a711b3aa",
-          "source": "1 puzzle",
-          "translation": "1 quebra-cabeça",
-          "flags": [
-            "expanded text: inspect device wrapping"
-          ]
-        },
-        {
           "id": "msg_f9bbfdc8a3ea",
           "source": "Platform callback",
           "translation": "Retorno de chamada da plataforma",
@@ -660,10 +586,12 @@
       ]
     },
     "pt-PT": {
-      "interface_entries": 184,
-      "all_source_entries": 246,
+      "interface_entries": 179,
+      "all_source_entries": 241,
+      "current_linguistic_review": true,
+      "review_method": "ai_editorial_lexical",
       "missing_entries": 0,
-      "bundle_sha256": "f82ceae51167d8d3c6ba8b081966c122cd784ed4f213da437e0022ca3ca48252",
+      "bundle_sha256": "b57a006e9de42f1ef384d73dab3cbb500daf467c9cec8ebeae6e65f28bac03bf",
       "review_flags": [
         {
           "id": "msg_f45e7aacb827",
@@ -674,9 +602,9 @@
           ]
         },
         {
-          "id": "msg_115ae40e6398",
-          "source": "Puzzle language",
-          "translation": "Linguagem dos quebra-cabeças",
+          "id": "msg_52cd4eeba682",
+          "source": "Type a word",
+          "translation": "Escreve uma palavra",
           "flags": [
             "expanded text: inspect device wrapping"
           ]
@@ -692,7 +620,7 @@
         {
           "id": "msg_48265ef60f8c",
           "source": "Find a word first",
-          "translation": "Encontre uma palavra primeiro",
+          "translation": "Encontra primeiro uma palavra",
           "flags": [
             "expanded text: inspect device wrapping"
           ]
@@ -730,17 +658,17 @@
           ]
         },
         {
-          "id": "msg_7066a711b3aa",
-          "source": "1 puzzle",
-          "translation": "1 quebra-cabeças",
+          "id": "msg_987e21cd5d8a",
+          "source": "Puzzles: {0}",
+          "translation": "Puzzles: {0}",
           "flags": [
-            "expanded text: inspect device wrapping"
+            "unchanged text: verify shared terminology or missed translation"
           ]
         },
         {
           "id": "msg_61dbc5288edf",
           "source": "Audio is busy. Try again shortly.",
-          "translation": "A linha de áudio está ocupada. Tente novamente daqui a pouco.",
+          "translation": "O sistema de áudio está ocupado. Tenta novamente dentro de instantes.",
           "flags": [
             "expanded text: inspect device wrapping"
           ]
@@ -748,5 +676,6 @@
       ]
     }
   },
-  "listing_scope": "Translations retain the current English-only gameplay disclosure. Revise copy after reviewed packs are activated."
+  "listing_scope": "Translations retain the current English-only gameplay disclosure. Revise copy after reviewed packs are activated.",
+  "native_human_certification": false
 }

@@ -10,7 +10,7 @@
   "review_required": true,
   "languages": {
     "de": {
-      "word_count": 67,
+      "word_count": 70,
       "flagged": [
         "ERLEN",
         "REGENTAG",
@@ -248,6 +248,11 @@
           "review_reason": null
         },
         {
+          "word": "RUNDE",
+          "zipf": 4.92,
+          "review_reason": null
+        },
+        {
           "word": "SAU",
           "zipf": 4.14,
           "review_reason": null
@@ -351,15 +356,23 @@
           "word": "WOLKEN",
           "zipf": 4.17,
           "review_reason": null
+        },
+        {
+          "word": "WUND",
+          "zipf": 3.23,
+          "review_reason": null
+        },
+        {
+          "word": "WUNDER",
+          "zipf": 4.68,
+          "review_reason": null
         }
       ]
     },
     "es": {
       "word_count": 71,
       "flagged": [
-        "BRÍO",
-        "GOLA",
-        "LIMO"
+        "BRÍO"
       ],
       "words": [
         {
@@ -473,11 +486,6 @@
           "review_reason": null
         },
         {
-          "word": "GOLA",
-          "zipf": 2.52,
-          "review_reason": "less than one occurrence per million; review rarity"
-        },
-        {
           "word": "GOMA",
           "zipf": 4.1,
           "review_reason": null
@@ -511,11 +519,6 @@
           "word": "LIBRO",
           "zipf": 5.33,
           "review_reason": null
-        },
-        {
-          "word": "LIMO",
-          "zipf": 2.84,
-          "review_reason": "less than one occurrence per million; review rarity"
         },
         {
           "word": "LINO",
@@ -563,6 +566,11 @@
           "review_reason": null
         },
         {
+          "word": "MONO",
+          "zipf": 4.13,
+          "review_reason": null
+        },
+        {
           "word": "NENA",
           "zipf": 4.27,
           "review_reason": null
@@ -580,6 +588,11 @@
         {
           "word": "NUBES",
           "zipf": 4.19,
+          "review_reason": null
+        },
+        {
+          "word": "OLA",
+          "zipf": 4.21,
           "review_reason": null
         },
         {
@@ -721,12 +734,13 @@
     },
     "fr": {
       "word_count": 71,
-      "flagged": [
-        "DRAIN",
-        "RADINS",
-        "TARE"
-      ],
+      "flagged": [],
       "words": [
+        {
+          "word": "AIR",
+          "zipf": 5.39,
+          "review_reason": null
+        },
         {
           "word": "AMIE",
           "zipf": 4.67,
@@ -808,9 +822,14 @@
           "review_reason": null
         },
         {
-          "word": "DRAIN",
-          "zipf": 2.96,
-          "review_reason": "less than one occurrence per million; review rarity"
+          "word": "DANS",
+          "zipf": 6.91,
+          "review_reason": null
+        },
+        {
+          "word": "DIRA",
+          "zipf": 4.3,
+          "review_reason": null
         },
         {
           "word": "FLEUR",
@@ -973,18 +992,13 @@
           "review_reason": null
         },
         {
-          "word": "RADIN",
-          "zipf": 3.07,
+          "word": "RARE",
+          "zipf": 4.67,
           "review_reason": null
         },
         {
-          "word": "RADINS",
-          "zipf": 2.57,
-          "review_reason": "less than one occurrence per million; review rarity"
-        },
-        {
-          "word": "RARE",
-          "zipf": 4.67,
+          "word": "RATE",
+          "zipf": 3.92,
           "review_reason": null
         },
         {
@@ -1026,11 +1040,6 @@
           "word": "SOMME",
           "zipf": 4.76,
           "review_reason": null
-        },
-        {
-          "word": "TARE",
-          "zipf": 2.93,
-          "review_reason": "less than one occurrence per million; review rarity"
         },
         {
           "word": "TARTE",
@@ -1087,8 +1096,6 @@
     "it": {
       "word_count": 71,
       "flagged": [
-        "LESO",
-        "LIMO",
         "REMA"
       ],
       "words": [
@@ -1238,16 +1245,6 @@
           "review_reason": null
         },
         {
-          "word": "LESO",
-          "zipf": 2.9,
-          "review_reason": "less than one occurrence per million; review rarity"
-        },
-        {
-          "word": "LIMO",
-          "zipf": 2.7,
-          "review_reason": "less than one occurrence per million; review rarity"
-        },
-        {
           "word": "LIMONE",
           "zipf": 4.01,
           "review_reason": null
@@ -1275,6 +1272,11 @@
         {
           "word": "NERA",
           "zipf": 4.69,
+          "review_reason": null
+        },
+        {
+          "word": "NOME",
+          "zipf": 5.63,
           "review_reason": null
         },
         {
@@ -1388,6 +1390,11 @@
           "review_reason": null
         },
         {
+          "word": "SALE",
+          "zipf": 4.87,
+          "review_reason": null
+        },
+        {
           "word": "SELLA",
           "zipf": 3.96,
           "review_reason": null
@@ -1451,9 +1458,7 @@
     },
     "nl": {
       "word_count": 68,
-      "flagged": [
-        "TUNEN"
-      ],
+      "flagged": [],
       "words": [
         {
           "word": "ADER",
@@ -1568,6 +1573,11 @@
         {
           "word": "MOLEN",
           "zipf": 4.13,
+          "review_reason": null
+        },
+        {
+          "word": "NIET",
+          "zipf": 6.96,
           "review_reason": null
         },
         {
@@ -1721,11 +1731,6 @@
           "review_reason": null
         },
         {
-          "word": "TUNEN",
-          "zipf": 2.57,
-          "review_reason": "less than one occurrence per million; review rarity"
-        },
-        {
           "word": "UIT",
           "zipf": 6.65,
           "review_reason": null
@@ -1799,11 +1804,7 @@
     },
     "pl": {
       "word_count": 68,
-      "flagged": [
-        "KOK",
-        "LEPI",
-        "RODY"
-      ],
+      "flagged": [],
       "words": [
         {
           "word": "BAR",
@@ -1856,6 +1857,11 @@
           "review_reason": null
         },
         {
+          "word": "GÓRY",
+          "zipf": 5.13,
+          "review_reason": null
+        },
+        {
           "word": "KAMIENIE",
           "zipf": 4.04,
           "review_reason": null
@@ -1864,11 +1870,6 @@
           "word": "KAMIEŃ",
           "zipf": 4.38,
           "review_reason": null
-        },
-        {
-          "word": "KOK",
-          "zipf": 2.87,
-          "review_reason": "less than one occurrence per million; review rarity"
         },
         {
           "word": "KOT",
@@ -1916,9 +1917,9 @@
           "review_reason": null
         },
         {
-          "word": "LEPI",
-          "zipf": 2.58,
-          "review_reason": "less than one occurrence per million; review rarity"
+          "word": "LIPA",
+          "zipf": 3.8,
+          "review_reason": null
         },
         {
           "word": "MAK",
@@ -1981,6 +1982,11 @@
           "review_reason": null
         },
         {
+          "word": "OKO",
+          "zipf": 4.68,
+          "review_reason": null
+        },
+        {
           "word": "POLA",
           "zipf": 4.56,
           "review_reason": null
@@ -1999,11 +2005,6 @@
           "word": "RAMA",
           "zipf": 3.51,
           "review_reason": null
-        },
-        {
-          "word": "RODY",
-          "zipf": 2.88,
-          "review_reason": "less than one occurrence per million; review rarity"
         },
         {
           "word": "ROK",
@@ -2149,12 +2150,7 @@
     },
     "pt": {
       "word_count": 72,
-      "flagged": [
-        "AREAR",
-        "AROS",
-        "LAVRA",
-        "TALA"
-      ],
+      "flagged": [],
       "words": [
         {
           "word": "AMIGO",
@@ -2167,19 +2163,9 @@
           "review_reason": null
         },
         {
-          "word": "AREAR",
-          "zipf": 1.26,
-          "review_reason": "less than one occurrence per million; review rarity"
-        },
-        {
           "word": "AREIA",
           "zipf": 4.47,
           "review_reason": null
-        },
-        {
-          "word": "AROS",
-          "zipf": 2.8,
-          "review_reason": "less than one occurrence per million; review rarity"
         },
         {
           "word": "ARTE",
@@ -2192,13 +2178,13 @@
           "review_reason": null
         },
         {
-          "word": "BOLETO",
-          "zipf": 3.44,
+          "word": "BORBOLETA",
+          "zipf": 3.91,
           "review_reason": null
         },
         {
-          "word": "BORBOLETA",
-          "zipf": 3.91,
+          "word": "BOTA",
+          "zipf": 3.9,
           "review_reason": null
         },
         {
@@ -2277,6 +2263,11 @@
           "review_reason": null
         },
         {
+          "word": "IRA",
+          "zipf": 4.18,
+          "review_reason": null
+        },
+        {
           "word": "JARDAS",
           "zipf": 3.36,
           "review_reason": null
@@ -2297,9 +2288,9 @@
           "review_reason": null
         },
         {
-          "word": "LAVRA",
-          "zipf": 2.84,
-          "review_reason": "less than one occurrence per million; review rarity"
+          "word": "LATA",
+          "zipf": 4.08,
+          "review_reason": null
         },
         {
           "word": "LESTE",
@@ -2472,6 +2463,11 @@
           "review_reason": null
         },
         {
+          "word": "SALA",
+          "zipf": 5.19,
+          "review_reason": null
+        },
+        {
           "word": "SEMENTE",
           "zipf": 3.84,
           "review_reason": null
@@ -2482,14 +2478,14 @@
           "review_reason": null
         },
         {
-          "word": "SOFRE",
-          "zipf": 4.46,
+          "word": "SOAR",
+          "zipf": 3.53,
           "review_reason": null
         },
         {
-          "word": "TALA",
-          "zipf": 2.94,
-          "review_reason": "less than one occurrence per million; review rarity"
+          "word": "SOFRE",
+          "zipf": 4.46,
+          "review_reason": null
         },
         {
           "word": "TERRA",
@@ -2514,6 +2510,633 @@
         {
           "word": "VENTOS",
           "zipf": 4.18,
+          "review_reason": null
+        }
+      ]
+    },
+    "en": {
+      "word_count": 123,
+      "flagged": [
+        "ALERTING",
+        "CATIONS",
+        "TAMER",
+        "TAMERS",
+        "TINSEL"
+      ],
+      "words": [
+        {
+          "word": "ACRE",
+          "zipf": 3.93,
+          "review_reason": null
+        },
+        {
+          "word": "ACT",
+          "zipf": 5.3,
+          "review_reason": null
+        },
+        {
+          "word": "ADS",
+          "zipf": 4.32,
+          "review_reason": null
+        },
+        {
+          "word": "ALERTING",
+          "zipf": 2.98,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "ALTERING",
+          "zipf": 3.59,
+          "review_reason": null
+        },
+        {
+          "word": "AND",
+          "zipf": 7.41,
+          "review_reason": null
+        },
+        {
+          "word": "ANT",
+          "zipf": 3.86,
+          "review_reason": null
+        },
+        {
+          "word": "ARE",
+          "zipf": 6.74,
+          "review_reason": null
+        },
+        {
+          "word": "ART",
+          "zipf": 5.29,
+          "review_reason": null
+        },
+        {
+          "word": "ARTS",
+          "zipf": 4.7,
+          "review_reason": null
+        },
+        {
+          "word": "ATE",
+          "zipf": 4.34,
+          "review_reason": null
+        },
+        {
+          "word": "CANOE",
+          "zipf": 3.5,
+          "review_reason": null
+        },
+        {
+          "word": "CAR",
+          "zipf": 5.45,
+          "review_reason": null
+        },
+        {
+          "word": "CARE",
+          "zipf": 5.56,
+          "review_reason": null
+        },
+        {
+          "word": "CAST",
+          "zipf": 4.79,
+          "review_reason": null
+        },
+        {
+          "word": "CAT",
+          "zipf": 4.78,
+          "review_reason": null
+        },
+        {
+          "word": "CATIONS",
+          "zipf": 2.6,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "CATS",
+          "zipf": 4.46,
+          "review_reason": null
+        },
+        {
+          "word": "CREATION",
+          "zipf": 4.56,
+          "review_reason": null
+        },
+        {
+          "word": "CREATIONS",
+          "zipf": 3.53,
+          "review_reason": null
+        },
+        {
+          "word": "DANGER",
+          "zipf": 4.59,
+          "review_reason": null
+        },
+        {
+          "word": "EAR",
+          "zipf": 4.43,
+          "review_reason": null
+        },
+        {
+          "word": "EARTH",
+          "zipf": 5.06,
+          "review_reason": null
+        },
+        {
+          "word": "EAST",
+          "zipf": 5.16,
+          "review_reason": null
+        },
+        {
+          "word": "EAT",
+          "zipf": 5.13,
+          "review_reason": null
+        },
+        {
+          "word": "ENLIST",
+          "zipf": 3.37,
+          "review_reason": null
+        },
+        {
+          "word": "FLOWER",
+          "zipf": 4.42,
+          "review_reason": null
+        },
+        {
+          "word": "FLOWERS",
+          "zipf": 4.64,
+          "review_reason": null
+        },
+        {
+          "word": "FLOWS",
+          "zipf": 4.14,
+          "review_reason": null
+        },
+        {
+          "word": "GARDEN",
+          "zipf": 4.77,
+          "review_reason": null
+        },
+        {
+          "word": "GARDENER",
+          "zipf": 3.49,
+          "review_reason": null
+        },
+        {
+          "word": "GARDENERS",
+          "zipf": 3.25,
+          "review_reason": null
+        },
+        {
+          "word": "GARDENS",
+          "zipf": 4.27,
+          "review_reason": null
+        },
+        {
+          "word": "HARE",
+          "zipf": 3.66,
+          "review_reason": null
+        },
+        {
+          "word": "HEAR",
+          "zipf": 5.23,
+          "review_reason": null
+        },
+        {
+          "word": "HEART",
+          "zipf": 5.31,
+          "review_reason": null
+        },
+        {
+          "word": "HEAT",
+          "zipf": 4.86,
+          "review_reason": null
+        },
+        {
+          "word": "INTEGRAL",
+          "zipf": 3.96,
+          "review_reason": null
+        },
+        {
+          "word": "ISLE",
+          "zipf": 3.83,
+          "review_reason": null
+        },
+        {
+          "word": "LAIR",
+          "zipf": 3.23,
+          "review_reason": null
+        },
+        {
+          "word": "LEAST",
+          "zipf": 5.44,
+          "review_reason": null
+        },
+        {
+          "word": "LIAR",
+          "zipf": 4.02,
+          "review_reason": null
+        },
+        {
+          "word": "LIES",
+          "zipf": 4.73,
+          "review_reason": null
+        },
+        {
+          "word": "LIME",
+          "zipf": 3.86,
+          "review_reason": null
+        },
+        {
+          "word": "LINES",
+          "zipf": 4.95,
+          "review_reason": null
+        },
+        {
+          "word": "LISTEN",
+          "zipf": 5.06,
+          "review_reason": null
+        },
+        {
+          "word": "LISTENER",
+          "zipf": 3.52,
+          "review_reason": null
+        },
+        {
+          "word": "LISTENERS",
+          "zipf": 3.71,
+          "review_reason": null
+        },
+        {
+          "word": "LISTENS",
+          "zipf": 3.6,
+          "review_reason": null
+        },
+        {
+          "word": "LOWER",
+          "zipf": 5.11,
+          "review_reason": null
+        },
+        {
+          "word": "MASTER",
+          "zipf": 4.93,
+          "review_reason": null
+        },
+        {
+          "word": "MASTERING",
+          "zipf": 3.43,
+          "review_reason": null
+        },
+        {
+          "word": "MILE",
+          "zipf": 4.59,
+          "review_reason": null
+        },
+        {
+          "word": "NEST",
+          "zipf": 4.07,
+          "review_reason": null
+        },
+        {
+          "word": "NOTE",
+          "zipf": 5.04,
+          "review_reason": null
+        },
+        {
+          "word": "ONES",
+          "zipf": 5.07,
+          "review_reason": null
+        },
+        {
+          "word": "PAINT",
+          "zipf": 4.52,
+          "review_reason": null
+        },
+        {
+          "word": "PAINTER",
+          "zipf": 3.93,
+          "review_reason": null
+        },
+        {
+          "word": "PAINTERS",
+          "zipf": 3.56,
+          "review_reason": null
+        },
+        {
+          "word": "PANT",
+          "zipf": 3.18,
+          "review_reason": null
+        },
+        {
+          "word": "PARENT",
+          "zipf": 4.57,
+          "review_reason": null
+        },
+        {
+          "word": "PARENTS",
+          "zipf": 5.21,
+          "review_reason": null
+        },
+        {
+          "word": "PLAN",
+          "zipf": 5.29,
+          "review_reason": null
+        },
+        {
+          "word": "PLANE",
+          "zipf": 4.72,
+          "review_reason": null
+        },
+        {
+          "word": "PLANET",
+          "zipf": 4.68,
+          "review_reason": null
+        },
+        {
+          "word": "PLANETS",
+          "zipf": 4.05,
+          "review_reason": null
+        },
+        {
+          "word": "PLANT",
+          "zipf": 4.89,
+          "review_reason": null
+        },
+        {
+          "word": "PLANTS",
+          "zipf": 4.71,
+          "review_reason": null
+        },
+        {
+          "word": "POT",
+          "zipf": 4.4,
+          "review_reason": null
+        },
+        {
+          "word": "POTS",
+          "zipf": 3.76,
+          "review_reason": null
+        },
+        {
+          "word": "PRINT",
+          "zipf": 4.54,
+          "review_reason": null
+        },
+        {
+          "word": "RACE",
+          "zipf": 5.08,
+          "review_reason": null
+        },
+        {
+          "word": "RAIL",
+          "zipf": 4.41,
+          "review_reason": null
+        },
+        {
+          "word": "RAIN",
+          "zipf": 4.71,
+          "review_reason": null
+        },
+        {
+          "word": "RANGE",
+          "zipf": 5.12,
+          "review_reason": null
+        },
+        {
+          "word": "RANGES",
+          "zipf": 4.05,
+          "review_reason": null
+        },
+        {
+          "word": "RASH",
+          "zipf": 3.67,
+          "review_reason": null
+        },
+        {
+          "word": "RAT",
+          "zipf": 4.17,
+          "review_reason": null
+        },
+        {
+          "word": "RATE",
+          "zipf": 5.14,
+          "review_reason": null
+        },
+        {
+          "word": "RATS",
+          "zipf": 4.05,
+          "review_reason": null
+        },
+        {
+          "word": "REACTION",
+          "zipf": 4.73,
+          "review_reason": null
+        },
+        {
+          "word": "REACTIONS",
+          "zipf": 4.24,
+          "review_reason": null
+        },
+        {
+          "word": "READ",
+          "zipf": 5.54,
+          "review_reason": null
+        },
+        {
+          "word": "RELATING",
+          "zipf": 4.21,
+          "review_reason": null
+        },
+        {
+          "word": "SAD",
+          "zipf": 4.84,
+          "review_reason": null
+        },
+        {
+          "word": "SAND",
+          "zipf": 4.44,
+          "review_reason": null
+        },
+        {
+          "word": "SAT",
+          "zipf": 4.64,
+          "review_reason": null
+        },
+        {
+          "word": "SEA",
+          "zipf": 5.06,
+          "review_reason": null
+        },
+        {
+          "word": "SEAT",
+          "zipf": 4.82,
+          "review_reason": null
+        },
+        {
+          "word": "SENT",
+          "zipf": 5.16,
+          "review_reason": null
+        },
+        {
+          "word": "SHARE",
+          "zipf": 5.2,
+          "review_reason": null
+        },
+        {
+          "word": "SHEAR",
+          "zipf": 3.4,
+          "review_reason": null
+        },
+        {
+          "word": "SILENT",
+          "zipf": 4.45,
+          "review_reason": null
+        },
+        {
+          "word": "SLIM",
+          "zipf": 4.05,
+          "review_reason": null
+        },
+        {
+          "word": "SLOW",
+          "zipf": 4.85,
+          "review_reason": null
+        },
+        {
+          "word": "SMART",
+          "zipf": 4.83,
+          "review_reason": null
+        },
+        {
+          "word": "SMILE",
+          "zipf": 4.64,
+          "review_reason": null
+        },
+        {
+          "word": "SPOT",
+          "zipf": 4.89,
+          "review_reason": null
+        },
+        {
+          "word": "STAR",
+          "zipf": 5.19,
+          "review_reason": null
+        },
+        {
+          "word": "STEAMING",
+          "zipf": 3.32,
+          "review_reason": null
+        },
+        {
+          "word": "STONE",
+          "zipf": 4.8,
+          "review_reason": null
+        },
+        {
+          "word": "STOP",
+          "zipf": 5.52,
+          "review_reason": null
+        },
+        {
+          "word": "STREAM",
+          "zipf": 4.62,
+          "review_reason": null
+        },
+        {
+          "word": "STREAMING",
+          "zipf": 4.22,
+          "review_reason": null
+        },
+        {
+          "word": "STREAMS",
+          "zipf": 4.12,
+          "review_reason": null
+        },
+        {
+          "word": "TAIL",
+          "zipf": 4.34,
+          "review_reason": null
+        },
+        {
+          "word": "TAMER",
+          "zipf": 2.74,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "TAMERS",
+          "zipf": 1.95,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "TAN",
+          "zipf": 4.01,
+          "review_reason": null
+        },
+        {
+          "word": "TAP",
+          "zipf": 4.28,
+          "review_reason": null
+        },
+        {
+          "word": "TAR",
+          "zipf": 3.63,
+          "review_reason": null
+        },
+        {
+          "word": "TEA",
+          "zipf": 4.73,
+          "review_reason": null
+        },
+        {
+          "word": "TEAMS",
+          "zipf": 4.97,
+          "review_reason": null
+        },
+        {
+          "word": "TEAR",
+          "zipf": 4.35,
+          "review_reason": null
+        },
+        {
+          "word": "TINSEL",
+          "zipf": 2.65,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "TONE",
+          "zipf": 4.49,
+          "review_reason": null
+        },
+        {
+          "word": "TOP",
+          "zipf": 5.57,
+          "review_reason": null
+        },
+        {
+          "word": "TOPS",
+          "zipf": 4.07,
+          "review_reason": null
+        },
+        {
+          "word": "TRAIL",
+          "zipf": 4.45,
+          "review_reason": null
+        },
+        {
+          "word": "TRAIN",
+          "zipf": 4.96,
+          "review_reason": null
+        },
+        {
+          "word": "TRIANGLE",
+          "zipf": 3.93,
+          "review_reason": null
+        },
+        {
+          "word": "TRIANGLES",
+          "zipf": 3.27,
+          "review_reason": null
+        },
+        {
+          "word": "WOLF",
+          "zipf": 4.35,
           "review_reason": null
         }
       ]
