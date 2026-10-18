@@ -52,8 +52,10 @@ benchmark or a guarantee across all Fire models.
 
 This tablet has no compatible speech-recognition service. Its unavailable-service
 message and complete touch/text fallback passed. Installed TTS engines were
-observed; audible pronunciation and actual VoiceView announcement quality still
-need hands-on confirmation. No continuous/background recording was enabled.
+observed. The publisher subsequently replied yes to the English letter-speech
+check; this is recorded as publisher-reported clear TTS in
+`reports/manual-audio-qa.json`. VoiceView announcement quality and localized
+pronunciation still need hands-on confirmation. No continuous/background recording was enabled.
 
 ## Amazon App Tester
 
