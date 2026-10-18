@@ -1,20 +1,40 @@
-# Localisation
+# Localisation — 18 October 2026
 
-Available puzzle editions: English UK and US, sharing 24 common-spelling puzzles. Selection changes voice locale and daily identity. Spanish, French, German, Italian, Brazilian/European Portuguese, Dutch and Polish are explicitly pending dictionary/linguistic review in `localization/packs.json`.
+The first release must support English UK/US, German, Spanish, French, Italian,
+Dutch, Polish and Portuguese Brazil/Portugal. The publisher explicitly declined
+an English-only release. The console APK remains English-only and must not be
+submitted as the multilingual release.
 
-Arabic/Hindi have registry and RTL preparation only. No script-specific input/dictionary support is claimed. The manifest supports RTL and the engine supports NFC and locale case conversion; future packs still require explicit grapheme/accent/tile rules.
+The app now has a shared translation catalogue for interface text, dynamic
+messages and accessibility labels, with locale-aware dates, voice language,
+word commands, daily selection and saved journeys. Approved language registration
+and translation assets are installed together. English editions share the
+existing journey; draft language editions use namespaced progress IDs.
 
-## Translation workflow
+`localization/ui-source.json` contains 184 source templates and locations.
+`tools/extract_ui_catalog.py` handles nested Kotlin interpolation and Android
+resource whitespace. `tools/localize.py` translates resources, message templates,
+listing prose and captions in cached batches. It reads `DEEPL_API_KEY` from the
+process or the Windows user environment without printing it. No key enters the
+app or repository. The provider step is waiting for that key.
 
-1. Add source UI strings to Android `values/strings.xml`. Static migration has begun; remaining hardcoded/interpolated messages are audited. Full extraction is not complete.
-2. Run `python tools/localize.py` for completeness reports covering UI strings, listing prose and screenshot captions, and an English-US review output without credentials.
-3. Set `DEEPL_API_KEY` outside the repo. Optionally set `DEEPL_ENDPOINT` to an approved DeepL HTTPS endpoint. Run with `--translate`.
-4. Placeholder tokens and protected product terms use ignored XML nodes. Cache keys include source, locale and glossary. Missing/duplicate placeholders and empty output fail validation. Reports flag all outputs for review and show length ratios.
-5. Review `localization/generated`, complete dynamic extraction, install approved Android resources and inspect every locale layout. Generated translations are not shipped automatically.
-6. Acquire/review independent language dictionaries. Record provenance, safety/frequency bands and orthography. Run the pack schema gate and add connected engine tests before activation. Never translate English answers to make a pack.
+Seven authored vocabulary drafts supply 24 word sets each; the Portuguese draft
+is shared by the two regional editions. Eight locale editions produce 192 draft
+puzzle IDs. Target words are not translations of English answers. Tests cover
+letter bags, connected layouts, Unicode accents and activation safeguards.
+Difficulty labels are initial length bands and require native frequency/order
+review. These are curated allowlists, not comprehensive dictionaries.
 
-No translation API request was made without credentials. Non-English Android UI and screenshot copy remain pending. Native linguistic sign-off and licensed frequency corpora have not been obtained. Translation credentials are never included in Android resources or builds.
+Native UI/vocabulary/voice-command review has not happened. Drafts stay disabled.
+`tools/install_reviewed_languages.py` requires complete translations and named,
+dated approvals bound to source/translation/vocabulary/command hashes before
+installing assets or updating `ApprovedLanguages`. See
+[the review handoff](localization/REVIEW_HANDOFF.md) for exact inputs and commands.
+After activation, every locale still needs device layout, accented input,
+language-switching and purchase-copy checks, followed by updated store metadata
+and screenshots. Structural tests alone do not certify language quality.
 
-## Store localization implemented
-
-Ten localized Amazon descriptions are now filled and verified after reopening: English UK/US, Spanish, French, German, Italian, Portuguese Brazil/Portugal, Dutch and Polish. `store/amazon-metadata.json` and `tools/prepare_store_metadata.py` hold and validate their source copy. Each description explicitly states that gameplay is English. Seven supported premium-item text locales are also filled; `store/amazon-iap-metadata.json` records them. Native editorial review is still pending. These console localizations do not enable non-English app resources or puzzle packs. The localization report records store-text status separately from Android resources.
+Arabic/Hindi remain preparation only; neither script-specific input nor puzzle
+support is claimed. Store descriptions are already localized into ten locales,
+but currently and accurately describe English gameplay. They must be updated
+when the reviewed multilingual candidate is actually enabled and tested.

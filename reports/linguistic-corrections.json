@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-18",
+  "corrections": [
+    {
+      "locale": "it",
+      "old": "SALTE",
+      "new": "SELLA",
+      "reason": "Unobserved/unverified draft form replaced by a dictionary-attested ordinary noun (saddle).",
+      "old_zipf": 0.0,
+      "new_zipf": 3.96,
+      "reference": "https://www.treccani.it/vocabolario/sella/"
+    }
+  ],
+  "limits": "Targeted lexical correction, not complete native validation of any language pack."
+}

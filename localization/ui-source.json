@@ -1,0 +1,1384 @@
+{
+  "status": "source extraction for translation and review; not approved language activation",
+  "entries": {
+    "msg_bf774f712a26": {
+      "source": "WordBloom",
+      "locations": [
+        "resource:app_name"
+      ],
+      "parameters": []
+    },
+    "msg_f45e7aacb827": {
+      "source": "Start puzzle",
+      "locations": [
+        "resource:play"
+      ],
+      "parameters": []
+    },
+    "msg_9ca934bfdb8d": {
+      "source": "Daily challenge",
+      "locations": [
+        "resource:daily"
+      ],
+      "parameters": []
+    },
+    "msg_6063b7bfcfc0": {
+      "source": "My garden",
+      "locations": [
+        "resource:garden"
+      ],
+      "parameters": []
+    },
+    "msg_74a883a037bc": {
+      "source": "Settings",
+      "locations": [
+        "resource:settings",
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:136"
+      ],
+      "parameters": []
+    },
+    "msg_19373382e5cb": {
+      "source": "The journey",
+      "locations": [
+        "resource:ui_006"
+      ],
+      "parameters": []
+    },
+    "msg_892997679ff1": {
+      "source": "A moment to bloom",
+      "locations": [
+        "resource:ui_007"
+      ],
+      "parameters": []
+    },
+    "msg_2f13d3dec807": {
+      "source": "Little words.\nBeautiful discoveries.",
+      "locations": [
+        "resource:ui_008"
+      ],
+      "parameters": []
+    },
+    "msg_565a51fd6da7": {
+      "source": "Connect letters. Discover words.\nGrow your vocabulary — and your garden.",
+      "locations": [
+        "resource:ui_009"
+      ],
+      "parameters": []
+    },
+    "msg_29818d62d5c4": {
+      "source": "OFFLINE PLAY · NO ADS · NO ACCOUNT",
+      "locations": [
+        "resource:ui_010"
+      ],
+      "parameters": []
+    },
+    "msg_0e816c8e17f7": {
+      "source": "✿ Sunrise Garden\nYour first chapter awaits",
+      "locations": [
+        "resource:ui_011"
+      ],
+      "parameters": []
+    },
+    "msg_5270c9ce647e": {
+      "source": "Make a little time for you",
+      "locations": [
+        "resource:ui_012"
+      ],
+      "parameters": []
+    },
+    "msg_14922158bcf1": {
+      "source": "Swipe to connect. Tap to take your time. Every word is a small discovery.",
+      "locations": [
+        "resource:ui_013"
+      ],
+      "parameters": []
+    },
+    "msg_585047053aa9": {
+      "source": "You grew something lovely.",
+      "locations": [
+        "resource:ui_014"
+      ],
+      "parameters": []
+    },
+    "msg_543e87add437": {
+      "source": "↝ Shuffle",
+      "locations": [
+        "resource:ui_015"
+      ],
+      "parameters": []
+    },
+    "msg_af08cc6d16df": {
+      "source": "✦ Letter · 1",
+      "locations": [
+        "resource:ui_016"
+      ],
+      "parameters": []
+    },
+    "msg_e14b09ae68d5": {
+      "source": "Starting letter",
+      "locations": [
+        "resource:ui_017"
+      ],
+      "parameters": []
+    },
+    "msg_7c8501c77172": {
+      "source": "Reveal word · 3",
+      "locations": [
+        "resource:ui_018"
+      ],
+      "parameters": []
+    },
+    "msg_52cd4eeba682": {
+      "source": "Type a word",
+      "locations": [
+        "resource:ui_019"
+      ],
+      "parameters": []
+    },
+    "msg_9d60841e0a78": {
+      "source": "Check",
+      "locations": [
+        "resource:ui_020"
+      ],
+      "parameters": []
+    },
+    "msg_a3c4049c8756": {
+      "source": "Listen to word",
+      "locations": [
+        "resource:ui_021"
+      ],
+      "parameters": []
+    },
+    "msg_40d70d845e1e": {
+      "source": "Push-to-talk may use your device’s online speech service. Nothing is recorded by WordBloom.",
+      "locations": [
+        "resource:ui_022"
+      ],
+      "parameters": []
+    },
+    "msg_a8283ade3185": {
+      "source": "Undo",
+      "locations": [
+        "resource:ui_023"
+      ],
+      "parameters": []
+    },
+    "msg_83b12c2216ef": {
+      "source": "Clear",
+      "locations": [
+        "resource:ui_024"
+      ],
+      "parameters": []
+    },
+    "msg_0590d70c63b5": {
+      "source": "Submit word",
+      "locations": [
+        "resource:ui_025"
+      ],
+      "parameters": []
+    },
+    "msg_3a2f00b7c545": {
+      "source": "Six gardens. A world of words.",
+      "locations": [
+        "resource:ui_026"
+      ],
+      "parameters": []
+    },
+    "msg_134bcc8dfd71": {
+      "source": "Complete journey puzzles to open the next. Every four journey puzzles restore a chapter.",
+      "locations": [
+        "resource:ui_027"
+      ],
+      "parameters": []
+    },
+    "msg_a52ace420f21": {
+      "source": "All",
+      "locations": [
+        "resource:ui_028"
+      ],
+      "parameters": []
+    },
+    "msg_0b0450991c08": {
+      "source": "Your quiet corner",
+      "locations": [
+        "resource:ui_029"
+      ],
+      "parameters": []
+    },
+    "msg_54c98e740241": {
+      "source": "Look how far you’ve grown.",
+      "locations": [
+        "resource:ui_030"
+      ],
+      "parameters": []
+    },
+    "msg_d77f771b332b": {
+      "source": "Daily memories",
+      "locations": [
+        "resource:ui_031"
+      ],
+      "parameters": []
+    },
+    "msg_ca63776635cc": {
+      "source": "Make yourself comfortable",
+      "locations": [
+        "resource:ui_032"
+      ],
+      "parameters": []
+    },
+    "msg_8e7dadacd7dc": {
+      "source": "A game at your pace.",
+      "locations": [
+        "resource:ui_033"
+      ],
+      "parameters": []
+    },
+    "msg_115ae40e6398": {
+      "source": "Puzzle language",
+      "locations": [
+        "resource:ui_034"
+      ],
+      "parameters": []
+    },
+    "msg_0f03ee3ee472": {
+      "source": "Choose a puzzle language. Each language has its own word collection and saved journey. English UK/US share a collection.",
+      "locations": [
+        "resource:ui_035"
+      ],
+      "parameters": []
+    },
+    "msg_a42a47844fb4": {
+      "source": "Voice, when you want it",
+      "locations": [
+        "resource:ui_036"
+      ],
+      "parameters": []
+    },
+    "msg_1527f526f087": {
+      "source": "Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.",
+      "locations": [
+        "resource:ui_037"
+      ],
+      "parameters": []
+    },
+    "msg_e94253e91c49": {
+      "source": "Your words stay yours",
+      "locations": [
+        "resource:ui_038"
+      ],
+      "parameters": []
+    },
+    "msg_74a8c06f2269": {
+      "source": "No account. No ads. No analytics. Progress and settings stay on this device. WordBloom stores no microphone recordings. Amazon handles purchase information. Removing the app clears local progress; purchases can be restored through Amazon.",
+      "locations": [
+        "resource:ui_039"
+      ],
+      "parameters": []
+    },
+    "msg_ddc5cf266848": {
+      "source": "WordBloom 0.1 · 24 puzzles · Offline-first",
+      "locations": [
+        "resource:ui_040"
+      ],
+      "parameters": []
+    },
+    "msg_c37f87dfc774": {
+      "source": "A little more wonder",
+      "locations": [
+        "resource:ui_041"
+      ],
+      "parameters": []
+    },
+    "msg_fd1c4ecb4c40": {
+      "source": "All six illustrated worlds. All 24 puzzles in each available language. Advanced and expert challenges. Expanded garden statistics, plus 4 earned hints per first completion instead of 3. Garden milestones and saved daily history.",
+      "locations": [
+        "resource:ui_042"
+      ],
+      "parameters": []
+    },
+    "msg_2b3aca3a5301": {
+      "source": "One-time purchase · No ads · No subscription",
+      "locations": [
+        "resource:ui_043"
+      ],
+      "parameters": []
+    },
+    "msg_c5f5dd9f9dbd": {
+      "source": "Restore Amazon purchase",
+      "locations": [
+        "resource:ui_044"
+      ],
+      "parameters": []
+    },
+    "msg_d6173ae6d107": {
+      "source": "Daily puzzles and the introductory chapter remain free in every available language.",
+      "locations": [
+        "resource:ui_045"
+      ],
+      "parameters": []
+    },
+    "msg_f97070a26e44": {
+      "source": "Microphone permission denied. Swipe, tap or type to play.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:60"
+      ],
+      "parameters": []
+    },
+    "msg_c394f19c3571": {
+      "source": "DEVELOPMENT BUILD · TEST PURCHASES · NO REAL MONEY",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:89"
+      ],
+      "parameters": []
+    },
+    "msg_723a37716f9b": {
+      "source": "Finish this puzzle before going to the next level",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:113"
+      ],
+      "parameters": []
+    },
+    "msg_48265ef60f8c": {
+      "source": "Find a word first",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:116"
+      ],
+      "parameters": []
+    },
+    "msg_8d1b47c4d230": {
+      "source": "Open a puzzle to play a word",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:120"
+      ],
+      "parameters": []
+    },
+    "msg_f40e3104ad14": {
+      "source": "Try ‘shuffle letters’, ‘give me a hint’, or say one word",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:121"
+      ],
+      "parameters": []
+    },
+    "msg_3a78695388b3": {
+      "source": "Home",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:136"
+      ],
+      "parameters": []
+    },
+    "msg_13d83dbb23fb": {
+      "source": "Premium ✓",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:137"
+      ],
+      "parameters": []
+    },
+    "msg_03a0fc5cff6f": {
+      "source": "Explore premium",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:137"
+      ],
+      "parameters": []
+    },
+    "msg_c808f9810a87": {
+      "source": "Begin your journey",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:153"
+      ],
+      "parameters": []
+    },
+    "msg_f3ed8d8349ee": {
+      "source": "Continue your journey",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:153"
+      ],
+      "parameters": []
+    },
+    "msg_98fa1a68fbba": {
+      "source": "{0}  →",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:153"
+      ],
+      "parameters": [
+        "if(s.completed.isEmpty())\"Begin your journey\" else \"Continue your journey\""
+      ]
+    },
+    "msg_34659fd61a72": {
+      "source": "bloom",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:160",
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:332"
+      ],
+      "parameters": []
+    },
+    "msg_541ce7fbc0c0": {
+      "source": "blooms",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:160",
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:332"
+      ],
+      "parameters": []
+    },
+    "msg_cef6600c14db": {
+      "source": "✿  {0} {1}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:160"
+      ],
+      "parameters": [
+        "s.completed.size",
+        "if(s.completed.size==1)\"bloom\" else \"blooms\""
+      ]
+    },
+    "msg_5b0a9ac3693a": {
+      "source": "01 / A FRESH LITTLE CHALLENGE",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:162"
+      ],
+      "parameters": []
+    },
+    "msg_f1920b5855f9": {
+      "source": "Your daily word escape",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:162"
+      ],
+      "parameters": []
+    },
+    "msg_a53cc0540e4f": {
+      "source": "EEEE, d MMMM",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:162"
+      ],
+      "parameters": []
+    },
+    "msg_96a5eb446ace": {
+      "source": "Play today  →",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:162"
+      ],
+      "parameters": []
+    },
+    "msg_27f702d2e3b2": {
+      "source": "02 / ONE WORD AT A TIME",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:163"
+      ],
+      "parameters": []
+    },
+    "msg_11b4bc1d0b3a": {
+      "source": "A world waiting to grow",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:163"
+      ],
+      "parameters": []
+    },
+    "msg_f958d2f1ac73": {
+      "source": "Six nature-inspired chapters",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:163"
+      ],
+      "parameters": []
+    },
+    "msg_0b6cefcbbec0": {
+      "source": "Explore the journey  →",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:163"
+      ],
+      "parameters": []
+    },
+    "msg_65a0a50953d4": {
+      "source": "03 / YOUR OWN QUIET CORNER",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:164"
+      ],
+      "parameters": []
+    },
+    "msg_fee5f92e34a8": {
+      "source": "Watch your garden bloom",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:164"
+      ],
+      "parameters": []
+    },
+    "msg_ad507c3c8a12": {
+      "source": "Every completed puzzle plants a flower",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:164"
+      ],
+      "parameters": []
+    },
+    "msg_2b69cceea061": {
+      "source": "Visit my garden  →",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:164"
+      ],
+      "parameters": []
+    },
+    "msg_ae511c4d36ce": {
+      "source": "Daily word escape",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:181"
+      ],
+      "parameters": []
+    },
+    "msg_8e3e629fe6f7": {
+      "source": "{0} · Level {1}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:181"
+      ],
+      "parameters": [
+        "Library.worlds[p.world]",
+        "Library.forLanguage(s.language).indexOfFirst { it.id==p.id }+1"
+      ]
+    },
+    "msg_7079299b4aa5": {
+      "source": "A beautiful discovery",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:181"
+      ],
+      "parameters": []
+    },
+    "msg_5fa29c1802c5": {
+      "source": "Let your words bloom",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:181"
+      ],
+      "parameters": []
+    },
+    "msg_0a29d0b91627": {
+      "source": "✦ {0} hints",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:182"
+      ],
+      "parameters": [
+        "s.hints"
+      ]
+    },
+    "msg_f2a0e0bc4654": {
+      "source": "{0} of {1} words found  ·  {2}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:190"
+      ],
+      "parameters": [
+        "s.found.size",
+        "p.answers.size",
+        "p.difficulty.name.lowercase().replaceFirstChar { it.uppercase() }"
+      ]
+    },
+    "msg_bfa637a72738": {
+      "source": "Bonus words: {0}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:191"
+      ],
+      "parameters": [
+        "s.bonus.joinToString(\" · \")"
+      ]
+    },
+    "msg_e015e30b0001": {
+      "source": "Back to the garden",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:199"
+      ],
+      "parameters": []
+    },
+    "msg_c402502565e2": {
+      "source": "Next puzzle  →",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:199"
+      ],
+      "parameters": []
+    },
+    "msg_26658b593cc4": {
+      "source": "Replay puzzle",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:200"
+      ],
+      "parameters": []
+    },
+    "msg_94fa9b236332": {
+      "source": "Stop listening",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:224"
+      ],
+      "parameters": []
+    },
+    "msg_2982f1d4972e": {
+      "source": "◉ Speak",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:224"
+      ],
+      "parameters": []
+    },
+    "msg_7ffb956802a5": {
+      "source": "Voice availability",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:224"
+      ],
+      "parameters": []
+    },
+    "msg_cd167e8baced": {
+      "source": "{0},{1}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:241",
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:74",
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:75",
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:77"
+      ],
+      "parameters": [
+        "x",
+        "y"
+      ]
+    },
+    "msg_10c2094f6509": {
+      "source": "Row {0}, column {1}: {2}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:243"
+      ],
+      "parameters": [
+        "y+1",
+        "x+1",
+        "c"
+      ]
+    },
+    "msg_a0b7a33254e1": {
+      "source": "Row {0}, column {1}: empty letter",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:243"
+      ],
+      "parameters": [
+        "y+1",
+        "x+1"
+      ]
+    },
+    "msg_7cbfbbc8dca3": {
+      "source": "Connect the letters",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:259"
+      ],
+      "parameters": []
+    },
+    "msg_b60f78f09280": {
+      "source": "Letter {0}, tile {1}, selected",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:291"
+      ],
+      "parameters": [
+        "letters[i]",
+        "i+1"
+      ]
+    },
+    "msg_c84c4c392414": {
+      "source": "Letter {0}, tile {1}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:291"
+      ],
+      "parameters": [
+        "letters[i]",
+        "i+1"
+      ]
+    },
+    "msg_3f4f403ebf04": {
+      "source": "{0}. {1}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:314"
+      ],
+      "parameters": [
+        "world+1",
+        "name"
+      ]
+    },
+    "msg_4a70d8f4b647": {
+      "source": "{0} {1} planted",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:332"
+      ],
+      "parameters": [
+        "blooms",
+        "if(blooms==1)\"bloom\" else \"blooms\""
+      ]
+    },
+    "msg_b3140286ac71": {
+      "source": "escape",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:333"
+      ],
+      "parameters": []
+    },
+    "msg_5e7d9a0cc8b6": {
+      "source": "escapes",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:333"
+      ],
+      "parameters": []
+    },
+    "msg_450f661967d8": {
+      "source": "{0} of 6 chapters restored · {1} daily {2} completed",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:333"
+      ],
+      "parameters": [
+        "complete/4",
+        "dailyCount",
+        "if(dailyCount==1)\"escape\" else \"escapes\""
+      ]
+    },
+    "msg_0f02903bbf75": {
+      "source": "First bloom",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:335"
+      ],
+      "parameters": []
+    },
+    "msg_662e46f0e1ba": {
+      "source": "Garden keeper",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:335"
+      ],
+      "parameters": []
+    },
+    "msg_6b79c5405359": {
+      "source": "Wildflower soul",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:335"
+      ],
+      "parameters": []
+    },
+    "msg_7812db0f028e": {
+      "source": "Full bloom",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:335"
+      ],
+      "parameters": []
+    },
+    "msg_7066a711b3aa": {
+      "source": "1 puzzle",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:335"
+      ],
+      "parameters": []
+    },
+    "msg_5d4059022064": {
+      "source": "{0} puzzles",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:335"
+      ],
+      "parameters": [
+        "count"
+      ]
+    },
+    "msg_e0fb55e50382": {
+      "source": "Your garden in numbers",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:338"
+      ],
+      "parameters": []
+    },
+    "msg_54a8c698907c": {
+      "source": "{0} words in completed puzzles · {1}% of the journey restored",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:339"
+      ],
+      "parameters": [
+        "s.completed.size*3",
+        "((complete/24f)*100).toInt()"
+      ]
+    },
+    "msg_eb91f332fc67": {
+      "source": "{0} / {1}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:345"
+      ],
+      "parameters": [
+        "solved",
+        "total"
+      ]
+    },
+    "msg_fd2cd7f8ee6a": {
+      "source": "Your first daily escape is waiting. Play whenever you like — no streak to protect.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:352"
+      ],
+      "parameters": []
+    },
+    "msg_d096df9edd58": {
+      "source": "Spoken guidance",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:359"
+      ],
+      "parameters": []
+    },
+    "msg_66782b653f84": {
+      "source": "Gentle word sounds",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:359"
+      ],
+      "parameters": []
+    },
+    "msg_e4c869e510f8": {
+      "source": "Garden ambience",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:359"
+      ],
+      "parameters": []
+    },
+    "msg_17e055f886cd": {
+      "source": "High-contrast letter tiles",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:359"
+      ],
+      "parameters": []
+    },
+    "msg_297ef4c79b4b": {
+      "source": "Reduce motion",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:359"
+      ],
+      "parameters": []
+    },
+    "msg_13b394639582": {
+      "source": "Larger text",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:359"
+      ],
+      "parameters": []
+    },
+    "msg_321119913705": {
+      "source": "Evening theme",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:359"
+      ],
+      "parameters": []
+    },
+    "msg_55c401c4d28a": {
+      "source": "A compatible recognition service is available. Use Speak in a puzzle; your device’s service may send speech to its provider.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:366"
+      ],
+      "parameters": []
+    },
+    "msg_2f84421d8ebb": {
+      "source": "No compatible recognition service was found. Swipe, tap and text entry provide the full game.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:366"
+      ],
+      "parameters": []
+    },
+    "msg_75f0c89607b7": {
+      "source": "The whole garden is yours.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:376"
+      ],
+      "parameters": []
+    },
+    "msg_69af495a2235": {
+      "source": "Let the whole garden bloom.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:376"
+      ],
+      "parameters": []
+    },
+    "msg_f11043f6ea65": {
+      "source": "Unlock premium · {0}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:379"
+      ],
+      "parameters": [
+        "it"
+      ]
+    },
+    "msg_d41acbd03306": {
+      "source": "Store price unavailable",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:379"
+      ],
+      "parameters": []
+    },
+    "msg_fa8fd1f427ce": {
+      "source": "Original illustrated {0}, {1} flowers",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:391"
+      ],
+      "parameters": [
+        "Library.worlds[world.coerceIn(0,5)]",
+        "blooms"
+      ]
+    },
+    "msg_948430c6ab99": {
+      "source": "Amazon product availability depends on device",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/MainActivity.kt:468"
+      ],
+      "parameters": []
+    },
+    "msg_8e554e7b755a": {
+      "source": "A little wordplay. A little wonder.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:14"
+      ],
+      "parameters": []
+    },
+    "msg_ecbce2c3864e": {
+      "source": "daily:{0}:",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:31"
+      ],
+      "parameters": [
+        "language"
+      ]
+    },
+    "msg_25f011b0f89b": {
+      "source": "Find {0} words. Swipe or tap the letters.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:49"
+      ],
+      "parameters": [
+        "puzzle.answers.size"
+      ]
+    },
+    "msg_e5441b0e72b0": {
+      "source": "A fresh look at a familiar puzzle. Replay earns no additional hints.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:51"
+      ],
+      "parameters": []
+    },
+    "msg_121aae1170ab": {
+      "source": "Letters shuffled",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:53"
+      ],
+      "parameters": []
+    },
+    "msg_4c3883effb17": {
+      "source": "Look for the highlighted starting letter",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:54"
+      ],
+      "parameters": []
+    },
+    "msg_0fc6b50e8f45": {
+      "source": "Beautiful! {0}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:59"
+      ],
+      "parameters": [
+        "word"
+      ]
+    },
+    "msg_b48e2dc3f476": {
+      "source": "Bonus word! {0} · +1 hint",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:60"
+      ],
+      "parameters": [
+        "word"
+      ]
+    },
+    "msg_5c1a9c613e0a": {
+      "source": "Bonus word! {0}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:60"
+      ],
+      "parameters": [
+        "word"
+      ]
+    },
+    "msg_66ba6d0a7ecc": {
+      "source": "You already found {0}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:61"
+      ],
+      "parameters": [
+        "word"
+      ]
+    },
+    "msg_16963e44a1e5": {
+      "source": "That word is not in this puzzle’s curated word list",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:62"
+      ],
+      "parameters": []
+    },
+    "msg_09932cd896a0": {
+      "source": "Earn hints by completing puzzles or finding bonus words",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:70"
+      ],
+      "parameters": []
+    },
+    "msg_be3c173b7f18": {
+      "source": "Revealed {0}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:71"
+      ],
+      "parameters": [
+        "word"
+      ]
+    },
+    "msg_e456af789328": {
+      "source": "All its letters are visible: {0}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:76"
+      ],
+      "parameters": [
+        "word"
+      ]
+    },
+    "msg_07fff96bbf7e": {
+      "source": "One new letter, a little closer",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:77"
+      ],
+      "parameters": []
+    },
+    "msg_aa7aa69fdfd9": {
+      "source": "Puzzle complete. Your garden is growing! +{0} hints",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:88"
+      ],
+      "parameters": [
+        "reward"
+      ]
+    },
+    "msg_365762cb0e8c": {
+      "source": "Progress could not be saved. Please try again.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/GameViewModel.kt:92"
+      ],
+      "parameters": []
+    },
+    "msg_5d7d60ebbf9d": {
+      "source": "Connecting to Amazon Appstore…",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:13"
+      ],
+      "parameters": []
+    },
+    "msg_10e2536378b8": {
+      "source": "premium:{0}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:17",
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:34",
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:41"
+      ],
+      "parameters": [
+        "it"
+      ]
+    },
+    "msg_a5ba5ae64c29": {
+      "source": "Amazon purchasing is unavailable on this device",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:25",
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:29",
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:29"
+      ],
+      "parameters": []
+    },
+    "msg_ddd669be77ae": {
+      "source": "Amazon purchasing is incompatible with this device",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:26"
+      ],
+      "parameters": []
+    },
+    "msg_dd6fc41d4f91": {
+      "source": "Store product unavailable. Check Amazon Appstore or try Restore.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:30"
+      ],
+      "parameters": []
+    },
+    "msg_e0f155662c00": {
+      "source": "Amazon account unavailable. Saved offline access retained.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:39"
+      ],
+      "parameters": []
+    },
+    "msg_128074e4c337": {
+      "source": "Amazon product unavailable on this installation",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:46"
+      ],
+      "parameters": []
+    },
+    "msg_dd3e1e29a760": {
+      "source": "One purchase. A garden of possibilities.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:46"
+      ],
+      "parameters": []
+    },
+    "msg_50b0c029f3a3": {
+      "source": "Amazon account changed. Restore from the current account.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:50"
+      ],
+      "parameters": []
+    },
+    "msg_3d35cd1a63d2": {
+      "source": "Purchase {0}. No access granted.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:53"
+      ],
+      "parameters": [
+        "r.requestStatus.name.lowercase().replace('_',' ')"
+      ]
+    },
+    "msg_98573700d8c5": {
+      "source": "Purchase could not be saved on this device. Please try Restore.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:59"
+      ],
+      "parameters": []
+    },
+    "msg_55d75478eec0": {
+      "source": "Premium purchase cancelled",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:62"
+      ],
+      "parameters": []
+    },
+    "msg_76caa7b4f5a9": {
+      "source": "Premium restored. Welcome to the whole garden.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:62"
+      ],
+      "parameters": []
+    },
+    "msg_b8d39d362082": {
+      "source": "Restore unavailable. Please try again with Amazon Appstore.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:66"
+      ],
+      "parameters": []
+    },
+    "msg_795b43828254": {
+      "source": "Premium restored",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:75"
+      ],
+      "parameters": []
+    },
+    "msg_4250182a589d": {
+      "source": "No premium purchase found for this Amazon account",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Billing.kt:75"
+      ],
+      "parameters": []
+    },
+    "msg_f9bbfdc8a3ea": {
+      "source": "Platform callback",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:26"
+      ],
+      "parameters": []
+    },
+    "msg_020c24469ada": {
+      "source": "Spoken voice unavailable for this language. Touch controls remain available.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:34"
+      ],
+      "parameters": []
+    },
+    "msg_2d400ffa6a48": {
+      "source": "Speech recognition unavailable. You can swipe, tap, or type words.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:43"
+      ],
+      "parameters": []
+    },
+    "msg_69de651d5d29": {
+      "source": "Microphone permission is needed for push-to-talk only.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:44"
+      ],
+      "parameters": []
+    },
+    "msg_61dbc5288edf": {
+      "source": "Audio is busy. Try again shortly.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:48"
+      ],
+      "parameters": []
+    },
+    "msg_bbb4106e8144": {
+      "source": "Listening…",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:50"
+      ],
+      "parameters": []
+    },
+    "msg_185afcb24dce": {
+      "source": "Speech service could not start. Touch controls remain available.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:52"
+      ],
+      "parameters": []
+    },
+    "msg_76394fcb63bc": {
+      "source": "Listening… Speak a command or a word.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:56"
+      ],
+      "parameters": []
+    },
+    "msg_22b8a1abd6e3": {
+      "source": "Recognising…",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:60"
+      ],
+      "parameters": []
+    },
+    "msg_d4c13b10d7bc": {
+      "source": "No word recognised. Try again.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:61"
+      ],
+      "parameters": []
+    },
+    "msg_ed978d7afee3": {
+      "source": "Speech service needs a connection. Use touch to play offline.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:61"
+      ],
+      "parameters": []
+    },
+    "msg_b76434749b96": {
+      "source": "Microphone permission unavailable.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:61"
+      ],
+      "parameters": []
+    },
+    "msg_c2fb18dbb1e7": {
+      "source": "Speech unavailable ({0}). Try again or use touch.",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:61"
+      ],
+      "parameters": [
+        "error"
+      ]
+    },
+    "msg_a3dd64d17497": {
+      "source": "Heard: {0}",
+      "locations": [
+        "app/src/main/java/com/wordbloom/garden/Voice.kt:62"
+      ],
+      "parameters": [
+        "text"
+      ]
+    },
+    "msg_2e09d4c2f8af": {
+      "source": "Sunrise Garden",
+      "locations": [
+        "engine:display-label"
+      ],
+      "parameters": []
+    },
+    "msg_987b2beefb6c": {
+      "source": "Enchanted Forest",
+      "locations": [
+        "engine:display-label"
+      ],
+      "parameters": []
+    },
+    "msg_eae5735d7bfc": {
+      "source": "Blossom Valley",
+      "locations": [
+        "engine:display-label"
+      ],
+      "parameters": []
+    },
+    "msg_0727d340225f": {
+      "source": "Crystal Lake",
+      "locations": [
+        "engine:display-label"
+      ],
+      "parameters": []
+    },
+    "msg_28cc60e8c238": {
+      "source": "Golden Meadow",
+      "locations": [
+        "engine:display-label"
+      ],
+      "parameters": []
+    },
+    "msg_21245fa78fc3": {
+      "source": "Moonlight Garden",
+      "locations": [
+        "engine:display-label"
+      ],
+      "parameters": []
+    },
+    "msg_c865ebb3052c": {
+      "source": "Beginner",
+      "locations": [
+        "engine:display-label"
+      ],
+      "parameters": []
+    },
+    "msg_3b1cfa63d7d9": {
+      "source": "Intermediate",
+      "locations": [
+        "engine:display-label"
+      ],
+      "parameters": []
+    },
+    "msg_9f088dbebd6c": {
+      "source": "Advanced",
+      "locations": [
+        "engine:display-label"
+      ],
+      "parameters": []
+    },
+    "msg_8b317b0c50ee": {
+      "source": "Expert",
+      "locations": [
+        "engine:display-label"
+      ],
+      "parameters": []
+    },
+    "msg_2430e09ec2ec": {
+      "source": "successful",
+      "locations": [
+        "sdk:purchase-status-display"
+      ],
+      "parameters": []
+    },
+    "msg_5d28a90f4498": {
+      "source": "failed",
+      "locations": [
+        "sdk:purchase-status-display"
+      ],
+      "parameters": []
+    },
+    "msg_0b470848c772": {
+      "source": "already purchased",
+      "locations": [
+        "sdk:purchase-status-display"
+      ],
+      "parameters": []
+    },
+    "msg_60dad20a602e": {
+      "source": "invalid sku",
+      "locations": [
+        "sdk:purchase-status-display"
+      ],
+      "parameters": []
+    },
+    "msg_0bee0730a4f9": {
+      "source": "not supported",
+      "locations": [
+        "sdk:purchase-status-display"
+      ],
+      "parameters": []
+    },
+    "msg_62a2fed3d6e0": {
+      "source": "pending",
+      "locations": [
+        "sdk:purchase-status-display"
+      ],
+      "parameters": []
+    }
+  }
+}

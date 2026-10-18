@@ -2,8 +2,13 @@ test_duplicate_rejected (test_localize.LocalisationTests) ... ok
 test_empty_rejected (test_localize.LocalisationTests) ... ok
 test_mismatch_rejected (test_localize.LocalisationTests) ... ok
 test_roundtrip (test_localize.LocalisationTests) ... ok
+test_dynamic_parameters_survive_provider_roundtrip (test_ui_catalog.UiCatalogTests) ... ok
+test_escaped_newline_comments_and_character_literals (test_ui_catalog.UiCatalogTests) ... ok
+test_expanded_xml_placeholder_form_is_preserved (test_ui_catalog.UiCatalogTests) ... ok
+test_nested_kotlin_interpolation_and_quoted_branches (test_ui_catalog.UiCatalogTests) ... ok
+test_provider_batch_preserves_order_and_parameters (test_ui_catalog.UiCatalogTests) ... ok
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.001s
+Ran 9 tests in 0.003s
 
 OK

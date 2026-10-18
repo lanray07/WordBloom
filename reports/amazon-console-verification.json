@@ -1,5 +1,5 @@
 {
-  "status": "Draft form complete; intentionally unsubmitted and unpublished",
+  "status": "Form completed 17 October; submission blocked by required multilingual release work",
   "app_id": "amzn1.devportal.mobileapp.91b139e68f6746fab1bdea19472cd193",
   "release_id": "amzn1.devportal.apprelease.2ad95ad758e740b7bf34a38964ee6a3b",
   "app_title": "WordBloom: Word Connect and Puzzle Games",
@@ -64,11 +64,11 @@
   "sdk_public_key": "Included and parsed as RSA 2048; present in uploaded APK",
   "amazon_review_gaps": [],
   "additional_release_gates": [
-    "physical-device UI/offline/audio/accessibility checks",
-    "Amazon App Tester/live purchase/restore/refund verification",
-    "native language/content review and any additional gameplay dictionaries",
-    "working-name clearance",
-    "publisher privacy/SDK disclosure review and explicit final submission authorization"
+    "provider translations and native approval for all eight additional locale editions",
+    "multilingual device/layout/accented-input and language-switching checks",
+    "final matching store descriptions/screenshots and candidate upload",
+    "Amazon store-delivered release and purchase verification",
+    "hands-on audio/accessibility review"
   ],
   "testing_instructions": "Filled: 1514 characters; source store/amazon-testing-instructions.txt",
   "audience": {
@@ -97,5 +97,12 @@
     ],
     "format": "PNG",
     "source_manifest": "store/premium-screenshots.json"
+  },
+  "publisher_decisions_recorded": "2026-10-18",
+  "local_device_qa": {
+    "model": "KFTRWI",
+    "api": 28,
+    "amazon_sandbox_cases": "reports/amazon-sandbox-qa.json",
+    "note": "Local test progress, not a new Amazon console verification. Current console APK remains the earlier English-only candidate."
   }
 }

@@ -1,0 +1,1699 @@
+{
+  "status": "draft; native vocabulary and difficulty approval required",
+  "packs": {
+    "de": [
+      {
+        "letters": "HAUS",
+        "targets": [
+          "HAUS",
+          "AUS",
+          "SAU"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "BAUMR",
+        "targets": [
+          "BAUM",
+          "BAU",
+          "RAUM"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "WALLDB",
+        "targets": [
+          "WALD",
+          "BALD",
+          "BALL"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "REEIS",
+        "targets": [
+          "REISE",
+          "REIS",
+          "EIS"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 0
+      },
+      {
+        "letters": "LAMPE",
+        "targets": [
+          "LAMPE",
+          "PALME",
+          "AMPEL"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "MALERN",
+        "targets": [
+          "MALER",
+          "MALEN",
+          "ARM"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "GEELB",
+        "targets": [
+          "GELB",
+          "GELBE",
+          "BELEG"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "GARTEN",
+        "targets": [
+          "GARTEN",
+          "GARN",
+          "RAT"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "BLUMEEN",
+        "targets": [
+          "BLUME",
+          "BLUMEN",
+          "LEBEN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "SONNNE",
+        "targets": [
+          "SONNE",
+          "SONNEN",
+          "NONNE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "STEERN",
+        "targets": [
+          "STERNE",
+          "STERN",
+          "ERNST"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "WASSER",
+        "targets": [
+          "WASSER",
+          "WAS",
+          "WER"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "WOLKEN",
+        "targets": [
+          "WOLKE",
+          "WOLKEN",
+          "WELK"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "STEEIN",
+        "targets": [
+          "STEIN",
+          "STEINE",
+          "EINS"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "LEERNN",
+        "targets": [
+          "LERNEN",
+          "LERNE",
+          "ERLEN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "WIEESN",
+        "targets": [
+          "WIESE",
+          "WIESEN",
+          "WEIN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "BLUMEEN",
+        "targets": [
+          "BLUMEN",
+          "BLUME",
+          "LEBEN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 4
+      },
+      {
+        "letters": "BLATTÄER",
+        "targets": [
+          "BLATT",
+          "BLÄTTER",
+          "RAT"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "FEENSTR",
+        "targets": [
+          "FENSTER",
+          "FERN",
+          "REST"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "GÄRRTNEA",
+        "targets": [
+          "GÄRTNER",
+          "GÄRTEN",
+          "GARN"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "MORGENS",
+        "targets": [
+          "MORGEN",
+          "MORGENS",
+          "SORGEN"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 5
+      },
+      {
+        "letters": "FREEUND",
+        "targets": [
+          "FREUNDE",
+          "FREUND",
+          "FREUDE"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 5
+      },
+      {
+        "letters": "SPIEELN",
+        "targets": [
+          "SPIELEN",
+          "SPIEL",
+          "LEISE"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 5
+      },
+      {
+        "letters": "REEGGNTA",
+        "targets": [
+          "REGENTAG",
+          "REGEN",
+          "TAGE"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      }
+    ],
+    "es": [
+      {
+        "letters": "CAAS",
+        "targets": [
+          "CASA",
+          "ASA",
+          "SACA"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "PAATO",
+        "targets": [
+          "PATO",
+          "PATA",
+          "TAPA"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "GATO",
+        "targets": [
+          "GATO",
+          "GOTA",
+          "TOGA"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "MESA",
+        "targets": [
+          "MESA",
+          "MES",
+          "AMES"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "LAGO",
+        "targets": [
+          "LAGO",
+          "GOLA",
+          "ALGO"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 1
+      },
+      {
+        "letters": "ROSA",
+        "targets": [
+          "ROSA",
+          "AROS",
+          "RASO"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 1
+      },
+      {
+        "letters": "CAANTTO",
+        "targets": [
+          "CANTO",
+          "CANTA",
+          "TANTO"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "NUBES",
+        "targets": [
+          "NUBES",
+          "NUBE",
+          "SUBEN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "AARENN",
+        "targets": [
+          "ARENA",
+          "RANA",
+          "NENA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "AMIGO",
+        "targets": [
+          "AMIGO",
+          "MIGA",
+          "GOMA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "LIBROAÍ",
+        "targets": [
+          "LIBRO",
+          "LIBRA",
+          "BRÍO"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "CAMINO",
+        "targets": [
+          "CAMINO",
+          "MANO",
+          "MINA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "PLAANT",
+        "targets": [
+          "PLANTA",
+          "PLAN",
+          "ALTA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "FLORES",
+        "targets": [
+          "FLORES",
+          "FLOR",
+          "ROLES"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "TIERRA",
+        "targets": [
+          "TIERRA",
+          "TIRA",
+          "ARTE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "VERANO",
+        "targets": [
+          "VERANO",
+          "VER",
+          "VENA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "MOOLIN",
+        "targets": [
+          "MOLINO",
+          "LINO",
+          "LIMO"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 4
+      },
+      {
+        "letters": "MAADER",
+        "targets": [
+          "MADERA",
+          "AMAR",
+          "RAMA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 4
+      },
+      {
+        "letters": "JARDINESÍO",
+        "targets": [
+          "JARDINES",
+          "JARDÍN",
+          "NIDOS"
+        ],
+        "difficulty": "EXPERT",
+        "world": 4
+      },
+      {
+        "letters": "EESTRLLA",
+        "targets": [
+          "ESTRELLA",
+          "ELLA",
+          "TALLER"
+        ],
+        "difficulty": "EXPERT",
+        "world": 4
+      },
+      {
+        "letters": "MAARIPOS",
+        "targets": [
+          "MARIPOSA",
+          "RAMO",
+          "PASO"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "VENNTAAS",
+        "targets": [
+          "VENTANAS",
+          "VENTANA",
+          "VENTAS"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "PAAALBRS",
+        "targets": [
+          "PALABRAS",
+          "PALABRA",
+          "ALAS"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "CANTORES",
+        "targets": [
+          "CANTORES",
+          "CANTOR",
+          "CANTO"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      }
+    ],
+    "fr": [
+      {
+        "letters": "LUNE",
+        "targets": [
+          "LUNE",
+          "UNE",
+          "NUE"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "ROSE",
+        "targets": [
+          "ROSE",
+          "OSE",
+          "OSER"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "CHATS",
+        "targets": [
+          "CHAT",
+          "CHATS",
+          "TAS"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 0
+      },
+      {
+        "letters": "TTARE",
+        "targets": [
+          "TARTE",
+          "TARE",
+          "ART"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 0
+      },
+      {
+        "letters": "PORTE",
+        "targets": [
+          "PORTE",
+          "PORT",
+          "TOP"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "ARRBE",
+        "targets": [
+          "ARBRE",
+          "BARRE",
+          "RARE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "NUAGE",
+        "targets": [
+          "NUAGE",
+          "NAGE",
+          "ANGE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "JARDIN",
+        "targets": [
+          "JARDIN",
+          "RADIN",
+          "DRAIN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "FLEURS",
+        "targets": [
+          "FLEURS",
+          "FLEUR",
+          "LEURS"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "SOLLEI",
+        "targets": [
+          "SOLEIL",
+          "SOLE",
+          "SOIE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "PLANTE",
+        "targets": [
+          "PLANTE",
+          "PLAN",
+          "LENT"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "CHEMIN",
+        "targets": [
+          "CHEMIN",
+          "MINE",
+          "CHIEN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "MAISON",
+        "targets": [
+          "MAISON",
+          "MAIS",
+          "AMIS"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "RIVAGE",
+        "targets": [
+          "RIVAGE",
+          "RIVE",
+          "VRAI"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "TEERRS",
+        "targets": [
+          "TERRE",
+          "TERRES",
+          "RESTE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "POMMES",
+        "targets": [
+          "POMMES",
+          "POMME",
+          "SOMME"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "ÉTOILES",
+        "targets": [
+          "ÉTOILES",
+          "ÉTOILE",
+          "TOILE"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "LUMIÈRE",
+        "targets": [
+          "LUMIÈRE",
+          "MIEL",
+          "LIRE"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "JARDINS",
+        "targets": [
+          "JARDINS",
+          "JARDIN",
+          "RADINS"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "PRRAIIE",
+        "targets": [
+          "PRAIRIE",
+          "PAIRE",
+          "PRIER"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "MATINÉE",
+        "targets": [
+          "MATINÉE",
+          "MATIN",
+          "AMIE"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 5
+      },
+      {
+        "letters": "CHANTER",
+        "targets": [
+          "CHANTER",
+          "CHANT",
+          "ANCRE"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 5
+      },
+      {
+        "letters": "COUULERS",
+        "targets": [
+          "COULEURS",
+          "COULEUR",
+          "COURS"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "PPAILLON",
+        "targets": [
+          "PAPILLON",
+          "PAPI",
+          "PION"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      }
+    ],
+    "it": [
+      {
+        "letters": "CAASO",
+        "targets": [
+          "CASA",
+          "CASO",
+          "COSA"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "MAREO",
+        "targets": [
+          "MARE",
+          "REMA",
+          "RAMO"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "SOOLE",
+        "targets": [
+          "SOLE",
+          "SOLO",
+          "LESO"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "RAANE",
+        "targets": [
+          "RANA",
+          "RANE",
+          "NERA"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "PANE",
+        "targets": [
+          "PANE",
+          "PENA",
+          "APE"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 1
+      },
+      {
+        "letters": "GATTOI",
+        "targets": [
+          "GATTO",
+          "ATTO",
+          "ATTI"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "FIIORE",
+        "targets": [
+          "FIORE",
+          "FIORI",
+          "FORI"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "PRATO",
+        "targets": [
+          "PRATO",
+          "PORTA",
+          "ORA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "VENTOI",
+        "targets": [
+          "VENTO",
+          "VENTI",
+          "NOTE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "MONTE",
+        "targets": [
+          "MONTE",
+          "MENTO",
+          "NOTE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "ALBERO",
+        "targets": [
+          "ALBERO",
+          "ALBO",
+          "ALOE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "PIAANTO",
+        "targets": [
+          "PIANTA",
+          "PIANO",
+          "TANA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "STELLA",
+        "targets": [
+          "STELLA",
+          "STALLE",
+          "SELLA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "GIIOORNC",
+        "targets": [
+          "GIORNO",
+          "GIRI",
+          "GIOCO"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "LIMONE",
+        "targets": [
+          "LIMONE",
+          "LIMO",
+          "MENO"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "NUVOLA",
+        "targets": [
+          "NUVOLA",
+          "UOVA",
+          "VOLA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "SAABBI",
+        "targets": [
+          "SABBIA",
+          "ABBIA",
+          "BASI"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 4
+      },
+      {
+        "letters": "PAAROLE",
+        "targets": [
+          "PAROLE",
+          "PAROLA",
+          "PERLA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 4
+      },
+      {
+        "letters": "CAANTRE",
+        "targets": [
+          "CANTARE",
+          "CANTA",
+          "CARTA"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "SEENTIRO",
+        "targets": [
+          "SENTIERO",
+          "SENTO",
+          "RETI"
+        ],
+        "difficulty": "EXPERT",
+        "world": 4
+      },
+      {
+        "letters": "GIIARDNO",
+        "targets": [
+          "GIARDINO",
+          "GRANO",
+          "GIORNI"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "FFAAARLL",
+        "targets": [
+          "FARFALLA",
+          "FARLA",
+          "ALLA"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "COOLRRAE",
+        "targets": [
+          "COLORARE",
+          "COLORE",
+          "ORALE"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "PRRIMAAVE",
+        "targets": [
+          "PRIMAVERA",
+          "PRIMA",
+          "RAMI"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      }
+    ],
+    "nl": [
+      {
+        "letters": "KATR",
+        "targets": [
+          "KAT",
+          "TAK",
+          "KART"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "BOOMN",
+        "targets": [
+          "BOOM",
+          "BOON",
+          "OOM"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "ROOSK",
+        "targets": [
+          "ROOS",
+          "ROOK",
+          "OOR"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "TUIN",
+        "targets": [
+          "TUIN",
+          "TIN",
+          "UIT"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "LAMP",
+        "targets": [
+          "LAMP",
+          "PALM",
+          "MAP"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 1
+      },
+      {
+        "letters": "STERK",
+        "targets": [
+          "STER",
+          "REST",
+          "STERK"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "WATER",
+        "targets": [
+          "WATER",
+          "WAT",
+          "WARE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "PADEN",
+        "targets": [
+          "PADEN",
+          "PAD",
+          "PAN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "HUISJE",
+        "targets": [
+          "HUIS",
+          "HUISJE",
+          "IJS"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "STEENN",
+        "targets": [
+          "STEEN",
+          "STENEN",
+          "EEN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "TAFELS",
+        "targets": [
+          "TAFEL",
+          "TAFELS",
+          "FEL"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "WOLKEN",
+        "targets": [
+          "WOLKEN",
+          "WOLK",
+          "WELK"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "GROEEN",
+        "targets": [
+          "GROEN",
+          "GROENE",
+          "OGEN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "ZOMERS",
+        "targets": [
+          "ZOMER",
+          "ZOMERS",
+          "ROEM"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "REEGNT",
+        "targets": [
+          "REGEN",
+          "REGENT",
+          "EREN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "TUINNE",
+        "targets": [
+          "TUINEN",
+          "TUIN",
+          "TUNEN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "SPEELN",
+        "targets": [
+          "SPELEN",
+          "SPEL",
+          "LENS"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 4
+      },
+      {
+        "letters": "BLOEEMN",
+        "targets": [
+          "BLOEM",
+          "BLOEMEN",
+          "BOEM"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "PLANNTE",
+        "targets": [
+          "PLANT",
+          "PLANTEN",
+          "PLAN"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "BLOEEMN",
+        "targets": [
+          "BLOEMEN",
+          "BLOEM",
+          "MOLEN"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "STEERRN",
+        "targets": [
+          "STERREN",
+          "STER",
+          "RESTEN"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 5
+      },
+      {
+        "letters": "BLADEERN",
+        "targets": [
+          "BLADEREN",
+          "BLAD",
+          "ADER"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "VRIEENND",
+        "targets": [
+          "VRIENDEN",
+          "VRIEND",
+          "VINDEN"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "WANNDEEL",
+        "targets": [
+          "WANDELEN",
+          "WANDEL",
+          "LANDEN"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      }
+    ],
+    "pl": [
+      {
+        "letters": "KOT",
+        "targets": [
+          "KOT",
+          "KTO",
+          "TOK"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "SENRO",
+        "targets": [
+          "SEN",
+          "SER",
+          "NOS"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "LAAST",
+        "targets": [
+          "LAS",
+          "LATA",
+          "STAL"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "DOMA",
+        "targets": [
+          "DOM",
+          "MODA",
+          "DAM"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "MMAAKR",
+        "targets": [
+          "MAK",
+          "MAMA",
+          "RAMA"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 1
+      },
+      {
+        "letters": "ROKK",
+        "targets": [
+          "ROK",
+          "KROK",
+          "KOK"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 1
+      },
+      {
+        "letters": "WODAY",
+        "targets": [
+          "WODA",
+          "WADY",
+          "DWA"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 1
+      },
+      {
+        "letters": "RYYBA",
+        "targets": [
+          "RYBA",
+          "RYBY",
+          "BAR"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 1
+      },
+      {
+        "letters": "POLEAI",
+        "targets": [
+          "POLE",
+          "POLA",
+          "LEPI"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 2
+      },
+      {
+        "letters": "KWIAT",
+        "targets": [
+          "KWIAT",
+          "WITA",
+          "WAT"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "OGRÓD",
+        "targets": [
+          "OGRÓD",
+          "GRÓD",
+          "RÓG"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "LAATOĆ",
+        "targets": [
+          "LATO",
+          "LATA",
+          "LATAĆ"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "TRAAWY",
+        "targets": [
+          "TRAWA",
+          "TRAWY",
+          "WARTA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "SŁOOWAK",
+        "targets": [
+          "SŁOWO",
+          "SŁOWA",
+          "WOSK"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "NOCEA",
+        "targets": [
+          "NOCE",
+          "NOC",
+          "OCEAN"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "DRZEWOAÓ",
+        "targets": [
+          "DRZEWO",
+          "DRZEWA",
+          "WZÓR"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "MOTYLE",
+        "targets": [
+          "MOTYL",
+          "MOTYLE",
+          "TYLE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 4
+      },
+      {
+        "letters": "OOGRDYÓ",
+        "targets": [
+          "OGRODY",
+          "OGRÓD",
+          "RODY"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 4
+      },
+      {
+        "letters": "KWIATY",
+        "targets": [
+          "KWIATY",
+          "KWIAT",
+          "WITA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 4
+      },
+      {
+        "letters": "ZAAABW",
+        "targets": [
+          "ZABAWA",
+          "ZABAW",
+          "BAZA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 4
+      },
+      {
+        "letters": "WIOSNAY",
+        "targets": [
+          "WIOSNA",
+          "WIOSNY",
+          "WINA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 5
+      },
+      {
+        "letters": "GWIAAZDY",
+        "targets": [
+          "GWIAZDA",
+          "GWIAZDY",
+          "WAGA"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 5
+      },
+      {
+        "letters": "SPACERY",
+        "targets": [
+          "SPACER",
+          "SPACERY",
+          "PRACE"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 5
+      },
+      {
+        "letters": "KAMIIEENŃ",
+        "targets": [
+          "KAMIENIE",
+          "KAMIEŃ",
+          "MINA"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      }
+    ],
+    "pt": [
+      {
+        "letters": "CAASO",
+        "targets": [
+          "CASA",
+          "CASO",
+          "SACO"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "GATO",
+        "targets": [
+          "GATO",
+          "GOTA",
+          "TOGA"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "PAATO",
+        "targets": [
+          "PATO",
+          "TOPA",
+          "PATA"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "ROSA",
+        "targets": [
+          "ROSA",
+          "AROS",
+          "RASO"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 0
+      },
+      {
+        "letters": "LAGO",
+        "targets": [
+          "LAGO",
+          "GALO",
+          "GOLA"
+        ],
+        "difficulty": "BEGINNER",
+        "world": 1
+      },
+      {
+        "letters": "MESSA",
+        "targets": [
+          "MESA",
+          "MESAS",
+          "ESSA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "PEDRA",
+        "targets": [
+          "PEDRA",
+          "PERDA",
+          "PARE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "AARREI",
+        "targets": [
+          "AREIA",
+          "AREAR",
+          "RAIA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 1
+      },
+      {
+        "letters": "TERRA",
+        "targets": [
+          "TERRA",
+          "RETA",
+          "ARTE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "PLAANTO",
+        "targets": [
+          "PLANTA",
+          "PLANO",
+          "TALA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "FLORES",
+        "targets": [
+          "FLORES",
+          "FLOR",
+          "SOFRE"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "LIVROES",
+        "targets": [
+          "LIVRO",
+          "LIVRE",
+          "LIVRES"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 2
+      },
+      {
+        "letters": "NNUVEMS",
+        "targets": [
+          "NUVEM",
+          "NUVENS",
+          "NEM"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "VENTOOS",
+        "targets": [
+          "VENTO",
+          "VENTOS",
+          "NOVO"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "AMIGOS",
+        "targets": [
+          "AMIGOS",
+          "AMIGO",
+          "MAGO"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "CAANTR",
+        "targets": [
+          "CANTAR",
+          "CANTA",
+          "CARTA"
+        ],
+        "difficulty": "INTERMEDIATE",
+        "world": 3
+      },
+      {
+        "letters": "CAMINNHO",
+        "targets": [
+          "CAMINHO",
+          "NINHO",
+          "MINHA"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "JAARDINSM",
+        "targets": [
+          "JARDINS",
+          "JARDIM",
+          "JARDAS"
+        ],
+        "difficulty": "ADVANCED",
+        "world": 4
+      },
+      {
+        "letters": "MAADEIRSÉ",
+        "targets": [
+          "MADEIRA",
+          "MADEIRAS",
+          "MARÉ"
+        ],
+        "difficulty": "EXPERT",
+        "world": 4
+      },
+      {
+        "letters": "EESSTRLA",
+        "targets": [
+          "ESTRELA",
+          "ESTRELAS",
+          "LESTE"
+        ],
+        "difficulty": "EXPERT",
+        "world": 4
+      },
+      {
+        "letters": "PAAALVRS",
+        "targets": [
+          "PALAVRA",
+          "PALAVRAS",
+          "LAVRA"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "SSEEEMNT",
+        "targets": [
+          "SEMENTES",
+          "SEMENTE",
+          "MENTE"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "BBOORLETA",
+        "targets": [
+          "BORBOLETA",
+          "BOLA",
+          "BOLETO"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      },
+      {
+        "letters": "PRRIMAAVE",
+        "targets": [
+          "PRIMAVERA",
+          "PRIMA",
+          "RIMA"
+        ],
+        "difficulty": "EXPERT",
+        "world": 5
+      }
+    ]
+  }
+}

@@ -73,6 +73,11 @@ object Crossword {
 }
 data class Seed(val letters: String, val targets: String, val extras: String = "", val difficulty: Difficulty = Difficulty.BEGINNER)
 object Library {
+ private val localized=mutableMapOf<String,List<Puzzle>>()
+ fun forLanguage(language: String): List<Puzzle> {
+  require(language in ApprovedLanguages.locales) { "Language has not completed editorial approval: $language" }
+  return if(language.startsWith("en"))puzzles else synchronized(localized) { localized.getOrPut(language) { DraftLanguagePacks.puzzles(language) } }
+ }
  val worlds=listOf("Sunrise Garden","Enchanted Forest","Blossom Valley","Crystal Lake","Golden Meadow","Moonlight Garden")
  val seeds=listOf(
  Seed("CATS","CAT ACT SAT","CATS CAST"), Seed("POTS","POT TOP STOP","POTS SPOT TOPS"),
@@ -101,9 +106,9 @@ object Library {
   Crossword.generate("en-${i+1}",s.letters,s.targets.split(' '),s.extras.split(' ').filter { it.isNotBlank() }.toSet(),s.difficulty,i/4,811+i)
  } }
  fun daily(date: LocalDate, language: String): Puzzle {
-  require(language in setOf("en-GB","en-US"))
-  val index=Math.floorMod(date.toEpochDay() + language.hashCode().toLong(),puzzles.size.toLong()).toInt()
-  return puzzles[index].copy(id="daily:$language:$date",world=(date.toEpochDay()%6).toInt())
+  val library=forLanguage(language)
+  val index=Math.floorMod(date.toEpochDay() + language.hashCode().toLong(),library.size.toLong()).toInt()
+  return library[index].copy(id="daily:$language:$date",world=Math.floorMod(date.toEpochDay(),6).toInt())
  }
 }
 enum class Verdict { TARGET, BONUS, REPEATED, INVALID }
@@ -137,10 +142,20 @@ enum class Command { START, NEXT, SHUFFLE, HINT, REPEAT, PROGRESS, DAILY, PAUSE,
 data class VoiceInput(val command: Command, val word: String = "")
 object Commands {
  private val english=mapOf("start puzzle" to Command.START,"next level" to Command.NEXT,"shuffle letters" to Command.SHUFFLE,"give me a hint" to Command.HINT,"repeat the word" to Command.REPEAT,"show my progress" to Command.PROGRESS,"open daily challenge" to Command.DAILY,"pause game" to Command.PAUSE,"go home" to Command.HOME)
+ private val phrases=mapOf(
+  "de" to "rätsel starten|nächstes level|buchstaben mischen|gib mir einen tipp|wiederhole das wort|zeige meinen fortschritt|öffne die tagesaufgabe|spiel pausieren|zur startseite",
+  "es" to "empezar el rompecabezas|siguiente nivel|mezclar letras|dame una pista|repetir la palabra|mostrar mi progreso|abrir el reto diario|pausar el juego|ir al inicio",
+  "fr" to "commencer le puzzle|niveau suivant|mélanger les lettres|donne-moi un indice|répéter le mot|afficher ma progression|ouvrir le défi du jour|mettre le jeu en pause|revenir à l’accueil",
+  "it" to "inizia il puzzle|prossimo livello|mescola le lettere|dammi un suggerimento|ripeti la parola|mostra i miei progressi|apri la sfida giornaliera|metti in pausa il gioco|torna all’inizio",
+  "nl" to "start de puzzel|volgend niveau|hussel de letters|geef me een hint|herhaal het woord|toon mijn voortgang|open de daguitdaging|pauzeer het spel|ga naar start",
+  "pl" to "rozpocznij łamigłówkę|następny poziom|wymieszaj litery|daj mi wskazówkę|powtórz słowo|pokaż moje postępy|otwórz wyzwanie dnia|wstrzymaj grę|wróć do startu",
+  "pt" to "iniciar o puzzle|próximo nível|misturar letras|dá-me uma dica|repetir a palavra|mostrar o meu progresso|abrir o desafio diário|pausar o jogo|voltar ao início"
+ )
+ fun examples(language: String): String=phrases[language.substringBefore('-')]?.split('|')?.joinToString(" · ")?:english.keys.joinToString(" · ")
  fun parse(text: String, language: String): VoiceInput {
-  if(!language.startsWith("en")) return VoiceInput(Command.AMBIGUOUS)
-  val value=text.trim().lowercase(Locale.ROOT).removeSuffix(".")
-  return english[value]?.let { VoiceInput(it) } ?: if(value.all { it.isLetter() } && value.length>=3) VoiceInput(Command.WORD,Words.normalise(value)) else VoiceInput(Command.AMBIGUOUS)
+  val value=Normalizer.normalize(text.trim(),Normalizer.Form.NFC).lowercase(Locale.ROOT).removeSuffix(".").replace('\u0027','’')
+  val translated=phrases[language.substringBefore('-')]?.split('|')?.zip(english.values)?.toMap().orEmpty()
+  return (translated[value]?:english[value])?.let { VoiceInput(it) } ?: if(value.all { it.isLetter() } && value.length>=3) VoiceInput(Command.WORD,Words.normalise(value,Locale.forLanguageTag(language))) else VoiceInput(Command.AMBIGUOUS)
  }
 }
 data class EntitlementReceipt(val sku: String, val cancelled: Boolean, val entitlement: Boolean)

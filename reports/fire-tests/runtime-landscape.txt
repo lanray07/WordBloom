@@ -1,0 +1,9 @@
+com.wordbloom.garden.FireRuntimeTest:.
+
+
+
+Time: 10.141
+
+
+
+OK (1 test)

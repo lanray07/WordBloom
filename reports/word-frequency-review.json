@@ -1,0 +1,2522 @@
+{
+  "provider": "wordfreq",
+  "version": "3.1.1",
+  "source": "https://github.com/rspeer/wordfreq",
+  "data_notice": "https://github.com/rspeer/wordfreq/blob/master/NOTICE.md",
+  "attribution": "Robyn Speer; SUBTLEX authors Marc Brysbaert et al.; Leeds Internet Corpus; Wikipedia; ParaCrawl; OPUS OpenSubtitles 2018 / OpenSubtitles; Google Books Ngrams",
+  "report_data_license": "CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/",
+  "modification": "Lookups and review flags for WordBloom authored vocabulary; full corpus is not redistributed or packaged in the Android app.",
+  "limits": "Corpus observations through about 2021, not a normative dictionary, regional certification, audience filter or native linguistic approval. Portuguese frequency data is language-wide, not separate Brazil/Portugal data.",
+  "review_required": true,
+  "languages": {
+    "de": {
+      "word_count": 67,
+      "flagged": [
+        "ERLEN",
+        "REGENTAG",
+        "WELK"
+      ],
+      "words": [
+        {
+          "word": "AMPEL",
+          "zipf": 3.97,
+          "review_reason": null
+        },
+        {
+          "word": "ARM",
+          "zipf": 4.74,
+          "review_reason": null
+        },
+        {
+          "word": "AUS",
+          "zipf": 6.6,
+          "review_reason": null
+        },
+        {
+          "word": "BALD",
+          "zipf": 5.31,
+          "review_reason": null
+        },
+        {
+          "word": "BALL",
+          "zipf": 4.64,
+          "review_reason": null
+        },
+        {
+          "word": "BAU",
+          "zipf": 4.85,
+          "review_reason": null
+        },
+        {
+          "word": "BAUM",
+          "zipf": 4.62,
+          "review_reason": null
+        },
+        {
+          "word": "BELEG",
+          "zipf": 3.87,
+          "review_reason": null
+        },
+        {
+          "word": "BLATT",
+          "zipf": 4.38,
+          "review_reason": null
+        },
+        {
+          "word": "BLUME",
+          "zipf": 3.94,
+          "review_reason": null
+        },
+        {
+          "word": "BLUMEN",
+          "zipf": 4.43,
+          "review_reason": null
+        },
+        {
+          "word": "BLÄTTER",
+          "zipf": 4.24,
+          "review_reason": null
+        },
+        {
+          "word": "EINS",
+          "zipf": 4.97,
+          "review_reason": null
+        },
+        {
+          "word": "EIS",
+          "zipf": 4.59,
+          "review_reason": null
+        },
+        {
+          "word": "ERLEN",
+          "zipf": 2.73,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "ERNST",
+          "zipf": 5.21,
+          "review_reason": null
+        },
+        {
+          "word": "FENSTER",
+          "zipf": 4.88,
+          "review_reason": null
+        },
+        {
+          "word": "FERN",
+          "zipf": 4.27,
+          "review_reason": null
+        },
+        {
+          "word": "FREUDE",
+          "zipf": 4.87,
+          "review_reason": null
+        },
+        {
+          "word": "FREUND",
+          "zipf": 5.11,
+          "review_reason": null
+        },
+        {
+          "word": "FREUNDE",
+          "zipf": 5.18,
+          "review_reason": null
+        },
+        {
+          "word": "GARN",
+          "zipf": 3.16,
+          "review_reason": null
+        },
+        {
+          "word": "GARTEN",
+          "zipf": 4.73,
+          "review_reason": null
+        },
+        {
+          "word": "GELB",
+          "zipf": 4.46,
+          "review_reason": null
+        },
+        {
+          "word": "GELBE",
+          "zipf": 4.18,
+          "review_reason": null
+        },
+        {
+          "word": "GÄRTEN",
+          "zipf": 4.04,
+          "review_reason": null
+        },
+        {
+          "word": "GÄRTNER",
+          "zipf": 3.89,
+          "review_reason": null
+        },
+        {
+          "word": "HAUS",
+          "zipf": 5.41,
+          "review_reason": null
+        },
+        {
+          "word": "LAMPE",
+          "zipf": 3.99,
+          "review_reason": null
+        },
+        {
+          "word": "LEBEN",
+          "zipf": 5.86,
+          "review_reason": null
+        },
+        {
+          "word": "LEISE",
+          "zipf": 4.45,
+          "review_reason": null
+        },
+        {
+          "word": "LERNE",
+          "zipf": 4.07,
+          "review_reason": null
+        },
+        {
+          "word": "LERNEN",
+          "zipf": 5.14,
+          "review_reason": null
+        },
+        {
+          "word": "MALEN",
+          "zipf": 4.11,
+          "review_reason": null
+        },
+        {
+          "word": "MALER",
+          "zipf": 4.2,
+          "review_reason": null
+        },
+        {
+          "word": "MORGEN",
+          "zipf": 5.43,
+          "review_reason": null
+        },
+        {
+          "word": "MORGENS",
+          "zipf": 4.59,
+          "review_reason": null
+        },
+        {
+          "word": "NONNE",
+          "zipf": 3.48,
+          "review_reason": null
+        },
+        {
+          "word": "PALME",
+          "zipf": 3.51,
+          "review_reason": null
+        },
+        {
+          "word": "RAT",
+          "zipf": 4.74,
+          "review_reason": null
+        },
+        {
+          "word": "RAUM",
+          "zipf": 5.11,
+          "review_reason": null
+        },
+        {
+          "word": "REGEN",
+          "zipf": 4.63,
+          "review_reason": null
+        },
+        {
+          "word": "REGENTAG",
+          "zipf": 2.31,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "REIS",
+          "zipf": 4.14,
+          "review_reason": null
+        },
+        {
+          "word": "REISE",
+          "zipf": 4.9,
+          "review_reason": null
+        },
+        {
+          "word": "REST",
+          "zipf": 4.89,
+          "review_reason": null
+        },
+        {
+          "word": "SAU",
+          "zipf": 4.14,
+          "review_reason": null
+        },
+        {
+          "word": "SONNE",
+          "zipf": 4.85,
+          "review_reason": null
+        },
+        {
+          "word": "SONNEN",
+          "zipf": 3.51,
+          "review_reason": null
+        },
+        {
+          "word": "SORGEN",
+          "zipf": 5.07,
+          "review_reason": null
+        },
+        {
+          "word": "SPIEL",
+          "zipf": 5.49,
+          "review_reason": null
+        },
+        {
+          "word": "SPIELEN",
+          "zipf": 5.42,
+          "review_reason": null
+        },
+        {
+          "word": "STEIN",
+          "zipf": 4.66,
+          "review_reason": null
+        },
+        {
+          "word": "STEINE",
+          "zipf": 4.32,
+          "review_reason": null
+        },
+        {
+          "word": "STERN",
+          "zipf": 4.5,
+          "review_reason": null
+        },
+        {
+          "word": "STERNE",
+          "zipf": 4.44,
+          "review_reason": null
+        },
+        {
+          "word": "TAGE",
+          "zipf": 5.38,
+          "review_reason": null
+        },
+        {
+          "word": "WALD",
+          "zipf": 4.81,
+          "review_reason": null
+        },
+        {
+          "word": "WAS",
+          "zipf": 6.49,
+          "review_reason": null
+        },
+        {
+          "word": "WASSER",
+          "zipf": 5.32,
+          "review_reason": null
+        },
+        {
+          "word": "WEIN",
+          "zipf": 4.64,
+          "review_reason": null
+        },
+        {
+          "word": "WELK",
+          "zipf": 2.55,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "WER",
+          "zipf": 5.86,
+          "review_reason": null
+        },
+        {
+          "word": "WIESE",
+          "zipf": 4.08,
+          "review_reason": null
+        },
+        {
+          "word": "WIESEN",
+          "zipf": 4.13,
+          "review_reason": null
+        },
+        {
+          "word": "WOLKE",
+          "zipf": 3.79,
+          "review_reason": null
+        },
+        {
+          "word": "WOLKEN",
+          "zipf": 4.17,
+          "review_reason": null
+        }
+      ]
+    },
+    "es": {
+      "word_count": 71,
+      "flagged": [
+        "BRÍO",
+        "GOLA",
+        "LIMO"
+      ],
+      "words": [
+        {
+          "word": "ALAS",
+          "zipf": 4.34,
+          "review_reason": null
+        },
+        {
+          "word": "ALGO",
+          "zipf": 5.99,
+          "review_reason": null
+        },
+        {
+          "word": "ALTA",
+          "zipf": 5.11,
+          "review_reason": null
+        },
+        {
+          "word": "AMAR",
+          "zipf": 4.26,
+          "review_reason": null
+        },
+        {
+          "word": "AMES",
+          "zipf": 3.36,
+          "review_reason": null
+        },
+        {
+          "word": "AMIGO",
+          "zipf": 5.36,
+          "review_reason": null
+        },
+        {
+          "word": "ARENA",
+          "zipf": 4.55,
+          "review_reason": null
+        },
+        {
+          "word": "AROS",
+          "zipf": 3.33,
+          "review_reason": null
+        },
+        {
+          "word": "ARTE",
+          "zipf": 5.13,
+          "review_reason": null
+        },
+        {
+          "word": "ASA",
+          "zipf": 3.44,
+          "review_reason": null
+        },
+        {
+          "word": "BRÍO",
+          "zipf": 2.59,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "CAMINO",
+          "zipf": 5.28,
+          "review_reason": null
+        },
+        {
+          "word": "CANTA",
+          "zipf": 4.24,
+          "review_reason": null
+        },
+        {
+          "word": "CANTO",
+          "zipf": 4.36,
+          "review_reason": null
+        },
+        {
+          "word": "CANTOR",
+          "zipf": 3.32,
+          "review_reason": null
+        },
+        {
+          "word": "CANTORES",
+          "zipf": 3.03,
+          "review_reason": null
+        },
+        {
+          "word": "CASA",
+          "zipf": 5.77,
+          "review_reason": null
+        },
+        {
+          "word": "ELLA",
+          "zipf": 5.75,
+          "review_reason": null
+        },
+        {
+          "word": "ESTRELLA",
+          "zipf": 4.66,
+          "review_reason": null
+        },
+        {
+          "word": "FLOR",
+          "zipf": 4.47,
+          "review_reason": null
+        },
+        {
+          "word": "FLORES",
+          "zipf": 4.83,
+          "review_reason": null
+        },
+        {
+          "word": "GATO",
+          "zipf": 4.62,
+          "review_reason": null
+        },
+        {
+          "word": "GOLA",
+          "zipf": 2.52,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "GOMA",
+          "zipf": 4.1,
+          "review_reason": null
+        },
+        {
+          "word": "GOTA",
+          "zipf": 4.03,
+          "review_reason": null
+        },
+        {
+          "word": "JARDINES",
+          "zipf": 4.1,
+          "review_reason": null
+        },
+        {
+          "word": "JARDÍN",
+          "zipf": 4.56,
+          "review_reason": null
+        },
+        {
+          "word": "LAGO",
+          "zipf": 4.48,
+          "review_reason": null
+        },
+        {
+          "word": "LIBRA",
+          "zipf": 3.9,
+          "review_reason": null
+        },
+        {
+          "word": "LIBRO",
+          "zipf": 5.33,
+          "review_reason": null
+        },
+        {
+          "word": "LIMO",
+          "zipf": 2.84,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "LINO",
+          "zipf": 3.58,
+          "review_reason": null
+        },
+        {
+          "word": "MADERA",
+          "zipf": 4.69,
+          "review_reason": null
+        },
+        {
+          "word": "MANO",
+          "zipf": 5.38,
+          "review_reason": null
+        },
+        {
+          "word": "MARIPOSA",
+          "zipf": 3.84,
+          "review_reason": null
+        },
+        {
+          "word": "MES",
+          "zipf": 5.31,
+          "review_reason": null
+        },
+        {
+          "word": "MESA",
+          "zipf": 4.92,
+          "review_reason": null
+        },
+        {
+          "word": "MIGA",
+          "zipf": 3.04,
+          "review_reason": null
+        },
+        {
+          "word": "MINA",
+          "zipf": 4.53,
+          "review_reason": null
+        },
+        {
+          "word": "MOLINO",
+          "zipf": 3.88,
+          "review_reason": null
+        },
+        {
+          "word": "NENA",
+          "zipf": 4.27,
+          "review_reason": null
+        },
+        {
+          "word": "NIDOS",
+          "zipf": 3.38,
+          "review_reason": null
+        },
+        {
+          "word": "NUBE",
+          "zipf": 4.08,
+          "review_reason": null
+        },
+        {
+          "word": "NUBES",
+          "zipf": 4.19,
+          "review_reason": null
+        },
+        {
+          "word": "PALABRA",
+          "zipf": 5.19,
+          "review_reason": null
+        },
+        {
+          "word": "PALABRAS",
+          "zipf": 5.34,
+          "review_reason": null
+        },
+        {
+          "word": "PASO",
+          "zipf": 5.38,
+          "review_reason": null
+        },
+        {
+          "word": "PATA",
+          "zipf": 4.11,
+          "review_reason": null
+        },
+        {
+          "word": "PATO",
+          "zipf": 3.95,
+          "review_reason": null
+        },
+        {
+          "word": "PLAN",
+          "zipf": 5.18,
+          "review_reason": null
+        },
+        {
+          "word": "PLANTA",
+          "zipf": 4.81,
+          "review_reason": null
+        },
+        {
+          "word": "RAMA",
+          "zipf": 4.29,
+          "review_reason": null
+        },
+        {
+          "word": "RAMO",
+          "zipf": 3.83,
+          "review_reason": null
+        },
+        {
+          "word": "RANA",
+          "zipf": 3.73,
+          "review_reason": null
+        },
+        {
+          "word": "RASO",
+          "zipf": 3.27,
+          "review_reason": null
+        },
+        {
+          "word": "ROLES",
+          "zipf": 3.88,
+          "review_reason": null
+        },
+        {
+          "word": "ROSA",
+          "zipf": 4.71,
+          "review_reason": null
+        },
+        {
+          "word": "SACA",
+          "zipf": 4.52,
+          "review_reason": null
+        },
+        {
+          "word": "SUBEN",
+          "zipf": 3.98,
+          "review_reason": null
+        },
+        {
+          "word": "TALLER",
+          "zipf": 4.51,
+          "review_reason": null
+        },
+        {
+          "word": "TANTO",
+          "zipf": 5.84,
+          "review_reason": null
+        },
+        {
+          "word": "TAPA",
+          "zipf": 4.13,
+          "review_reason": null
+        },
+        {
+          "word": "TIERRA",
+          "zipf": 5.36,
+          "review_reason": null
+        },
+        {
+          "word": "TIRA",
+          "zipf": 4.34,
+          "review_reason": null
+        },
+        {
+          "word": "TOGA",
+          "zipf": 3.05,
+          "review_reason": null
+        },
+        {
+          "word": "VENA",
+          "zipf": 3.62,
+          "review_reason": null
+        },
+        {
+          "word": "VENTANA",
+          "zipf": 4.54,
+          "review_reason": null
+        },
+        {
+          "word": "VENTANAS",
+          "zipf": 4.3,
+          "review_reason": null
+        },
+        {
+          "word": "VENTAS",
+          "zipf": 4.52,
+          "review_reason": null
+        },
+        {
+          "word": "VER",
+          "zipf": 5.95,
+          "review_reason": null
+        },
+        {
+          "word": "VERANO",
+          "zipf": 4.94,
+          "review_reason": null
+        }
+      ]
+    },
+    "fr": {
+      "word_count": 71,
+      "flagged": [
+        "DRAIN",
+        "RADINS",
+        "TARE"
+      ],
+      "words": [
+        {
+          "word": "AMIE",
+          "zipf": 4.67,
+          "review_reason": null
+        },
+        {
+          "word": "AMIS",
+          "zipf": 5.26,
+          "review_reason": null
+        },
+        {
+          "word": "ANCRE",
+          "zipf": 3.56,
+          "review_reason": null
+        },
+        {
+          "word": "ANGE",
+          "zipf": 4.41,
+          "review_reason": null
+        },
+        {
+          "word": "ARBRE",
+          "zipf": 4.57,
+          "review_reason": null
+        },
+        {
+          "word": "ART",
+          "zipf": 5.26,
+          "review_reason": null
+        },
+        {
+          "word": "BARRE",
+          "zipf": 4.6,
+          "review_reason": null
+        },
+        {
+          "word": "CHANT",
+          "zipf": 4.29,
+          "review_reason": null
+        },
+        {
+          "word": "CHANTER",
+          "zipf": 4.34,
+          "review_reason": null
+        },
+        {
+          "word": "CHAT",
+          "zipf": 4.76,
+          "review_reason": null
+        },
+        {
+          "word": "CHATS",
+          "zipf": 4.27,
+          "review_reason": null
+        },
+        {
+          "word": "CHEMIN",
+          "zipf": 5.05,
+          "review_reason": null
+        },
+        {
+          "word": "CHIEN",
+          "zipf": 4.86,
+          "review_reason": null
+        },
+        {
+          "word": "COULEUR",
+          "zipf": 4.91,
+          "review_reason": null
+        },
+        {
+          "word": "COULEURS",
+          "zipf": 4.76,
+          "review_reason": null
+        },
+        {
+          "word": "COURS",
+          "zipf": 5.61,
+          "review_reason": null
+        },
+        {
+          "word": "DRAIN",
+          "zipf": 2.96,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "FLEUR",
+          "zipf": 4.34,
+          "review_reason": null
+        },
+        {
+          "word": "FLEURS",
+          "zipf": 4.67,
+          "review_reason": null
+        },
+        {
+          "word": "JARDIN",
+          "zipf": 4.67,
+          "review_reason": null
+        },
+        {
+          "word": "JARDINS",
+          "zipf": 4.24,
+          "review_reason": null
+        },
+        {
+          "word": "LENT",
+          "zipf": 3.99,
+          "review_reason": null
+        },
+        {
+          "word": "LEURS",
+          "zipf": 5.82,
+          "review_reason": null
+        },
+        {
+          "word": "LIRE",
+          "zipf": 5.22,
+          "review_reason": null
+        },
+        {
+          "word": "LUMIÈRE",
+          "zipf": 4.94,
+          "review_reason": null
+        },
+        {
+          "word": "LUNE",
+          "zipf": 4.61,
+          "review_reason": null
+        },
+        {
+          "word": "MAIS",
+          "zipf": 6.62,
+          "review_reason": null
+        },
+        {
+          "word": "MAISON",
+          "zipf": 5.53,
+          "review_reason": null
+        },
+        {
+          "word": "MATIN",
+          "zipf": 5.32,
+          "review_reason": null
+        },
+        {
+          "word": "MATINÉE",
+          "zipf": 4.13,
+          "review_reason": null
+        },
+        {
+          "word": "MIEL",
+          "zipf": 4.15,
+          "review_reason": null
+        },
+        {
+          "word": "MINE",
+          "zipf": 4.44,
+          "review_reason": null
+        },
+        {
+          "word": "NAGE",
+          "zipf": 3.79,
+          "review_reason": null
+        },
+        {
+          "word": "NUAGE",
+          "zipf": 4.01,
+          "review_reason": null
+        },
+        {
+          "word": "NUE",
+          "zipf": 4.1,
+          "review_reason": null
+        },
+        {
+          "word": "OSE",
+          "zipf": 4.29,
+          "review_reason": null
+        },
+        {
+          "word": "OSER",
+          "zipf": 3.79,
+          "review_reason": null
+        },
+        {
+          "word": "PAIRE",
+          "zipf": 4.33,
+          "review_reason": null
+        },
+        {
+          "word": "PAPI",
+          "zipf": 3.43,
+          "review_reason": null
+        },
+        {
+          "word": "PAPILLON",
+          "zipf": 3.89,
+          "review_reason": null
+        },
+        {
+          "word": "PION",
+          "zipf": 3.47,
+          "review_reason": null
+        },
+        {
+          "word": "PLAN",
+          "zipf": 5.32,
+          "review_reason": null
+        },
+        {
+          "word": "PLANTE",
+          "zipf": 4.4,
+          "review_reason": null
+        },
+        {
+          "word": "POMME",
+          "zipf": 4.22,
+          "review_reason": null
+        },
+        {
+          "word": "POMMES",
+          "zipf": 4.21,
+          "review_reason": null
+        },
+        {
+          "word": "PORT",
+          "zipf": 4.86,
+          "review_reason": null
+        },
+        {
+          "word": "PORTE",
+          "zipf": 5.47,
+          "review_reason": null
+        },
+        {
+          "word": "PRAIRIE",
+          "zipf": 3.62,
+          "review_reason": null
+        },
+        {
+          "word": "PRIER",
+          "zipf": 4.07,
+          "review_reason": null
+        },
+        {
+          "word": "RADIN",
+          "zipf": 3.07,
+          "review_reason": null
+        },
+        {
+          "word": "RADINS",
+          "zipf": 2.57,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "RARE",
+          "zipf": 4.67,
+          "review_reason": null
+        },
+        {
+          "word": "RESTE",
+          "zipf": 5.61,
+          "review_reason": null
+        },
+        {
+          "word": "RIVAGE",
+          "zipf": 3.48,
+          "review_reason": null
+        },
+        {
+          "word": "RIVE",
+          "zipf": 4.25,
+          "review_reason": null
+        },
+        {
+          "word": "ROSE",
+          "zipf": 4.72,
+          "review_reason": null
+        },
+        {
+          "word": "SOIE",
+          "zipf": 3.99,
+          "review_reason": null
+        },
+        {
+          "word": "SOLE",
+          "zipf": 3.2,
+          "review_reason": null
+        },
+        {
+          "word": "SOLEIL",
+          "zipf": 5.03,
+          "review_reason": null
+        },
+        {
+          "word": "SOMME",
+          "zipf": 4.76,
+          "review_reason": null
+        },
+        {
+          "word": "TARE",
+          "zipf": 2.93,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "TARTE",
+          "zipf": 3.9,
+          "review_reason": null
+        },
+        {
+          "word": "TAS",
+          "zipf": 4.54,
+          "review_reason": null
+        },
+        {
+          "word": "TERRE",
+          "zipf": 5.33,
+          "review_reason": null
+        },
+        {
+          "word": "TERRES",
+          "zipf": 4.63,
+          "review_reason": null
+        },
+        {
+          "word": "TOILE",
+          "zipf": 4.38,
+          "review_reason": null
+        },
+        {
+          "word": "TOP",
+          "zipf": 4.83,
+          "review_reason": null
+        },
+        {
+          "word": "UNE",
+          "zipf": 7.0,
+          "review_reason": null
+        },
+        {
+          "word": "VRAI",
+          "zipf": 5.57,
+          "review_reason": null
+        },
+        {
+          "word": "ÉTOILE",
+          "zipf": 4.38,
+          "review_reason": null
+        },
+        {
+          "word": "ÉTOILES",
+          "zipf": 4.59,
+          "review_reason": null
+        }
+      ]
+    },
+    "it": {
+      "word_count": 71,
+      "flagged": [
+        "LESO",
+        "LIMO",
+        "REMA"
+      ],
+      "words": [
+        {
+          "word": "ABBIA",
+          "zipf": 5.51,
+          "review_reason": null
+        },
+        {
+          "word": "ALBERO",
+          "zipf": 4.51,
+          "review_reason": null
+        },
+        {
+          "word": "ALBO",
+          "zipf": 3.71,
+          "review_reason": null
+        },
+        {
+          "word": "ALLA",
+          "zipf": 6.53,
+          "review_reason": null
+        },
+        {
+          "word": "ALOE",
+          "zipf": 3.32,
+          "review_reason": null
+        },
+        {
+          "word": "APE",
+          "zipf": 3.69,
+          "review_reason": null
+        },
+        {
+          "word": "ATTI",
+          "zipf": 4.77,
+          "review_reason": null
+        },
+        {
+          "word": "ATTO",
+          "zipf": 5.03,
+          "review_reason": null
+        },
+        {
+          "word": "BASI",
+          "zipf": 4.52,
+          "review_reason": null
+        },
+        {
+          "word": "CANTA",
+          "zipf": 4.17,
+          "review_reason": null
+        },
+        {
+          "word": "CANTARE",
+          "zipf": 4.34,
+          "review_reason": null
+        },
+        {
+          "word": "CARTA",
+          "zipf": 5.08,
+          "review_reason": null
+        },
+        {
+          "word": "CASA",
+          "zipf": 5.88,
+          "review_reason": null
+        },
+        {
+          "word": "CASO",
+          "zipf": 5.8,
+          "review_reason": null
+        },
+        {
+          "word": "COLORARE",
+          "zipf": 3.31,
+          "review_reason": null
+        },
+        {
+          "word": "COLORE",
+          "zipf": 5.03,
+          "review_reason": null
+        },
+        {
+          "word": "COSA",
+          "zipf": 6.2,
+          "review_reason": null
+        },
+        {
+          "word": "FARFALLA",
+          "zipf": 3.75,
+          "review_reason": null
+        },
+        {
+          "word": "FARLA",
+          "zipf": 4.55,
+          "review_reason": null
+        },
+        {
+          "word": "FIORE",
+          "zipf": 4.41,
+          "review_reason": null
+        },
+        {
+          "word": "FIORI",
+          "zipf": 4.73,
+          "review_reason": null
+        },
+        {
+          "word": "FORI",
+          "zipf": 3.83,
+          "review_reason": null
+        },
+        {
+          "word": "GATTO",
+          "zipf": 4.52,
+          "review_reason": null
+        },
+        {
+          "word": "GIARDINO",
+          "zipf": 4.64,
+          "review_reason": null
+        },
+        {
+          "word": "GIOCO",
+          "zipf": 5.33,
+          "review_reason": null
+        },
+        {
+          "word": "GIORNI",
+          "zipf": 5.67,
+          "review_reason": null
+        },
+        {
+          "word": "GIORNO",
+          "zipf": 5.85,
+          "review_reason": null
+        },
+        {
+          "word": "GIRI",
+          "zipf": 4.39,
+          "review_reason": null
+        },
+        {
+          "word": "GRANO",
+          "zipf": 4.33,
+          "review_reason": null
+        },
+        {
+          "word": "LESO",
+          "zipf": 2.9,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "LIMO",
+          "zipf": 2.7,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "LIMONE",
+          "zipf": 4.01,
+          "review_reason": null
+        },
+        {
+          "word": "MARE",
+          "zipf": 5.22,
+          "review_reason": null
+        },
+        {
+          "word": "MENO",
+          "zipf": 5.7,
+          "review_reason": null
+        },
+        {
+          "word": "MENTO",
+          "zipf": 3.74,
+          "review_reason": null
+        },
+        {
+          "word": "MONTE",
+          "zipf": 4.8,
+          "review_reason": null
+        },
+        {
+          "word": "NERA",
+          "zipf": 4.69,
+          "review_reason": null
+        },
+        {
+          "word": "NOTE",
+          "zipf": 4.8,
+          "review_reason": null
+        },
+        {
+          "word": "NUVOLA",
+          "zipf": 3.69,
+          "review_reason": null
+        },
+        {
+          "word": "ORA",
+          "zipf": 6.02,
+          "review_reason": null
+        },
+        {
+          "word": "ORALE",
+          "zipf": 4.17,
+          "review_reason": null
+        },
+        {
+          "word": "PANE",
+          "zipf": 4.68,
+          "review_reason": null
+        },
+        {
+          "word": "PAROLA",
+          "zipf": 5.28,
+          "review_reason": null
+        },
+        {
+          "word": "PAROLE",
+          "zipf": 5.43,
+          "review_reason": null
+        },
+        {
+          "word": "PENA",
+          "zipf": 5.05,
+          "review_reason": null
+        },
+        {
+          "word": "PERLA",
+          "zipf": 3.99,
+          "review_reason": null
+        },
+        {
+          "word": "PIANO",
+          "zipf": 5.41,
+          "review_reason": null
+        },
+        {
+          "word": "PIANTA",
+          "zipf": 4.5,
+          "review_reason": null
+        },
+        {
+          "word": "PORTA",
+          "zipf": 5.41,
+          "review_reason": null
+        },
+        {
+          "word": "PRATO",
+          "zipf": 4.35,
+          "review_reason": null
+        },
+        {
+          "word": "PRIMA",
+          "zipf": 6.19,
+          "review_reason": null
+        },
+        {
+          "word": "PRIMAVERA",
+          "zipf": 4.72,
+          "review_reason": null
+        },
+        {
+          "word": "RAMI",
+          "zipf": 4.11,
+          "review_reason": null
+        },
+        {
+          "word": "RAMO",
+          "zipf": 4.21,
+          "review_reason": null
+        },
+        {
+          "word": "RANA",
+          "zipf": 3.67,
+          "review_reason": null
+        },
+        {
+          "word": "RANE",
+          "zipf": 3.43,
+          "review_reason": null
+        },
+        {
+          "word": "REMA",
+          "zipf": 2.81,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "RETI",
+          "zipf": 4.58,
+          "review_reason": null
+        },
+        {
+          "word": "SABBIA",
+          "zipf": 4.28,
+          "review_reason": null
+        },
+        {
+          "word": "SELLA",
+          "zipf": 3.96,
+          "review_reason": null
+        },
+        {
+          "word": "SENTIERO",
+          "zipf": 4.13,
+          "review_reason": null
+        },
+        {
+          "word": "SENTO",
+          "zipf": 5.12,
+          "review_reason": null
+        },
+        {
+          "word": "SOLE",
+          "zipf": 5.13,
+          "review_reason": null
+        },
+        {
+          "word": "SOLO",
+          "zipf": 6.33,
+          "review_reason": null
+        },
+        {
+          "word": "STALLE",
+          "zipf": 3.46,
+          "review_reason": null
+        },
+        {
+          "word": "STELLA",
+          "zipf": 4.54,
+          "review_reason": null
+        },
+        {
+          "word": "TANA",
+          "zipf": 3.65,
+          "review_reason": null
+        },
+        {
+          "word": "UOVA",
+          "zipf": 4.51,
+          "review_reason": null
+        },
+        {
+          "word": "VENTI",
+          "zipf": 4.66,
+          "review_reason": null
+        },
+        {
+          "word": "VENTO",
+          "zipf": 4.71,
+          "review_reason": null
+        },
+        {
+          "word": "VOLA",
+          "zipf": 4.03,
+          "review_reason": null
+        }
+      ]
+    },
+    "nl": {
+      "word_count": 68,
+      "flagged": [
+        "TUNEN"
+      ],
+      "words": [
+        {
+          "word": "ADER",
+          "zipf": 3.12,
+          "review_reason": null
+        },
+        {
+          "word": "BLAD",
+          "zipf": 4.4,
+          "review_reason": null
+        },
+        {
+          "word": "BLADEREN",
+          "zipf": 4.16,
+          "review_reason": null
+        },
+        {
+          "word": "BLOEM",
+          "zipf": 4.23,
+          "review_reason": null
+        },
+        {
+          "word": "BLOEMEN",
+          "zipf": 4.65,
+          "review_reason": null
+        },
+        {
+          "word": "BOEM",
+          "zipf": 3.57,
+          "review_reason": null
+        },
+        {
+          "word": "BOOM",
+          "zipf": 4.74,
+          "review_reason": null
+        },
+        {
+          "word": "BOON",
+          "zipf": 3.55,
+          "review_reason": null
+        },
+        {
+          "word": "EEN",
+          "zipf": 7.41,
+          "review_reason": null
+        },
+        {
+          "word": "EREN",
+          "zipf": 3.73,
+          "review_reason": null
+        },
+        {
+          "word": "FEL",
+          "zipf": 4.07,
+          "review_reason": null
+        },
+        {
+          "word": "GROEN",
+          "zipf": 4.82,
+          "review_reason": null
+        },
+        {
+          "word": "GROENE",
+          "zipf": 4.87,
+          "review_reason": null
+        },
+        {
+          "word": "HUIS",
+          "zipf": 5.73,
+          "review_reason": null
+        },
+        {
+          "word": "HUISJE",
+          "zipf": 4.14,
+          "review_reason": null
+        },
+        {
+          "word": "IJS",
+          "zipf": 4.47,
+          "review_reason": null
+        },
+        {
+          "word": "KART",
+          "zipf": 3.28,
+          "review_reason": null
+        },
+        {
+          "word": "KAT",
+          "zipf": 4.59,
+          "review_reason": null
+        },
+        {
+          "word": "LAMP",
+          "zipf": 4.07,
+          "review_reason": null
+        },
+        {
+          "word": "LANDEN",
+          "zipf": 5.26,
+          "review_reason": null
+        },
+        {
+          "word": "LENS",
+          "zipf": 3.97,
+          "review_reason": null
+        },
+        {
+          "word": "MAP",
+          "zipf": 3.97,
+          "review_reason": null
+        },
+        {
+          "word": "MOLEN",
+          "zipf": 4.13,
+          "review_reason": null
+        },
+        {
+          "word": "OGEN",
+          "zipf": 5.24,
+          "review_reason": null
+        },
+        {
+          "word": "OOM",
+          "zipf": 4.4,
+          "review_reason": null
+        },
+        {
+          "word": "OOR",
+          "zipf": 4.23,
+          "review_reason": null
+        },
+        {
+          "word": "PAD",
+          "zipf": 4.69,
+          "review_reason": null
+        },
+        {
+          "word": "PADEN",
+          "zipf": 3.68,
+          "review_reason": null
+        },
+        {
+          "word": "PALM",
+          "zipf": 3.82,
+          "review_reason": null
+        },
+        {
+          "word": "PAN",
+          "zipf": 4.32,
+          "review_reason": null
+        },
+        {
+          "word": "PLAN",
+          "zipf": 5.18,
+          "review_reason": null
+        },
+        {
+          "word": "PLANT",
+          "zipf": 4.43,
+          "review_reason": null
+        },
+        {
+          "word": "PLANTEN",
+          "zipf": 4.6,
+          "review_reason": null
+        },
+        {
+          "word": "REGEN",
+          "zipf": 4.75,
+          "review_reason": null
+        },
+        {
+          "word": "REGENT",
+          "zipf": 4.27,
+          "review_reason": null
+        },
+        {
+          "word": "REST",
+          "zipf": 5.19,
+          "review_reason": null
+        },
+        {
+          "word": "RESTEN",
+          "zipf": 3.93,
+          "review_reason": null
+        },
+        {
+          "word": "ROEM",
+          "zipf": 3.76,
+          "review_reason": null
+        },
+        {
+          "word": "ROOK",
+          "zipf": 4.48,
+          "review_reason": null
+        },
+        {
+          "word": "ROOS",
+          "zipf": 4.22,
+          "review_reason": null
+        },
+        {
+          "word": "SPEL",
+          "zipf": 5.12,
+          "review_reason": null
+        },
+        {
+          "word": "SPELEN",
+          "zipf": 5.47,
+          "review_reason": null
+        },
+        {
+          "word": "STEEN",
+          "zipf": 4.59,
+          "review_reason": null
+        },
+        {
+          "word": "STENEN",
+          "zipf": 4.56,
+          "review_reason": null
+        },
+        {
+          "word": "STER",
+          "zipf": 4.55,
+          "review_reason": null
+        },
+        {
+          "word": "STERK",
+          "zipf": 5.12,
+          "review_reason": null
+        },
+        {
+          "word": "STERREN",
+          "zipf": 4.61,
+          "review_reason": null
+        },
+        {
+          "word": "TAFEL",
+          "zipf": 4.83,
+          "review_reason": null
+        },
+        {
+          "word": "TAFELS",
+          "zipf": 3.7,
+          "review_reason": null
+        },
+        {
+          "word": "TAK",
+          "zipf": 4.1,
+          "review_reason": null
+        },
+        {
+          "word": "TIN",
+          "zipf": 3.47,
+          "review_reason": null
+        },
+        {
+          "word": "TUIN",
+          "zipf": 4.76,
+          "review_reason": null
+        },
+        {
+          "word": "TUINEN",
+          "zipf": 4.02,
+          "review_reason": null
+        },
+        {
+          "word": "TUNEN",
+          "zipf": 2.57,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "UIT",
+          "zipf": 6.65,
+          "review_reason": null
+        },
+        {
+          "word": "VINDEN",
+          "zipf": 5.75,
+          "review_reason": null
+        },
+        {
+          "word": "VRIEND",
+          "zipf": 5.12,
+          "review_reason": null
+        },
+        {
+          "word": "VRIENDEN",
+          "zipf": 5.43,
+          "review_reason": null
+        },
+        {
+          "word": "WANDEL",
+          "zipf": 3.75,
+          "review_reason": null
+        },
+        {
+          "word": "WANDELEN",
+          "zipf": 4.43,
+          "review_reason": null
+        },
+        {
+          "word": "WARE",
+          "zipf": 4.68,
+          "review_reason": null
+        },
+        {
+          "word": "WAT",
+          "zipf": 6.58,
+          "review_reason": null
+        },
+        {
+          "word": "WATER",
+          "zipf": 5.52,
+          "review_reason": null
+        },
+        {
+          "word": "WELK",
+          "zipf": 4.94,
+          "review_reason": null
+        },
+        {
+          "word": "WOLK",
+          "zipf": 3.78,
+          "review_reason": null
+        },
+        {
+          "word": "WOLKEN",
+          "zipf": 4.02,
+          "review_reason": null
+        },
+        {
+          "word": "ZOMER",
+          "zipf": 5.0,
+          "review_reason": null
+        },
+        {
+          "word": "ZOMERS",
+          "zipf": 3.85,
+          "review_reason": null
+        }
+      ]
+    },
+    "pl": {
+      "word_count": 68,
+      "flagged": [
+        "KOK",
+        "LEPI",
+        "RODY"
+      ],
+      "words": [
+        {
+          "word": "BAR",
+          "zipf": 4.23,
+          "review_reason": null
+        },
+        {
+          "word": "BAZA",
+          "zipf": 4.24,
+          "review_reason": null
+        },
+        {
+          "word": "DAM",
+          "zipf": 4.85,
+          "review_reason": null
+        },
+        {
+          "word": "DOM",
+          "zipf": 5.21,
+          "review_reason": null
+        },
+        {
+          "word": "DRZEWA",
+          "zipf": 4.66,
+          "review_reason": null
+        },
+        {
+          "word": "DRZEWO",
+          "zipf": 4.48,
+          "review_reason": null
+        },
+        {
+          "word": "DWA",
+          "zipf": 5.72,
+          "review_reason": null
+        },
+        {
+          "word": "GRÓD",
+          "zipf": 3.03,
+          "review_reason": null
+        },
+        {
+          "word": "GWIAZDA",
+          "zipf": 4.41,
+          "review_reason": null
+        },
+        {
+          "word": "GWIAZDY",
+          "zipf": 4.63,
+          "review_reason": null
+        },
+        {
+          "word": "KAMIENIE",
+          "zipf": 4.04,
+          "review_reason": null
+        },
+        {
+          "word": "KAMIEŃ",
+          "zipf": 4.38,
+          "review_reason": null
+        },
+        {
+          "word": "KOK",
+          "zipf": 2.87,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "KOT",
+          "zipf": 4.46,
+          "review_reason": null
+        },
+        {
+          "word": "KROK",
+          "zipf": 4.8,
+          "review_reason": null
+        },
+        {
+          "word": "KTO",
+          "zipf": 5.92,
+          "review_reason": null
+        },
+        {
+          "word": "KWIAT",
+          "zipf": 4.02,
+          "review_reason": null
+        },
+        {
+          "word": "KWIATY",
+          "zipf": 4.61,
+          "review_reason": null
+        },
+        {
+          "word": "LAS",
+          "zipf": 4.6,
+          "review_reason": null
+        },
+        {
+          "word": "LATA",
+          "zipf": 5.55,
+          "review_reason": null
+        },
+        {
+          "word": "LATAĆ",
+          "zipf": 4.1,
+          "review_reason": null
+        },
+        {
+          "word": "LATO",
+          "zipf": 4.46,
+          "review_reason": null
+        },
+        {
+          "word": "LEPI",
+          "zipf": 2.58,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "MAK",
+          "zipf": 3.56,
+          "review_reason": null
+        },
+        {
+          "word": "MAMA",
+          "zipf": 5.11,
+          "review_reason": null
+        },
+        {
+          "word": "MINA",
+          "zipf": 3.8,
+          "review_reason": null
+        },
+        {
+          "word": "MODA",
+          "zipf": 4.27,
+          "review_reason": null
+        },
+        {
+          "word": "MOTYL",
+          "zipf": 3.41,
+          "review_reason": null
+        },
+        {
+          "word": "MOTYLE",
+          "zipf": 3.44,
+          "review_reason": null
+        },
+        {
+          "word": "NOC",
+          "zipf": 4.95,
+          "review_reason": null
+        },
+        {
+          "word": "NOCE",
+          "zipf": 3.97,
+          "review_reason": null
+        },
+        {
+          "word": "NOS",
+          "zipf": 4.3,
+          "review_reason": null
+        },
+        {
+          "word": "OCEAN",
+          "zipf": 4.09,
+          "review_reason": null
+        },
+        {
+          "word": "OGRODY",
+          "zipf": 3.8,
+          "review_reason": null
+        },
+        {
+          "word": "OGRÓD",
+          "zipf": 4.19,
+          "review_reason": null
+        },
+        {
+          "word": "POLA",
+          "zipf": 4.56,
+          "review_reason": null
+        },
+        {
+          "word": "POLE",
+          "zipf": 4.62,
+          "review_reason": null
+        },
+        {
+          "word": "PRACE",
+          "zipf": 5.01,
+          "review_reason": null
+        },
+        {
+          "word": "RAMA",
+          "zipf": 3.51,
+          "review_reason": null
+        },
+        {
+          "word": "RODY",
+          "zipf": 2.88,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "ROK",
+          "zipf": 5.55,
+          "review_reason": null
+        },
+        {
+          "word": "RYBA",
+          "zipf": 3.99,
+          "review_reason": null
+        },
+        {
+          "word": "RYBY",
+          "zipf": 4.5,
+          "review_reason": null
+        },
+        {
+          "word": "RÓG",
+          "zipf": 3.96,
+          "review_reason": null
+        },
+        {
+          "word": "SEN",
+          "zipf": 4.59,
+          "review_reason": null
+        },
+        {
+          "word": "SER",
+          "zipf": 4.13,
+          "review_reason": null
+        },
+        {
+          "word": "SPACER",
+          "zipf": 4.4,
+          "review_reason": null
+        },
+        {
+          "word": "SPACERY",
+          "zipf": 3.68,
+          "review_reason": null
+        },
+        {
+          "word": "STAL",
+          "zipf": 4.1,
+          "review_reason": null
+        },
+        {
+          "word": "SŁOWA",
+          "zipf": 5.41,
+          "review_reason": null
+        },
+        {
+          "word": "SŁOWO",
+          "zipf": 5.04,
+          "review_reason": null
+        },
+        {
+          "word": "TOK",
+          "zipf": 3.84,
+          "review_reason": null
+        },
+        {
+          "word": "TRAWA",
+          "zipf": 3.64,
+          "review_reason": null
+        },
+        {
+          "word": "TRAWY",
+          "zipf": 3.75,
+          "review_reason": null
+        },
+        {
+          "word": "TYLE",
+          "zipf": 5.64,
+          "review_reason": null
+        },
+        {
+          "word": "WADY",
+          "zipf": 4.21,
+          "review_reason": null
+        },
+        {
+          "word": "WAGA",
+          "zipf": 4.27,
+          "review_reason": null
+        },
+        {
+          "word": "WARTA",
+          "zipf": 4.26,
+          "review_reason": null
+        },
+        {
+          "word": "WAT",
+          "zipf": 3.65,
+          "review_reason": null
+        },
+        {
+          "word": "WINA",
+          "zipf": 4.97,
+          "review_reason": null
+        },
+        {
+          "word": "WIOSNA",
+          "zipf": 4.35,
+          "review_reason": null
+        },
+        {
+          "word": "WIOSNY",
+          "zipf": 4.28,
+          "review_reason": null
+        },
+        {
+          "word": "WITA",
+          "zipf": 3.81,
+          "review_reason": null
+        },
+        {
+          "word": "WODA",
+          "zipf": 4.82,
+          "review_reason": null
+        },
+        {
+          "word": "WOSK",
+          "zipf": 3.2,
+          "review_reason": null
+        },
+        {
+          "word": "WZÓR",
+          "zipf": 4.53,
+          "review_reason": null
+        },
+        {
+          "word": "ZABAW",
+          "zipf": 4.03,
+          "review_reason": null
+        },
+        {
+          "word": "ZABAWA",
+          "zipf": 4.51,
+          "review_reason": null
+        }
+      ]
+    },
+    "pt": {
+      "word_count": 72,
+      "flagged": [
+        "AREAR",
+        "AROS",
+        "LAVRA",
+        "TALA"
+      ],
+      "words": [
+        {
+          "word": "AMIGO",
+          "zipf": 5.38,
+          "review_reason": null
+        },
+        {
+          "word": "AMIGOS",
+          "zipf": 5.5,
+          "review_reason": null
+        },
+        {
+          "word": "AREAR",
+          "zipf": 1.26,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "AREIA",
+          "zipf": 4.47,
+          "review_reason": null
+        },
+        {
+          "word": "AROS",
+          "zipf": 2.8,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "ARTE",
+          "zipf": 5.16,
+          "review_reason": null
+        },
+        {
+          "word": "BOLA",
+          "zipf": 4.89,
+          "review_reason": null
+        },
+        {
+          "word": "BOLETO",
+          "zipf": 3.44,
+          "review_reason": null
+        },
+        {
+          "word": "BORBOLETA",
+          "zipf": 3.91,
+          "review_reason": null
+        },
+        {
+          "word": "CAMINHO",
+          "zipf": 5.24,
+          "review_reason": null
+        },
+        {
+          "word": "CANTA",
+          "zipf": 4.24,
+          "review_reason": null
+        },
+        {
+          "word": "CANTAR",
+          "zipf": 4.62,
+          "review_reason": null
+        },
+        {
+          "word": "CARTA",
+          "zipf": 4.97,
+          "review_reason": null
+        },
+        {
+          "word": "CASA",
+          "zipf": 5.99,
+          "review_reason": null
+        },
+        {
+          "word": "CASO",
+          "zipf": 5.71,
+          "review_reason": null
+        },
+        {
+          "word": "ESSA",
+          "zipf": 6.01,
+          "review_reason": null
+        },
+        {
+          "word": "ESTRELA",
+          "zipf": 4.68,
+          "review_reason": null
+        },
+        {
+          "word": "ESTRELAS",
+          "zipf": 4.72,
+          "review_reason": null
+        },
+        {
+          "word": "FLOR",
+          "zipf": 4.58,
+          "review_reason": null
+        },
+        {
+          "word": "FLORES",
+          "zipf": 4.74,
+          "review_reason": null
+        },
+        {
+          "word": "GALO",
+          "zipf": 4.1,
+          "review_reason": null
+        },
+        {
+          "word": "GATO",
+          "zipf": 4.61,
+          "review_reason": null
+        },
+        {
+          "word": "GOLA",
+          "zipf": 3.22,
+          "review_reason": null
+        },
+        {
+          "word": "GOTA",
+          "zipf": 4.02,
+          "review_reason": null
+        },
+        {
+          "word": "JARDAS",
+          "zipf": 3.36,
+          "review_reason": null
+        },
+        {
+          "word": "JARDIM",
+          "zipf": 4.81,
+          "review_reason": null
+        },
+        {
+          "word": "JARDINS",
+          "zipf": 4.1,
+          "review_reason": null
+        },
+        {
+          "word": "LAGO",
+          "zipf": 4.48,
+          "review_reason": null
+        },
+        {
+          "word": "LAVRA",
+          "zipf": 2.84,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "LESTE",
+          "zipf": 4.97,
+          "review_reason": null
+        },
+        {
+          "word": "LIVRE",
+          "zipf": 5.25,
+          "review_reason": null
+        },
+        {
+          "word": "LIVRES",
+          "zipf": 4.59,
+          "review_reason": null
+        },
+        {
+          "word": "LIVRO",
+          "zipf": 5.39,
+          "review_reason": null
+        },
+        {
+          "word": "MADEIRA",
+          "zipf": 4.79,
+          "review_reason": null
+        },
+        {
+          "word": "MADEIRAS",
+          "zipf": 3.45,
+          "review_reason": null
+        },
+        {
+          "word": "MAGO",
+          "zipf": 3.77,
+          "review_reason": null
+        },
+        {
+          "word": "MARÉ",
+          "zipf": 3.98,
+          "review_reason": null
+        },
+        {
+          "word": "MENTE",
+          "zipf": 5.0,
+          "review_reason": null
+        },
+        {
+          "word": "MESA",
+          "zipf": 4.85,
+          "review_reason": null
+        },
+        {
+          "word": "MESAS",
+          "zipf": 4.05,
+          "review_reason": null
+        },
+        {
+          "word": "MINHA",
+          "zipf": 6.18,
+          "review_reason": null
+        },
+        {
+          "word": "NEM",
+          "zipf": 5.87,
+          "review_reason": null
+        },
+        {
+          "word": "NINHO",
+          "zipf": 3.99,
+          "review_reason": null
+        },
+        {
+          "word": "NOVO",
+          "zipf": 5.81,
+          "review_reason": null
+        },
+        {
+          "word": "NUVEM",
+          "zipf": 4.1,
+          "review_reason": null
+        },
+        {
+          "word": "NUVENS",
+          "zipf": 4.15,
+          "review_reason": null
+        },
+        {
+          "word": "PALAVRA",
+          "zipf": 5.18,
+          "review_reason": null
+        },
+        {
+          "word": "PALAVRAS",
+          "zipf": 5.27,
+          "review_reason": null
+        },
+        {
+          "word": "PARE",
+          "zipf": 4.42,
+          "review_reason": null
+        },
+        {
+          "word": "PATA",
+          "zipf": 3.56,
+          "review_reason": null
+        },
+        {
+          "word": "PATO",
+          "zipf": 4.09,
+          "review_reason": null
+        },
+        {
+          "word": "PEDRA",
+          "zipf": 4.77,
+          "review_reason": null
+        },
+        {
+          "word": "PERDA",
+          "zipf": 4.8,
+          "review_reason": null
+        },
+        {
+          "word": "PLANO",
+          "zipf": 5.23,
+          "review_reason": null
+        },
+        {
+          "word": "PLANTA",
+          "zipf": 4.46,
+          "review_reason": null
+        },
+        {
+          "word": "PRIMA",
+          "zipf": 4.49,
+          "review_reason": null
+        },
+        {
+          "word": "PRIMAVERA",
+          "zipf": 4.44,
+          "review_reason": null
+        },
+        {
+          "word": "RAIA",
+          "zipf": 3.28,
+          "review_reason": null
+        },
+        {
+          "word": "RASO",
+          "zipf": 3.21,
+          "review_reason": null
+        },
+        {
+          "word": "RETA",
+          "zipf": 4.15,
+          "review_reason": null
+        },
+        {
+          "word": "RIMA",
+          "zipf": 3.77,
+          "review_reason": null
+        },
+        {
+          "word": "ROSA",
+          "zipf": 4.8,
+          "review_reason": null
+        },
+        {
+          "word": "SACO",
+          "zipf": 4.64,
+          "review_reason": null
+        },
+        {
+          "word": "SEMENTE",
+          "zipf": 3.84,
+          "review_reason": null
+        },
+        {
+          "word": "SEMENTES",
+          "zipf": 4.22,
+          "review_reason": null
+        },
+        {
+          "word": "SOFRE",
+          "zipf": 4.46,
+          "review_reason": null
+        },
+        {
+          "word": "TALA",
+          "zipf": 2.94,
+          "review_reason": "less than one occurrence per million; review rarity"
+        },
+        {
+          "word": "TERRA",
+          "zipf": 5.45,
+          "review_reason": null
+        },
+        {
+          "word": "TOGA",
+          "zipf": 3.03,
+          "review_reason": null
+        },
+        {
+          "word": "TOPA",
+          "zipf": 3.29,
+          "review_reason": null
+        },
+        {
+          "word": "VENTO",
+          "zipf": 4.69,
+          "review_reason": null
+        },
+        {
+          "word": "VENTOS",
+          "zipf": 4.18,
+          "review_reason": null
+        }
+      ]
+    }
+  }
+}

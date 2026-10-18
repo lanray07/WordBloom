@@ -1,0 +1,2 @@
+# Development-only corpus review. Not bundled in Android.
+wordfreq==3.1.1

@@ -1,0 +1,308 @@
+{
+  "english": [
+    {
+      "command": "START",
+      "phrase": "start puzzle"
+    },
+    {
+      "command": "NEXT",
+      "phrase": "next level"
+    },
+    {
+      "command": "SHUFFLE",
+      "phrase": "shuffle letters"
+    },
+    {
+      "command": "HINT",
+      "phrase": "give me a hint"
+    },
+    {
+      "command": "REPEAT",
+      "phrase": "repeat the word"
+    },
+    {
+      "command": "PROGRESS",
+      "phrase": "show my progress"
+    },
+    {
+      "command": "DAILY",
+      "phrase": "open daily challenge"
+    },
+    {
+      "command": "PAUSE",
+      "phrase": "pause game"
+    },
+    {
+      "command": "HOME",
+      "phrase": "go home"
+    }
+  ],
+  "drafts": {
+    "de": [
+      {
+        "command": "START",
+        "phrase": "rätsel starten"
+      },
+      {
+        "command": "NEXT",
+        "phrase": "nächstes level"
+      },
+      {
+        "command": "SHUFFLE",
+        "phrase": "buchstaben mischen"
+      },
+      {
+        "command": "HINT",
+        "phrase": "gib mir einen tipp"
+      },
+      {
+        "command": "REPEAT",
+        "phrase": "wiederhole das wort"
+      },
+      {
+        "command": "PROGRESS",
+        "phrase": "zeige meinen fortschritt"
+      },
+      {
+        "command": "DAILY",
+        "phrase": "öffne die tagesaufgabe"
+      },
+      {
+        "command": "PAUSE",
+        "phrase": "spiel pausieren"
+      },
+      {
+        "command": "HOME",
+        "phrase": "zur startseite"
+      }
+    ],
+    "es": [
+      {
+        "command": "START",
+        "phrase": "empezar el rompecabezas"
+      },
+      {
+        "command": "NEXT",
+        "phrase": "siguiente nivel"
+      },
+      {
+        "command": "SHUFFLE",
+        "phrase": "mezclar letras"
+      },
+      {
+        "command": "HINT",
+        "phrase": "dame una pista"
+      },
+      {
+        "command": "REPEAT",
+        "phrase": "repetir la palabra"
+      },
+      {
+        "command": "PROGRESS",
+        "phrase": "mostrar mi progreso"
+      },
+      {
+        "command": "DAILY",
+        "phrase": "abrir el reto diario"
+      },
+      {
+        "command": "PAUSE",
+        "phrase": "pausar el juego"
+      },
+      {
+        "command": "HOME",
+        "phrase": "ir al inicio"
+      }
+    ],
+    "fr": [
+      {
+        "command": "START",
+        "phrase": "commencer le puzzle"
+      },
+      {
+        "command": "NEXT",
+        "phrase": "niveau suivant"
+      },
+      {
+        "command": "SHUFFLE",
+        "phrase": "mélanger les lettres"
+      },
+      {
+        "command": "HINT",
+        "phrase": "donne-moi un indice"
+      },
+      {
+        "command": "REPEAT",
+        "phrase": "répéter le mot"
+      },
+      {
+        "command": "PROGRESS",
+        "phrase": "afficher ma progression"
+      },
+      {
+        "command": "DAILY",
+        "phrase": "ouvrir le défi du jour"
+      },
+      {
+        "command": "PAUSE",
+        "phrase": "mettre le jeu en pause"
+      },
+      {
+        "command": "HOME",
+        "phrase": "revenir à l’accueil"
+      }
+    ],
+    "it": [
+      {
+        "command": "START",
+        "phrase": "inizia il puzzle"
+      },
+      {
+        "command": "NEXT",
+        "phrase": "prossimo livello"
+      },
+      {
+        "command": "SHUFFLE",
+        "phrase": "mescola le lettere"
+      },
+      {
+        "command": "HINT",
+        "phrase": "dammi un suggerimento"
+      },
+      {
+        "command": "REPEAT",
+        "phrase": "ripeti la parola"
+      },
+      {
+        "command": "PROGRESS",
+        "phrase": "mostra i miei progressi"
+      },
+      {
+        "command": "DAILY",
+        "phrase": "apri la sfida giornaliera"
+      },
+      {
+        "command": "PAUSE",
+        "phrase": "metti in pausa il gioco"
+      },
+      {
+        "command": "HOME",
+        "phrase": "torna all’inizio"
+      }
+    ],
+    "nl": [
+      {
+        "command": "START",
+        "phrase": "start de puzzel"
+      },
+      {
+        "command": "NEXT",
+        "phrase": "volgend niveau"
+      },
+      {
+        "command": "SHUFFLE",
+        "phrase": "hussel de letters"
+      },
+      {
+        "command": "HINT",
+        "phrase": "geef me een hint"
+      },
+      {
+        "command": "REPEAT",
+        "phrase": "herhaal het woord"
+      },
+      {
+        "command": "PROGRESS",
+        "phrase": "toon mijn voortgang"
+      },
+      {
+        "command": "DAILY",
+        "phrase": "open de daguitdaging"
+      },
+      {
+        "command": "PAUSE",
+        "phrase": "pauzeer het spel"
+      },
+      {
+        "command": "HOME",
+        "phrase": "ga naar start"
+      }
+    ],
+    "pl": [
+      {
+        "command": "START",
+        "phrase": "rozpocznij łamigłówkę"
+      },
+      {
+        "command": "NEXT",
+        "phrase": "następny poziom"
+      },
+      {
+        "command": "SHUFFLE",
+        "phrase": "wymieszaj litery"
+      },
+      {
+        "command": "HINT",
+        "phrase": "daj mi wskazówkę"
+      },
+      {
+        "command": "REPEAT",
+        "phrase": "powtórz słowo"
+      },
+      {
+        "command": "PROGRESS",
+        "phrase": "pokaż moje postępy"
+      },
+      {
+        "command": "DAILY",
+        "phrase": "otwórz wyzwanie dnia"
+      },
+      {
+        "command": "PAUSE",
+        "phrase": "wstrzymaj grę"
+      },
+      {
+        "command": "HOME",
+        "phrase": "wróć do startu"
+      }
+    ],
+    "pt": [
+      {
+        "command": "START",
+        "phrase": "iniciar o puzzle"
+      },
+      {
+        "command": "NEXT",
+        "phrase": "próximo nível"
+      },
+      {
+        "command": "SHUFFLE",
+        "phrase": "misturar letras"
+      },
+      {
+        "command": "HINT",
+        "phrase": "dá-me uma dica"
+      },
+      {
+        "command": "REPEAT",
+        "phrase": "repetir a palavra"
+      },
+      {
+        "command": "PROGRESS",
+        "phrase": "mostrar o meu progresso"
+      },
+      {
+        "command": "DAILY",
+        "phrase": "abrir o desafio diário"
+      },
+      {
+        "command": "PAUSE",
+        "phrase": "pausar o jogo"
+      },
+      {
+        "command": "HOME",
+        "phrase": "voltar ao início"
+      }
+    ]
+  }
+}

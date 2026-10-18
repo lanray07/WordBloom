@@ -23,7 +23,7 @@ abstract class GameDatabase: RoomDatabase() { abstract fun game(): GameDao }
 val Context.settingsStore by preferencesDataStore("settings")
 data class Settings(val narration: Boolean=false,val effects: Boolean=true,val music: Boolean=false,val contrast: Boolean=false,val reduced: Boolean=false,val large: Boolean=false,val dark: Boolean=false,val language: String="en-GB")
 class SettingsRepository(private val context: Context) {
- val flow=context.settingsStore.data.map { p -> Settings(p[booleanPreferencesKey("narration")]?:false,p[booleanPreferencesKey("effects")]?:true,p[booleanPreferencesKey("music")]?:false,p[booleanPreferencesKey("contrast")]?:false,p[booleanPreferencesKey("reduced")]?:false,p[booleanPreferencesKey("large")]?:false,p[booleanPreferencesKey("dark")]?:false,p[stringPreferencesKey("language")]?:"en-GB") }
+ val flow=context.settingsStore.data.map { p -> Settings(p[booleanPreferencesKey("narration")]?:false,p[booleanPreferencesKey("effects")]?:true,p[booleanPreferencesKey("music")]?:false,p[booleanPreferencesKey("contrast")]?:false,p[booleanPreferencesKey("reduced")]?:false,p[booleanPreferencesKey("large")]?:false,p[booleanPreferencesKey("dark")]?:false,p[stringPreferencesKey("language")]?.takeIf { it in com.wordbloom.engine.ApprovedLanguages.locales }?:"en-GB") }
  suspend fun set(key: String,value: Boolean) { context.settingsStore.edit { it[booleanPreferencesKey(key)]=value } }
- suspend fun language(value: String) { require(value in setOf("en-GB","en-US"));context.settingsStore.edit { it[stringPreferencesKey("language")]=value } }
+ suspend fun language(value: String) { require(value in com.wordbloom.engine.ApprovedLanguages.locales);context.settingsStore.edit { it[stringPreferencesKey("language")]=value } }
 }

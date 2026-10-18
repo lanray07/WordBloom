@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-18",
+  "device_model": "KFTRWI",
+  "android_api": 28,
+  "apk_sha256": "0503a61ebab0d8c6b6c22dc1228612394313bb33eabd94347e2c12e4f1bf0688",
+  "build_type": "normal Amazon debug adapter; no development billing",
+  "cases": [
+    {
+      "id": "baseline-landscape",
+      "passed": true,
+      "orientation_asserted_by_instrumentation": "landscape",
+      "evidence": "reports/fire-tests/baseline-landscape.txt"
+    },
+    {
+      "id": "runtime-landscape",
+      "passed": true,
+      "orientation_asserted_by_instrumentation": "landscape",
+      "evidence": "reports/fire-tests/runtime-landscape.txt"
+    },
+    {
+      "id": "touch-swipe-landscape",
+      "passed": true,
+      "orientation_asserted_by_instrumentation": "landscape",
+      "evidence": "reports/fire-tests/touch-swipe-landscape.txt"
+    },
+    {
+      "id": "settings-landscape",
+      "passed": true,
+      "orientation_asserted_by_instrumentation": "landscape",
+      "evidence": "reports/fire-tests/settings-landscape.txt"
+    },
+    {
+      "id": "runtime-portrait",
+      "passed": true,
+      "orientation_asserted_by_instrumentation": "portrait",
+      "evidence": "reports/fire-tests/runtime-portrait.txt"
+    },
+    {
+      "id": "runtime-wifi-off",
+      "passed": true,
+      "orientation_asserted_by_instrumentation": "portrait",
+      "evidence": "reports/fire-tests/runtime-wifi-off.txt"
+    },
+    {
+      "id": "settings-large-font-portrait",
+      "passed": true,
+      "orientation_asserted_by_instrumentation": "portrait",
+      "evidence": "reports/fire-tests/settings-large-font-portrait.txt"
+    }
+  ],
+  "scope": "English device QA; translated language activation/review and store-delivered release testing remain pending",
+  "restored_device_settings": [
+    "font_scale",
+    "accelerometer_rotation",
+    "user_rotation",
+    "wifi_on",
+    "stay_on_while_plugged_in"
+  ],
+  "all_cases_passed": true
+}

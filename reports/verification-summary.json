@@ -1,6 +1,7 @@
 {
-  "date": "2026-10-16",
-  "status": "packaged candidate; not submission-ready",
+  "date": "2026-10-18",
+  "status": "packaged candidate; multilingual release gates remain open",
+  "production_source_sha256": "e6e1429d946e36427c61e0bcbdd708a1d07c8860b6ccd8adc6cf9692f46980a0",
   "engine_junit": {
     "tests": 11,
     "failures": 0,
@@ -13,7 +14,7 @@
     "errors": 0,
     "skipped": 0
   },
-  "localisation_tests_passed": 4,
+  "localisation_tests_passed": 9,
   "visual_junit": {
     "tests": 2,
     "failures": 0,
@@ -24,7 +25,7 @@
   "watermarked_marketing_concepts": 32,
   "lint": {
     "errors": 0,
-    "warnings": 23
+    "warnings": 24
   },
   "compile_sdk": 36,
   "target_sdk": 36,
@@ -40,14 +41,82 @@
   "development_billing_absent_from_release": true,
   "google_play_billing_absent_from_release": true,
   "pending": [
-    "physical Fire/Android runtime and offline UI tests",
-    "Amazon live purchase/restore/refund checks",
-    "real device screenshots",
-    "linguistic review and non-English packs",
-    "owner signing/identity",
-    "working-name clearance",
-    "secondary Android distribution/billing decision"
+    "provider-generated interface translations and native approval for eight locale editions",
+    "multilingual device/layout/input checks and matching listing assets",
+    "final Amazon store-delivered release/purchase verification"
   ],
+  "language_pack_junit": {
+    "tests": 4,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "message_translation_junit": {
+    "tests": 3,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "physical_device_qa": {
+    "date": "2026-10-18",
+    "device_model": "KFTRWI",
+    "android_api": 28,
+    "apk_sha256": "0503a61ebab0d8c6b6c22dc1228612394313bb33eabd94347e2c12e4f1bf0688",
+    "build_type": "normal Amazon debug adapter; no development billing",
+    "cases": [
+      {
+        "id": "baseline-landscape",
+        "passed": true,
+        "orientation_asserted_by_instrumentation": "landscape",
+        "evidence": "reports/fire-tests/baseline-landscape.txt"
+      },
+      {
+        "id": "runtime-landscape",
+        "passed": true,
+        "orientation_asserted_by_instrumentation": "landscape",
+        "evidence": "reports/fire-tests/runtime-landscape.txt"
+      },
+      {
+        "id": "touch-swipe-landscape",
+        "passed": true,
+        "orientation_asserted_by_instrumentation": "landscape",
+        "evidence": "reports/fire-tests/touch-swipe-landscape.txt"
+      },
+      {
+        "id": "settings-landscape",
+        "passed": true,
+        "orientation_asserted_by_instrumentation": "landscape",
+        "evidence": "reports/fire-tests/settings-landscape.txt"
+      },
+      {
+        "id": "runtime-portrait",
+        "passed": true,
+        "orientation_asserted_by_instrumentation": "portrait",
+        "evidence": "reports/fire-tests/runtime-portrait.txt"
+      },
+      {
+        "id": "runtime-wifi-off",
+        "passed": true,
+        "orientation_asserted_by_instrumentation": "portrait",
+        "evidence": "reports/fire-tests/runtime-wifi-off.txt"
+      },
+      {
+        "id": "settings-large-font-portrait",
+        "passed": true,
+        "orientation_asserted_by_instrumentation": "portrait",
+        "evidence": "reports/fire-tests/settings-large-font-portrait.txt"
+      }
+    ],
+    "scope": "English device QA; translated language activation/review and store-delivered release testing remain pending",
+    "restored_device_settings": [
+      "font_scale",
+      "accelerometer_rotation",
+      "user_rotation",
+      "wifi_on",
+      "stay_on_while_plugged_in"
+    ],
+    "all_cases_passed": true
+  },
   "store_image_render_tests": {
     "tests": 3,
     "failures": 0,
@@ -63,7 +132,7 @@
     "development_billing_flag": true,
     "visible_test_only_labels_present": true,
     "device_execution_performed": false,
-    "sha256": "100f653ce09d321696a9d7a52d1034463b7f5f905709e68ffe85eb6f5c99b093",
+    "sha256": "7355dce342d9063d78306b529ce7b85e2a6901a4c51db330773ee5420325f712",
     "purpose": "Developer QA only; simulated entitlement, no real payment. Separate data from normal app."
   }
 }

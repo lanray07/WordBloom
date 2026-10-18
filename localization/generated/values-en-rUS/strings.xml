@@ -34,15 +34,15 @@
   <string name="ui_032">Make yourself comfortable</string>
   <string name="ui_033">A game at your pace.</string>
   <string name="ui_034">Puzzle language</string>
-  <string name="ui_035">Both English editions use the same 24 curated puzzles. More languages are in preparation and require linguistic review.</string>
+  <string name="ui_035">Choose a puzzle language. Each language has its own word collection and saved journey. English UK/US share a collection.</string>
   <string name="ui_036">Voice, when you want it</string>
   <string name="ui_037">Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.</string>
   <string name="ui_038">Your words stay yours</string>
   <string name="ui_039">No account. No ads. No analytics. Progress and settings stay on this device. WordBloom stores no microphone recordings. Amazon handles purchase information. Removing the app clears local progress; purchases can be restored through Amazon.</string>
   <string name="ui_040">WordBloom 0.1 · 24 puzzles · Offline-first</string>
   <string name="ui_041">A little more wonder</string>
-  <string name="ui_042">All six illustrated worlds. All 24 curated English puzzles. Advanced and expert challenges. Expanded garden statistics, plus 4 earned hints per first completion instead of 3. Garden milestones and saved daily history.</string>
+  <string name="ui_042">All six illustrated worlds. All 24 puzzles in each available language. Advanced and expert challenges. Expanded garden statistics, plus 4 earned hints per first completion instead of 3. Garden milestones and saved daily history.</string>
   <string name="ui_043">One-time purchase · No ads · No subscription</string>
   <string name="ui_044">Restore Amazon purchase</string>
-  <string name="ui_045">New language packs are not currently included. Daily puzzles and the introductory chapter remain free.</string>
+  <string name="ui_045">Daily puzzles and the introductory chapter remain free in every available language.</string>
 </resources>

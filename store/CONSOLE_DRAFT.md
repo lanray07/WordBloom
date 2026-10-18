@@ -75,3 +75,16 @@ Final app/IAP submission and publication have not been performed.
 Local Amazon-form screenshots are in ignored `dist/`, outside source control.
 
 Official rules: https://developer.amazon.com/docs/app-submission/appstore-details.html
+
+## Publisher decisions on 18 October 2026
+
+The publisher confirmed privacy/SDK disclosures and the WordBloom name, and
+requires all eight additional gameplay locale editions before the first release.
+The current English-only console APK must therefore remain unsubmitted even
+though its form is complete. Translation infrastructure and original vocabulary
+drafts are prepared locally; provider access, native approval, multilingual
+runtime checks, matching final assets/copy and Amazon store-delivered testing
+remain open. See `publisher-decisions.json` and `../localization/REVIEW_HANDOFF.md`.
+Normal-debug Amazon App Tester purchase/cancel/restore/refund/account-switch
+checks were executed on the connected Fire; this does not certify the final
+minified Amazon-delivered candidate.

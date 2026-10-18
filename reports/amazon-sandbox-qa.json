@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-18",
+  "device": "KFTRWI / Android 9 / API 28",
+  "mode": "Amazon App Tester sandbox; normal Amazon debug adapter, not the .dev simulated adapter",
+  "sdk_version": "3.0.9",
+  "app_tester_version": "3.0.200459.0_3080810",
+  "tested_apk_sha256": "985c6dbfa1dc2f08026e62073481eb1bc3bbe60fa55f4be863f24b6a417198d1",
+  "billing_source_sha256": "00ba0bc3afc044f732364d3259fa46d5943c4941bab9c48775ef5a4613ed4bfe",
+  "passed": [
+    "sandbox user switch does not inherit the previous account entitlement",
+    "GB fixture price displays GBP 3.99 from SDK product data",
+    "purchase dialog cancellation leaves current user locked",
+    "successful sandbox purchase grants premium for current user",
+    "Amazon App Tester transaction marked FULFILLED",
+    "clearing local app data and resuming restores test receipt",
+    "explicit Restore reports Premium restored",
+    "cancelling the sandbox receipt revokes premium on resume"
+  ],
+  "price_fixture_note": "This installed App Tester used the exported default numeric 5.30 in GB, despite currencyPriceMap. A WordBloom-only GBP fixture sets its price field to 3.99; other existing products were preserved. This tests display handling, not the live Amazon price. The console base price was previously verified separately.",
+  "evidence_directory": "dist/device-evidence (local only; sandbox IDs/receipts excluded from public reports)",
+  "real_money_charged": false,
+  "store_delivered_release_tested": false,
+  "pending": [
+    "minified Amazon-delivered multilingual candidate",
+    "live/store-backed price, entitlement and restoration checks",
+    "any paid purchase only with separate owner authorization"
+  ]
+}

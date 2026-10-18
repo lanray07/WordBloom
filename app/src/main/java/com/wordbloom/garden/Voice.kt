@@ -30,6 +30,9 @@ class Voice(private val activity: Activity,private val result: (String)->Unit,pr
 
  fun say(text: String) {
   if(!ready)return
+  if((tts?.isLanguageAvailable(locale)?:TextToSpeech.LANG_NOT_SUPPORTED)<TextToSpeech.LANG_AVAILABLE) {
+   status("Spoken voice unavailable for this language. Touch controls remain available.",false);return
+  }
   releaseFocus()
   focus=AudioFocusRequest.Builder(AudioManager.AUDIOFOCUS_GAIN_TRANSIENT_MAY_DUCK).setAudioAttributes(AudioAttributes.Builder().setUsage(AudioAttributes.USAGE_ASSISTANCE_ACCESSIBILITY).setContentType(AudioAttributes.CONTENT_TYPE_SPEECH).build()).setOnAudioFocusChangeListener { if(it==AudioManager.AUDIOFOCUS_LOSS)tts?.stop() }.build()
   if(audio.requestAudioFocus(focus!!)!=AudioManager.AUDIOFOCUS_REQUEST_GRANTED)return

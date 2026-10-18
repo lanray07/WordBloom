@@ -15,14 +15,28 @@ import android.graphics.Bitmap
 class GameUiTest {
  @get:Rule val rule=createAndroidComposeRule<MainActivity>()
  private fun begin() {
-  rule.waitUntil(15000) { rule.onAllNodesWithText("Begin your journey  â†’").fetchSemanticsNodes().isNotEmpty() || rule.onAllNodesWithText("Continue your journey  â†’").fetchSemanticsNodes().isNotEmpty() }
-  val begin=rule.onAllNodesWithText("Begin your journey  â†’")
-  if(begin.fetchSemanticsNodes().isNotEmpty())begin[0].performClick() else rule.onNodeWithText("Continue your journey  â†’").performClick()
+  rule.waitUntil(15000) { rule.onAllNodesWithText("Begin your journey  →").fetchSemanticsNodes().isNotEmpty() || rule.onAllNodesWithText("Continue your journey  →").fetchSemanticsNodes().isNotEmpty() }
+  InstrumentationRegistry.getArguments().getString("orientation")?.let { expected ->
+   val target=if(expected=="landscape")2 else 1
+   rule.waitUntil(5000) { rule.activity.resources.configuration.orientation==target }
+   println("DEVICE_ORIENTATION=$expected")
+  }
+  val begin=rule.onAllNodesWithText("Begin your journey  →")
+  if(begin.fetchSemanticsNodes().isNotEmpty())begin[0].performClick() else rule.onNodeWithText("Continue your journey  →").performClick()
   rule.waitForIdle()
  }
- private fun enter(word: String) { rule.onNodeWithText("Type a word").performScrollTo().performTextInput(word);rule.onNodeWithText("Check",useUnmergedTree=true).performClick();rule.waitForIdle() }
+ private fun enter(word: String) {
+  rule.onNodeWithText("Type a word").performScrollTo().performTextInput(word)
+  rule.onNodeWithText("Check",useUnmergedTree=true).performClick()
+  rule.activityRule.scenario.onActivity { activity ->
+   androidx.core.view.WindowInsetsControllerCompat(activity.window,activity.window.decorView).hide(androidx.core.view.WindowInsetsCompat.Type.ime())
+  }
+  rule.waitForIdle()
+ }
  private fun capture(name: String) {
   rule.waitForIdle()
+  // A semantics-idle Compose frame can precede the physical Surface screenshot.
+  InstrumentationRegistry.getInstrumentation().uiAutomation.waitForIdle(250,5000)
   val activity=rule.activity;val folder=File(activity.getExternalFilesDir(null),"screenshots").apply { mkdirs() }
   val bitmap=InstrumentationRegistry.getInstrumentation().uiAutomation.takeScreenshot()?:error("Screenshot failed")
   File(folder,"$name.png").outputStream().use { bitmap.compress(Bitmap.CompressFormat.PNG,100,it) };bitmap.recycle()
@@ -34,7 +48,7 @@ class GameUiTest {
   rule.onNodeWithContentDescription("Letter A, tile 2").performClick()
   rule.onNodeWithContentDescription("Letter T, tile 3").performClick()
   rule.onNodeWithText("Submit word").performClick()
-  rule.waitUntil(5000) { rule.onAllNodesWithText("1 of 3 words found  Â·  Beginner").fetchSemanticsNodes().isNotEmpty() }
+  rule.waitUntil(5000) { rule.onAllNodesWithText("1 of 3 words found  ·  Beginner").fetchSemanticsNodes().isNotEmpty() }
   enter("ACT");enter("SAT")
   rule.onNodeWithText("You grew something lovely.").assertExists()
  }
@@ -43,11 +57,11 @@ class GameUiTest {
   begin();capture("01-gameplay")
   enter("CAT");capture("02-crossword")
   rule.activityRule.scenario.onActivity { it.onBackPressedDispatcher.onBackPressed() }
-  rule.onNodeWithText("Play today  â†’").performScrollTo().performClick();capture("03-daily")
+  rule.onNodeWithText("Play today  →").performScrollTo().performClick();capture("03-daily")
   rule.activityRule.scenario.onActivity { it.onBackPressedDispatcher.onBackPressed() }
-  rule.onNodeWithText("Visit my garden  â†’").performScrollTo().performClick();capture("04-garden")
+  rule.onNodeWithText("Visit my garden  →").performScrollTo().performClick();rule.onNodeWithText("Look how far you’ve grown.").assertExists();capture("04-garden")
   rule.activityRule.scenario.onActivity { it.onBackPressedDispatcher.onBackPressed() }
-  rule.onNodeWithText("Explore the journey  â†’").performScrollTo().performClick();capture("05-difficulty")
+  rule.onNodeWithText("Explore the journey  →").performScrollTo().performClick();capture("05-difficulty")
   rule.activityRule.scenario.onActivity { it.onBackPressedDispatcher.onBackPressed() }
   rule.onNodeWithText("Settings",useUnmergedTree=true).performClick();rule.onNodeWithText("Voice, when you want it").performScrollTo();capture("06-voice")
   rule.activityRule.scenario.onActivity { it.onBackPressedDispatcher.onBackPressed() };capture("07-offline")
@@ -60,6 +74,6 @@ class GameUiTest {
   db.game().save(Progress("test",found="CAT|ACT",revealed="1,2"),Wallet(hints=7));db.close()
   db=Room.databaseBuilder(context,GameDatabase::class.java,name).build()
   assertEquals("CAT|ACT",db.game().get("test")?.found);assertEquals("1,2",db.game().get("test")?.revealed);assertEquals(7,db.game().wallet()?.hints)
-  db.close();context.deleteDatabase(name)
+  db.close();context.deleteDatabase(name);Unit
  }
 }

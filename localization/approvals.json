@@ -1,0 +1,5 @@
+{
+  "required_for_release": ["de", "es", "fr", "it", "nl", "pl", "pt-BR", "pt-PT"],
+  "locales": {},
+  "instructions": "For each locale supply reviewer, reviewed_on, ui_source_sha256, messages_sha256, gameplay_sha256, voice_commands_sha256, and ui_approved/gameplay_approved=true after actual native review. No approval is inferred from a successful structural test."
+}

@@ -12,6 +12,12 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 
+def production_source_hash():
+    paths = [p for folder in ['app/src/main','engine/src/main'] for p in (ROOT/folder).rglob('*') if p.is_file()]
+    paths += [ROOT/name for name in ['build.gradle.kts','settings.gradle.kts','gradle.properties','app/build.gradle.kts','engine/build.gradle.kts','app/proguard-rules.pro','gradle/wrapper/gradle-wrapper.properties']]
+    values = [(p.relative_to(ROOT).as_posix(),hashlib.sha256(p.read_bytes()).hexdigest()) for p in paths if p.exists()]
+    return hashlib.sha256(json.dumps(sorted(values)).encode()).hexdigest()
+
 
 def junit(path):
     tree = ET.parse(path)
@@ -72,17 +78,30 @@ def main():
             assert list(image.size) == item['dimensions']
         assert item['not_for_submission']
     summary = {
-        'date': '2026-10-16', 'status': 'packaged candidate; not submission-ready',
+        'date': '2026-10-18', 'status': 'packaged candidate; multilingual release gates remain open',
+        'production_source_sha256': production_source_hash(),
         'engine_junit': engine, 'billing_contract_junit': billing, 'localisation_tests_passed': python_count, 'visual_junit': visual,
         'production_compose_renders': 20, 'watermarked_marketing_concepts': len(exports),
         'lint': {'errors': 0, 'warnings': warnings}, 'compile_sdk': 36, 'target_sdk': 36, 'min_sdk': 26,
         'release_abis': abis, 'debug_signature_verified': True,
         'release_signed': signed_release.returncode == 0, 'development_billing_absent_from_release': True,
         'google_play_billing_absent_from_release': True,
-        'pending': ['physical Fire/Android runtime and offline UI tests', 'Amazon live purchase/restore/refund checks',
-                    'real device screenshots', 'linguistic review and non-English packs', 'owner signing/identity',
-                    'working-name clearance', 'secondary Android distribution/billing decision'],
+        'pending': ['provider-generated interface translations and native approval for eight locale editions',
+                    'multilingual device/layout/input checks and matching listing assets',
+                    'final Amazon store-delivered release/purchase verification'],
     }
+    for filename,key in [('LanguagePackTest','language_pack_junit'),('MessageTranslatorTest','message_translation_junit')]:
+        path = ROOT/f'engine/build/test-results/test/TEST-com.wordbloom.engine.{filename}.xml'
+        if path.exists():
+            tree,counts = junit(path)
+            tree.getroot().attrib.pop('hostname',None)
+            tree.write(reports/(filename+'.xml'),encoding='utf-8',xml_declaration=True)
+            summary[key]=counts
+    device_path = reports/'fire-device-qa.json'
+    if device_path.exists():
+        device = json.loads(device_path.read_text(encoding='utf-8'))
+        assert device['all_cases_passed'] and device['apk_sha256']==hashlib.sha256(debug.read_bytes()).hexdigest(), 'Current debug device matrix must pass'
+        summary['physical_device_qa']=device
     listing_path = ROOT / 'store/premium-screenshots.json'
     if listing_path.exists():
         listing = json.loads(listing_path.read_text(encoding='utf-8'))
@@ -108,9 +127,14 @@ def main():
     report = ROOT / 'TEST_REPORT.md'
     text = report.read_text(encoding='utf-8').split('\n## Final package verification\n')[0]
     text = re.sub(r'Engine JUnit: \d+ tests passed', f"Engine JUnit: {engine['tests']} tests passed", text)
-    text += f"\n## Final package verification\n\nProduction API 36 debug, release and instrumentation APK builds and lint passed. Lint: 0 errors, {warnings} warnings (including dependency-version suggestions and intentionally unused preparation assets). Engine: {engine['tests']} passed; billing contract: {billing['tests']} passed; localisation: {python_count} passed; visual: {visual['tests']} passed with 20 renders. Debug signing verified. Release is {'signed' if summary['release_signed'] else 'unsigned; owner signing required'}. The development purchase adapter and Google Play Billing are absent from release DEX. A separate signed .dev APK with explicit simulated-purchase labels is provided for developer QA; its manifest, build flag and signature were verified without device execution.\n\nFast-swipe tracing now preserves the original down and interpolates crossed tiles; regression tests cover a fast segment, backtracking and a near miss. An interrupted R8 build held a generated output open; its stale daemon was terminated and the clean final build passed. The Amazon SDK emits stack-map warnings under R8, so the final store-delivered purchase flow still needs App Tester/live verification.\n"
+    text += f"\n## Final package verification\n\nProduction API 36 debug, release and instrumentation APK builds and lint passed. Lint: 0 errors, {warnings} warnings (including dependency-version suggestions and intentionally unused preparation assets). Engine: {engine['tests']} passed; billing contract: {billing['tests']} passed; localisation: {python_count} passed; visual: {visual['tests']} passed with 20 renders. Debug signing verified. Release is {'signed' if summary['release_signed'] else 'unsigned; owner signing required'}. The development purchase adapter and Google Play Billing are absent from release DEX. A separate signed .dev APK with explicit simulated-purchase labels is provided for developer QA; its manifest, build flag and signature were verified without device execution.\n\nFast-swipe tracing now preserves the original down and interpolates crossed tiles; regression tests cover a fast segment, backtracking and a near miss. The Amazon SDK emits stack-map warnings under R8, so the final store-delivered purchase flow still needs App Tester/live verification.\n"
     if 'store_image_render_tests' in summary:
         text += '\nThree additional independent native Compose screen renders passed for the listing images. Their source pixels, export dimensions and hashes were checked. They are layoutlib renders, not physical-device captures or evidence of device runtime behavior.\n'
+    if 'language_pack_junit' in summary:
+        text += f"\nAdditional engine checks: language packs {summary['language_pack_junit']['tests']} passed; message translation {summary['message_translation_junit']['tests']} passed. Draft language editions remain disabled pending provider output and native approval.\n"
+    if 'physical_device_qa' in summary:
+        text += '\nSeven physical Fire device scenarios passed on the packaged normal debug APK: baseline gameplay/storage, recreation/hints/voice fallback, continuous touch swipes/backtracking, settings persistence, portrait, Wi-Fi disabled and large font. This is one Fire model and an unminified debug build; store-delivered release and multilingual runtime QA remain pending.\n'
+    text = text.replace('unsigned; owner signing required','unsigned; Amazon applies store signing')
     report.write_text(text, encoding='utf-8')
     dist = ROOT / 'dist'
     dist.mkdir(exist_ok=True)

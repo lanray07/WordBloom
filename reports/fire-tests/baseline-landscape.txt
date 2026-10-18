@@ -1,0 +1,11 @@
+com.wordbloom.garden.GameUiTest:
+
+com.wordbloom.garden.GameUiTest:..
+
+
+
+Time: 12.044
+
+
+
+OK (3 tests)
