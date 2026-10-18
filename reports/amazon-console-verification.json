@@ -1,5 +1,5 @@
 {
-  "status": "Multilingual candidate, ten app descriptions and three refreshed listing images saved and verified 2026-10-18; production not submitted",
+  "status": "SUBMITTED for Amazon review on 18 October 2026; submission successful and under review",
   "app_id": "amzn1.devportal.mobileapp.91b139e68f6746fab1bdea19472cd193",
   "release_id": "amzn1.devportal.apprelease.2ad95ad758e740b7bf34a38964ee6a3b",
   "app_title": "WordBloom: Word Connect and Puzzle Games",
@@ -34,7 +34,7 @@
   "iap": {
     "sku": "wordbloom.premium",
     "type": "ENTITLED",
-    "status": "TEST entitlement Approved 18 October; not promoted to live",
+    "status": "Promoted from TEST; Approved 18 October 2026; TEST label removed",
     "text_locales": [
       "en-US",
       "en-GB",
@@ -48,8 +48,8 @@
     "other_marketplaces": "calculated by Amazon",
     "exported_sandbox_file": "content/amazon.sdktester.json",
     "seven_saved_descriptions_verified_against_amazon_export": false,
-    "test_only": true,
-    "live_submission_performed": false,
+    "test_only": false,
+    "live_submission_performed": true,
     "seven_saved_descriptions_verified_after_reload": true,
     "historical_export_verified_before_multilingual_update": true,
     "current_description_verification": "All seven multilingual descriptions reopened and compared with local candidate; older export is historical"
@@ -75,11 +75,8 @@
   },
   "sdk_public_key": "Included and parsed as RSA 2048; present in uploaded APK",
   "amazon_review_gaps": [],
-  "additional_release_gates": [
-    "Amazon-delivered release price, purchase/cancel and restore verification",
-    "Hands-on VoiceView and regional audio observations not yet performed"
-  ],
-  "testing_instructions": "Multilingual instructions saved and verified after reload; 2023 normalized characters; source store/amazon-testing-instructions.txt",
+  "additional_release_gates": [],
+  "testing_instructions": "Final reviewer instructions saved before submission and visible in submitted form; 2165 normalized characters; source store/amazon-testing-instructions.txt",
   "audience": {
     "selection": "All age groups",
     "age_bands": [
@@ -119,7 +116,7 @@
     "model": "KFTRWI",
     "api": 28,
     "amazon_sandbox_cases": "reports/amazon-sandbox-qa.json",
-    "note": "Current multilingual production release uploaded; normal debug tablet matrix passed; Amazon-delivered release testing remains pending"
+    "note": "Normal debug ten-locale matrix and Amazon-delivered release purchase/cancel/restore QA passed; see reports/live-app-test.json"
   },
   "metadata_matches_final_language_support": true,
   "local_linguistic_review": "Completed AI editorial/lexical review, without native human certification; all ten locales active in local candidate",
@@ -136,5 +133,12 @@
     "pt-PT"
   ],
   "uploaded_release_apk_sha256": "99db48e41f6ca592c1ccefead4b40dc9f342925a0d2a8afdf0f1fe1cc0ffc7d1",
-  "downloaded_release_apk_matches_local": true
+  "downloaded_release_apk_matches_local": true,
+  "production_submitted": true,
+  "production_published": false,
+  "submission_date": "2026-10-18",
+  "amazon_estimated_availability": "2026-10-23 09:00 PDT / 17:00 Europe/London; estimate, not a guarantee",
+  "nonblocking_validation_limits": [
+    "Regional spoken audio and hands-on VoiceView listening not certified"
+  ]
 }

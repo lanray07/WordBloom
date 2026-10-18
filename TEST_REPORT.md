@@ -137,17 +137,43 @@ compositions were uploaded, downloaded and matched by SHA-256 in connect, journe
 garden order. Multilingual testing instructions survived a reload. Production
 Submit App was not clicked. See reports/multilingual-console-update.json.
 
+## Amazon-delivered release progress — 18 October 2026
+
+The private test is in progress and its invitation is Delivered. The installed
+APK comes from com.amazon.venezia, is not debuggable, and preserves the uploaded
+DEX, resources, locale assets and native libraries. Physical release checks
+passed for live GBP3.99 pricing, purchase cancellation without access, restore
+without an owned receipt, English bonus/completion, German/Spanish completion,
+French/Italian/Dutch completion persistence, UK/US shared progress and an offline
+restart. The ten-locale debug matrix remains separate. Android UIAutomator had
+intermittent null-root failures; uncaptured states are not counted.
+
+Successful premium purchase and restore after clearing local entitlement remain
+pending the publisher's Amazon Verify and Pay step. The release gate stays
+closed. Details: reports/live-app-test.json and reports/lat-device-evidence/.
+
+## Completed Amazon release test and submission
+
+The publisher completed the Amazon purchase on the physical tablet. Premium
+unlocked, a new puzzle awarded +4 hints, offline restart retained premium, and
+Restore recovered the Amazon entitlement after pm clear removed local app data.
+This completes the previously pending purchase/restore checks. Production was
+successfully submitted on 18 October and is under Amazon review; premium was
+promoted from TEST and Approved. All release-gate checks pass. The app is not
+yet confirmed publicly live. Regional spoken audio/VoiceView listening remain
+uncertified optional-feature limits. reports/live-app-test.json is authoritative.
+
 ## Final package verification
 
 Production API 36 debug, release and instrumentation APK builds and lint passed. Lint: 0 errors, 24 warnings (including dependency-version suggestions and intentionally unused preparation assets). Engine: 11 passed; billing contract: 5 passed; localisation: 9 passed; historical visual evidence: 2 suites with 20 earlier renders (not rerun for this candidate). Debug signing verified. Release is unsigned; Amazon applies store signing. The development purchase adapter and Google Play Billing are absent from release DEX. A separate signed .dev APK with explicit simulated-purchase labels is provided for developer QA; its manifest, build flag and signature were verified without device execution.
 
-Fast-swipe tracing now preserves the original down and interpolates crossed tiles; regression tests cover a fast segment, backtracking and a near miss. The Amazon SDK emits stack-map warnings under R8, so the final store-delivered purchase flow still needs Amazon-delivered live verification.
+Fast-swipe tracing now preserves the original down and interpolates crossed tiles; regression tests cover a fast segment, backtracking and a near miss. The Amazon SDK emits stack-map warnings under R8, and the final Amazon-delivered purchase, cancellation, offline access and restore checks subsequently passed.
 
 Three refreshed independent Compose screen renders passed for the final listing images on 18 October. Their export dimensions and hashes were checked. These layoutlib renders use the current UI; physical runtime evidence remains separate.
 
 Additional engine checks: language packs 6 passed; message translation 3 passed. All ten locale editions are active after separate hash-bound AI editorial/lexical review, without claiming native human certification.
 
-Seven physical Fire device scenarios passed on the packaged normal debug APK: baseline gameplay/storage, recreation/hints/voice fallback, continuous touch swipes/backtracking, settings persistence, portrait, Wi-Fi disabled and large font. This is one Fire model and an unminified debug build; Amazon-delivered release testing remains pending. Multilingual cases are recorded separately.
+Seven physical Fire device scenarios passed on the packaged normal debug APK: baseline gameplay/storage, recreation/hints/voice fallback, continuous touch swipes/backtracking, settings persistence, portrait, Wi-Fi disabled and large font. This is one Fire model and an unminified debug build; Amazon-delivered release testing subsequently passed; see reports/live-app-test.json. Multilingual cases are recorded separately.
 
 All ten locale editions passed the normal-app portrait matrix at 150% system text plus in-app larger text. Locale selection, invalid/valid words, recreation, completion, garden, premium copy and advanced long/accented input were checked. Real screenshots were inspected separately; advanced puzzles use a test VM call and do not certify purchases.
 

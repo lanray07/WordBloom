@@ -1,5 +1,5 @@
 {
-  "ready_to_submit": false,
+  "ready_to_submit": true,
   "checks": {
     "publisher_privacy_approval": true,
     "publisher_name_confirmation": true,
@@ -11,7 +11,7 @@
     "all_locales_device_tested": true,
     "locale_progress_boundaries_tested": true,
     "console_candidate_and_copy_match_final_release": true,
-    "store_delivered_release_test_passed": false
+    "store_delivered_release_test_passed": true
   },
   "required_locales": [
     "en-GB",
@@ -38,5 +38,5 @@
     "pt-PT"
   ],
   "form_complete_does_not_mean_release_ready": true,
-  "submission_performed": false
+  "submission_performed": true
 }

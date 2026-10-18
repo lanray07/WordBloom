@@ -1,3 +1,8 @@
+> Current status — 18 October 2026: production successfully SUBMITTED and under
+> Amazon review. Premium promoted from TEST and Approved. All release-gate
+> checks passed, including delivered release purchase/cancel/offline/restore QA.
+> The earlier draft/pending notes below are historical. See SUBMISSION_READINESS.md.
+
 # Amazon console draft status
 
 **Saved and configured; not submitted or published.**
@@ -119,6 +124,21 @@ in public source or reports. See reports/multilingual-console-update.json.
 Private LAT submitted from the final saved candidate:
 `amzn1.devportal.apprelease.1769101893d64945abd182c5142ea1d7`, channel
 `amzn1.channel.7716864723744cf9a2a83689261b515a`. Only WordBloom Fire Release
-Test is selected, with one authorized adult tester. Amazon shows Test submitted;
-the enrolled tester invitation is Pending. No tester address is stored publicly.
+Test is selected, with one authorized adult tester. Amazon shows Test in-progress;
+the tester invitation is Delivered. No tester address is stored publicly.
 This private test is separate from the unsubmitted production release.
+
+Amazon-delivered minified release installed from com.amazon.venezia on KFTRWI.
+Delivered code, resources, language assets and native libraries match the uploaded
+candidate; the APK is not debuggable. Live GBP3.99 price, purchase cancellation,
+restore without a purchase, multilingual puzzle completions, English progress
+sharing and offline restart persistence passed. Successful premium purchase and
+restore of its owned receipt remain pending the publisher's Verify and Pay step.
+See reports/live-app-test.json for exact scope; production remains unsubmitted.
+
+Amazon-delivered purchase/restore QA is now complete: the publisher completed
+Verify and Pay; premium unlocked, a new puzzle awarded +4 hints, premium survived
+an offline restart, and Restore Amazon purchase recovered the entitlement after
+pm clear removed local app data. No sandbox property was enabled. This supersedes
+the pending purchase notes above. Public submission is the remaining console
+action, subject to tools/release_gate.py passing.

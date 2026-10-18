@@ -141,6 +141,10 @@ def main():
         development = json.loads(dev_proof.read_text())
         assert hashlib.sha256(dev_apk.read_bytes()).hexdigest() == development['sha256']
         summary['development_apk'] = development
+    lat_path = reports / 'live-app-test.json'
+    live_qa = json.loads(lat_path.read_text(encoding='utf-8')) if lat_path.exists() else {}
+    if live_qa.get('passed') is True:
+        summary['store_delivered_release_qa'] = live_qa
     (reports / 'verification-summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
     report = ROOT / 'TEST_REPORT.md'
     text = report.read_text(encoding='utf-8').split('\n## Final package verification\n')[0]
@@ -157,6 +161,9 @@ def main():
     if 'locale_progress_qa' in summary:
         text += '\nThree real-UI switching checks passed: English/German progress isolation, Brazil/Portugal progress isolation, and intentionally shared UK/US English progress.\n'
     text = text.replace('unsigned; owner signing required','unsigned; Amazon applies store signing')
+    if live_qa.get('passed') is True:
+        text = text.replace('Amazon-delivered release testing remains pending.', 'Amazon-delivered release testing subsequently passed; see reports/live-app-test.json.')
+        text = text.replace('so the final store-delivered purchase flow still needs Amazon-delivered live verification.', 'and the final Amazon-delivered purchase, cancellation, offline access and restore checks subsequently passed.')
     report.write_text(text, encoding='utf-8')
     dist = ROOT / 'dist'
     dist.mkdir(exist_ok=True)

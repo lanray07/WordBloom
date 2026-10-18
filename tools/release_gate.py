@@ -39,7 +39,7 @@ def main():
   'console_candidate_and_copy_match_final_release':console.get('metadata_matches_final_language_support') is True and set(required)<=set(console.get('supported_gameplay_locales',[])) and release.exists() and console.get('uploaded_release_apk_sha256')==hashlib.sha256(release.read_bytes()).hexdigest(),
   'store_delivered_release_test_passed':live.get('passed') is True and release.exists() and live.get('release_apk_sha256')==hashlib.sha256(release.read_bytes()).hexdigest(),
  }
- result=dict(ready_to_submit=all(checks.values()),checks=checks,required_locales=required,active_locales=available,form_complete_does_not_mean_release_ready=True,submission_performed=False)
+ result=dict(ready_to_submit=all(checks.values()),checks=checks,required_locales=required,active_locales=available,form_complete_does_not_mean_release_ready=True,submission_performed=console.get('production_submitted') is True)
  (ROOT/'reports/release-gate.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
  print(json.dumps(result,indent=2))
  return 0 if result['ready_to_submit'] else 1

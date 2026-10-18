@@ -50,12 +50,12 @@
     }
   ],
   "reviewer_instructions_saved": true,
-  "instructions_sha256": "5fff2fe33049115841c49d2d1d26741c69a5e2faf318c1233ce2e54a93c7296a",
+  "instructions_sha256": "ff9ffe3c22b3fd353bba5bc8414cb595111304f3b33b0204d8cf75a7dc23e16f",
   "uploaded_release_apk_sha256": "99db48e41f6ca592c1ccefead4b40dc9f342925a0d2a8afdf0f1fe1cc0ffc7d1",
   "downloaded_apk_matches_local_upload": true,
-  "app_submitted": false,
-  "premium_submitted_to_test_only": true,
-  "premium_test_status": "Approved; TEST label verified",
+  "app_submitted": true,
+  "premium_submitted_to_test_only": false,
+  "premium_test_status": "Promoted; Approved; no TEST label",
   "listing_images": [
     {
       "id": "01-connect",
@@ -83,9 +83,10 @@
   ],
   "fresh_listing_render_tests_passed": 3,
   "private_lat_draft": "amzn1.devportal.apprelease.1769101893d64945abd182c5142ea1d7",
-  "test_invitation_sent": false,
+  "test_invitation_sent": true,
   "test_submission_performed": true,
-  "private_lat_status": "Test submitted; Amazon processing",
-  "invitation_status": "Pending",
-  "tester_group_association_verified": true
+  "private_lat_status": "Test in-progress",
+  "invitation_status": "Delivered",
+  "tester_group_association_verified": true,
+  "premium_promoted_to_production": true
 }
