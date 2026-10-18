@@ -1,41 +1,27 @@
-# en-GB Listing-Entwurf
+# de listing candidate
 
-Anzeigetitel: „WordBloom“: Wortverbindungs- und Puzzlespiele
+Display title: WordBloom: Wörter verbinden und Rätsel
 
-Kurzbeschreibung: Verbinde Buchstaben, löse englische Kreuzworträtsel und pflege einen Garten. Offline-Wortspiele mit täglichem Spielspaß, ohne Werbung und mit optionaler einmaliger Premium-Freischaltung.
+Short description: Verbinde Buchstaben, löse Worträtsel und lass einen Garten wachsen. Offline spielen, tägliches Rätsel und keine Werbung.
 
-## Ausführliche Beschreibung
+## Full description
 
-WordBloom ist ein entspannendes englisches Wortverbindungsspiel. Wische zwischen Buchstabenfeldern hin und her, um Wörter zu entdecken, verbundene Kreuzworträtsel zu vervollständigen und einen illustrierten Garten anzulegen. Spiele die enthaltenen Rätsel offline, ohne Werbung und ohne WordBloom-Konto.
+WordBloom ist ein entspannendes Buchstabenspiel mit 24 Worträtseln pro Sprachsammlung und sechs illustrierten Gärten. Wische über Buchstaben, tippe einzelne Felder an oder gib ein Wort ein, um verbundene Kreuzworträtsel zu lösen.
 
-WORTRÄTSEL IN DEINEM TEMPO
-Entdecke 24 sorgfältig ausgewählte englische Rätsel in vier Schwierigkeitsstufen, vom Anfänger bis zum Experten. Wische, um Buchstaben zu verbinden, tippe auf einzelne Kacheln oder gib eine Antwort ein. Nutze Hinweise, decke einen Buchstaben auf oder mische die Buchstaben, wenn du eine neue Perspektive brauchst. Die Ausgaben für britisches und amerikanisches Englisch verwenden denselben gemeinsamen Wortschatz.
+Spiele offline und speichere deinen Fortschritt auf dem Gerät. Das erste Kapitel mit vier Rätseln und das tägliche Rätsel sind kostenlos. Das Tagesrätsel wird nach dem lokalen Datum aus der enthaltenen Sammlung ausgewählt. Es gibt keine Strafe für verpasste Tage. Ein optionaler einmaliger Amazon-Kauf schaltet die übrigen 20 Rätsel und alle sechs Umgebungen frei. Ohne Werbung oder Abonnement.
 
-SECHS GARTENUMGEBUNGEN
-Schreite vom „Sonnenaufgangsgarten“ über den „Zauberwald“, das „Blumental“, den „Kristallsee“ und die „Goldene Wiese“ bis zum „Mondlichtgarten“ voran. Bei den ersten Lösungen erscheinen Blüten und du erhältst Hinweise. Dein Fortschritt und deine Einstellungen werden auf deinem Gerät gespeichert.
+Nutze Hinweise oder mische die Buchstaben. Größere Schrift, hoher Kontrast, dunkles Design und reduzierte Bewegung sind einstellbar. Optionale Sprachausgabe und Sprachbefehle benötigen passende installierte Dienste. Die Spracherkennung kann Internet benötigen und Sprache an ihren Anbieter senden. WordBloom speichert keine Aufnahmen.
 
-TÄGLICHE WORTRÄTSEL, AUCH OFFLINE VERFÜGBAR
-Kehre zurück, um ein kalenderbasiertes Rätsel zu lösen, das anhand des lokalen Datums aus der enthaltenen Sammlung ausgewählt wird. Das tägliche Spielen ist kostenlos, ohne Strafen bei unterbrochener Spielserie.
+Spiele auf Deutsch, Englisch (UK/USA), Spanisch, Französisch, Italienisch, Niederländisch, Polnisch oder Portugiesisch (Brasilien/Portugal). Jede Sprachsammlung umfasst 24 Rätsel. Die englischen Ausgaben teilen Sammlung und Fortschritt; die anderen Sprachausgaben speichern den Fortschritt getrennt. Akzeptiert werden nur die Ziel- und Bonuswörter des jeweiligen Rätsels. Eine Deinstallation löscht den lokalen Fortschritt; berechtigte Käufe lassen sich über Amazon wiederherstellen.
 
-KOSTENLOSER START, EINMALIGE PREMIUM-ZAHLUNG
-Das Einführungskapitel mit vier Rätseln und das tägliche Spiel sind kostenlos. Ein optionaler einmaliger Kauf über Amazon schaltet die restlichen 20 Rätsel und alle sechs Umgebungen frei, sowie einen zusätzlichen Hinweis, den du bei jedem ersten Abschluss erhältst. Es ist kein Abonnement erforderlich.
+## Feature highlights
 
-OPTIONALE SPRACH- UND BARRIEREFREIHEITSFUNKTIONEN
-Wähle größeren Text, hohen Kontrast, ein dunkles Design oder reduzierte Animationen. Optionale Sprachausgabe und „Push-to-Talk“-Befehle hängen von kompatiblen, auf dem Gerät installierten Diensten ab. Die Spracherkennung benötigt möglicherweise eine Internetverbindung und sendet Sprachdaten an den Anbieter; WordBloom speichert keine Mikrofonaufnahmen. Das Spiel mit Touch- und Textbedienung bleibt offline verfügbar.
+- 24 Worträtsel pro Sprachsammlung: Buchstaben per Wischen, Tippen oder Tastatur verbinden.
+- Sechs illustrierte Gärten, vier Schwierigkeitsstufen und lokal gespeicherter Fortschritt.
+- Enthaltene Rätsel offline spielen, einschließlich eines kostenlosen Tagesrätsels.
+- Optionale Sprache, größere Schrift, hoher Kontrast, dunkles Design und reduzierte Bewegung.
+- Vier kostenlose Einstiegsrätsel; vollständige Sammlung per Einmalkauf, ohne Werbung oder Abo.
 
-SPRACHE UND INHALT
-Die Rätsel sind auf Englisch. Die kuratierte Sammlung akzeptiert die aufgeführten Ziel- und Bonuswörter und nicht jedes Wort aus dem Wörterbuch. Weitere Sprachen für das Spiel sind derzeit nicht enthalten. Durch die Deinstallation werden lokale Spielfortschritte gelöscht; berechtigte Premium-Käufe können über Amazon wiederhergestellt werden.
+## Keywords
 
-## Wichtigste Funktionen
-
-- Verbinde Buchstaben durch Wischen, Tippen oder Eingeben, um 24 kuratierte englische Kreuzworträtsel zu lösen.
-- Entdecke sechs illustrierte Gärten und vier Schwierigkeitsstufen, wobei der Fortschritt auf deinem Gerät gespeichert wird.
-- Spiele die enthaltenen Rätsel offline, darunter eine kostenlose, kalenderbasierte tägliche Herausforderung.
-- Wähle optionale Sprachfunktionen, größeren Text, hohen Kontrast, ein dunkles Design und reduzierte Bewegungen.
-- Beginne mit vier kostenlosen Rätseln; schalte die gesamte Sammlung mit einem Kauf frei. Keine Werbung und kein Abonnement.
-
-## Stichwörter
-
-Wortverbindungen, Worträtselspiele, englisches Kreuzworträtsel, Buchstabenverbindungen, Offline-Wortspiele, tägliches Worträtsel, entspannende Wortspiele, Gartenrätsel
-
-Sprache im Store: en-GB. Spielsprache: Britisches/US-Englisch. Überprüfung in der Muttersprache steht noch aus.
+entspannende, Worträtsel, tägliches, verbinden, Rätsel, Offline, Kreuzworträtsel, Wörter, Buchstabenspiel, Spiele

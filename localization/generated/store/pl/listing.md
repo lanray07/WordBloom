@@ -1,41 +1,27 @@
-# en-GB projekt opisu
+# pl listing candidate
 
-Tytuł wyświetlany: „WordBloom”: Łączenie słów i gry logiczne
+Display title: WordBloom: Łącz litery i rozwiązuj słowa
 
-Krótki opis: Łącz litery, rozwiązuj angielskie krzyżówki i uprawiaj ogród. Gry słowne offline z codzienną rozgrywką, bez reklam i z opcjonalnym jednorazowym odblokowaniem wersji premium.
+Short description: Łącz litery, rozwiązuj krzyżówki i rozwijaj ogród. Zagadki offline, codzienne wyzwanie i brak reklam.
 
-## Pełny opis
+## Full description
 
-WordBloom to relaksująca gra polegająca na łączeniu angielskich słów. Przesuwaj palcem między kafelkami z literami, aby odkrywać słowa, uzupełniać połączone krzyżówki i uprawiać ilustrowany ogród. Graj w dołączone łamigłówki w trybie offline, bez reklam i bez konta WordBloom.
+WordBloom to relaksująca gra w łączenie liter z 24 łamigłówkami w każdej kolekcji językowej i sześcioma ilustrowanymi ogrodami. Przesuwaj palcem między literami, dotykaj pól lub wpisuj odpowiedzi, aby uzupełniać połączone krzyżówki.
 
-ŁAMIGŁÓWKI SŁOWNE W TWOIM TEMPIE
-Odkryj 24 starannie dobrane łamigłówki w języku angielskim w czterech poziomach trudności, od początkującego do eksperta. Przesuwaj palcem, aby łączyć litery, dotykaj poszczególnych płytek lub wpisuj odpowiedzi. Korzystaj z podpowiedzi, odsłaniaj litery lub kręć kołem, gdy potrzebujesz świeżego spojrzenia. Wersje angielskiej brytyjskiej i amerykańskiej zawierają ten sam zbiór słów o wspólnej pisowni.
+Graj offline i zapisuj postępy na urządzeniu. Pierwszy rozdział z czterema łamigłówkami oraz codzienne wyzwanie są bezpłatne. Zagadka dnia jest wybierana z dostępnej kolekcji według daty lokalnej, bez kar za pominięte dni. Opcjonalny jednorazowy zakup przez Amazon odblokowuje pozostałe 20 łamigłówek i wszystkie sześć scenerii. Bez reklam i abonamentu.
 
-SZEŚĆ ŚRODOWISK OGRODOWYCH
-Przemierzaj trasę od Ogrodu Wschodu Słońca przez Zaczarowany Las, Dolinę Kwiatów, Kryształowe Jezioro i Złotą Łąkę aż do Ogrodu w Blasku Księżyca. Pierwsze ukończone łamigłówki dodają kwiaty i zapewniają podpowiedzi. Postępy i ustawienia są zapisywane na Twoim urządzeniu.
+Korzystaj ze wskazówek i mieszaj litery. Wybierz większy tekst, wysoki kontrast, ciemny motyw lub ograniczony ruch. Opcjonalne czytanie i polecenia głosowe zależą od zainstalowanych usług. Rozpoznawanie może wymagać internetu i wysyłać głos do dostawcy. WordBloom nie przechowuje nagrań.
 
-CODZIENNE ŁAMIGŁÓWKI SŁOWNE, DOSTĘPNE W TRYBIE OFFLINE
-Wracaj, by rozwiązywać łamigłówki oparte na kalendarzu, wybierane z dołączonego zbioru zgodnie z lokalną datą. Codzienna rozgrywka jest bezpłatna, bez kar za przerwę w serii.
+Graj po polsku, angielsku (Wielka Brytania/Stany Zjednoczone), niemiecku, hiszpańsku, francusku, włosku, niderlandzku lub portugalsku (Brazylia/Portugalia). Każda kolekcja językowa zawiera 24 łamigłówki. Wersje angielskie mają wspólną kolekcję i postępy; pozostałe wersje zapisują postępy oddzielnie. Akceptowane są wyłącznie słowa docelowe i bonusowe danej łamigłówki. Odinstalowanie usuwa lokalne postępy; uprawnione zakupy można przywrócić przez Amazon.
 
-BEZPŁATNY POCZĄTEK, JEDNORAZOWA OPŁATA PREMIUM
-Wstępny rozdział zawierający cztery łamigłówki oraz codzienna rozgrywka są bezpłatne. Opcjonalny, jednorazowy zakup w serwisie Amazon odblokowuje pozostałe 20 łamigłówek i wszystkie sześć środowisk, a także dodatkową podpowiedź zdobytą przy każdym pierwszym ukończeniu. Nie jest wymagana subskrypcja.
+## Feature highlights
 
-OPCJONALNE FUNKCJE GŁOSOWE I DOSTĘPNOŚCI
-Wybierz większy tekst, wysoki kontrast, ciemny motyw lub ograniczoną animację. Opcjonalna narracja i polecenia typu „naciśnij, aby mówić” zależą od kompatybilnych usług zainstalowanych na urządzeniu. Rozpoznawanie mowy może wymagać połączenia z Internetem i przesyłania mowy do dostawcy; WordBloom nie przechowuje żadnych nagrań z mikrofonu. Rozgrywka dotykowa i tekstowa pozostaje dostępna w trybie offline.
+- 24 łamigłówki w każdej kolekcji językowej: łącz litery przesuwaniem, dotykiem lub wpisywaniem.
+- Sześć ilustrowanych ogrodów, cztery poziomy trudności i lokalny zapis postępów.
+- Łamigłówki z kolekcji offline i bezpłatne wyzwanie według lokalnej daty.
+- Opcjonalny głos, większy tekst, wysoki kontrast, ciemny motyw i ograniczony ruch.
+- Cztery łamigłówki na start za darmo; pełna kolekcja za jednorazowy zakup, bez reklam i abonamentu.
 
-JĘZYK I TREŚĆ
-Łamigłówki są w języku angielskim. W tej wyselekcjonowanej kolekcji akceptowane są wyłącznie wymienione słowa docelowe i bonusowe, a nie wszystkie słowa ze słownika. Obecnie nie są dostępne dodatkowe języki rozgrywki. Odinstalowanie aplikacji powoduje usunięcie lokalnych postępów; kwalifikujące się zakupy premium można przywrócić za pośrednictwem serwisu Amazon.
+## Keywords
 
-## Najważniejsze funkcje
-
-- Łącz litery, przesuwając palcem, stukając lub wpisując, aby rozwiązać 24 wyselekcjonowane angielskie krzyżówki.
-- Odkrywaj sześć ilustrowanych ogrodów i cztery poziomy trudności – postępy są zapisywane na Twoim urządzeniu.
-- Graj w dołączone krzyżówki w trybie offline, w tym w bezpłatne codzienne wyzwanie oparte na kalendarzu.
-- Wybierz opcjonalne funkcje głosowe, większy tekst, wysoki kontrast, ciemny motyw i ograniczoną animację.
-- Zacznij od czterech bezpłatnych krzyżówek; odblokuj pełną kolekcję jednym zakupem. Bez reklam i subskrypcji.
-
-## Słowa kluczowe
-
-łączenie słów, gry słowne, angielskie krzyżówki, łączenie liter, gry słowne offline, codzienne łamigłówki słowne, relaksujące gry słowne, łamigłówki ogrodowe
-
-Ustawienia językowe sklepu: en-GB. Rozgrywka: angielski (Wielka Brytania/USA). Recenzja w języku ojczystym w przygotowaniu.
+offline, łamigłówki, łączenie, słowne, krzyżówki, liter, relaksujące, codzienna, zagadka, gry

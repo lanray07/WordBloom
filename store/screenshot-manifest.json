@@ -1,5 +1,5 @@
 {
-  "status": "Final multilingual candidate tested locally; three earlier listing renders remain in console; final matching upload pending",
+  "status": "Three refreshed final-UI listing renders uploaded and byte-verified; current multilingual candidate in draft; Amazon-delivered QA pending",
   "specification_status": "Verified against official Appstore Details documentation on 2026-10-16; recheck console before upload.",
   "variants": {
     "phone": [
@@ -468,8 +468,9 @@
     "count": 3,
     "source": "independent production Compose screen renders",
     "device_capture": false,
-    "console_status": "Complete",
-    "explicitly_requested_by_user": "2026-10-17"
+    "console_status": "Complete; three refreshed images verified 2026-10-18",
+    "explicitly_requested_by_user": "2026-10-17",
+    "verified_source": "Current UI production Compose renders, hash-verified after download"
   },
   "physical_capture_device": {
     "model": "KFTRWI",

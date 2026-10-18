@@ -2,7 +2,8 @@
 
 **Not yet ready to submit.** The multilingual candidate now supports all ten
 requested locale editions after separate AI editorial/lexical review. The Amazon
-console still contains the earlier English-only APK and copy. An enabled Submit
+console now contains the multilingual release APK, ten revised descriptions and
+three refreshed current-UI listing images, all verified. An enabled Submit
 App button does not establish that the final candidate was tested or uploaded.
 
 Completed work includes Kotlin/Compose gameplay, Room/DataStore progress,
@@ -31,13 +32,14 @@ sandbox and do not certify the minified release delivered by Amazon. A separate
 
 Remaining release work:
 
-1. Update the ten console descriptions and language-support fields to match the
-   multilingual candidate; review the three premium listing compositions against
-   final UI, upload the final unsigned release APK, and verify saved draft values.
+1. Completed on 18 October: ten console descriptions, supported-language fields,
+   final unsigned release APK, reviewer instructions and three refreshed listing
+   images saved and verified. Seven premium descriptions verified; entitlement
+   submitted to TEST only and Approved. Production remains unsubmitted.
 2. Use Amazon Live App Testing to install the Amazon-delivered minified release
    on the tablet and check live product price, purchase/cancel/restore behavior
-   and gameplay. An invitation needs the tablet's actual Amazon-account email
-   and explicit authorization to send it; the support email is not assumed.
+   and gameplay. The authorized private test was submitted on 18 October; Amazon test activation
+   and invitation delivery are pending. Tester contact details remain private.
 3. Record remaining hands-on audio/accessibility observations and any findings.
    Speech recognition needs a device with a recognition service if advertised
    beyond the tested fallback. Avoid claiming tests that were not performed.
@@ -48,14 +50,19 @@ Publisher decisions are already recorded: all ages, export certification,
 privacy/SDK disclosures and the WordBloom name. Do not ask for those again.
 Amazon applies store signing; a private owner signing key is not needed for this
 Amazon-only upload. The free app has one-time premium access, base price GBP3.99.
-Nothing has been submitted or published.
+The production app remains unsubmitted. The premium entitlement is Approved for TEST only and has not been promoted to live.
 
 Original art/audio and three production Compose listing compositions are present;
 the latter are renders, not physical device screenshots. Thirty-two older
 watermarked concepts are retained only as concepts and must not be uploaded.
-Generated localized listing drafts still retain the older English-gameplay
-statement until the metadata revision. Curated word allowlists may reject valid
+The listing copy now describes actual multilingual gameplay. Curated word allowlists may reject valid
 words outside the authored answers; do not advertise a comprehensive dictionary.
 See store/CONSOLE_DRAFT.md and reports/release-gate.json for the separate console
 and release evidence. Expansion beyond the current 24 authored puzzles per
 collection and optional reminders remain product improvements, not claimed work.
+
+
+Private LAT submitted: WordBloom multilingual Fire QA - 18 Oct 2026. The only
+selected group is WordBloom Fire Release Test, containing one authorized adult
+tester. Amazon shows Test submitted; the enrolled tester invitation is Pending.
+Public production remains unsubmitted. See reports/live-app-test.json.

@@ -18,7 +18,6 @@ non-English and five English frequency flags were retained after dictionary
 adjudication; reports/rare-word-adjudication.json explains each decision.
 
 See localization/REVIEW_HANDOFF.md for update/revalidation instructions.
-Generated listing files retain the earlier English-only disclosure and must be
-updated before console upload. This archive contains no API key or device
+Multilingual listing files now match the verified saved Amazon descriptions. This archive contains no API key or device
 receipt IDs. Further fluent regional/difficulty review remains a useful quality
 improvement, not a certification claimed by this package.

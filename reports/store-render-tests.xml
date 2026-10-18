@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<testsuite name="com.wordbloom.garden.StoreScreenRenderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-17T06:02:21.486Z" time="1.411">
+<testsuite name="com.wordbloom.garden.StoreScreenRenderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-18T13:14:13.002Z" time="17.111">
   <properties />
-  <testcase name="journey" classname="com.wordbloom.garden.StoreScreenRenderTest" time="0.544" />
-  <testcase name="garden" classname="com.wordbloom.garden.StoreScreenRenderTest" time="0.436" />
-  <testcase name="connect" classname="com.wordbloom.garden.StoreScreenRenderTest" time="0.43" />
+  <testcase name="journey" classname="com.wordbloom.garden.StoreScreenRenderTest" time="15.514" />
+  <testcase name="garden" classname="com.wordbloom.garden.StoreScreenRenderTest" time="0.577" />
+  <testcase name="connect" classname="com.wordbloom.garden.StoreScreenRenderTest" time="1.02" />
   <system-out />
-  <system-err>Oct 17, 2026 7:02:21 AM app.cash.paparazzi.internal.PaparazziLogger logAndroidFramework
+  <system-err>Oct 18, 2026 2:14:25 PM app.cash.paparazzi.internal.PaparazziLogger logAndroidFramework
 INFO: Settings [3]: Can't get key animator_duration_scale from content://settings/global
-Oct 17, 2026 7:02:22 AM app.cash.paparazzi.internal.PaparazziLogger logAndroidFramework
+Oct 18, 2026 2:14:28 PM app.cash.paparazzi.internal.PaparazziLogger logAndroidFramework
 INFO: Settings [3]: Can't get key animator_duration_scale from content://settings/global
-Oct 17, 2026 7:02:22 AM app.cash.paparazzi.internal.PaparazziLogger logAndroidFramework
+Oct 18, 2026 2:14:29 PM app.cash.paparazzi.internal.PaparazziLogger logAndroidFramework
 INFO: Settings [3]: Can't get key animator_duration_scale from content://settings/global
 </system-err>
 </testsuite>

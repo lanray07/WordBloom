@@ -25,7 +25,7 @@ def main():
     provider = json.loads((ROOT / 'localization/report.json').read_text(encoding='utf-8'))
     report = {'provider': 'DeepL', 'status': 'generated translations with separately recorded editorial/lexical review',
               'linguistic_approval': False, 'locales': {},
-              'listing_scope': 'Translations retain the current English-only gameplay disclosure. Revise copy after reviewed packs are activated.'}
+              'listing_scope': 'Multilingual listing copy edited separately from UI generation. Saved console verification is tracked in amazon-console-verification.json.'}
     folder = ROOT / 'localization/review'
     folder.mkdir(exist_ok=True)
     for locale in required:

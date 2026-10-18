@@ -1873,7 +1873,7 @@
           "review_required": true
         },
         "store_listing": {
-          "length_ratio": 1.33,
+          "length_ratio": 0.72,
           "review_required": true
         },
         "shot_01-gameplay_headline": {
@@ -2843,7 +2843,7 @@
           "review_required": true
         },
         "store_listing": {
-          "length_ratio": 1.33,
+          "length_ratio": 0.76,
           "review_required": true
         },
         "shot_01-gameplay_headline": {
@@ -3813,7 +3813,7 @@
           "review_required": true
         },
         "store_listing": {
-          "length_ratio": 1.28,
+          "length_ratio": 0.76,
           "review_required": true
         },
         "shot_01-gameplay_headline": {
@@ -4783,7 +4783,7 @@
           "review_required": true
         },
         "store_listing": {
-          "length_ratio": 1.27,
+          "length_ratio": 0.73,
           "review_required": true
         },
         "shot_01-gameplay_headline": {
@@ -5753,7 +5753,7 @@
           "review_required": true
         },
         "store_listing": {
-          "length_ratio": 1.23,
+          "length_ratio": 0.71,
           "review_required": true
         },
         "shot_01-gameplay_headline": {
@@ -6723,7 +6723,7 @@
           "review_required": true
         },
         "store_listing": {
-          "length_ratio": 1.22,
+          "length_ratio": 0.69,
           "review_required": true
         },
         "shot_01-gameplay_headline": {
@@ -7693,7 +7693,7 @@
           "review_required": true
         },
         "store_listing": {
-          "length_ratio": 1.21,
+          "length_ratio": 0.72,
           "review_required": true
         },
         "shot_01-gameplay_headline": {
@@ -8663,7 +8663,7 @@
           "review_required": true
         },
         "store_listing": {
-          "length_ratio": 1.23,
+          "length_ratio": 0.7,
           "review_required": true
         },
         "shot_01-gameplay_headline": {
@@ -8763,12 +8763,20 @@
       "nl",
       "pl"
     ],
-    "status": "ten listing drafts filled in Amazon console; native editorial review pending",
+    "status": "All ten multilingual descriptions verified saved after reload 2026-10-18; app not submitted",
     "gameplay_locales": [
+      "de",
       "en-GB",
-      "en-US"
+      "en-US",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "pl",
+      "pt-BR",
+      "pt-PT"
     ],
-    "boundary": "Store descriptions are localized independently; Android interface/puzzle activation is unchanged."
+    "boundary": "Store copy is reviewed separately; actual app activation and tablet proof are recorded in approvals and device reports."
   },
   "extraction_audit": [
     {

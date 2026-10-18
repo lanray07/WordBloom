@@ -5,35 +5,35 @@
     "currency": "GBP",
     "amount": "3.99"
   },
-  "status": "draft; not submitted",
+  "status": "Seven descriptions saved/reopened; submitted to TEST only and Approved 2026-10-18; not promoted to live",
   "localizations": {
     "en-US": {
       "title": "WordBloom Premium",
-      "description": "Unlock all six gardens and all 24 English puzzles, including advanced and expert levels. Get expanded garden statistics and earn 4 hints instead of 3 on each first completion. One-time purchase; no ads or subscription. English UK/US share the same collection. Additional language packs are not included. Daily play and the first four puzzles remain free."
+      "description": "Unlock all six gardens and all 24 puzzles in each available language, including advanced and expert levels. Get expanded garden statistics and earn 4 hints instead of 3 on each first completion. One-time purchase; no ads or subscription. English UK/US share the same collection. All ten available language editions are included. Daily play and the first four puzzles remain free."
     },
     "en-GB": {
       "title": "WordBloom Premium",
-      "description": "Unlock all six gardens and all 24 English puzzles, including advanced and expert levels. Get expanded garden statistics and earn 4 hints instead of 3 on each first completion. One-time purchase; no ads or subscription. English UK/US share the same collection. Additional language packs are not included. Daily play and the first four puzzles remain free."
+      "description": "Unlock all six gardens and all 24 puzzles in each available language, including advanced and expert levels. Get expanded garden statistics and earn 4 hints instead of 3 on each first completion. One-time purchase; no ads or subscription. English UK/US share the same collection. All ten available language editions are included. Daily play and the first four puzzles remain free."
     },
     "de": {
       "title": "WordBloom Premium",
-      "description": "Schalte alle sechs Gärten und alle 24 englischen Rätsel frei, einschließlich fortgeschrittener und Experten-Rätsel. Erhalte erweiterte Gartenstatistiken und 4 statt 3 Hinweise pro erstmaligem Abschluss. Einmalkauf, ohne Werbung oder Abo. Die britische und amerikanische Ausgabe teilen dieselbe Sammlung. Weitere Sprachpakete sind nicht enthalten. Das Tagesrätsel und die ersten vier Rätsel bleiben kostenlos."
+      "description": "Schalte alle sechs Gärten und alle 24 Rätsel jeder verfügbaren Sprache frei, einschließlich fortgeschrittener und Experten-Rätsel. Erhalte erweiterte Gartenstatistiken und 4 statt 3 Hinweise pro erstmaligem Abschluss. Einmalkauf, ohne Werbung oder Abo. Die britische und amerikanische Ausgabe teilen dieselbe Sammlung. Alle zehn verfügbaren Sprachausgaben sind enthalten. Das Tagesrätsel und die ersten vier Rätsel bleiben kostenlos."
     },
     "es": {
       "title": "WordBloom Premium",
-      "description": "Desbloquea los seis jardines y los 24 puzles en inglés, incluidos los niveles avanzados y expertos. Obtén estadísticas ampliadas y 4 pistas en lugar de 3 al completar cada puzle por primera vez. Compra única, sin anuncios ni suscripción. Las ediciones británica y estadounidense comparten la colección. No incluye otros idiomas. El reto diario y los primeros cuatro puzles siguen siendo gratis."
+      "description": "Desbloquea los seis jardines y los 24 puzles de cada idioma disponible, incluidos los niveles avanzados y expertos. Obtén estadísticas ampliadas y 4 pistas en lugar de 3 al completar cada puzle por primera vez. Compra única, sin anuncios ni suscripción. Las ediciones británica y estadounidense comparten la colección. Incluye las diez ediciones de idioma disponibles. El reto diario y los primeros cuatro puzles siguen siendo gratis."
     },
     "fr": {
       "title": "WordBloom Premium",
-      "description": "Débloquez les six jardins et les 24 puzzles en anglais, dont les niveaux avancés et experts. Profitez de statistiques détaillées et gagnez 4 indices au lieu de 3 lors de chaque première résolution. Achat unique, sans publicité ni abonnement. Les éditions britannique et américaine partagent la même collection. Aucune autre langue de puzzles incluse. Le défi quotidien et les quatre premiers puzzles restent gratuits."
+      "description": "Débloquez les six jardins et les 24 puzzles de chaque langue disponible, dont les niveaux avancés et experts. Profitez de statistiques détaillées et gagnez 4 indices au lieu de 3 lors de chaque première résolution. Achat unique, sans publicité ni abonnement. Les éditions britannique et américaine partagent la même collection. Les dix éditions linguistiques disponibles sont incluses. Le défi quotidien et les quatre premiers puzzles restent gratuits."
     },
     "it": {
       "title": "WordBloom Premium",
-      "description": "Sblocca tutti e sei i giardini e i 24 rompicapi in inglese, inclusi i livelli avanzati ed esperti. Ottieni statistiche ampliate e 4 aiuti invece di 3 per ogni primo completamento. Acquisto unico, senza pubblicità né abbonamento. Le edizioni britannica e statunitense condividono la raccolta. Non include altre lingue. La sfida quotidiana e i primi quattro rompicapi restano gratuiti."
+      "description": "Sblocca tutti e sei i giardini e i 24 rompicapi di ogni lingua disponibile, inclusi i livelli avanzati ed esperti. Ottieni statistiche ampliate e 4 aiuti invece di 3 per ogni primo completamento. Acquisto unico, senza pubblicità né abbonamento. Le edizioni britannica e statunitense condividono la raccolta. Sono incluse tutte le dieci edizioni linguistiche disponibili. La sfida quotidiana e i primi quattro rompicapi restano gratuiti."
     },
     "pt-BR": {
       "title": "WordBloom Premium",
-      "description": "Desbloqueie os seis jardins e os 24 quebra-cabeças em inglês, incluindo níveis avançados e especialistas. Receba estatísticas ampliadas e 4 dicas em vez de 3 em cada primeira conclusão. Compra única, sem anúncios ou assinatura. As edições britânica e americana compartilham a coleção. Não inclui outros idiomas. O desafio diário e os primeiros quatro quebra-cabeças continuam gratuitos."
+      "description": "Desbloqueie os seis jardins e os 24 quebra-cabeças de cada idioma disponível, incluindo níveis avançados e especialistas. Receba estatísticas ampliadas e 4 dicas em vez de 3 em cada primeira conclusão. Compra única, sem anúncios ou assinatura. As edições britânica e americana compartilham a coleção. Inclui as dez edições de idioma disponíveis. O desafio diário e os primeiros quatro quebra-cabeças continuam gratuitos."
     }
   }
 }

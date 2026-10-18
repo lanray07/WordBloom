@@ -10,7 +10,7 @@
     "current_debug_device_matrix_passed": true,
     "all_locales_device_tested": true,
     "locale_progress_boundaries_tested": true,
-    "console_candidate_and_copy_match_final_release": false,
+    "console_candidate_and_copy_match_final_release": true,
     "store_delivered_release_test_passed": false
   },
   "required_locales": [

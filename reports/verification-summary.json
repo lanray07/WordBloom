@@ -42,7 +42,6 @@
   "development_billing_absent_from_release": true,
   "google_play_billing_absent_from_release": true,
   "pending": [
-    "matching multilingual console copy, listing assets and final candidate upload",
     "final Amazon store-delivered release/purchase verification"
   ],
   "language_pack_junit": {

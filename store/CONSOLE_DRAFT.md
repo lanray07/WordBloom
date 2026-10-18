@@ -101,3 +101,24 @@ editorial/lexical validation, not native human certification. Current console
 APK/copy still describe English gameplay. No new console upload, invitation,
 submission or publication is implied by the local tablet results. Final
 multilingual metadata/assets and candidate upload remain required before LAT.
+
+
+## Current verified multilingual draft — 18 October 2026
+
+Supersedes the earlier English-only progress notes above. Final multilingual APK
+uploaded and verified by downloading the same bytes. All ten app descriptions
+and seven IAP descriptions reopened and verified. Language fields include all
+eight language families covering the ten locale editions. Three refreshed
+current-UI listing renders uploaded, downloaded and hash-verified in correct
+order. Updated reviewer instructions saved and verified; all-ages/export choices
+remain as approved. Premium entitlement submitted to TEST only and Approved;
+not promoted to live. Production app remains Ready to Submit and unsubmitted.
+Private LAT setup and tester invitation are separate; no tester email is stored
+in public source or reports. See reports/multilingual-console-update.json.
+
+Private LAT submitted from the final saved candidate:
+`amzn1.devportal.apprelease.1769101893d64945abd182c5142ea1d7`, channel
+`amzn1.channel.7716864723744cf9a2a83689261b515a`. Only WordBloom Fire Release
+Test is selected, with one authorized adult tester. Amazon shows Test submitted;
+the enrolled tester invitation is Pending. No tester address is stored publicly.
+This private test is separate from the unsubmitted production release.

@@ -676,6 +676,6 @@
       ]
     }
   },
-  "listing_scope": "Translations retain the current English-only gameplay disclosure. Revise copy after reviewed packs are activated.",
+  "listing_scope": "Multilingual listing copy edited separately from UI generation. Saved console verification is tracked in amazon-console-verification.json.",
   "native_human_certification": false
 }

@@ -14,7 +14,7 @@ DEST = ROOT / 'store/screenshots/en-US/tablet'
 SPECS = [
     ('01-connect', 'connect', 'WORD CONNECT',
      'Connect letters. Find your flow.',
-     'Swipe, tap or type to solve curated English word puzzles.'),
+     'Swipe, tap or type to solve curated word puzzles.'),
     ('02-journey', 'journey', 'SIX GARDEN CHAPTERS',
      'A world of words awaits.',
      'Start free. Unlock the full collection with one premium purchase.'),
@@ -65,11 +65,11 @@ def main():
             title=title,subtitle=subtitle,
             provenance='Production Compose tree, Paparazzi/layoutlib, independent screen fixture; not a physical-device capture',
             content_edits='None: uniform downscale, frame, shadow and external caption only',
-            device_qa='pending',console_status='prepared'))
+            device_qa='Normal debug KFTRWI checks passed; Amazon-delivered release test remains pending',console_status='prepared'))
     manifest = dict(status='prepared; pending visual and console validation',
         source_kind='production Compose screen renders',device_capture=False,
-        locale='en-US',fallback='Shared English artwork for the ten localized descriptions; gameplay remains English',
-        exports=exports)
+        locale='en-US',fallback='English example screens shared across localized listings; the candidate supports all ten gameplay locale editions',
+        prepared_date='2026-10-18',exports=exports)
     (ROOT/'store/premium-screenshots.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
     # This preview is for convenient review only, never a store upload.
     contact = Image.new('RGB', (960, 1800), '#E5E9DF')

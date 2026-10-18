@@ -32,8 +32,6 @@ Further fluent regional and audience/difficulty review would increase confidence
 
 The archive dist/WordBloom-language-review.zip contains CSVs, bundles, authored
 vocabulary, commands, review methods and evidence. Approval cells reflect current
-hash-bound review records; they do not imply human review. Generated marketing
-files still retain the earlier English-gameplay disclosure and require revision
-before replacing Amazon metadata. Final normal-app tablet QA is recorded apart
+hash-bound review records; they do not imply human review. Multilingual marketing copy is now saved and verified in the Amazon draft. Final normal-app tablet QA is recorded apart
 from the earlier visibly marked .qa prototype. Amazon-delivered release QA is
 still required before submission.

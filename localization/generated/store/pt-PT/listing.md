@@ -1,41 +1,27 @@
-# rascunho da listagem em en-GB
+# pt-PT listing candidate
 
-Título de exibição: WordBloom: Jogos de ligação de palavras e de quebra-cabeças
+Display title: WordBloom: Liga letras e palavras
 
-Breve descrição: Liga letras, resolve palavras cruzadas em inglês e cultiva um jardim. Jogos de palavras offline com jogadas diárias, sem anúncios e com um desbloqueio premium opcional único.
+Short description: Liga letras, resolve palavras cruzadas em vários idiomas e cultiva um jardim. Puzzles offline, desafio diário e sem anúncios.
 
-## Descrição completa
+## Full description
 
-WordBloom é um jogo relaxante de ligação de palavras em inglês. Desliza entre os quadrados com letras para descobrir palavras, completar grelhas de palavras cruzadas interligadas e cultivar um jardim ilustrado. Joga os puzzles incluídos offline, sem anúncios nem uma conta WordBloom.
+WordBloom é um jogo relaxante de ligar letras com 24 puzzles por coleção de idioma e seis jardins ilustrados. Desliza entre letras, toca nas peças ou escreve uma resposta para completar grelhas de palavras cruzadas.
 
-PUZZLES DE PALAVRAS AO TEU RITMO
-Explora 24 puzzles em inglês cuidadosamente selecionados, distribuídos por quatro níveis de dificuldade, desde principiante a especialista. Desliza para ligar letras, toca em peças individuais ou escreve uma resposta. Usa dicas, revela uma letra ou baralha as letras quando precisar de uma nova perspetiva. As edições de inglês britânico e americano partilham o mesmo conjunto de ortografia comum.
+Joga offline e guarda o progresso no dispositivo. O capítulo inicial com quatro puzzles e o desafio diário são gratuitos. O desafio é escolhido da coleção incluída segundo a data local, sem penalizações por dias em falta. Uma compra única e opcional na Amazon desbloqueia os restantes 20 puzzles e os seis ambientes. Sem anúncios nem subscrição.
 
-SEIS AMBIENTES DE JARDIM
-Avança do «Jardim do nascer do sol» passando pela «Floresta encantada», «Vale das flores», «Lago cristalino» e «Prado dourado» até ao «Jardim ao luar». As primeiras conclusões adicionam flores e dão-te dicas. O progresso e as definições são guardados no teu dispositivo.
+Usa pistas e baralha as letras. Escolhe texto maior, alto contraste, tema escuro ou movimento reduzido. A narração e os comandos de voz opcionais dependem dos serviços instalados. O reconhecimento pode precisar de Internet e enviar a voz ao fornecedor. WordBloom não guarda gravações.
 
-QUEBRA-CABEÇAS DIÁRIOS, DISPONÍVEIS OFFLINE
-Volta para um quebra-cabeças baseado no calendário, selecionado da coleção incluída de acordo com a data local. O jogo diário é gratuito, sem penalizações por sequências.
+Joga em português (Portugal/Brasil), inglês (Reino Unido/Estados Unidos), alemão, espanhol, francês, italiano, neerlandês ou polaco. Cada coleção de idioma inclui 24 puzzles. As edições inglesas partilham a coleção e o progresso; as restantes edições guardam o progresso separadamente. Só são aceites as palavras previstas e extra de cada puzzle. A desinstalação elimina o progresso local; as compras elegíveis podem ser restauradas através da Amazon.
 
-COMEÇA GRÁTIS, DESBLOQUEIO PREMIUM COM COMPRA ÚNICA
-O capítulo introdutório com quatro quebra-cabeças e o jogo diário são gratuitos. Uma compra opcional única na Amazon desbloqueia os restantes 20 quebra-cabeças e todos os seis ambientes, além de uma dica extra ganha em cada primeira conclusão. Não é necessária qualquer subscrição.
+## Feature highlights
 
-OPÇÕES DE VOZ E ACESSIBILIDADE
-Escolhe texto maior, alto contraste, tema escuro ou movimento reduzido. A narração opcional e os comandos «push-to-talk» dependem dos serviços compatíveis instalados no dispositivo. O reconhecimento de voz pode necessitar de ligação à Internet e enviar a voz para o teu fornecedor; o WordBloom não armazena gravações de microfone. A jogabilidade por toque e texto permanece disponível offline.
+- 24 puzzles em vários idiomas: liga letras deslizando, tocando ou escrevendo.
+- Seis jardins ilustrados, quatro dificuldades e progresso guardado no dispositivo.
+- Puzzles incluídos offline e desafio diário gratuito baseado na data.
+- Voz opcional, texto maior, alto contraste, tema escuro e movimento reduzido.
+- Quatro puzzles iniciais grátis e coleção completa por compra única; sem anúncios nem subscrição.
 
-LÍNGUA E CONTEÚDO
-Os quebra-cabeças estão em inglês. A coleção selecionada aceita as palavras-alvo e bónus listadas, em vez de todas as palavras do dicionário. Atualmente, não estão incluídos outros idiomas de jogo. A desinstalação apaga o progresso local; as compras premium elegíveis podem ser restauradas através da Amazon.
+## Keywords
 
-## Destaques das funcionalidades
-
-- Liga letras deslizando, tocando ou digitando para resolver 24 palavras cruzadas em inglês cuidadosamente selecionadas.
-- Explora seis jardins ilustrados e quatro níveis de dificuldade, com o progresso guardado no seu dispositivo.
-- Joga os puzzles incluídos offline, incluindo um desafio diário gratuito baseado num calendário.
-- Escolhe funcionalidades de voz opcionais, texto maior, alto contraste, tema escuro e movimento reduzido.
-- Começa com quatro puzzles gratuitos; desbloqueia a coleção completa com uma única compra. Sem anúncios nem subscrição.
-
-## Palavras-chave
-
-ligar palavras, jogos de palavras, palavras cruzadas em inglês, ligar letras, jogos de palavras offline, puzzle diário de palavras, jogos de palavras relaxantes, puzzle de jardim
-
-Localização do texto da loja: en-GB. Jogabilidade: inglês do Reino Unido/EUA. Revisão na língua nativa pendente.
+de, offline, puzzles, desafio, diário, letras, ligar, relaxantes, palavras, cruzadas, jogos

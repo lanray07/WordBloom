@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-18",
+  "app_description_locales": [
+    "en-US",
+    "en-GB",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl",
+    "pl",
+    "pt-BR",
+    "pt-PT"
+  ],
+  "reopened_after_reload": true,
+  "fields": [
+    "short_description",
+    "long_description",
+    "features",
+    "keywords_normalized_term_set"
+  ],
+  "premium_locales": [
+    {
+      "locale": "en-US",
+      "verified_after_reload": true
+    },
+    {
+      "locale": "en-GB",
+      "verified_after_reload": true
+    },
+    {
+      "locale": "de",
+      "verified_after_reload": true
+    },
+    {
+      "locale": "es",
+      "verified_after_reload": true
+    },
+    {
+      "locale": "fr",
+      "verified_after_reload": true
+    },
+    {
+      "locale": "it",
+      "verified_after_reload": true
+    },
+    {
+      "locale": "pt-BR",
+      "verified_after_reload": true
+    }
+  ],
+  "reviewer_instructions_saved": true,
+  "instructions_sha256": "5fff2fe33049115841c49d2d1d26741c69a5e2faf318c1233ce2e54a93c7296a",
+  "uploaded_release_apk_sha256": "99db48e41f6ca592c1ccefead4b40dc9f342925a0d2a8afdf0f1fe1cc0ffc7d1",
+  "downloaded_apk_matches_local_upload": true,
+  "app_submitted": false,
+  "premium_submitted_to_test_only": true,
+  "premium_test_status": "Approved; TEST label verified",
+  "listing_images": [
+    {
+      "id": "01-connect",
+      "amazon_asset_id": "amzn1.dex.asset.7ebcc96f36644c4dbd813d8b75007171",
+      "sha256": "142adb2f9b86642414afd1918a85ca12bcb585a0dbdfbd510007fd708319d6bb",
+      "downloaded_matches_local": true
+    },
+    {
+      "id": "02-journey",
+      "amazon_asset_id": "amzn1.dex.asset.655b361d09c048c1abc103b8dfcfc517",
+      "sha256": "608e0b0f4640d80fc7f27ad9c422d88e84747e0113e58556e58f28188c160215",
+      "downloaded_matches_local": true
+    },
+    {
+      "id": "03-garden",
+      "amazon_asset_id": "amzn1.dex.asset.3025d7d62b6f4bfbb65a633bc61ea8e3",
+      "sha256": "3607f56cc8f4272be5d51e0a1f730b6357bfea147774b4550c5fbc7a977fbe8b",
+      "downloaded_matches_local": true
+    }
+  ],
+  "image_order": [
+    "01-connect",
+    "02-journey",
+    "03-garden"
+  ],
+  "fresh_listing_render_tests_passed": 3,
+  "private_lat_draft": "amzn1.devportal.apprelease.1769101893d64945abd182c5142ea1d7",
+  "test_invitation_sent": false,
+  "test_submission_performed": true,
+  "private_lat_status": "Test submitted; Amazon processing",
+  "invitation_status": "Pending",
+  "tester_group_association_verified": true
+}

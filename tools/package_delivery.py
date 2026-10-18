@@ -93,8 +93,7 @@ def main():
         'release_abis': abis, 'debug_signature_verified': True,
         'release_signed': signed_release.returncode == 0, 'development_billing_absent_from_release': True,
         'google_play_billing_absent_from_release': True,
-        'pending': ['matching multilingual console copy, listing assets and final candidate upload',
-                    'final Amazon store-delivered release/purchase verification'],
+        'pending': ['final Amazon store-delivered release/purchase verification'],
     }
     for filename,key in [('LanguagePackTest','language_pack_junit'),('MessageTranslatorTest','message_translation_junit')]:
         path = ROOT/f'engine/build/test-results/test/TEST-com.wordbloom.engine.{filename}.xml'
@@ -148,7 +147,7 @@ def main():
     text = re.sub(r'Engine JUnit: \d+ tests passed', f"Engine JUnit: {engine['tests']} tests passed", text)
     text += f"\n## Final package verification\n\nProduction API 36 debug, release and instrumentation APK builds and lint passed. Lint: 0 errors, {warnings} warnings (including dependency-version suggestions and intentionally unused preparation assets). Engine: {engine['tests']} passed; billing contract: {billing['tests']} passed; localisation: {python_count} passed; historical visual evidence: {visual['tests']} suites with 20 earlier renders (not rerun for this candidate). Debug signing verified. Release is {'signed' if summary['release_signed'] else 'unsigned; owner signing required'}. The development purchase adapter and Google Play Billing are absent from release DEX. A separate signed .dev APK with explicit simulated-purchase labels is provided for developer QA; its manifest, build flag and signature were verified without device execution.\n\nFast-swipe tracing now preserves the original down and interpolates crossed tiles; regression tests cover a fast segment, backtracking and a near miss. The Amazon SDK emits stack-map warnings under R8, so the final store-delivered purchase flow still needs Amazon-delivered live verification.\n"
     if 'store_image_render_tests' in summary:
-        text += '\nThree earlier independent Compose screen renders passed for the listing images. Their export dimensions and hashes were checked. These historical layoutlib renders predate the final multilingual UI fixes and do not certify the current runtime layout.\n'
+        text += '\nThree refreshed independent Compose screen renders passed for the final listing images on 18 October. Their export dimensions and hashes were checked. These layoutlib renders use the current UI; physical runtime evidence remains separate.\n'
     if 'language_pack_junit' in summary:
         text += f"\nAdditional engine checks: language packs {summary['language_pack_junit']['tests']} passed; message translation {summary['message_translation_junit']['tests']} passed. All ten locale editions are active after separate hash-bound AI editorial/lexical review, without claiming native human certification.\n"
     if 'physical_device_qa' in summary:

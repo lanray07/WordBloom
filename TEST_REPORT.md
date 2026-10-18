@@ -115,7 +115,6 @@ check. Device screenshots are actual captures, not listing render compositions.
 
 ## Remaining release tests
 
-- Matching final listing copy/assets and the final candidate upload.
 - Amazon store-delivered **minified release** price/purchase/restore testing.
   App Tester is a debug sandbox; it does not certify the production build.
 - Hands-on audio/VoiceView checks. Recognition on a service-equipped device is
@@ -127,13 +126,24 @@ attempts before the tablet was connected failed at boot; physical testing above
 replaces that earlier environment blocker. An isolated signed `.dev` APK is also
 provided for developer QA and has not been device-certified or uploaded.
 
+## Final console update — 18 October
+
+The release APK downloaded from Amazon matches the local unsigned candidate
+(99db48e41f6ca592c1ccefead4b40dc9f342925a0d2a8afdf0f1fe1cc0ffc7d1).
+All ten app descriptions and seven premium descriptions were reopened and
+verified. The premium entitlement is Approved for TEST only; it was not promoted
+to live. Three fresh current-UI Compose listing render cases passed. Their
+compositions were uploaded, downloaded and matched by SHA-256 in connect, journey,
+garden order. Multilingual testing instructions survived a reload. Production
+Submit App was not clicked. See reports/multilingual-console-update.json.
+
 ## Final package verification
 
 Production API 36 debug, release and instrumentation APK builds and lint passed. Lint: 0 errors, 24 warnings (including dependency-version suggestions and intentionally unused preparation assets). Engine: 11 passed; billing contract: 5 passed; localisation: 9 passed; historical visual evidence: 2 suites with 20 earlier renders (not rerun for this candidate). Debug signing verified. Release is unsigned; Amazon applies store signing. The development purchase adapter and Google Play Billing are absent from release DEX. A separate signed .dev APK with explicit simulated-purchase labels is provided for developer QA; its manifest, build flag and signature were verified without device execution.
 
 Fast-swipe tracing now preserves the original down and interpolates crossed tiles; regression tests cover a fast segment, backtracking and a near miss. The Amazon SDK emits stack-map warnings under R8, so the final store-delivered purchase flow still needs Amazon-delivered live verification.
 
-Three earlier independent Compose screen renders passed for the listing images. Their export dimensions and hashes were checked. These historical layoutlib renders predate the final multilingual UI fixes and do not certify the current runtime layout.
+Three refreshed independent Compose screen renders passed for the final listing images on 18 October. Their export dimensions and hashes were checked. These layoutlib renders use the current UI; physical runtime evidence remains separate.
 
 Additional engine checks: language packs 6 passed; message translation 3 passed. All ten locale editions are active after separate hash-bound AI editorial/lexical review, without claiming native human certification.
 

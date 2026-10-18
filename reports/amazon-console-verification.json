@@ -1,5 +1,5 @@
 {
-  "status": "Form completed 17 October; submission blocked by required multilingual release work",
+  "status": "Multilingual candidate, ten app descriptions and three refreshed listing images saved and verified 2026-10-18; production not submitted",
   "app_id": "amzn1.devportal.mobileapp.91b139e68f6746fab1bdea19472cd193",
   "release_id": "amzn1.devportal.apprelease.2ad95ad758e740b7bf34a38964ee6a3b",
   "app_title": "WordBloom: Word Connect and Puzzle Games",
@@ -10,7 +10,14 @@
   ],
   "app_price": "Free",
   "supported_gameplay_languages": [
-    "English"
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Polish",
+    "Portuguese",
+    "Spanish"
   ],
   "description_locales_verified_after_reopening": [
     "en-US",
@@ -27,7 +34,7 @@
   "iap": {
     "sku": "wordbloom.premium",
     "type": "ENTITLED",
-    "status": "Ready to Submit; not submitted",
+    "status": "TEST entitlement Approved 18 October; not promoted to live",
     "text_locales": [
       "en-US",
       "en-GB",
@@ -40,7 +47,12 @@
     "base_price_gbp": "3.99",
     "other_marketplaces": "calculated by Amazon",
     "exported_sandbox_file": "content/amazon.sdktester.json",
-    "seven_saved_descriptions_verified_against_amazon_export": true
+    "seven_saved_descriptions_verified_against_amazon_export": false,
+    "test_only": true,
+    "live_submission_performed": false,
+    "seven_saved_descriptions_verified_after_reload": true,
+    "historical_export_verified_before_multilingual_update": true,
+    "current_description_verification": "All seven multilingual descriptions reopened and compared with local candidate; older export is historical"
   },
   "assets": {
     "app_icons": 2,
@@ -49,7 +61,7 @@
     "device_screenshots": 0,
     "watermarked_concepts_uploaded": false,
     "listing_screenshots": 3,
-    "listing_screenshot_source": "Independent production Compose renders with external captions and visible source label",
+    "listing_screenshot_source": "Refreshed current production Compose renders, uploaded and byte-verified; physical runtime proof separate",
     "physical_device_screenshots": 0,
     "multimedia_section": "Complete"
   },
@@ -64,11 +76,10 @@
   "sdk_public_key": "Included and parsed as RSA 2048; present in uploaded APK",
   "amazon_review_gaps": [],
   "additional_release_gates": [
-    "Matching multilingual store descriptions/screenshots and final candidate upload",
-    "Amazon store-delivered release and purchase verification",
-    "Hands-on VoiceView and regional spoken audio review not yet performed"
+    "Amazon-delivered release price, purchase/cancel and restore verification",
+    "Hands-on VoiceView and regional audio observations not yet performed"
   ],
-  "testing_instructions": "Filled: 1514 characters; source store/amazon-testing-instructions.txt",
+  "testing_instructions": "Multilingual instructions saved and verified after reload; 2023 normalized characters; source store/amazon-testing-instructions.txt",
   "audience": {
     "selection": "All age groups",
     "age_bands": [
@@ -94,15 +105,36 @@
       800
     ],
     "format": "PNG",
-    "source_manifest": "store/premium-screenshots.json"
+    "source_manifest": "store/premium-screenshots.json",
+    "downloaded_all_three_match_local_hashes": true,
+    "verified_order": [
+      "01-connect",
+      "02-journey",
+      "03-garden"
+    ],
+    "date": "2026-10-18"
   },
   "publisher_decisions_recorded": "2026-10-18",
   "local_device_qa": {
     "model": "KFTRWI",
     "api": 28,
     "amazon_sandbox_cases": "reports/amazon-sandbox-qa.json",
-    "note": "Local test progress, not a new Amazon console verification. Current console APK remains the earlier English-only candidate."
+    "note": "Current multilingual production release uploaded; normal debug tablet matrix passed; Amazon-delivered release testing remains pending"
   },
-  "metadata_matches_final_language_support": false,
-  "local_linguistic_review": "Completed AI editorial/lexical review, without native human certification; all ten locales active in local candidate"
+  "metadata_matches_final_language_support": true,
+  "local_linguistic_review": "Completed AI editorial/lexical review, without native human certification; all ten locales active in local candidate",
+  "supported_gameplay_locales": [
+    "en-GB",
+    "en-US",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "nl",
+    "pl",
+    "pt-BR",
+    "pt-PT"
+  ],
+  "uploaded_release_apk_sha256": "99db48e41f6ca592c1ccefead4b40dc9f342925a0d2a8afdf0f1fe1cc0ffc7d1",
+  "downloaded_release_apk_matches_local": true
 }

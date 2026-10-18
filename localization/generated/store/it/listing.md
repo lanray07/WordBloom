@@ -1,41 +1,27 @@
-# bozza scheda en-GB
+# it listing candidate
 
-Titolo visualizzato: WordBloom: giochi di collegamento parole e puzzle
+Display title: WordBloom: Collega lettere e parole
 
-Breve descrizione: Collega le lettere, risolvi cruciverba in inglese e coltiva un giardino. Giochi di parole offline con partite giornaliere, senza pubblicità e con uno sblocco premium opzionale una tantum.
+Short description: Collega lettere, risolvi cruciverba in più lingue e fai crescere un giardino. Rompicapi offline, sfida quotidiana e nessuna pubblicità.
 
-## Descrizione completa
+## Full description
 
-WordBloom è un rilassante gioco di collegamento di parole in inglese. Scorri tra le tessere con le lettere per scoprire parole, completare griglie di cruciverba collegate e coltivare un giardino illustrato. Gioca ai puzzle inclusi offline, senza pubblicità né un account WordBloom.
+WordBloom è un rilassante gioco di lettere con 24 rompicapi per raccolta linguistica e sei giardini illustrati. Scorri tra le lettere, tocca le singole tessere o digita una risposta per completare griglie di cruciverba collegate.
 
-PUZZLE DI PAROLE AL TUO RITMO
-Esplora 24 puzzle in inglese selezionati con cura, suddivisi in quattro livelli di difficoltà, da principiante a esperto. Scorri per collegare le lettere, tocca le singole tessere o digita una risposta. Usa gli indizi, svela una lettera o gira la ruota quando hai bisogno di una nuova prospettiva. Le edizioni in inglese britannico e americano condividono lo stesso vocabolario.
+Gioca offline e salva i progressi sul dispositivo. Il primo capitolo di quattro rompicapi e la sfida quotidiana sono gratuiti. La sfida viene scelta dalla raccolta inclusa in base alla data locale, senza penalità per i giorni saltati. Un acquisto Amazon unico e facoltativo sblocca gli altri 20 rompicapi e tutti e sei gli ambienti. Nessuna pubblicità né abbonamento.
 
-SEI AMBIENTI DA GIARDINO
-Avanza dal Giardino dell’Alba attraverso la Foresta Incantata, la Valle dei Fiori, il Lago di Cristallo e il Prato Dorato fino al Giardino al Chiaro di Luna. I primi completamenti aggiungono fiori e ti fanno guadagnare suggerimenti. I progressi e le impostazioni vengono salvati sul tuo dispositivo.
+Usa gli aiuti e mescola le lettere. Scegli testo più grande, contrasto elevato, tema scuro o movimento ridotto. La lettura e i comandi vocali facoltativi dipendono dai servizi installati. Il riconoscimento può richiedere Internet e inviare la voce al suo fornitore. WordBloom non conserva registrazioni.
 
-PUZZLE DI PAROLE GIORNALIERI, DISPONIBILI OFFLINE
-Torna a giocare per un puzzle basato sul calendario, selezionato dalla raccolta inclusa in base alla data locale. Il gioco quotidiano è gratuito, senza penalità per le serie di giorni consecutivi.
+Gioca in italiano, inglese (Regno Unito/Stati Uniti), tedesco, spagnolo, francese, olandese, polacco o portoghese (Brasile/Portogallo). Ogni raccolta linguistica comprende 24 rompicapi. Le edizioni inglesi condividono raccolta e progressi; le altre edizioni salvano i progressi separatamente. Sono accettate solo le parole previste e bonus di ciascun rompicapo. Disinstallare cancella i progressi locali; gli acquisti idonei si possono ripristinare tramite Amazon.
 
-GRATIS ALL’INIZIO, ACQUISTO PREMIUM UNA TANTUM
-Il capitolo introduttivo di quattro puzzle e il gioco quotidiano sono gratuiti. Un acquisto opzionale una tantum su Amazon sblocca i restanti 20 puzzle e tutti e sei gli ambienti, oltre a un suggerimento extra guadagnato al primo completamento di ciascuno. Non è richiesto alcun abbonamento.
+## Feature highlights
 
-OPZIONI VOCALI E DI ACCESSIBILITÀ
-Scegli testo più grande, contrasto elevato, tema scuro o movimento ridotto. La narrazione opzionale e i comandi “premi per parlare” dipendono dai servizi compatibili installati sul dispositivo. Il riconoscimento vocale potrebbe richiedere una connessione a Internet e inviare il parlato al proprio fornitore; WordBloom non memorizza registrazioni dal microfono. Il gioco tramite tocco e testo rimane disponibile offline.
+- 24 rompicapi in più lingue: collega lettere scorrendo, toccando o digitando.
+- Sei giardini illustrati, quattro difficoltà e progressi salvati sul dispositivo.
+- Rompicapi inclusi offline e una sfida quotidiana gratuita basata sulla data.
+- Voce facoltativa, testo grande, contrasto elevato, tema scuro e movimento ridotto.
+- Quattro rompicapi iniziali gratis e acquisto unico per la raccolta completa; senza pubblicità né abbonamento.
 
-LINGUA E CONTENUTI
-I puzzle sono in inglese. La raccolta curata accetta solo le parole target e bonus elencate, anziché tutte le parole presenti nel dizionario. Al momento non sono incluse altre lingue di gioco. La disinstallazione cancella i progressi locali; gli acquisti premium idonei possono essere ripristinati tramite Amazon.
+## Keywords
 
-## Caratteristiche principali
-
-- Collega le lettere scorrendo, toccando o digitando per risolvere 24 cruciverba in inglese selezionati con cura.
-- Esplora sei giardini illustrati e quattro livelli di difficoltà, con i progressi salvati sul tuo dispositivo.
-- Gioca ai cruciverba inclusi in modalità offline, compresa una sfida giornaliera gratuita basata sul calendario.
-- Scegli le funzioni vocali opzionali, il testo ingrandito, l’alto contrasto, il tema scuro e il movimento ridotto.
-- Inizia con quattro cruciverba gratuiti; sblocca la collezione completa con un unico acquisto. Nessuna pubblicità né abbonamento.
-
-## Parole chiave
-
-gioco di collegamento parole, giochi di parole, cruciverba in inglese, collegamento lettere, giochi di parole offline, cruciverba quotidiano, giochi di parole rilassanti, cruciverba in giardino
-
-Impostazione lingua dello Store: en-GB. Lingua di gioco: inglese (Regno Unito/Stati Uniti). Recensione nella lingua originale in attesa di approvazione.
+offline, collega, di, sfida, rompicapi, giochi, quotidiana, cruciverba, lettere, parole, rilassanti

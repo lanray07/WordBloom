@@ -84,9 +84,9 @@ def main():
   metadata=json.loads(metadata_path.read_text(encoding='utf-8'))
   report['store_metadata_localization']={
    'locales':list(metadata['listings']),
-   'status':'ten listing drafts filled in Amazon console; native editorial review pending',
-   'gameplay_locales':['en-GB','en-US'],
-   'boundary':'Store descriptions are localized independently; Android interface/puzzle activation is unchanged.'}
+   'status':metadata.get('console_status','Prepared localized listing copy; console verification tracked separately'),
+   'gameplay_locales':sorted({locale for item in metadata['listings'].values() for locale in item.get('gameplay_locales',[])}),
+   'boundary':'Store copy is reviewed separately; actual app activation and tablet proof are recorded in approvals and device reports.'}
  for language in TARGETS:
   output={};missing=[];checks={}
   def digest_for(text):return hashlib.sha256((language+'|'+text+'|'+json.dumps(glossary,sort_keys=True)).encode()).hexdigest()

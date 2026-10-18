@@ -2,8 +2,9 @@
 
 All ten requested editions are active in the current candidate: English UK/US,
 German, Spanish, French, Italian, Dutch, Polish and Portuguese Brazil/Portugal.
-The earlier Amazon console APK and descriptions still describe English gameplay;
-they must be replaced before submission.
+The multilingual release APK and ten descriptions are now saved in Amazon and
+verified after reopening. Three refreshed listing images match their local files
+byte for byte. Amazon-delivered release testing remains pending.
 
 DeepL generated eight additional editions, each with 179 interface templates and
 241 total source entries including resources and marketing copy. Codex separately
@@ -42,4 +43,4 @@ Physical draft-prototype results are in reports/localized-draft-device-qa.json
 (16 orientation cases). Final normal-app results are separately bound to their
 APK in reports/localized-device-qa.json. Advanced layout tests seed prerequisites
 and call the VM to open a long/accented puzzle; they do not verify a purchase.
-Amazon-delivered minified-release testing and matching console copy remain gates.
+Amazon-delivered minified-release testing remains the release gate.

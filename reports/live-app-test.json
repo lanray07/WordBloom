@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-18",
+  "name": "WordBloom multilingual Fire QA - 18 Oct 2026",
+  "release_id": "amzn1.devportal.apprelease.1769101893d64945abd182c5142ea1d7",
+  "channel_id": "amzn1.channel.7716864723744cf9a2a83689261b515a",
+  "url": "https://developer.amazon.com/apps-and-games/console/app/amzn1.devportal.mobileapp.91b139e68f6746fab1bdea19472cd193/beta-release/amzn1.devportal.apprelease.1769101893d64945abd182c5142ea1d7/submit",
+  "required_fields_complete": true,
+  "export_checked": true,
+  "content_rating_complete": true,
+  "selected_test_groups": [
+    "WordBloom Fire Release Test"
+  ],
+  "test_submitted": true,
+  "invitation_sent": false,
+  "passed": false,
+  "release_apk_sha256": "99db48e41f6ca592c1ccefead4b40dc9f342925a0d2a8afdf0f1fe1cc0ffc7d1",
+  "status": "Test submitted; one WordBloom tester enrolled; invitation Pending",
+  "tester_address_stored_in_public_report": false,
+  "production_published": false,
+  "remaining": [
+    "Amazon test activation and pending invitation delivery",
+    "Tester accepts invitation and installs Amazon-delivered app",
+    "Amazon-delivered minified release price/purchase/cancel/restore and gameplay verification"
+  ],
+  "tester_count": 1,
+  "invitation_authorized": true,
+  "adult_tester_certification_confirmed": true,
+  "invitation_status": "Pending",
+  "tester_group_association_verified": true
+}
