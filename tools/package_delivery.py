@@ -86,7 +86,7 @@ def main():
         'release_abis': abis, 'debug_signature_verified': True,
         'release_signed': signed_release.returncode == 0, 'development_billing_absent_from_release': True,
         'google_play_billing_absent_from_release': True,
-        'pending': ['provider-generated interface translations and native approval for eight locale editions',
+        'pending': ['native approval of generated interface translations and eight gameplay locale editions',
                     'multilingual device/layout/input checks and matching listing assets',
                     'final Amazon store-delivered release/purchase verification'],
     }
@@ -131,7 +131,7 @@ def main():
     if 'store_image_render_tests' in summary:
         text += '\nThree additional independent native Compose screen renders passed for the listing images. Their source pixels, export dimensions and hashes were checked. They are layoutlib renders, not physical-device captures or evidence of device runtime behavior.\n'
     if 'language_pack_junit' in summary:
-        text += f"\nAdditional engine checks: language packs {summary['language_pack_junit']['tests']} passed; message translation {summary['message_translation_junit']['tests']} passed. Draft language editions remain disabled pending provider output and native approval.\n"
+        text += f"\nAdditional engine checks: language packs {summary['language_pack_junit']['tests']} passed; message translation {summary['message_translation_junit']['tests']} passed. Draft language editions remain disabled pending native approval.\n"
     if 'physical_device_qa' in summary:
         text += '\nSeven physical Fire device scenarios passed on the packaged normal debug APK: baseline gameplay/storage, recreation/hints/voice fallback, continuous touch swipes/backtracking, settings persistence, portrait, Wi-Fi disabled and large font. This is one Fire model and an unminified debug build; store-delivered release and multilingual runtime QA remain pending.\n'
     text = text.replace('unsigned; owner signing required','unsigned; Amazon applies store signing')
@@ -153,7 +153,8 @@ def main():
             assert file.name != 'local.properties' and file.suffix not in ['.jks', '.keystore', '.env']
             archive.write(file, file.relative_to(ROOT))
     checksums = []
-    for file in [dist / 'WordBloom-debug.apk', dist / release_name] + ([dev_apk] if dev_apk.exists() else []) + [source]:
+    language_review = dist / 'WordBloom-language-review.zip'
+    for file in [dist / 'WordBloom-debug.apk', dist / release_name] + ([dev_apk] if dev_apk.exists() else []) + [source] + ([language_review] if language_review.exists() else []):
         checksums.append(hashlib.sha256(file.read_bytes()).hexdigest() + '  ' + file.name)
     (dist / 'SHA256SUMS.txt').write_text('\n'.join(checksums) + '\n')
     print(json.dumps(summary, indent=2))

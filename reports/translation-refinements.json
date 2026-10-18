@@ -1,0 +1,225 @@
+{
+  "status": "DeepL descriptive-context refinements; pending native review",
+  "locales": {
+    "es": [
+      {
+        "source": "Sunrise Garden",
+        "translation": "Jardín del amanecer"
+      },
+      {
+        "source": "Enchanted Forest",
+        "translation": "Bosque encantado"
+      },
+      {
+        "source": "Blossom Valley",
+        "translation": "«valle de las flores»"
+      },
+      {
+        "source": "Crystal Lake",
+        "translation": "Lago cristalino"
+      },
+      {
+        "source": "Golden Meadow",
+        "translation": "Pradera dorada"
+      },
+      {
+        "source": "Moonlight Garden",
+        "translation": "Jardín a la luz de la luna"
+      }
+    ],
+    "fr": [
+      {
+        "source": "Sunrise Garden",
+        "translation": "Jardin de l'aube"
+      },
+      {
+        "source": "Enchanted Forest",
+        "translation": "Forêt enchantée"
+      },
+      {
+        "source": "Blossom Valley",
+        "translation": "« vallée fleurie »"
+      },
+      {
+        "source": "Crystal Lake",
+        "translation": "Lac de cristal"
+      },
+      {
+        "source": "Golden Meadow",
+        "translation": "Prairie dorée"
+      },
+      {
+        "source": "Moonlight Garden",
+        "translation": "Jardin au clair de lune"
+      }
+    ],
+    "de": [
+      {
+        "source": "Sunrise Garden",
+        "translation": "Sonnenaufgangsgarten"
+      },
+      {
+        "source": "Enchanted Forest",
+        "translation": "Zauberwald"
+      },
+      {
+        "source": "Blossom Valley",
+        "translation": "Blumental"
+      },
+      {
+        "source": "Crystal Lake",
+        "translation": "Kristallsee"
+      },
+      {
+        "source": "Golden Meadow",
+        "translation": "Goldene Wiese"
+      },
+      {
+        "source": "Moonlight Garden",
+        "translation": "Mondlichtgarten"
+      }
+    ],
+    "it": [
+      {
+        "source": "Sunrise Garden",
+        "translation": "Giardino dell’alba"
+      },
+      {
+        "source": "Enchanted Forest",
+        "translation": "Foresta incantata"
+      },
+      {
+        "source": "Blossom Valley",
+        "translation": "\"Valle dei fiori\""
+      },
+      {
+        "source": "Crystal Lake",
+        "translation": "Lago di Cristallo"
+      },
+      {
+        "source": "Golden Meadow",
+        "translation": "Prato dorato"
+      },
+      {
+        "source": "Moonlight Garden",
+        "translation": "Giardino al chiaro di luna"
+      }
+    ],
+    "pt-BR": [
+      {
+        "source": "Sunrise Garden",
+        "translation": "Jardim do nascer do sol"
+      },
+      {
+        "source": "Enchanted Forest",
+        "translation": "Floresta encantada"
+      },
+      {
+        "source": "Blossom Valley",
+        "translation": "Vale das flores"
+      },
+      {
+        "source": "Crystal Lake",
+        "translation": "Lago cristalino"
+      },
+      {
+        "source": "Golden Meadow",
+        "translation": "Prado dourado"
+      },
+      {
+        "source": "Moonlight Garden",
+        "translation": "Jardim ao luar"
+      }
+    ],
+    "pt-PT": [
+      {
+        "source": "Sunrise Garden",
+        "translation": "Jardim do nascer do sol"
+      },
+      {
+        "source": "Enchanted Forest",
+        "translation": "Floresta encantada"
+      },
+      {
+        "source": "Blossom Valley",
+        "translation": "Vale das flores"
+      },
+      {
+        "source": "Crystal Lake",
+        "translation": "Lago cristalino"
+      },
+      {
+        "source": "Golden Meadow",
+        "translation": "Prado dourado"
+      },
+      {
+        "source": "Moonlight Garden",
+        "translation": "Jardim ao luar"
+      },
+      {
+        "source": "bloom",
+        "translation": "flor"
+      }
+    ],
+    "nl": [
+      {
+        "source": "Sunrise Garden",
+        "translation": "Zonsopgangtuin"
+      },
+      {
+        "source": "Enchanted Forest",
+        "translation": "Betoverd bos"
+      },
+      {
+        "source": "Blossom Valley",
+        "translation": "Bloesemvallei"
+      },
+      {
+        "source": "Crystal Lake",
+        "translation": "Kristallen meer"
+      },
+      {
+        "source": "Golden Meadow",
+        "translation": "'Gouden weide'"
+      },
+      {
+        "source": "Moonlight Garden",
+        "translation": "Maanlichttuin"
+      },
+      {
+        "source": "blooms",
+        "translation": "bloemen"
+      },
+      {
+        "source": "Wildflower soul",
+        "translation": "Een ziel als een wilde bloem"
+      }
+    ],
+    "pl": [
+      {
+        "source": "Sunrise Garden",
+        "translation": "Ogród wschodu słońca"
+      },
+      {
+        "source": "Enchanted Forest",
+        "translation": "Zaczarowany las"
+      },
+      {
+        "source": "Blossom Valley",
+        "translation": "Dolina Kwiatów"
+      },
+      {
+        "source": "Crystal Lake",
+        "translation": "Kryształowe jezioro"
+      },
+      {
+        "source": "Golden Meadow",
+        "translation": "Złota łąka"
+      },
+      {
+        "source": "Moonlight Garden",
+        "translation": "Ogród w blasku księżyca"
+      }
+    ]
+  }
+}

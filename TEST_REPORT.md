@@ -81,8 +81,10 @@ values and checks them again after activity recreation.
 ## Localization review
 
 The first release requires all eight additional gameplay locale editions.
-Translation-provider generation is waiting for `DEEPL_API_KEY` or supplied
-reviewed translations. Draft vocabularies and interface installation support are
+DeepL generation completed for all eight additional locale editions: 184 UI
+templates and 246 total source entries each, with no missing entries. Placeholder,
+brand, catalogue and resource coverage checks passed. Review CSVs and an archive
+were exported; flags require human editorial/layout review, not automatic rejection. Draft vocabularies and interface installation support are
 prepared, but non-English editions remain disabled. Wordfreq 3.1.1 observations
 were recorded for 488 candidate words; one unobserved draft form was replaced
 with dictionary-attested Italian SELLA. Twenty rare words remain flagged for
@@ -113,6 +115,6 @@ Fast-swipe tracing now preserves the original down and interpolates crossed tile
 
 Three additional independent native Compose screen renders passed for the listing images. Their source pixels, export dimensions and hashes were checked. They are layoutlib renders, not physical-device captures or evidence of device runtime behavior.
 
-Additional engine checks: language packs 4 passed; message translation 3 passed. Draft language editions remain disabled pending provider output and native approval.
+Additional engine checks: language packs 4 passed; message translation 3 passed. Draft language editions remain disabled pending native approval.
 
 Seven physical Fire device scenarios passed on the packaged normal debug APK: baseline gameplay/storage, recreation/hints/voice fallback, continuous touch swipes/backtracking, settings persistence, portrait, Wi-Fi disabled and large font. This is one Fire model and an unminified debug build; store-delivered release and multilingual runtime QA remain pending.

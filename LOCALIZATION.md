@@ -16,7 +16,11 @@ existing journey; draft language editions use namespaced progress IDs.
 resource whitespace. `tools/localize.py` translates resources, message templates,
 listing prose and captions in cached batches. It reads `DEEPL_API_KEY` from the
 process or the Windows user environment without printing it. No key enters the
-app or repository. The provider step is waiting for that key.
+app or repository. DeepL generation completed on 18 October: all eight additional
+locales have 184 interface templates and 246 total source entries with no missing
+entries. The local key was loaded only into the generation process.
+`localization/review/` contains per-language CSVs;
+`reports/translation-generation.json` records structural checks and review flags.
 
 Seven authored vocabulary drafts supply 24 word sets each; the Portuguese draft
 is shared by the two regional editions. Eight locale editions produce 192 draft

@@ -1,0 +1,752 @@
+{
+  "provider": "DeepL",
+  "status": "generated drafts; native review required",
+  "linguistic_approval": false,
+  "locales": {
+    "de": {
+      "interface_entries": 184,
+      "all_source_entries": 246,
+      "missing_entries": 0,
+      "bundle_sha256": "5015f5f5996029e3c8ec4239da802d84f9eae4dd3881e22e3902fe9a0360d495",
+      "review_flags": [
+        {
+          "id": "msg_0f03ee3ee472",
+          "source": "Choose a puzzle language. Each language has its own word collection and saved journey. English UK/US share a collection.",
+          "translation": "Wähle eine Sprache für das Rätsel aus. Jede Sprache verfügt über eine eigene Wortsammlung und einen eigenen gespeicherten Spielverlauf. Die Varianten „Englisch (Großbritannien)“ und „Englisch (USA)“ teilen sich eine gemeinsame Sammlung.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_13d83dbb23fb",
+          "source": "Premium ✓",
+          "translation": "Premium ✓",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_a53cc0540e4f",
+          "source": "EEEE, d MMMM",
+          "translation": "EEEE, d MMMM",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_11b4bc1d0b3a",
+          "source": "A world waiting to grow",
+          "translation": "Eine Welt, die darauf wartet, zu wachsen",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_8e3e629fe6f7",
+          "source": "{0} · Level {1}",
+          "translation": "{0} · Level {1}",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_121aae1170ab",
+          "source": "Letters shuffled",
+          "translation": "Buchstaben in zufälliger Reihenfolge",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_61dbc5288edf",
+          "source": "Audio is busy. Try again shortly.",
+          "translation": "Die Audioverbindung ist gerade ausgelastet. Bitte versuche es in Kürze erneut.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_c2fb18dbb1e7",
+          "source": "Speech unavailable ({0}). Try again or use touch.",
+          "translation": "Sprache nicht verfügbar ({0}). Versuchen Sie es erneut oder nutzen Sie die Touch-Funktion.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_9f088dbebd6c",
+          "source": "Advanced",
+          "translation": "Fortgeschritten",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_60dad20a602e",
+          "source": "invalid sku",
+          "translation": "Ungültige Artikelnummer",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "interface_entries": 184,
+      "all_source_entries": 246,
+      "missing_entries": 0,
+      "bundle_sha256": "cbc7629e9f5cf69191e5c119971bbecb5d02312043b640a7e944b65e12a17460",
+      "review_flags": [
+        {
+          "id": "msg_52cd4eeba682",
+          "source": "Type a word",
+          "translation": "Escribe una palabra",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_48265ef60f8c",
+          "source": "Find a word first",
+          "translation": "Encuentra primero una palabra",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_13d83dbb23fb",
+          "source": "Premium ✓",
+          "translation": "Premium ✓",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_03a0fc5cff6f",
+          "source": "Explore premium",
+          "translation": "Explora la versión premium",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_a53cc0540e4f",
+          "source": "EEEE, d MMMM",
+          "translation": "EEEE, d MMMM",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_c402502565e2",
+          "source": "Next puzzle  →",
+          "translation": "Siguiente rompecabezas  →",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_26658b593cc4",
+          "source": "Replay puzzle",
+          "translation": "Volver a jugar al rompecabezas",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_b3140286ac71",
+          "source": "escape",
+          "translation": "escape",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_5e7d9a0cc8b6",
+          "source": "escapes",
+          "translation": "escapes",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_7812db0f028e",
+          "source": "Full bloom",
+          "translation": "Floración completa",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_7066a711b3aa",
+          "source": "1 puzzle",
+          "translation": "1 rompecabezas",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_f11043f6ea65",
+          "source": "Unlock premium · {0}",
+          "translation": "Desbloquear la versión premium · {0}",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_16963e44a1e5",
+          "source": "That word is not in this puzzle’s curated word list",
+          "translation": "Esa palabra no figura en la lista de palabras seleccionadas para este juego de palabras",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_f9bbfdc8a3ea",
+          "source": "Platform callback",
+          "translation": "Llamada de retorno de la plataforma",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_61dbc5288edf",
+          "source": "Audio is busy. Try again shortly.",
+          "translation": "Hay mucho tráfico de audio. Inténtalo de nuevo dentro de un rato.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_d4c13b10d7bc",
+          "source": "No word recognised. Try again.",
+          "translation": "No se ha reconocido ninguna palabra. Inténtalo de nuevo.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "interface_entries": 184,
+      "all_source_entries": 246,
+      "missing_entries": 0,
+      "bundle_sha256": "60354d898126abfcd1f5ed1d55027fd3665cff6a4f3afac0eabab84717932bc2",
+      "review_flags": [
+        {
+          "id": "msg_585047053aa9",
+          "source": "You grew something lovely.",
+          "translation": "Tu as fait pousser quelque chose de magnifique.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_13d83dbb23fb",
+          "source": "Premium ✓",
+          "translation": "Premium ✓",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_f1920b5855f9",
+          "source": "Your daily word escape",
+          "translation": "Votre évasion quotidienne avec des mots",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_a53cc0540e4f",
+          "source": "EEEE, d MMMM",
+          "translation": "EEEE, d MMMM",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_96a5eb446ace",
+          "source": "Play today  →",
+          "translation": "Jouez dès aujourd’hui  →",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_25f011b0f89b",
+          "source": "Find {0} words. Swipe or tap the letters.",
+          "translation": "Trouvez les mots {0}. Faites glisser votre doigt ou appuyez sur les lettres.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_795b43828254",
+          "source": "Premium restored",
+          "translation": "Fonctionnalité Premium rétablie",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_2d400ffa6a48",
+          "source": "Speech recognition unavailable. You can swipe, tap, or type words.",
+          "translation": "La reconnaissance vocale n'est pas disponible. Vous pouvez faire glisser votre doigt, appuyer ou saisir des mots.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_69de651d5d29",
+          "source": "Microphone permission is needed for push-to-talk only.",
+          "translation": "L'autorisation d'accès au microphone est requise uniquement pour la fonction « push-to-talk ».",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_61dbc5288edf",
+          "source": "Audio is busy. Try again shortly.",
+          "translation": "La ligne est occupée. Veuillez réessayer dans quelques instants.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_c2fb18dbb1e7",
+          "source": "Speech unavailable ({0}). Try again or use touch.",
+          "translation": "La fonction vocale n'est pas disponible ({0}). Réessayez ou utilisez la fonction tactile.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_8b317b0c50ee",
+          "source": "Expert",
+          "translation": "Expert",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_60dad20a602e",
+          "source": "invalid sku",
+          "translation": "référence produit non valide",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        }
+      ]
+    },
+    "it": {
+      "interface_entries": 184,
+      "all_source_entries": 246,
+      "missing_entries": 0,
+      "bundle_sha256": "3d963914b892538ce2b2b246fccb5686d4772734b35908a3c3ed948d7d48c9d0",
+      "review_flags": [
+        {
+          "id": "msg_8e7dadacd7dc",
+          "source": "A game at your pace.",
+          "translation": "Un gioco da giocare al proprio ritmo.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_3a78695388b3",
+          "source": "Home",
+          "translation": "Home",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_13d83dbb23fb",
+          "source": "Premium ✓",
+          "translation": "Premium ✓",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_03a0fc5cff6f",
+          "source": "Explore premium",
+          "translation": "Scopri la versione premium",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_a53cc0540e4f",
+          "source": "EEEE, d MMMM",
+          "translation": "EEEE, d MMMM",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_ae511c4d36ce",
+          "source": "Daily word escape",
+          "translation": "Fuga quotidiana con le parole",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_0a29d0b91627",
+          "source": "✦ {0} hints",
+          "translation": "✦ Suggerimenti per {0}",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_60dad20a602e",
+          "source": "invalid sku",
+          "translation": "codice articolo non valido",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        }
+      ]
+    },
+    "nl": {
+      "interface_entries": 184,
+      "all_source_entries": 246,
+      "missing_entries": 0,
+      "bundle_sha256": "48ba001656190af0a04c166486e6f7fd0f0c3b0d22db345dc89fe73012bf70f4",
+      "review_flags": [
+        {
+          "id": "msg_af08cc6d16df",
+          "source": "✦ Letter · 1",
+          "translation": "✦ Letter · 1",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_d77f771b332b",
+          "source": "Daily memories",
+          "translation": "Dagelijkse herinneringen",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_3a78695388b3",
+          "source": "Home",
+          "translation": "Home",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_13d83dbb23fb",
+          "source": "Premium ✓",
+          "translation": "Premium ✓",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_a53cc0540e4f",
+          "source": "EEEE, d MMMM",
+          "translation": "EEEE, d MMMM",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_0a29d0b91627",
+          "source": "✦ {0} hints",
+          "translation": "✦ {0} hints",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_6b79c5405359",
+          "source": "Wildflower soul",
+          "translation": "Een ziel als een wilde bloem",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_f9bbfdc8a3ea",
+          "source": "Platform callback",
+          "translation": "Terugkoppeling naar het platform",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_61dbc5288edf",
+          "source": "Audio is busy. Try again shortly.",
+          "translation": "Er is momenteel veel verkeer op de audioverbinding. Probeer het straks nog eens.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_c865ebb3052c",
+          "source": "Beginner",
+          "translation": "Beginner",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_8b317b0c50ee",
+          "source": "Expert",
+          "translation": "Expert",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_60dad20a602e",
+          "source": "invalid sku",
+          "translation": "ongeldig artikelnummer",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        }
+      ]
+    },
+    "pl": {
+      "interface_entries": 184,
+      "all_source_entries": 246,
+      "missing_entries": 0,
+      "bundle_sha256": "c097954ef6b2a355d0f067847d7fedad5290651a6e61de99f8af82689e161f86",
+      "review_flags": [
+        {
+          "id": "msg_f45e7aacb827",
+          "source": "Start puzzle",
+          "translation": "Rozpocznij łamigłówkę",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_ddc5cf266848",
+          "source": "WordBloom 0.1 · 24 puzzles · Offline-first",
+          "translation": "WordBloom 0.1 · 24 łamigłówki · Działa przede wszystkim w trybie offline",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_13d83dbb23fb",
+          "source": "Premium ✓",
+          "translation": "Premium ✓",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_a53cc0540e4f",
+          "source": "EEEE, d MMMM",
+          "translation": "EEEE, d MMMM",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_0a29d0b91627",
+          "source": "✦ {0} hints",
+          "translation": "✦ Wskazówki dotyczące {0}",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_61dbc5288edf",
+          "source": "Audio is busy. Try again shortly.",
+          "translation": "Występują zakłócenia w transmisji audio. Spróbuj ponownie za chwilę.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_3b1cfa63d7d9",
+          "source": "Intermediate",
+          "translation": "Poziom średniozaawansowany",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_60dad20a602e",
+          "source": "invalid sku",
+          "translation": "nieprawidłowy numer katalogowy",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        }
+      ]
+    },
+    "pt-BR": {
+      "interface_entries": 184,
+      "all_source_entries": 246,
+      "missing_entries": 0,
+      "bundle_sha256": "d616aa675390e3ab47fad1d8e8155854c83105d48f9df8b7dbed88abe2c9819a",
+      "review_flags": [
+        {
+          "id": "msg_f45e7aacb827",
+          "source": "Start puzzle",
+          "translation": "Iniciar quebra-cabeça",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_115ae40e6398",
+          "source": "Puzzle language",
+          "translation": "Linguagem dos quebra-cabeças",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_48265ef60f8c",
+          "source": "Find a word first",
+          "translation": "Encontre uma palavra primeiro",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_13d83dbb23fb",
+          "source": "Premium ✓",
+          "translation": "Premium ✓",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_a53cc0540e4f",
+          "source": "EEEE, d MMMM",
+          "translation": "EEEE, d MMMM",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_c402502565e2",
+          "source": "Next puzzle  →",
+          "translation": "Próximo quebra-cabeça  →",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_7066a711b3aa",
+          "source": "1 puzzle",
+          "translation": "1 quebra-cabeça",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_f9bbfdc8a3ea",
+          "source": "Platform callback",
+          "translation": "Retorno de chamada da plataforma",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        }
+      ]
+    },
+    "pt-PT": {
+      "interface_entries": 184,
+      "all_source_entries": 246,
+      "missing_entries": 0,
+      "bundle_sha256": "f82ceae51167d8d3c6ba8b081966c122cd784ed4f213da437e0022ca3ca48252",
+      "review_flags": [
+        {
+          "id": "msg_f45e7aacb827",
+          "source": "Start puzzle",
+          "translation": "Iniciar quebra-cabeças",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_115ae40e6398",
+          "source": "Puzzle language",
+          "translation": "Linguagem dos quebra-cabeças",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_e94253e91c49",
+          "source": "Your words stay yours",
+          "translation": "As tuas palavras continuam a ser tuas",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_48265ef60f8c",
+          "source": "Find a word first",
+          "translation": "Encontre uma palavra primeiro",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_13d83dbb23fb",
+          "source": "Premium ✓",
+          "translation": "Premium ✓",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_a53cc0540e4f",
+          "source": "EEEE, d MMMM",
+          "translation": "EEEE, d MMMM",
+          "flags": [
+            "unchanged text: verify shared terminology or missed translation"
+          ]
+        },
+        {
+          "id": "msg_5fa29c1802c5",
+          "source": "Let your words bloom",
+          "translation": "Deixa as tuas palavras desabrocharem",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_c402502565e2",
+          "source": "Next puzzle  →",
+          "translation": "Próximo quebra-cabeças  →",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_7066a711b3aa",
+          "source": "1 puzzle",
+          "translation": "1 quebra-cabeças",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        },
+        {
+          "id": "msg_61dbc5288edf",
+          "source": "Audio is busy. Try again shortly.",
+          "translation": "A linha de áudio está ocupada. Tente novamente daqui a pouco.",
+          "flags": [
+            "expanded text: inspect device wrapping"
+          ]
+        }
+      ]
+    }
+  },
+  "listing_scope": "Translations retain the current English-only gameplay disclosure. Revise copy after reviewed packs are activated."
+}

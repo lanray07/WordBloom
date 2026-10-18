@@ -85,3 +85,12 @@ To reproduce without installing packages globally:
 python -m pip install --target dist/qa-python -r tools/requirements-qa.txt
 python tools/review_word_frequency.py --runtime dist/qa-python
 ```
+
+## Generated review delivery — 18 October 2026
+
+DeepL output for all eight requested additional locales is complete. Start with
+`localization/review/README.md` and the per-locale CSVs. The complete review
+archive is `dist/WordBloom-language-review.zip`. Run
+`python tools/export_translation_review.py` after editing authoritative JSON
+bundles to refresh structural checks, CSVs, hashes and the archive. This does
+not approve or activate languages.

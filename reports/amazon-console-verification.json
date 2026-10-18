@@ -64,7 +64,7 @@
   "sdk_public_key": "Included and parsed as RSA 2048; present in uploaded APK",
   "amazon_review_gaps": [],
   "additional_release_gates": [
-    "provider translations and native approval for all eight additional locale editions",
+    "native approval of generated translations and gameplay for all eight additional locale editions",
     "multilingual device/layout/accented-input and language-switching checks",
     "final matching store descriptions/screenshots and candidate upload",
     "Amazon store-delivered release and purchase verification",

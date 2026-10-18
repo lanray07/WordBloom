@@ -3,8 +3,7 @@
 **Not ready for submission.** The publisher requires translated gameplay in all
 eight additional locale editions before release. The connected Fire tablet has
 now executed gameplay/storage/recreation checks and Amazon sandbox purchasing;
-final device evidence is in `reports/fire-device-qa.json` when present. Translation
-provider access, native review, multilingual device QA and the final
+final device evidence is in `reports/fire-device-qa.json` when present. DeepL drafts are complete. Native review, multilingual device QA and the final
 store-delivered release test remain required. An enabled Submit App button does
 not override these conditions.
 
@@ -15,9 +14,9 @@ not override these conditions.
 | Puzzle library | 24 authored English puzzles; six per difficulty | Human vocabulary/difficulty review; expansion towards 300 |
 | Garden progression | Six scenes, sequential unlocks, first-completion rewards, replay, four milestones | Visual device QA |
 | Daily play | Local-date/locale selection, saved completion/history, offline catalogue | Timezone/clock-change device scenarios; optional reminders not implemented |
-| Voice | Push-to-talk, permissions, capability checks, parser, TTS, focus, errors/touch fallback | Audible TTS/VoiceView confirmation; recognition unavailable on this tablet |
+| Voice | Push-to-talk, permissions, capability checks, parser, TTS, focus, errors/touch fallback | English letter TTS confirmed; VoiceView confirmation; recognition unavailable on this tablet |
 | Monetisation | Amazon SDK listener, product prices, purchase, receipt/type checks, account-scoped cache, restore/cancel handling | App Tester purchase/cancel/restore/refund/account-switch checks executed; final store-delivered test pending; no server RVS |
-| Localisation | English editions, NFC, locale registry, development translation/cache/glossary/placeholder tooling | 184 interface/message templates extracted; draft packs and reviewed-bundle integration prepared; provider translation/native review/locale device QA pending |
+| Localisation | English editions, NFC, locale registry, development translation/cache/glossary/placeholder tooling | 184 interface/message templates extracted; draft packs and reviewed-bundle integration prepared; DeepL drafts complete; native review/locale device QA pending |
 | Accessibility | Larger text, contrast, reduced motion, dark theme, tile semantics, text fallback | VoiceView spoken-announcement confirmation; large-font device inspection passed |
 | Original art/audio | Canvas garden scenes, SVG masters/icons, adaptive/splash/notification assets, ambient loop | Store icon/promo PNGs exported and visually inspected; English device visual review passed; multilingual visual review pending |
 | Screenshots | Three production Compose render compositions uploaded; 32 older concepts retained separately | Eight real Fire QA captures prepared; recapture/review after final localization before replacing listing images |
@@ -40,8 +39,7 @@ touch/text fallback was tested. Audio perception/VoiceView listening and the
 final Amazon-delivered release still need hands-on review. One tested model does
 not certify every model in the console's compatibility filter.
 
-Inputs still needed from the publisher: configure the DeepL API key locally;
-arrange native approval of each language's interface, vocabulary and spoken
+Inputs still needed from the publisher: arrange native approval of each language's interface, vocabulary and spoken
 commands; accept the final Live App Testing invitation on the tablet when ready.
 Privacy/name approval is already recorded. No private signing key is required
 for this Amazon-only upload. The source, candidate APKs and tests remain

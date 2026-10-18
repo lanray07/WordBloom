@@ -88,3 +88,8 @@ remain open. See `publisher-decisions.json` and `../localization/REVIEW_HANDOFF.
 Normal-debug Amazon App Tester purchase/cancel/restore/refund/account-switch
 checks were executed on the connected Fire; this does not certify the final
 minified Amazon-delivered candidate.
+
+18 October 2026: DeepL draft generation is complete for all eight additional
+locales. No new translations or APK were uploaded; native linguistic approval,
+activation, multilingual device tests and matching final listing copy remain
+required. The current console draft stays unsubmitted.

@@ -41,7 +41,7 @@
   "development_billing_absent_from_release": true,
   "google_play_billing_absent_from_release": true,
   "pending": [
-    "provider-generated interface translations and native approval for eight locale editions",
+    "native approval of generated interface translations and eight gameplay locale editions",
     "multilingual device/layout/input checks and matching listing assets",
     "final Amazon store-delivered release/purchase verification"
   ],

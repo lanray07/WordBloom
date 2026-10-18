@@ -73,8 +73,8 @@ def main():
  captions=json.loads((ROOT/'store/screenshot-manifest.json').read_text(encoding='utf-8'))['captures']
  for caption in captions:
   for field in ('headline','supporting'):source['shot_'+caption['id']+'_'+field]=caption[field]
- cache_path=ROOT/'localization/cache.json';cache=json.loads(cache_path.read_text()) if cache_path.exists() else {}
- glossary=json.loads((ROOT/'localization/glossary.json').read_text())
+ cache_path=ROOT/'localization/cache.json';cache=json.loads(cache_path.read_text(encoding='utf-8')) if cache_path.exists() else {}
+ glossary=json.loads((ROOT/'localization/glossary.json').read_text(encoding='utf-8'))
  report={'provider':'DeepL','credential_present':bool(key),'languages':{},'rtl_prepared':['ar','hi'],'glossary':glossary,'source_count':len(source),'dynamic_strings':'Kotlin templates included from ui-source.json; review locations and runtime coverage before activation.'}
  metadata_path=ROOT/'store/amazon-metadata.json'
  if metadata_path.exists():

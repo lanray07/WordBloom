@@ -1,0 +1,742 @@
+{
+  "locale": "de",
+  "status": "pending_native_review",
+  "entries": {
+    "msg_bf774f712a26": {
+      "source": "WordBloom",
+      "translation": "WordBloom"
+    },
+    "msg_f45e7aacb827": {
+      "source": "Start puzzle",
+      "translation": "Rätsel starten"
+    },
+    "msg_9ca934bfdb8d": {
+      "source": "Daily challenge",
+      "translation": "Tägliche Herausforderung"
+    },
+    "msg_6063b7bfcfc0": {
+      "source": "My garden",
+      "translation": "Mein Garten"
+    },
+    "msg_74a883a037bc": {
+      "source": "Settings",
+      "translation": "Einstellungen"
+    },
+    "msg_19373382e5cb": {
+      "source": "The journey",
+      "translation": "Die Reise"
+    },
+    "msg_892997679ff1": {
+      "source": "A moment to bloom",
+      "translation": "Ein Moment zum Erblühen"
+    },
+    "msg_2f13d3dec807": {
+      "source": "Little words.\nBeautiful discoveries.",
+      "translation": "Kleine Wörter.\nWunderschöne Entdeckungen."
+    },
+    "msg_565a51fd6da7": {
+      "source": "Connect letters. Discover words.\nGrow your vocabulary — and your garden.",
+      "translation": "Verbinde Buchstaben. Entdecke Wörter.\nErweitere deinen Wortschatz – und deinen Garten."
+    },
+    "msg_29818d62d5c4": {
+      "source": "OFFLINE PLAY · NO ADS · NO ACCOUNT",
+      "translation": "OFFLINE-MODUS · KEINE WERBUNG · KEIN KONTO"
+    },
+    "msg_0e816c8e17f7": {
+      "source": "✿ Sunrise Garden\nYour first chapter awaits",
+      "translation": "✿ Sunrise Garden\nDein erstes Kapitel wartet auf dich"
+    },
+    "msg_5270c9ce647e": {
+      "source": "Make a little time for you",
+      "translation": "Nimm dir ein bisschen Zeit für dich"
+    },
+    "msg_14922158bcf1": {
+      "source": "Swipe to connect. Tap to take your time. Every word is a small discovery.",
+      "translation": "Wische, um eine Verbindung herzustellen. Tippe, um dir Zeit zu lassen. Jedes Wort ist eine kleine Entdeckung."
+    },
+    "msg_585047053aa9": {
+      "source": "You grew something lovely.",
+      "translation": "Du hast etwas Wunderschönes gezüchtet."
+    },
+    "msg_543e87add437": {
+      "source": "↝ Shuffle",
+      "translation": "↝ Mischen"
+    },
+    "msg_af08cc6d16df": {
+      "source": "✦ Letter · 1",
+      "translation": "✦ Buchstabe · 1"
+    },
+    "msg_e14b09ae68d5": {
+      "source": "Starting letter",
+      "translation": "Anfangsbuchstabe"
+    },
+    "msg_7c8501c77172": {
+      "source": "Reveal word · 3",
+      "translation": "Wort aufdecken · 3"
+    },
+    "msg_52cd4eeba682": {
+      "source": "Type a word",
+      "translation": "Gib ein Wort ein"
+    },
+    "msg_9d60841e0a78": {
+      "source": "Check",
+      "translation": "Überprüfen"
+    },
+    "msg_a3c4049c8756": {
+      "source": "Listen to word",
+      "translation": "Wort anhören"
+    },
+    "msg_40d70d845e1e": {
+      "source": "Push-to-talk may use your device’s online speech service. Nothing is recorded by WordBloom.",
+      "translation": "Die Push-to-Talk-Funktion nutzt möglicherweise den Online-Sprachdienst Ihres Geräts. Von WordBloom wird nichts aufgezeichnet."
+    },
+    "msg_a8283ade3185": {
+      "source": "Undo",
+      "translation": "Rückgängig"
+    },
+    "msg_83b12c2216ef": {
+      "source": "Clear",
+      "translation": "Lösung"
+    },
+    "msg_0590d70c63b5": {
+      "source": "Submit word",
+      "translation": "Wort einreichen"
+    },
+    "msg_3a2f00b7c545": {
+      "source": "Six gardens. A world of words.",
+      "translation": "Sechs Gärten. Eine Welt voller Wörter."
+    },
+    "msg_134bcc8dfd71": {
+      "source": "Complete journey puzzles to open the next. Every four journey puzzles restore a chapter.",
+      "translation": "Löse die Reise-Rätsel, um das nächste freizuschalten. Alle vier Reise-Rätsel wird ein Kapitel wiederhergestellt."
+    },
+    "msg_a52ace420f21": {
+      "source": "All",
+      "translation": "Alle"
+    },
+    "msg_0b0450991c08": {
+      "source": "Your quiet corner",
+      "translation": "Deine ruhige Ecke"
+    },
+    "msg_54c98e740241": {
+      "source": "Look how far you’ve grown.",
+      "translation": "Schau mal, wie weit du schon gekommen bist."
+    },
+    "msg_d77f771b332b": {
+      "source": "Daily memories",
+      "translation": "Tägliche Erinnerungen"
+    },
+    "msg_ca63776635cc": {
+      "source": "Make yourself comfortable",
+      "translation": "Machen Sie es sich bequem"
+    },
+    "msg_8e7dadacd7dc": {
+      "source": "A game at your pace.",
+      "translation": "Ein Spiel ganz nach deinem Tempo."
+    },
+    "msg_115ae40e6398": {
+      "source": "Puzzle language",
+      "translation": "Rätselsprache"
+    },
+    "msg_0f03ee3ee472": {
+      "source": "Choose a puzzle language. Each language has its own word collection and saved journey. English UK/US share a collection.",
+      "translation": "Wähle eine Sprache für das Rätsel aus. Jede Sprache verfügt über eine eigene Wortsammlung und einen eigenen gespeicherten Spielverlauf. Die Varianten „Englisch (Großbritannien)“ und „Englisch (USA)“ teilen sich eine gemeinsame Sammlung."
+    },
+    "msg_a42a47844fb4": {
+      "source": "Voice, when you want it",
+      "translation": "Sprache, wann immer du willst"
+    },
+    "msg_1527f526f087": {
+      "source": "Try: “shuffle letters”, “give me a hint”, “repeat the word”, “show my progress”, “open daily challenge”, “go home”.",
+      "translation": "Versuchen Sie: „Buchstaben mischen“, „Gib mir einen Hinweis“, „Wiederhole das Wort“, „Zeige meinen Fortschritt an“, „Tägliche Herausforderung öffnen“, „Zurück zur Startseite“."
+    },
+    "msg_e94253e91c49": {
+      "source": "Your words stay yours",
+      "translation": "Deine Wörter bleiben deine"
+    },
+    "msg_74a8c06f2269": {
+      "source": "No account. No ads. No analytics. Progress and settings stay on this device. WordBloom stores no microphone recordings. Amazon handles purchase information. Removing the app clears local progress; purchases can be restored through Amazon.",
+      "translation": "Kein Konto. Keine Werbung. Keine Analysen. Spielfortschritt und Einstellungen bleiben auf diesem Gerät gespeichert. „WordBloom“ speichert keine Mikrofonaufnahmen. Amazon verwaltet die Kaufdaten. Durch das Löschen der App wird der lokale Spielfortschritt gelöscht; Käufe können über Amazon wiederhergestellt werden."
+    },
+    "msg_ddc5cf266848": {
+      "source": "WordBloom 0.1 · 24 puzzles · Offline-first",
+      "translation": "WordBloom 0.1 · 24 Rätsel · Offline-First"
+    },
+    "msg_c37f87dfc774": {
+      "source": "A little more wonder",
+      "translation": "Noch ein bisschen mehr Staunen"
+    },
+    "msg_fd1c4ecb4c40": {
+      "source": "All six illustrated worlds. All 24 puzzles in each available language. Advanced and expert challenges. Expanded garden statistics, plus 4 earned hints per first completion instead of 3. Garden milestones and saved daily history.",
+      "translation": "Alle sechs illustrierten Welten. Alle 24 Rätsel in jeder verfügbaren Sprache. Herausforderungen für Fortgeschrittene und Experten. Erweiterte Gartenstatistiken sowie 4 verdiente Hinweise pro erstem Durchspielen statt 3. Garten-Meilensteine und gespeicherter Tagesverlauf."
+    },
+    "msg_2b3aca3a5301": {
+      "source": "One-time purchase · No ads · No subscription",
+      "translation": "Einmaliger Kauf · Keine Werbung · Kein Abonnement"
+    },
+    "msg_c5f5dd9f9dbd": {
+      "source": "Restore Amazon purchase",
+      "translation": "Amazon-Kauf wiederherstellen"
+    },
+    "msg_d6173ae6d107": {
+      "source": "Daily puzzles and the introductory chapter remain free in every available language.",
+      "translation": "Die täglichen Rätsel und das Einführungskapitel bleiben in allen verfügbaren Sprachen kostenlos."
+    },
+    "msg_f97070a26e44": {
+      "source": "Microphone permission denied. Swipe, tap or type to play.",
+      "translation": "Mikrofonberechtigung verweigert. Zum Spielen wischen, tippen oder tippen."
+    },
+    "msg_c394f19c3571": {
+      "source": "DEVELOPMENT BUILD · TEST PURCHASES · NO REAL MONEY",
+      "translation": "ENTWICKLUNGSVERSION · TESTKÄUFE · KEIN ECHTES GELD"
+    },
+    "msg_723a37716f9b": {
+      "source": "Finish this puzzle before going to the next level",
+      "translation": "Beende dieses Rätsel, bevor du zum nächsten Level übergehst"
+    },
+    "msg_48265ef60f8c": {
+      "source": "Find a word first",
+      "translation": "Finde zuerst ein Wort"
+    },
+    "msg_8d1b47c4d230": {
+      "source": "Open a puzzle to play a word",
+      "translation": "Öffne ein Rätsel, um ein Wort zu spielen"
+    },
+    "msg_f40e3104ad14": {
+      "source": "Try ‘shuffle letters’, ‘give me a hint’, or say one word",
+      "translation": "Probieren Sie „Buchstaben mischen“, „Gib mir einen Hinweis“ oder sagen Sie ein Wort"
+    },
+    "msg_3a78695388b3": {
+      "source": "Home",
+      "translation": "Startseite"
+    },
+    "msg_13d83dbb23fb": {
+      "source": "Premium ✓",
+      "translation": "Premium ✓"
+    },
+    "msg_03a0fc5cff6f": {
+      "source": "Explore premium",
+      "translation": "Premium entdecken"
+    },
+    "msg_c808f9810a87": {
+      "source": "Begin your journey",
+      "translation": "Beginne deine Reise"
+    },
+    "msg_f3ed8d8349ee": {
+      "source": "Continue your journey",
+      "translation": "Setzen Sie Ihre Reise fort"
+    },
+    "msg_98fa1a68fbba": {
+      "source": "{0}  →",
+      "translation": "{0}  →"
+    },
+    "msg_34659fd61a72": {
+      "source": "bloom",
+      "translation": "Blüte"
+    },
+    "msg_541ce7fbc0c0": {
+      "source": "blooms",
+      "translation": "Blüten"
+    },
+    "msg_cef6600c14db": {
+      "source": "✿  {0} {1}",
+      "translation": "✿  {0} {1}"
+    },
+    "msg_5b0a9ac3693a": {
+      "source": "01 / A FRESH LITTLE CHALLENGE",
+      "translation": "01 / EINE KLEINE, FRISCHE HERAUSFORDERUNG"
+    },
+    "msg_f1920b5855f9": {
+      "source": "Your daily word escape",
+      "translation": "Dein tägliches Worträtsel"
+    },
+    "msg_a53cc0540e4f": {
+      "source": "EEEE, d MMMM",
+      "translation": "EEEE, d MMMM"
+    },
+    "msg_96a5eb446ace": {
+      "source": "Play today  →",
+      "translation": "Heute spielen  →"
+    },
+    "msg_27f702d2e3b2": {
+      "source": "02 / ONE WORD AT A TIME",
+      "translation": "02 / EIN WORT NACH DEM ANDEREN"
+    },
+    "msg_11b4bc1d0b3a": {
+      "source": "A world waiting to grow",
+      "translation": "Eine Welt, die darauf wartet, zu wachsen"
+    },
+    "msg_f958d2f1ac73": {
+      "source": "Six nature-inspired chapters",
+      "translation": "Sechs von der Natur inspirierte Kapitel"
+    },
+    "msg_0b6cefcbbec0": {
+      "source": "Explore the journey  →",
+      "translation": "Entdecke die Reise  →"
+    },
+    "msg_65a0a50953d4": {
+      "source": "03 / YOUR OWN QUIET CORNER",
+      "translation": "03 / DEINE EIGENE RUHIGE ECKE"
+    },
+    "msg_fee5f92e34a8": {
+      "source": "Watch your garden bloom",
+      "translation": "Beobachte, wie dein Garten erblüht"
+    },
+    "msg_ad507c3c8a12": {
+      "source": "Every completed puzzle plants a flower",
+      "translation": "Jedes gelöste Rätsel lässt eine Blume wachsen"
+    },
+    "msg_2b69cceea061": {
+      "source": "Visit my garden  →",
+      "translation": "Besuche meinen Garten  →"
+    },
+    "msg_ae511c4d36ce": {
+      "source": "Daily word escape",
+      "translation": "Tägliches Worträtsel"
+    },
+    "msg_8e3e629fe6f7": {
+      "source": "{0} · Level {1}",
+      "translation": "{0} · Level {1}"
+    },
+    "msg_7079299b4aa5": {
+      "source": "A beautiful discovery",
+      "translation": "Eine wunderschöne Entdeckung"
+    },
+    "msg_5fa29c1802c5": {
+      "source": "Let your words bloom",
+      "translation": "Lass deine Worte erblühen"
+    },
+    "msg_0a29d0b91627": {
+      "source": "✦ {0} hints",
+      "translation": "✦ {0} Hinweise"
+    },
+    "msg_f2a0e0bc4654": {
+      "source": "{0} of {1} words found  ·  {2}",
+      "translation": "{0} von {1} gefundenen Wörtern  ·  {2}"
+    },
+    "msg_bfa637a72738": {
+      "source": "Bonus words: {0}",
+      "translation": "Bonuswörter: {0}"
+    },
+    "msg_e015e30b0001": {
+      "source": "Back to the garden",
+      "translation": "Zurück in den Garten"
+    },
+    "msg_c402502565e2": {
+      "source": "Next puzzle  →",
+      "translation": "Nächstes Rätsel  →"
+    },
+    "msg_26658b593cc4": {
+      "source": "Replay puzzle",
+      "translation": "Rätsel erneut spielen"
+    },
+    "msg_94fa9b236332": {
+      "source": "Stop listening",
+      "translation": "Nicht mehr zuhören"
+    },
+    "msg_2982f1d4972e": {
+      "source": "◉ Speak",
+      "translation": "◉ Sprechen"
+    },
+    "msg_7ffb956802a5": {
+      "source": "Voice availability",
+      "translation": "Sprachunterstützung"
+    },
+    "msg_cd167e8baced": {
+      "source": "{0},{1}",
+      "translation": "{0},{1}"
+    },
+    "msg_10c2094f6509": {
+      "source": "Row {0}, column {1}: {2}",
+      "translation": "Zeile {0}, Spalte {1}: {2}"
+    },
+    "msg_a0b7a33254e1": {
+      "source": "Row {0}, column {1}: empty letter",
+      "translation": "Zeile {0}, Spalte {1}: leeres Feld"
+    },
+    "msg_7cbfbbc8dca3": {
+      "source": "Connect the letters",
+      "translation": "Verbinde die Buchstaben"
+    },
+    "msg_b60f78f09280": {
+      "source": "Letter {0}, tile {1}, selected",
+      "translation": "Buchstabe {0}, Kachel {1}, ausgewählt"
+    },
+    "msg_c84c4c392414": {
+      "source": "Letter {0}, tile {1}",
+      "translation": "Buchstabe {0}, Kachel {1}"
+    },
+    "msg_3f4f403ebf04": {
+      "source": "{0}. {1}",
+      "translation": "{0}. {1}"
+    },
+    "msg_4a70d8f4b647": {
+      "source": "{0} {1} planted",
+      "translation": "{0} {1} gepflanzt"
+    },
+    "msg_b3140286ac71": {
+      "source": "escape",
+      "translation": "Flucht"
+    },
+    "msg_5e7d9a0cc8b6": {
+      "source": "escapes",
+      "translation": "Fluchten"
+    },
+    "msg_450f661967d8": {
+      "source": "{0} of 6 chapters restored · {1} daily {2} completed",
+      "translation": "{0} von 6 Kapiteln wiederhergestellt · {1} täglich {2} abgeschlossen"
+    },
+    "msg_0f02903bbf75": {
+      "source": "First bloom",
+      "translation": "Erste Blüte"
+    },
+    "msg_662e46f0e1ba": {
+      "source": "Garden keeper",
+      "translation": "Gartenpfleger"
+    },
+    "msg_6b79c5405359": {
+      "source": "Wildflower soul",
+      "translation": "Wildblumen-Seele"
+    },
+    "msg_7812db0f028e": {
+      "source": "Full bloom",
+      "translation": "Volle Blüte"
+    },
+    "msg_7066a711b3aa": {
+      "source": "1 puzzle",
+      "translation": "1 Rätsel"
+    },
+    "msg_5d4059022064": {
+      "source": "{0} puzzles",
+      "translation": "{0}-Rätsel"
+    },
+    "msg_e0fb55e50382": {
+      "source": "Your garden in numbers",
+      "translation": "Dein Garten in Zahlen"
+    },
+    "msg_54a8c698907c": {
+      "source": "{0} words in completed puzzles · {1}% of the journey restored",
+      "translation": "{0} Wörter in gelösten Rätseln · {1} % der Reise wiederhergestellt"
+    },
+    "msg_eb91f332fc67": {
+      "source": "{0} / {1}",
+      "translation": "{0} / {1}"
+    },
+    "msg_fd2cd7f8ee6a": {
+      "source": "Your first daily escape is waiting. Play whenever you like — no streak to protect.",
+      "translation": "Dein erstes „Daily Escape“ wartet schon auf dich. Spiele, wann immer du möchtest – du musst keine Serie aufrechterhalten."
+    },
+    "msg_d096df9edd58": {
+      "source": "Spoken guidance",
+      "translation": "Sprachliche Anleitung"
+    },
+    "msg_66782b653f84": {
+      "source": "Gentle word sounds",
+      "translation": "Sanfte Wortklänge"
+    },
+    "msg_e4c869e510f8": {
+      "source": "Garden ambience",
+      "translation": "Gartenatmosphäre"
+    },
+    "msg_17e055f886cd": {
+      "source": "High-contrast letter tiles",
+      "translation": "Kontrastreiche Buchstabenplättchen"
+    },
+    "msg_297ef4c79b4b": {
+      "source": "Reduce motion",
+      "translation": "Bewegung reduzieren"
+    },
+    "msg_13b394639582": {
+      "source": "Larger text",
+      "translation": "Größere Schrift"
+    },
+    "msg_321119913705": {
+      "source": "Evening theme",
+      "translation": "Abendthema"
+    },
+    "msg_55c401c4d28a": {
+      "source": "A compatible recognition service is available. Use Speak in a puzzle; your device’s service may send speech to its provider.",
+      "translation": "Ein kompatibler Erkennungsdienst ist verfügbar. Verwenden Sie „Sprechen“ in einem Rätsel; der Dienst Ihres Geräts sendet möglicherweise Sprachdaten an seinen Anbieter."
+    },
+    "msg_2f84421d8ebb": {
+      "source": "No compatible recognition service was found. Swipe, tap and text entry provide the full game.",
+      "translation": "Es wurde kein kompatibler Erkennungsdienst gefunden. Durch Wischen, Tippen und Texteingabe steht das Spiel in vollem Umfang zur Verfügung."
+    },
+    "msg_75f0c89607b7": {
+      "source": "The whole garden is yours.",
+      "translation": "Der ganze Garten gehört dir."
+    },
+    "msg_69af495a2235": {
+      "source": "Let the whole garden bloom.",
+      "translation": "Lass den ganzen Garten erblühen."
+    },
+    "msg_f11043f6ea65": {
+      "source": "Unlock premium · {0}",
+      "translation": "Premium freischalten · {0}"
+    },
+    "msg_d41acbd03306": {
+      "source": "Store price unavailable",
+      "translation": "Preis im Shop nicht verfügbar"
+    },
+    "msg_fa8fd1f427ce": {
+      "source": "Original illustrated {0}, {1} flowers",
+      "translation": "Original-Illustrationen {0}, {1} Blumen"
+    },
+    "msg_948430c6ab99": {
+      "source": "Amazon product availability depends on device",
+      "translation": "Die Verfügbarkeit von Amazon-Produkten hängt vom Gerät ab"
+    },
+    "msg_8e554e7b755a": {
+      "source": "A little wordplay. A little wonder.",
+      "translation": "Ein bisschen Wortspiel. Ein bisschen Staunen."
+    },
+    "msg_ecbce2c3864e": {
+      "source": "daily:{0}:",
+      "translation": "täglich: {0}:"
+    },
+    "msg_25f011b0f89b": {
+      "source": "Find {0} words. Swipe or tap the letters.",
+      "translation": "Finde Wörter mit {0}. Wische oder tippe auf die Buchstaben."
+    },
+    "msg_e5441b0e72b0": {
+      "source": "A fresh look at a familiar puzzle. Replay earns no additional hints.",
+      "translation": "Ein neuer Blick auf ein bekanntes Rätsel. Beim erneuten Spielen gibt es keine zusätzlichen Hinweise."
+    },
+    "msg_121aae1170ab": {
+      "source": "Letters shuffled",
+      "translation": "Buchstaben in zufälliger Reihenfolge"
+    },
+    "msg_4c3883effb17": {
+      "source": "Look for the highlighted starting letter",
+      "translation": "Achte auf den hervorgehobenen Anfangsbuchstaben"
+    },
+    "msg_0fc6b50e8f45": {
+      "source": "Beautiful! {0}",
+      "translation": "Wunderschön! {0}"
+    },
+    "msg_b48e2dc3f476": {
+      "source": "Bonus word! {0} · +1 hint",
+      "translation": "Bonuswort! {0} · +1 Hinweis"
+    },
+    "msg_5c1a9c613e0a": {
+      "source": "Bonus word! {0}",
+      "translation": "Bonuswort! {0}"
+    },
+    "msg_66ba6d0a7ecc": {
+      "source": "You already found {0}",
+      "translation": "Du hast bereits {0} gefunden"
+    },
+    "msg_16963e44a1e5": {
+      "source": "That word is not in this puzzle’s curated word list",
+      "translation": "Dieses Wort ist nicht in der kuratierten Wortliste dieses Rätsels enthalten"
+    },
+    "msg_09932cd896a0": {
+      "source": "Earn hints by completing puzzles or finding bonus words",
+      "translation": "Verdiene dir Hinweise, indem du Rätsel löst oder Bonuswörter findest"
+    },
+    "msg_be3c173b7f18": {
+      "source": "Revealed {0}",
+      "translation": "Aufgedeckt {0}"
+    },
+    "msg_e456af789328": {
+      "source": "All its letters are visible: {0}",
+      "translation": "Alle Buchstaben sind sichtbar: {0}"
+    },
+    "msg_07fff96bbf7e": {
+      "source": "One new letter, a little closer",
+      "translation": "Ein neuer Buchstabe, ein Stückchen näher"
+    },
+    "msg_aa7aa69fdfd9": {
+      "source": "Puzzle complete. Your garden is growing! +{0} hints",
+      "translation": "Rätsel gelöst. Dein Garten wächst! + {0} Hinweise"
+    },
+    "msg_365762cb0e8c": {
+      "source": "Progress could not be saved. Please try again.",
+      "translation": "Der Spielstand konnte nicht gespeichert werden. Bitte versuche es erneut."
+    },
+    "msg_5d7d60ebbf9d": {
+      "source": "Connecting to Amazon Appstore…",
+      "translation": "Verbindung zum Amazon Appstore wird hergestellt…"
+    },
+    "msg_10e2536378b8": {
+      "source": "premium:{0}",
+      "translation": "Premium: {0}"
+    },
+    "msg_a5ba5ae64c29": {
+      "source": "Amazon purchasing is unavailable on this device",
+      "translation": "Amazon-Einkäufe sind auf diesem Gerät nicht verfügbar"
+    },
+    "msg_ddd669be77ae": {
+      "source": "Amazon purchasing is incompatible with this device",
+      "translation": "Der Einkauf bei Amazon ist mit diesem Gerät nicht kompatibel"
+    },
+    "msg_dd6fc41d4f91": {
+      "source": "Store product unavailable. Check Amazon Appstore or try Restore.",
+      "translation": "Produkt im Store nicht verfügbar. Schau im Amazon Appstore nach oder versuche es mit „Restore“."
+    },
+    "msg_e0f155662c00": {
+      "source": "Amazon account unavailable. Saved offline access retained.",
+      "translation": "Amazon-Konto nicht verfügbar. Gespeicherter Offline-Zugriff bleibt erhalten."
+    },
+    "msg_128074e4c337": {
+      "source": "Amazon product unavailable on this installation",
+      "translation": "Amazon-Produkt bei dieser Installation nicht verfügbar"
+    },
+    "msg_dd3e1e29a760": {
+      "source": "One purchase. A garden of possibilities.",
+      "translation": "Ein Kauf. Ein Garten voller Möglichkeiten."
+    },
+    "msg_50b0c029f3a3": {
+      "source": "Amazon account changed. Restore from the current account.",
+      "translation": "Das Amazon-Konto wurde geändert. Aus dem aktuellen Konto wiederherstellen."
+    },
+    "msg_3d35cd1a63d2": {
+      "source": "Purchase {0}. No access granted.",
+      "translation": "{0} kaufen. Kein Zugriff gewährt."
+    },
+    "msg_98573700d8c5": {
+      "source": "Purchase could not be saved on this device. Please try Restore.",
+      "translation": "Der Kauf konnte auf diesem Gerät nicht gespeichert werden. Bitte versuchen Sie es mit „Wiederherstellen“."
+    },
+    "msg_55d75478eec0": {
+      "source": "Premium purchase cancelled",
+      "translation": "Premium-Kauf storniert"
+    },
+    "msg_76caa7b4f5a9": {
+      "source": "Premium restored. Welcome to the whole garden.",
+      "translation": "Premium-Zugang wiederhergestellt. Willkommen im gesamten Garten."
+    },
+    "msg_b8d39d362082": {
+      "source": "Restore unavailable. Please try again with Amazon Appstore.",
+      "translation": "Wiederherstellung nicht möglich. Bitte versuche es erneut über den Amazon Appstore."
+    },
+    "msg_795b43828254": {
+      "source": "Premium restored",
+      "translation": "Premium wiederhergestellt"
+    },
+    "msg_4250182a589d": {
+      "source": "No premium purchase found for this Amazon account",
+      "translation": "Für dieses Amazon-Konto wurden keine Premium-Käufe gefunden"
+    },
+    "msg_f9bbfdc8a3ea": {
+      "source": "Platform callback",
+      "translation": "Plattform-Callback"
+    },
+    "msg_020c24469ada": {
+      "source": "Spoken voice unavailable for this language. Touch controls remain available.",
+      "translation": "Für diese Sprache ist keine Sprachausgabe verfügbar. Die Touch-Steuerung bleibt weiterhin verfügbar."
+    },
+    "msg_2d400ffa6a48": {
+      "source": "Speech recognition unavailable. You can swipe, tap, or type words.",
+      "translation": "Spracherkennung nicht verfügbar. Sie können wischen, tippen oder Wörter eingeben."
+    },
+    "msg_69de651d5d29": {
+      "source": "Microphone permission is needed for push-to-talk only.",
+      "translation": "Die Mikrofonberechtigung wird ausschließlich für die Push-to-Talk-Funktion benötigt."
+    },
+    "msg_61dbc5288edf": {
+      "source": "Audio is busy. Try again shortly.",
+      "translation": "Die Audioverbindung ist gerade ausgelastet. Bitte versuche es in Kürze erneut."
+    },
+    "msg_bbb4106e8144": {
+      "source": "Listening…",
+      "translation": "Ich höre zu…"
+    },
+    "msg_185afcb24dce": {
+      "source": "Speech service could not start. Touch controls remain available.",
+      "translation": "Der Sprachdienst konnte nicht gestartet werden. Die Touch-Steuerung bleibt weiterhin verfügbar."
+    },
+    "msg_76394fcb63bc": {
+      "source": "Listening… Speak a command or a word.",
+      "translation": "Zuhören… Sprich einen Befehl oder ein Wort."
+    },
+    "msg_22b8a1abd6e3": {
+      "source": "Recognising…",
+      "translation": "Erkennen…"
+    },
+    "msg_d4c13b10d7bc": {
+      "source": "No word recognised. Try again.",
+      "translation": "Das Wort wurde nicht erkannt. Versuche es erneut."
+    },
+    "msg_ed978d7afee3": {
+      "source": "Speech service needs a connection. Use touch to play offline.",
+      "translation": "Der Sprachdienst benötigt eine Verbindung. Nutze die Touch-Funktion, um offline zu spielen."
+    },
+    "msg_b76434749b96": {
+      "source": "Microphone permission unavailable.",
+      "translation": "Mikrofonberechtigung nicht verfügbar."
+    },
+    "msg_c2fb18dbb1e7": {
+      "source": "Speech unavailable ({0}). Try again or use touch.",
+      "translation": "Sprache nicht verfügbar ({0}). Versuchen Sie es erneut oder nutzen Sie die Touch-Funktion."
+    },
+    "msg_a3dd64d17497": {
+      "source": "Heard: {0}",
+      "translation": "Gehört: {0}"
+    },
+    "msg_2e09d4c2f8af": {
+      "source": "Sunrise Garden",
+      "translation": "Sonnenaufgangsgarten"
+    },
+    "msg_987b2beefb6c": {
+      "source": "Enchanted Forest",
+      "translation": "Zauberwald"
+    },
+    "msg_eae5735d7bfc": {
+      "source": "Blossom Valley",
+      "translation": "Blumental"
+    },
+    "msg_0727d340225f": {
+      "source": "Crystal Lake",
+      "translation": "Kristallsee"
+    },
+    "msg_28cc60e8c238": {
+      "source": "Golden Meadow",
+      "translation": "Goldene Wiese"
+    },
+    "msg_21245fa78fc3": {
+      "source": "Moonlight Garden",
+      "translation": "Mondlichtgarten"
+    },
+    "msg_c865ebb3052c": {
+      "source": "Beginner",
+      "translation": "Anfänger"
+    },
+    "msg_3b1cfa63d7d9": {
+      "source": "Intermediate",
+      "translation": "Mittelstufe"
+    },
+    "msg_9f088dbebd6c": {
+      "source": "Advanced",
+      "translation": "Fortgeschritten"
+    },
+    "msg_8b317b0c50ee": {
+      "source": "Expert",
+      "translation": "Experte"
+    },
+    "msg_2430e09ec2ec": {
+      "source": "successful",
+      "translation": "erfolgreich"
+    },
+    "msg_5d28a90f4498": {
+      "source": "failed",
+      "translation": "fehlgeschlagen"
+    },
+    "msg_0b470848c772": {
+      "source": "already purchased",
+      "translation": "bereits gekauft"
+    },
+    "msg_60dad20a602e": {
+      "source": "invalid sku",
+      "translation": "Ungültige Artikelnummer"
+    },
+    "msg_0bee0730a4f9": {
+      "source": "not supported",
+      "translation": "wird nicht unterstützt"
+    },
+    "msg_62a2fed3d6e0": {
+      "source": "pending",
+      "translation": "ausstehend"
+    }
+  }
+}
